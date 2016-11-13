@@ -223,6 +223,7 @@ When looking for a bioinformatics tool for a specific application:
 	* From PPI or motif sharing: https://github.com/davidvi/pypanda (is also an integrative method that can incorporate multiple sources of information)
 * BicMix: differential co-expression networks http://beehive.cs.princeton.edu/software/
 * BANFF: https://cran.r-project.org/web/packages/BANFF/index.html
+* https://bitbucket.org/abarysh/safe
 
 ## Prediction
 
@@ -264,6 +265,7 @@ When looking for a bioinformatics tool for a specific application:
 * WGSA pipeline https://sites.google.com/site/jpopgen/wgsa/
 * http://snpeff.sourceforge.net/
 * Normalization of SNP ID's from literature: https://github.com/rockt/SETH
+* https://hail.is/
 * Prediction of functional impact
 	* HaploReg: http://www.broadinstitute.org/mammals/haploreg/haploreg.php
 	* Several tools/score sets: CADD, DANN, etc
@@ -708,6 +710,7 @@ When looking for a bioinformatics tool for a specific application:
 	* Wide residual: https://arxiv.org/abs/1605.07146
 * Tools
 	* Tensorflow playground: http://playground.tensorflow.org/
+	* http://yosinski.com/deepvis
 * Books
 	* https://hackerlists.com/free-machine-learning-books/
 	* http://www.deeplearningbook.org/contents/intro.html
@@ -747,9 +750,6 @@ When looking for a bioinformatics tool for a specific application:
 	* InDesign template for preprint: https://github.com/cleterrier/ManuscriptTools/blob/master/biorxiv_template_CC2015.indd
 	* Rmarkdown templates for journal articles https://github.com/rstudio/rticles
 	* GitHub template for authoring papers: https://github.com/peerj/paper-now
-* Collaborative writing
-	* https://draftin.com/documents
-	* http://quip.com
 * OSF API: https://test-api.osf.io/v2/docs/
 * APIs for literature search: http://libguides.mit.edu/apis
 * Places to archive research output:
@@ -761,6 +761,14 @@ When looking for a bioinformatics tool for a specific application:
 * Icons for presentations: http://cameronneylon.net/blog/some-slides-for-granting-permissions-or-not-in-presentations/
 * Patterns for data sharing: http://project-if.github.io/data-permissions-catalogue/
 * Ruby library for fetching metadata for DOI: https://rubygems.org/gems/terrier
+* Data project management: https://www.datazar.com
+
+## Writing
+
+* Scripts to identify "bad smells" in science writing (would want to convert this to python): http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/
+* Collaborative writing
+	* https://draftin.com/documents
+	* http://quip.com
 
 # Visualization
 
@@ -806,6 +814,7 @@ When looking for a bioinformatics tool for a specific application:
 * ggtree: phylogenetic trees https://bioconductor.org/packages/release/bioc/html/ggtree.html
 * geomnet: network visualization
 * ggrepel: displaying text labels with minimal overlapping https://github.com/slowkow/ggrepel
+* Color scales with clustering (would want to adapt this to ggplot): https://github.com/schnerd/d3-scale-cluster
 
 ### Plot Types
 
@@ -820,6 +829,7 @@ When looking for a bioinformatics tool for a specific application:
 * Scatterplot Matrix: http://bl.ocks.org/mbostock/4063663
 * Beeswarm: https://flowingdata.com/2016/09/08/beeswarm-plot-in-r-to-show-distributions/
 * http://flowingdata.com/2016/10/25/r-graph-gallery/
+* Tilegrams: http://flowingdata.com/2016/10/13/tilegrams-in-r/
 
 ### Data Types
 
