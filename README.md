@@ -16,6 +16,11 @@ When looking for a bioinformatics tool for a specific application:
 
 # Genomics
 
+## General Information
+
+* Migrating to GRCh38: https://software.broadinstitute.org/gatk/blog?id=8180
+* Mappings between contig names in different assemblies: https://github.com/dpryan79/ChromosomeMappings
+
 ## Algorithms
 
 * Suffix arrays: http://almob.biomedcentral.com/articles/10.1186/s13015-016-0068-6
@@ -549,6 +554,7 @@ When looking for a bioinformatics tool for a specific application:
 * API for interacting with databases: https://github.com/kennethreitz/records
 * Chunked, compressed, disk-based arrays: https://github.com/alimanfoo/zarr
 * R formulas in python: https://github.com/pydata/patsy
+* RStudio for python: https://www.yhat.com/products/rodeo
 
 ## HPC
 
@@ -573,6 +579,7 @@ When looking for a bioinformatics tool for a specific application:
 	* http://arxiv.org/pdf/1410.0846v1.pdf
 	* http://bioboxes.org/available-bioboxes/
 	* http://ivory.idyll.org/blog//2015-docker-and-replicating-papers.html
+	* GUI for running Docker images locally: https://kitematic.com/
 * NextFlow: http://www.nextflow.io/
 * Jupyter notebooks:
 	* http://jupyter.org/
@@ -594,11 +601,11 @@ When looking for a bioinformatics tool for a specific application:
 ## Methods/algorithms
 
 * t-SNE: alternative to PCA and MDS: http://lvdmaaten.github.io/tsne/
+	* http://distill.pub/2016/misread-tsne/
 * Random Forests in R: randomForest package
 	* FuzzyForests are an extension of random forests for classification in which subsets of variables/features are highly correlated https://github.com/OHDSI/FuzzyForest
 * Clustering
 	* DBScan https://cran.r-project.org/web/packages/dbscan/dbscan.pdf
-* http://www.teglor.com/b/deep-learning-libraries-language-cm569/
 * Multivariate analysis http://cran.r-project.org/web/views/Multivariate.html
 * Multivariate analysis of covariance (MANCOVA): http://en.wikipedia.org/wiki/MANCOVA
 * Nonnegative Matrix Factorization: https://cran.r-project.org/web/packages/NMF/vignettes/NMF-vignette.pdf
@@ -619,19 +626,43 @@ When looking for a bioinformatics tool for a specific application:
 * Genome-wide generalized addative models: https://master.bioconductor.org/packages/3.3/bioc/html/GenoGAM.html
 * Causal inference test: https://cran.r-project.org/web/packages/cit/index.html
 
-## Python
+## Deep Learning
 
-* http://www.clips.ua.ac.be/pages/pattern
-* Neural networks/deep learning:
+* Platforms
+	* http://aetros.com/
+* Libraries
+	* http://www.teglor.com/b/deep-learning-libraries-language-cm569/
 	* https://github.com/fchollet/keras
 	* biologicaly-focused neural networks https://github.com/kundajelab/dragonn/tree/master/dragonn
 	* analysis of features in deep neural networks https://github.com/kundajelab/deeplift
+	* API to add fuzzy logic: https://fuzzy.ai/docs
+* Architectures:
+	* http://www.asimovinstitute.org/neural-network-zoo/
+	* Deep residual: http://image-net.org/challenges/talks/ilsvrc2015_deep_residual_learning_kaiminghe.pdf
+	* Wide residual: https://arxiv.org/abs/1605.07146
+* Tools
+	* Tensorflow playground: http://playground.tensorflow.org/
+* Books
+	* https://hackerlists.com/free-machine-learning-books/
+	* http://www.deeplearningbook.org/contents/intro.html
+* Non-bio networks that might be applied
+	* https://github.com/david-gpu/srez
+	* Deep learning with text: https://explosion.ai/blog/deep-learning-formula-nlp
+
+## Python
+
+* http://www.clips.ua.ac.be/pages/pattern
 * Linear mixed-model solver https://github.com/nickFurlotte/pylmm
 
 ## Web APIs
 
 * https://cloud.google.com/prediction
 * https://aws.amazon.com/machine-learning
+
+## Text classification
+
+* Automatic text summarization: https://pypi.python.org/pypi/sumy
+* https://github.com/facebookresearch/fastText
 
 ## Misc
 
@@ -720,6 +751,9 @@ When looking for a bioinformatics tool for a specific application:
 * hextri: multiclass hexagonal bins https://cran.r-project.org/web/packages/hextri/vignettes/hexbin-classes.html
 * trellis: https://www.bioconductor.org/packages/release/bioc/html/gtrellis.html
 * Complex heat maps: http://www.bioconductor.org/packages/devel/bioc/html/ComplexHeatmap.html
+* Scatterplot Matrix: http://bl.ocks.org/mbostock/4063663
+* Beeswarm: https://flowingdata.com/2016/09/08/beeswarm-plot-in-r-to-show-distributions/
+* http://flowingdata.com/2016/10/25/r-graph-gallery/
 
 ### Data Types
 
