@@ -693,6 +693,7 @@ When looking for a bioinformatics tool for a specific application:
 * Fast Bayesian alternative to lasso and ElasticNet for feature selection and effect estimation: https://cran.r-project.org/web/packages/EBglmnet/index.html
 * Genome-wide generalized addative models: https://master.bioconductor.org/packages/3.3/bioc/html/GenoGAM.html
 * Causal inference test: https://cran.r-project.org/web/packages/cit/index.html
+* Iterative denoising tree: https://github.com/youngser/behaviotypes/blob/master/doidt.r
 
 ## Deep Learning
 
