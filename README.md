@@ -729,6 +729,10 @@ When looking for a bioinformatics tool for a specific application:
 * https://cloud.google.com/prediction
 * https://aws.amazon.com/machine-learning
 
+## Data Sets
+
+* https://medium.com/@olivercameron/20-weird-wonderful-datasets-for-machine-learning-c70fc89b73d5#.9e5byk1mo
+
 ## Text classification
 
 * Automatic text summarization: https://pypi.python.org/pypi/sumy
