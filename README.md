@@ -1,5 +1,8 @@
 This is a collection of bioinformatics tools I have sourced from recent literature, organized by topic. I have not used most of these tools.
 
+**Table of Contents**
+
+
 # Discovery
 
 When looking for a bioinformatics tool for a specific application:
@@ -18,6 +21,11 @@ When looking for a bioinformatics tool for a specific application:
 * Human tissue-specific enhancers: http://www.enhanceratlas.org/
 
 # Genomics
+
+## General Information
+
+* Migrating to GRCh38: https://software.broadinstitute.org/gatk/blog?id=8180
+* Mappings between contig names in different assemblies: https://github.com/dpryan79/ChromosomeMappings
 
 ## Algorithms
 
@@ -155,6 +163,7 @@ When looking for a bioinformatics tool for a specific application:
     * From PPI or motif sharing: https://github.com/davidvi/pypanda (is also an integrative method that can incorporate multiple sources of information)
 * BicMix: differential co-expression networks http://beehive.cs.princeton.edu/software/
 * BANFF: https://cran.r-project.org/web/packages/BANFF/index.html
+* https://bitbucket.org/abarysh/safe
 
 ## Prediction
 
@@ -196,6 +205,7 @@ When looking for a bioinformatics tool for a specific application:
 * WGSA pipeline https://sites.google.com/site/jpopgen/wgsa/
 * http://snpeff.sourceforge.net/
 * Normalization of SNP ID's from literature: https://github.com/rockt/SETH
+* https://hail.is/
 * Prediction of functional impact
     * HaploReg: http://www.broadinstitute.org/mammals/haploreg/haploreg.php
     * Several tools/score sets: CADD, DANN, etc
@@ -557,6 +567,7 @@ When looking for a bioinformatics tool for a specific application:
 * API for interacting with databases: https://github.com/kennethreitz/records
 * Chunked, compressed, disk-based arrays: https://github.com/alimanfoo/zarr
 * R formulas in python: https://github.com/pydata/patsy
+* RStudio for python: https://www.yhat.com/products/rodeo
 
 ## HPC
 
@@ -578,9 +589,10 @@ When looking for a bioinformatics tool for a specific application:
 
 * http://rstudio.github.io/packrat/walkthrough.html
 * Docker:
-    * http://arxiv.org/pdf/1410.0846v1.pdf
-    * http://bioboxes.org/available-bioboxes/
-    * http://ivory.idyll.org/blog//2015-docker-and-replicating-papers.html
+	* http://arxiv.org/pdf/1410.0846v1.pdf
+	* http://bioboxes.org/available-bioboxes/
+	* http://ivory.idyll.org/blog//2015-docker-and-replicating-papers.html
+	* GUI for running Docker images locally: https://kitematic.com/
 * NextFlow: http://www.nextflow.io/
 * Jupyter notebooks:
     * http://jupyter.org/
@@ -603,12 +615,14 @@ When looking for a bioinformatics tool for a specific application:
 
 ## Methods/algorithms
 
+* Lists
+	* https://github.com/rushter/MLAlgorithms
 * t-SNE: alternative to PCA and MDS: http://lvdmaaten.github.io/tsne/
+	* http://distill.pub/2016/misread-tsne/
 * Random Forests in R: randomForest package
     * FuzzyForests are an extension of random forests for classification in which subsets of variables/features are highly correlated https://github.com/OHDSI/FuzzyForest
 * Clustering
     * DBScan https://cran.r-project.org/web/packages/dbscan/dbscan.pdf
-* http://www.teglor.com/b/deep-learning-libraries-language-cm569/
 * Multivariate analysis http://cran.r-project.org/web/views/Multivariate.html
 * Multivariate analysis of covariance (MANCOVA): http://en.wikipedia.org/wiki/MANCOVA
 * Nonnegative Matrix Factorization: https://cran.r-project.org/web/packages/NMF/vignettes/NMF-vignette.pdf
@@ -618,7 +632,7 @@ When looking for a bioinformatics tool for a specific application:
     * brms and rstanarm are R packages based on stan
     * JAGS http://jeromyanglim.blogspot.com/2012/04/getting-started-with-jags-rjags-and.html
     * MCMC http://www.stat.umn.edu/geyer/mcmc/library/mcmc/doc/demo.pdf
-* MTC
+* Multiple test correction
     * FDR for multi-dimensional pairwise comparisons (e.g. RNA-seq): http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-0937-5
     * Local false signal rate: an alternative to FDR that operates on standard error estimates rather than p-values: https://github.com/stephens999/ashr
     * MTC weighted by variant: effect http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3507.html
@@ -628,24 +642,56 @@ When looking for a bioinformatics tool for a specific application:
 * Fast Bayesian alternative to lasso and ElasticNet for feature selection and effect estimation: https://cran.r-project.org/web/packages/EBglmnet/index.html
 * Genome-wide generalized addative models: https://master.bioconductor.org/packages/3.3/bioc/html/GenoGAM.html
 * Causal inference test: https://cran.r-project.org/web/packages/cit/index.html
-
-## Neural network architectures
-
-* Time-delay http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=809100&tag=1
+* Iterative denoising tree: https://github.com/youngser/behaviotypes/blob/master/doidt.r
 
 ## Python
 
 * http://www.clips.ua.ac.be/pages/pattern
-* Neural networks/deep learning:
-    * https://github.com/fchollet/keras
-    * biologicaly-focused neural networks https://github.com/kundajelab/dragonn/tree/master/dragonn
-    * analysis of features in deep neural networks https://github.com/kundajelab/deeplift
 * Linear mixed-model solver https://github.com/nickFurlotte/pylmm
+
+## Deep Learning
+
+* Reading
+	* Papers
+		* https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap
+	* Books
+		* https://hackerlists.com/free-machine-learning-books/
+		* http://www.deeplearningbook.org/contents/intro.html
+* Platforms
+	* http://aetros.com/
+* Libraries
+	* http://www.teglor.com/b/deep-learning-libraries-language-cm569/
+	* https://github.com/fchollet/keras
+	* Chainer: https://www.oreilly.com/learning/complex-neural-networks-made-easy-by-chainer
+	* biologicaly-focused neural networks https://github.com/kundajelab/dragonn/tree/master/dragonn
+	* analysis of features in deep neural networks https://github.com/kundajelab/deeplift
+	* API to add fuzzy logic: https://fuzzy.ai/docs
+* Architectures:
+	* http://www.asimovinstitute.org/neural-network-zoo/
+	* Deep residual: http://image-net.org/challenges/talks/ilsvrc2015_deep_residual_learning_kaiminghe.pdf
+	* Wide residual: https://arxiv.org/abs/1605.07146
+	* Time-delay http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=809100&tag=1
+* Tools
+	* Tensorflow playground: http://playground.tensorflow.org/
+	* http://yosinski.com/deepvis
+	* https://medium.com/@shivon/the-current-state-of-machine-intelligence-3-0-e4d305da032e#.gw0ywcpkv
+* Non-bio networks that might be applied
+	* https://github.com/david-gpu/srez
+	* Deep learning with text: https://explosion.ai/blog/deep-learning-formula-nlp
 
 ## Web APIs
 
 * https://cloud.google.com/prediction
 * https://aws.amazon.com/machine-learning
+
+## Data Sets
+
+* https://medium.com/@olivercameron/20-weird-wonderful-datasets-for-machine-learning-c70fc89b73d5#.9e5byk1mo
+
+## Text classification
+
+* Automatic text summarization: https://pypi.python.org/pypi/sumy
+* https://github.com/facebookresearch/fastText
 
 ## Misc
 
@@ -695,6 +741,7 @@ When looking for a bioinformatics tool for a specific application:
 * ggtree: phylogenetic trees https://bioconductor.org/packages/release/bioc/html/ggtree.html
 * geomnet: network visualization
 * ggrepel: displaying text labels with minimal overlapping https://github.com/slowkow/ggrepel
+* Color scales with clustering (would want to adapt this to ggplot): https://github.com/schnerd/d3-scale-cluster
 
 ### Plot Types
 
@@ -706,6 +753,10 @@ When looking for a bioinformatics tool for a specific application:
 * hextri: multiclass hexagonal bins https://cran.r-project.org/web/packages/hextri/vignettes/hexbin-classes.html
 * trellis: https://www.bioconductor.org/packages/release/bioc/html/gtrellis.html
 * Complex heat maps: http://www.bioconductor.org/packages/devel/bioc/html/ComplexHeatmap.html
+* Scatterplot Matrix: http://bl.ocks.org/mbostock/4063663
+* Beeswarm: https://flowingdata.com/2016/09/08/beeswarm-plot-in-r-to-show-distributions/
+* http://flowingdata.com/2016/10/25/r-graph-gallery/
+* Tilegrams: http://flowingdata.com/2016/10/13/tilegrams-in-r/
 
 ### Data Types
 
@@ -751,30 +802,35 @@ When looking for a bioinformatics tool for a specific application:
 # Publication/Archiving
 
 * DOI for code
-    * https://guides.github.com/activities/citable-code/
-    * https://mozillascience.github.io/code-research-object/
+	* https://guides.github.com/activities/citable-code/
+	* https://mozillascience.github.io/code-research-object/
 * Licenses: http://choosealicense.com/licenses/
 * Large file storage:
-    * GitHub: https://github.com/blog/1986-announcing-git-large-file-storage-lfs
-    * Amazon CodeCommit: http://aws.amazon.com/codecommit/
+	* GitHub: https://github.com/blog/1986-announcing-git-large-file-storage-lfs
+	* Amazon CodeCommit: http://aws.amazon.com/codecommit/
 * Templates:
-    * InDesign template for preprint: https://github.com/cleterrier/ManuscriptTools/blob/master/biorxiv_template_CC2015.indd
-    * Rmarkdown templates for journal articles https://github.com/rstudio/rticles
-    * GitHub template for authoring papers: https://github.com/peerj/paper-now
-* Collaborative writing
-    * https://draftin.com/documents
-    * http://quip.com
+	* InDesign template for preprint: https://github.com/cleterrier/ManuscriptTools/blob/master/biorxiv_template_CC2015.indd
+	* Rmarkdown templates for journal articles https://github.com/rstudio/rticles
+	* GitHub template for authoring papers: https://github.com/peerj/paper-now
 * OSF API: https://test-api.osf.io/v2/docs/
 * APIs for literature search: http://libguides.mit.edu/apis
 * Places to archive research output:
-    * http://zenodo.org/
-    * https://figshare.com/
-    * DAT: distributed data sharing http://dat-data.com/blog/2016-02-01-dat-1
-    * Git plugin for version-control of data files: https://github.com/ctjacobs/git-rdm
+	* http://zenodo.org/
+	* https://figshare.com/
+	* DAT: distributed data sharing http://dat-data.com/blog/2016-02-01-dat-1
+	* Git plugin for version-control of data files: https://github.com/ctjacobs/git-rdm
 * Assessing credit for bioinformatics software authorship: http://depsy.org/
 * Icons for presentations: http://cameronneylon.net/blog/some-slides-for-granting-permissions-or-not-in-presentations/
 * Patterns for data sharing: http://project-if.github.io/data-permissions-catalogue/
 * Ruby library for fetching metadata for DOI: https://rubygems.org/gems/terrier
+* Data project management: https://www.datazar.com
+
+## Writing
+
+* Scripts to identify "bad smells" in science writing (would want to convert this to python): http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/
+* Collaborative writing
+	* https://draftin.com/documents
+	* http://quip.com
 
 # Promising methods without software implementation
 
