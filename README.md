@@ -2,6 +2,8 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
 
 **Table of Contents**
 
+* auto-gen TOC:
+{:toc}
 
 # Discovery
 
