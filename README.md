@@ -430,7 +430,7 @@ When looking for a bioinformatics tool for a specific application:
     * Alternative method for estimating variances: https://github.com/mengyin/vashr
 * ASE
     * GeniASE: ASE without haplotypes http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4758070/pdf/srep21134.pdf
-    *Without phasing: http://lifecenter.sgst.cn/cisASE/
+    * Without phasing: http://lifecenter.sgst.cn/cisASE/
 * Splicing
     * https://github.com/hartleys/JunctionSeq
     * https://github.com/lkmklsmn/SplicER
@@ -638,6 +638,7 @@ When looking for a bioinformatics tool for a specific application:
 * Chunked, compressed, disk-based arrays: https://github.com/alimanfoo/zarr
 * R formulas in python: https://github.com/pydata/patsy
 * RStudio for python: https://www.yhat.com/products/rodeo
+* boltons.debugutils: The entire boltons package has lots of useful stuff, but debugutils is particularly cool - you can add one line of code to enable you to drop into a debugger on signal (e.g. Ctrl-C): https://boltons.readthedocs.io/en/latest/debugutils.html
 
 ## HPC
 
@@ -682,6 +683,8 @@ When looking for a bioinformatics tool for a specific application:
 # Statistics/Machine Learning
 
 * Search for papers: https://www.semanticscholar.org/
+* Common probability distributions http://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/
+* How to share data with a statistician: https://github.com/jtleek/datasharing
 
 ## Methods/algorithms
 
@@ -741,6 +744,7 @@ When looking for a bioinformatics tool for a specific application:
 	* Deep residual: http://image-net.org/challenges/talks/ilsvrc2015_deep_residual_learning_kaiminghe.pdf
 	* Wide residual: https://arxiv.org/abs/1605.07146
 	* Time-delay http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=809100&tag=1
+    * Semi-supervised classification of nodes in a graph: https://github.com/tkipf/gcn
 * Tools
 	* Tensorflow playground: http://playground.tensorflow.org/
 	* http://yosinski.com/deepvis
@@ -762,10 +766,6 @@ When looking for a bioinformatics tool for a specific application:
 
 * Automatic text summarization: https://pypi.python.org/pypi/sumy
 * https://github.com/facebookresearch/fastText
-
-## Misc
-
-* How to share data with a statistician: https://github.com/jtleek/datasharing
 
 # Visualization
 
