@@ -812,6 +812,10 @@ When looking for a bioinformatics tool for a specific application:
 * geomnet: network visualization
 * ggrepel: displaying text labels with minimal overlapping https://github.com/slowkow/ggrepel
 * Color scales with clustering (would want to adapt this to ggplot): https://github.com/schnerd/d3-scale-cluster
+* ggforce: many extensions to ggplot
+* ggalt: many extensions to ggplot
+* ggraph: plotting graphs/networks
+* ggedit: interactive plot editor (Shiny gadget)
 
 ### Plot Types
 
