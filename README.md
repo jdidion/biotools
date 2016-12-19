@@ -143,6 +143,7 @@ When looking for a bioinformatics tool for a specific application:
 * http://rajanil.github.io/msCentipede/
 * NucID: nucleosome positioning from DNase-seq https://jianlingzhong.github.io/NucID/
 * SeqGL: predict TF binding from DNase/ATAC-seq https://bitbucket.org/leslielab/seqgl/wiki/Home
+* DeFCoM: https://bitbucket.org/bryancquach/defcom
 
 ## Functional Enrichment
 
@@ -178,6 +179,7 @@ When looking for a bioinformatics tool for a specific application:
     * Single-sample GSA across data sets: https://www.bioconductor.org/packages/3.3/bioc/html/mogsa.html
 * Network-based
     * https://cran.r-project.org/web/packages/neat/index.html
+    * https://github.com/sarbal/EGAD
 
 ## GWAS/QTL
 
@@ -218,20 +220,23 @@ When looking for a bioinformatics tool for a specific application:
 * Other
     * Browser for geographical distribution of genetic variants: http://popgen.uchicago.edu/ggv/
 
-## Methylation Array
+## Microarray
 
-* Minfi: R package for working with 450k methylation arrays
-* D3M: two-sample test of differential methylation from distribution-valued data https://cran.r-project.org/web/packages/D3M/D3M.pdf
-* Network-based approach to discovering epigenetic "modules" that can be associated with gene expression: http://bioinformatics.oxfordjournals.org/content/30/16/2360.long
-* Filtering probes using technical replicates https://cran.r-project.org/web/packages/CpGFilter/index.html
-* Imputation of genome-wide methylation: http://wanglab.ucsd.edu/star/LR450K/
-* Tutorial for analysis using bioconductor packages: http://biorxiv.org/content/biorxiv/early/2016/05/25/055087.full.pdf
-* Normalization
-    * Probe design bias correction: https://www.bioconductor.org/packages/release/bioc/html/ENmix.html
-* DMR calling
-    * https://github.com/raivokolde/seqlm
-* http://aminmahpour.github.io/PyMAP/
-* Interactive exploration: http://bioconductor.org/packages/release/bioc/html/shinyMethyl.html
+* Correct for batch effects between training data and external datasets: https://cran.r-project.org/web/packages/bapred/index.html
+* Impute from Affy expression arrays: http://simtk.org/home/affyimpute
+* Methylation
+    * Minfi: R package for working with 450k methylation arrays
+    * D3M: two-sample test of differential methylation from distribution-valued data https://cran.r-project.org/web/packages/D3M/D3M.pdf
+    * Network-based approach to discovering epigenetic "modules" that can be associated with gene expression: http://bioinformatics.oxfordjournals.org/content/30/16/2360.long
+    * Filtering probes using technical replicates https://cran.r-project.org/web/packages/CpGFilter/index.html
+    * Imputation of genome-wide methylation: http://wanglab.ucsd.edu/star/LR450K/
+    * Tutorial for analysis using bioconductor packages: http://biorxiv.org/content/biorxiv/early/2016/05/25/055087.full.pdf
+    * Normalization
+        * Probe design bias correction: https://www.bioconductor.org/packages/release/bioc/html/ENmix.html
+    * DMR calling
+        * https://github.com/raivokolde/seqlm
+    * http://aminmahpour.github.io/PyMAP/
+    * Interactive exploration: http://bioconductor.org/packages/release/bioc/html/shinyMethyl.html
 
 ## Network Analysis
 
@@ -581,6 +586,7 @@ When looking for a bioinformatics tool for a specific application:
     * http://bioconductor.org/packages/release/bioc/html/cellTree.html
     * Diffusion pseudiotime: http://www.helmholtz-muenchen.de/icb/research/groups/machine-learning/projects/dpt/index.html
     * https://github.com/theislab/kbranches
+    * Construction co-expression networks: https://cran.r-project.org/web/packages/LEAP/index.html
 * Pipelines
     * Seurat http://www.satijalab.org/seurat.html
     * SINCERA https://research.cchmc.org/pbge/sincera.html
@@ -633,6 +639,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://cran.r-project.org/web/packages/r.jive/
     * SIFORM: http://bioinformatics.oxfordjournals.org/content/early/2016/07/03/bioinformatics.btw295.full
     * https://sourceforge.net/projects/epimine/
+    * http://bioconductor.org/packages/release/bioc/html/fCCAC.html
 * Specific data types:
     * Predict gene fusions from WGS and RNA-seq: http://sourceforge.net/p/integrate-fusion/wiki/Home/
     * NuChart: layer additional omics data on Hi-C ftp://fileserver.itb.cnr.it/nuchart/
@@ -766,12 +773,13 @@ When looking for a bioinformatics tool for a specific application:
 
 * Lists
 	* https://github.com/rushter/MLAlgorithms
-* t-SNE: alternative to PCA and MDS: http://lvdmaaten.github.io/tsne/
-	* http://distill.pub/2016/misread-tsne/
 * Random Forests in R: randomForest package
     * FuzzyForests are an extension of random forests for classification in which subsets of variables/features are highly correlated https://github.com/OHDSI/FuzzyForest
 * Clustering
     * DBScan https://cran.r-project.org/web/packages/dbscan/dbscan.pdf
+    * https://cran.r-project.org/web/packages/KODAMA/index.html
+    * t-SNE: alternative to PCA and MDS: http://lvdmaaten.github.io/tsne/
+	* http://distill.pub/2016/misread-tsne/
 * Multivariate analysis http://cran.r-project.org/web/views/Multivariate.html
 * Multivariate analysis of covariance (MANCOVA): http://en.wikipedia.org/wiki/MANCOVA
 * Nonnegative Matrix Factorization: https://cran.r-project.org/web/packages/NMF/vignettes/NMF-vignette.pdf
