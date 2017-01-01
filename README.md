@@ -710,6 +710,7 @@ When looking for a bioinformatics tool for a specific application:
 * Developing R packages: https://github.com/jtleek/rpackages
 * Work with PDF files: https://cran.r-project.org/web/packages/pdftools/index.html
 * Language-agnostic data frame format: https://github.com/wesm/feather
+* Make for R: https://github.com/richfitz/maker
 
 ## Python
 
@@ -729,6 +730,7 @@ When looking for a bioinformatics tool for a specific application:
     * gevent
 * dill: alternative serialization
 * arrow: alternative to datetime
+* Template for scientific projects: https://github.com/uwescience/shablona
 
 ## HPC
 
