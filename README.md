@@ -714,10 +714,18 @@ When looking for a bioinformatics tool for a specific application:
 
 ## Python
 
+* Data structures/formats
+    * Chunked, compressed, disk-based arrays: https://github.com/alimanfoo/zarr
+    * Tabular data
+        * Working with tabular data: http://docs.python-tablib.org/en/latest/
+    	* Watch for Apache Arrow
+    	* Pandas
+* Pipelines
+    * Invoke: http://docs.pyinvoke.org/en/latest/
+    * Toil: http://toil.readthedocs.io/en/latest/installation.html
+    * Snakemake
 * A regular expression scanner: https://github.com/mitsuhiko/python-regex-scanner
-* Working with tabular data: http://docs.python-tablib.org/en/latest/
 * API for interacting with databases: https://github.com/kennethreitz/records
-* Chunked, compressed, disk-based arrays: https://github.com/alimanfoo/zarr
 * R formulas in python: https://github.com/pydata/patsy
 * RStudio for python: https://www.yhat.com/products/rodeo
 * boltons.debugutils: The entire boltons package has lots of useful stuff, but debugutils is particularly cool - you can add one line of code to enable you to drop into a debugger on signal (e.g. Ctrl-C): https://boltons.readthedocs.io/en/latest/debugutils.html
