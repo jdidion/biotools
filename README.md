@@ -721,6 +721,14 @@ When looking for a bioinformatics tool for a specific application:
 * RStudio for python: https://www.yhat.com/products/rodeo
 * boltons.debugutils: The entire boltons package has lots of useful stuff, but debugutils is particularly cool - you can add one line of code to enable you to drop into a debugger on signal (e.g. Ctrl-C): https://boltons.readthedocs.io/en/latest/debugutils.html
 * Non-negative matrix factorization: https://github.com/ccshao/nimfa
+* pyjamas: javascript bridge
+* pyrasite: code injection into running applications
+* Dexy: documentation
+* Event loops for asynchronous programming
+    * curio
+    * gevent
+* dill: alternative serialization
+* arrow: alternative to datetime
 
 ## HPC
 
@@ -800,6 +808,10 @@ When looking for a bioinformatics tool for a specific application:
 * Genome-wide generalized addative models: https://master.bioconductor.org/packages/3.3/bioc/html/GenoGAM.html
 * Causal inference test: https://cran.r-project.org/web/packages/cit/index.html
 * Iterative denoising tree: https://github.com/youngser/behaviotypes/blob/master/doidt.r
+* Reed-Sololmon error correction
+    * https://github.com/tomerfiliba/reedsolomon
+    * https://github.com/brownan/Reed-Solomon
+    * https://github.com/catid/wirehair
 
 ## Python
 
