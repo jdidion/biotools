@@ -252,6 +252,7 @@ When looking for a bioinformatics tool for a specific application:
 * BANFF: https://cran.r-project.org/web/packages/BANFF/index.html
 * https://bitbucket.org/abarysh/safe
 * https://bitbucket.org/roygroup/merlin-p
+* OSS alternative to Inginuity pathway analysis: https://www.bioconductor.org/packages/release/bioc/html/QuaternaryProd.html
 
 ## Prediction
 
@@ -445,6 +446,7 @@ When looking for a bioinformatics tool for a specific application:
     * Quantification using both structure and abundance information: https://pypi.python.org/pypi/rsq
     * Improve transcript quantification by integrating PolII ChIP-seq data: https://github.com/pliu55/RSEM/tree/pRSEM
 * Correction/Normalization
+    * Choosing normalization methods: https://arxiv.org/abs/1609.00959
     * TDM: cross-platform normalization https://github.com/greenelab/TDMresults
     * alpine: corrects for fragment sequence bias https://github.com/mikelove/alpine/blob/master/vignettes/alpine.Rmd
     * Filter out lowly-expressed transcripts prior to quantification decreases FP rate: http://www.genomebiology.com/2016/17/1/12
@@ -631,7 +633,6 @@ When looking for a bioinformatics tool for a specific application:
     * Joint bi-clustering of multiple data types: http://research.cs.aalto.fi/pml/software/GFAsparse/
     * Identifying covariance between sequencing data sets: http://github.com/pmb59/fCCAC/
     * https://github.com/davidvi/pypanda
-    * Multi-tissue: http://bioconductor.org/packages/release/bioc/html/HDTD.html
     * SDA: integrate gene expression across multiple tissues, or multi-omics in a single tissue, for identification of trans-QTL networks: https://jmarchini.org/sda/
     * HMM for binary classification based on multivariate data: https://github.com/PetarV-/muxstep
     * https://github.com/fraenkel-lab/OmicsIntegrator
@@ -640,6 +641,9 @@ When looking for a bioinformatics tool for a specific application:
     * SIFORM: http://bioinformatics.oxfordjournals.org/content/early/2016/07/03/bioinformatics.btw295.full
     * https://sourceforge.net/projects/epimine/
     * http://bioconductor.org/packages/release/bioc/html/fCCAC.html
+* Multi-tissue: 
+    * http://bioconductor.org/packages/release/bioc/html/HDTD.html
+    * https://github.com/yuzhang123/IDEAS
 * Specific data types:
     * Predict gene fusions from WGS and RNA-seq: http://sourceforge.net/p/integrate-fusion/wiki/Home/
     * NuChart: layer additional omics data on Hi-C ftp://fileserver.itb.cnr.it/nuchart/
@@ -652,6 +656,8 @@ When looking for a bioinformatics tool for a specific application:
 * Noise/bias:
     * Bias correction across different assays on the same samples: https://cran.r-project.org/web/packages/MANCIE/
     * Cell cycle heterogeneity appears to be a minor contributor to noise; instead, library size is the largerst PC by far http://www.nature.com/nbt/journal/v34/n6/full/nbt.3498.html
+* Patient/disease subtyping
+    * http://biorxiv.org/content/biorxiv/early/2016/09/03/073189.full.pdf (Matlab code)
 
 ## Upcomming methods to watch for
 
