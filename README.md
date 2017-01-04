@@ -89,6 +89,9 @@ When looking for a bioinformatics tool for a specific application:
 * FANTOM consortium has CAGE (5' single molecule RNA counting) data from ~1000 human cell/tissue/cell-line samples from ~300 different cell/tissue types
 * Full text of all PMC papers from 2008-present: ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/manuscript/
 * Human tissue-specific enhancers: http://www.enhanceratlas.org/
+* Phased genome sequences
+    * >100 fully-phased: http://gigascience.biomedcentral.com/articles/10.1186/s13742-016-0148-z
+    * Statistically phased: http://www.haplotype-reference-consortium.org/
 
 # Genomics
 
@@ -253,6 +256,7 @@ When looking for a bioinformatics tool for a specific application:
 * https://bitbucket.org/abarysh/safe
 * https://bitbucket.org/roygroup/merlin-p
 * OSS alternative to Inginuity pathway analysis: https://www.bioconductor.org/packages/release/bioc/html/QuaternaryProd.html
+* SAFE: spatial analysis of functional enrichment https://bitbucket.org/abarysh/safe
 
 ## Prediction
 
@@ -372,6 +376,8 @@ When looking for a bioinformatics tool for a specific application:
 * FIMO and MCAST perform best of TFBS predictors: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1298-9
 * Motif assessment: http://www.bioinf.ict.ru.ac.za/
 * https://github.com/cfce/chilin
+* Web-based tool to compute enrichment at a variety of genomic features: http://liulab.dfci.harvard.edu/CEAS/
+* Database of labeled ChIP-seq peaks: http://cbio.ensmp.fr/thocking/chip-seq-chunk-db/ (error of peak calls computed using https://github.com/tdhock/PeakError)
 
 ### Chromatin Interactions
 
@@ -391,6 +397,7 @@ When looking for a bioinformatics tool for a specific application:
     * Align simultaneously against multiple reference genomes http://1001genomes.org/software/genomemapper.html
     * Compressed reference-based alignment: http://groups.csail.mit.edu/cb/cora/
     * Compression and querying of aligned haplotype data: https://github.com/richarddurbin/pbwt
+    * Graph aligner (mainly for local realignment): https://github.com/ekg/glia
 * Assembly
     * Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
     * Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
@@ -410,6 +417,7 @@ When looking for a bioinformatics tool for a specific application:
 * Phasing
     * Eagle2: https://data.broadinstitute.org/alkesgroup/Eagle/
     * Using HiC+partial haplotypes: https://github.com/YakhiniGroup/SpectraPh
+    * PhaseME http://beehive.cs.princeton.edu/wiki/phaseme/
 * Other
     * VCF compression and data extraction: https://github.com/kedartatwawadi/GTRAC
     * Run length encoded multi-sample BWT + server: https://github.com/wtsi-svi/ReadServer
@@ -424,6 +432,10 @@ When looking for a bioinformatics tool for a specific application:
 * Correction for cell-type composition: http://www.cs.tau.ac.il/~heran/cozygene/software/refactor.html
 * Predicting gene expression from methylation: http://arxiv.org/abs/1603.08386
 * GEM: R package for meQTL and EWAS https://bioconductor.org/packages/devel/bioc/html/GEM.html
+
+### MNase-seq
+
+* Alternative/differential nuleosome positioning: https://github.com/airoldilab/cplate
 
 ### RNA
 
@@ -464,6 +476,7 @@ When looking for a bioinformatics tool for a specific application:
     * Multi-tissue eQTL: https://cran.r-project.org/web/packages/JAGUAR/index.html
     * Quantile regression approach: https://xiaoyusong.shinyapps.io/QRBT/
     * Using prior knowledge: https://github.com/redsofa/LassoMP
+    * CONDOR: simultaneous cis- and trans-eQTL analysis https://github.com/jplatig/condor
 * Differential expression:
     * cjBitSeq: https://github.com/mqbssppe/cjBitSeq/wiki
     * Differential junction usage: https://github.com/hartleys/JunctionSeq
@@ -527,11 +540,14 @@ When looking for a bioinformatics tool for a specific application:
     * Predict RNA-RNA interaction: https://github.com/satoken/ractip
     * Identify gene fusions: https://github.com/ndaniel/fusioncatcher
     * Prediction of intronic splice branchpoints: https://github.com/betsig/branchpointer/
+    * Mitigate cell-cycle effects: http://www.nature.com/articles/srep33892
+    * Fast computation of probabilities of pairwise regulation https://github.com/lingfeiwang/findr
 
 ### Single-cell
 
 * Comparative analysis of methods: http://biorxiv.org/content/early/2016/01/05/035758
 * Review of experimental design and analysis: http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0927-y
+* Sean Davis' list: https://github.com/seandavi/awesome-single-cell
 * QC:
     * http://www.morgridge.net/SinQC.html
     * https://github.com/YosefLab/scone
@@ -563,6 +579,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/BatzoglouLabSU/SIMLR
     * CIDR: https://github.com/VCCRI/CIDR
     * Vortex: http://web.stanford.edu/~samusik/vortex/
+    * Identify rare cell types: RaceID http://www.nature.com/nature/journal/v525/n7568/full/nature14966.html
 * Differential Expression
     * Monocle cole-trapnell-lab.github.io/monocle-release/
     * scDD: https://github.com/kdkorthauer/scDD
@@ -604,6 +621,7 @@ When looking for a bioinformatics tool for a specific application:
     * DNA SNV calling: https://bitbucket.org/hamimzafar/monovar
     * Ginko: analysis of CNVs in single-cell data: http://qb.cshl.edu/ginkgo/?q=/XWxZEerqqY477b9i4V8F
     * CNV calling: http://genome.cshlp.org/content/early/2016/01/15/gr.198937.115.full.pdf
+    * Genotyping: https://bitbucket.org/aroth85/scg/wiki/Home
 * Regulatory networks:
     * Gene co-expression: http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004892
     * https://github.com/hmatsu1226/SCODE
@@ -658,16 +676,8 @@ When looking for a bioinformatics tool for a specific application:
     * Cell cycle heterogeneity appears to be a minor contributor to noise; instead, library size is the largerst PC by far http://www.nature.com/nbt/journal/v34/n6/full/nbt.3498.html
 * Patient/disease subtyping
     * http://biorxiv.org/content/biorxiv/early/2016/09/03/073189.full.pdf (Matlab code)
-
-## Upcomming methods to watch for
-
-* From ASHG:
-    * Wang - SplineAdjust DE correction for gene length
-    * FIRE prediction of cis-eqtls
-    * Hiccups Hi-C processing
-* phaseME http://beehive.cs.princeton.edu/wiki/phaseme/
-* ccRemover: remove cell-cycle effect from single-cell data https://arxiv.org/ftp/arxiv/papers/1605/1605.04492.pdf
-* NETAM: network-based GWAS http://bioinformatics.oxfordjournals.org/content/32/12/i164.short
+* Imputation of missing data
+    * http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1273-5
 
 # General Programming Resources
 
