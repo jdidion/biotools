@@ -92,6 +92,8 @@ When looking for a bioinformatics tool for a specific application:
 * Phased genome sequences
     * >100 fully-phased: http://gigascience.biomedcentral.com/articles/10.1186/s13742-016-0148-z
     * Statistically phased: http://www.haplotype-reference-consortium.org/
+* Searh HLI's genome data: hli-opensearch.com
+* Chromatin-state annotations + per-base functionality scores for 164 cell types: http://noble.gs.washington.edu/proj/encyclopedia/
 
 # Genomics
 
@@ -251,9 +253,7 @@ When looking for a bioinformatics tool for a specific application:
 * Gene network reconstruction
     * For a set of TFs: https://sourceforge.net/projects/aracne-ap/
     * From PPI or motif sharing: https://github.com/davidvi/pypanda (is also an integrative method that can incorporate multiple sources of information)
-* BicMix: differential co-expression networks http://beehive.cs.princeton.edu/software/
 * BANFF: https://cran.r-project.org/web/packages/BANFF/index.html
-* https://bitbucket.org/abarysh/safe
 * https://bitbucket.org/roygroup/merlin-p
 * OSS alternative to Inginuity pathway analysis: https://www.bioconductor.org/packages/release/bioc/html/QuaternaryProd.html
 * SAFE: spatial analysis of functional enrichment https://bitbucket.org/abarysh/safe
@@ -272,6 +272,7 @@ When looking for a bioinformatics tool for a specific application:
     * Disease-associated risk variants: https://sites.google.com/site/emorydivan/
 * Chromatin States
     * GenoSTAN: http://bioconductor.org/packages/release/bioc/html/STAN.html
+    * R package for predicting chromatin states from histone marks across conditions https://github.com/ataudt/chromstaR
 * Enhancers
     * Prediction of enhancer strength from sequenced http://bioinformatics.hitsz.edu.cn/iEnhancer-2L
     * Prediction of core cell type-specific TFs from super enhancers https://bitbucket.org/young_computation/crcmapper
@@ -360,20 +361,24 @@ When looking for a bioinformatics tool for a specific application:
 * DNase footprinting: https://github.com/ajank/Romulus
 * HINT: http://costalab.org/publications-2/dh-hmm/ (was best out of 10 compared tools in recent NatMeth paper)
 * ALTRE: https://mathelab.github.io/ALTRE/vignette.html
+* Predict TF binding affinities using open chromatin + PWMs: https://github.com/schulzlab/TEPIC
 
 ### ChIP-seq
 
-* Allocation of multi-mapping reads: https://github.com/keleslab/permseq
-* R package for TFBS analysis: http://bioconductor.org/packages/release/bioc/html/TFBSTools.html
-* R package for predicting chromatin states from histone marks across conditions https://github.com/ataudt/chromstaR
+* Pre-processing
+    * Allocation of multi-mapping reads: https://github.com/keleslab/permseq
+* Peak calling
+    * GC-aware peak caller: https://bioconductor.org/packages/devel/bioc/html/gcapc.html
+    * GenoGAM peak caller: https://master.bioconductor.org/packages/3.3/bioc/html/GenoGAM.html
+    * De-noising: https://github.com/kundajelab/TF_chipseq_pipeline
+    * Peak discretizer (merging of replicates): https://github.com/nanakiksc/zerone
+* TFBS prediction
+    * Cell type-specific TFBS analysis (focuses analysis on TFs expressed in cell type of interest): https://github.com/Danko-Lab/rtfbs_db
+    * Bayesian motif discovery: https://github.com/soedinglab/BaMMmotif
+    * R package for TFBS analysis: http://bioconductor.org/packages/release/bioc/html/TFBSTools.html
+    * FIMO and MCAST perform best of TFBS predictors: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1298-9
 * hiddenDomains: https://sourceforge.net/projects/hiddendomains/
-* GenoGAM peak caller: https://master.bioconductor.org/packages/3.3/bioc/html/GenoGAM.html
-* Bayesian motif discovery: https://github.com/soedinglab/BaMMmotif
 * Network-based identification of relationships among ChIP-seq data sets: http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0925-0
-* De-noising: https://github.com/kundajelab/TF_chipseq_pipeline
-* Peak discretizer (merging of replicates): https://github.com/nanakiksc/zerone
-* Cell type-specific TFBS analysis (focuses analysis on TFs expressed in cell type of interest): https://github.com/Danko-Lab/rtfbs_db
-* FIMO and MCAST perform best of TFBS predictors: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1298-9
 * Motif assessment: http://www.bioinf.ict.ru.ac.za/
 * https://github.com/cfce/chilin
 * Web-based tool to compute enrichment at a variety of genomic features: http://liulab.dfci.harvard.edu/CEAS/
@@ -477,6 +482,7 @@ When looking for a bioinformatics tool for a specific application:
     * Quantile regression approach: https://xiaoyusong.shinyapps.io/QRBT/
     * Using prior knowledge: https://github.com/redsofa/LassoMP
     * CONDOR: simultaneous cis- and trans-eQTL analysis https://github.com/jplatig/condor
+    * log allelic fold change (aFC) to quanitfy effect sizes of eQTL: http://biorxiv.org/content/biorxiv/early/2016/09/30/078717.full.pdf
 * Differential expression:
     * cjBitSeq: https://github.com/mqbssppe/cjBitSeq/wiki
     * Differential junction usage: https://github.com/hartleys/JunctionSeq
@@ -493,6 +499,9 @@ When looking for a bioinformatics tool for a specific application:
     * Network sub-pathways: http://bioconductor.org/packages/release/bioc/html/DEsubs.html
     * https://github.com/ewyang089/SDEAP/wiki
     * Local subnetworks enriched for DE genes: https://cran.rstudio.com/web/packages/LEANR/index.html
+* Co-expression/networks
+    * http://biorxiv.org/content/early/2016/10/02/078741
+    * BicMix: differential co-expression networks http://beehive.cs.princeton.edu/software/
 * ASE
     * GeniASE: ASE without haplotypes http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4758070/pdf/srep21134.pdf
     * Without phasing: http://lifecenter.sgst.cn/cisASE/
@@ -542,6 +551,7 @@ When looking for a bioinformatics tool for a specific application:
     * Prediction of intronic splice branchpoints: https://github.com/betsig/branchpointer/
     * Mitigate cell-cycle effects: http://www.nature.com/articles/srep33892
     * Fast computation of probabilities of pairwise regulation https://github.com/lingfeiwang/findr
+    * Align against synthetic transcript-based reference: https://github.com/Oshlack/Lace
 
 ### Single-cell
 
@@ -1053,3 +1063,4 @@ When looking for a bioinformatics tool for a specific application:
 * Bayesian identification of bifurcations in single-cell data: http://biorxiv.org/content/biorxiv/early/2016/09/21/076547.full.pdf
 * Prediction of promoter-enhancer interactions: http://biorxiv.org/content/biorxiv/early/2016/11/02/085241.full.pdf
 * Mocap: TFBS prediction from ATAC-seq http://biorxiv.org/content/biorxiv/early/2016/10/27/083998.full.pdf
+* LR-DNAse: TFBS prediction using features derived from DNase-seq: http://biorxiv.org/content/early/2016/10/24/082594
