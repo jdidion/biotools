@@ -200,6 +200,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://sites.google.com/site/honglee0707/mtg2
     * Use local gene networks to improve trans-eQTL detection: https://github.com/PMBio/GNetLMM
     * Fast correlation testing: https://github.com/gabraham/flashpca/tree/master/flashpcaR
+    * Gene and pathway association testing from summary statistics: https://cran.r-project.org/web/packages/aSPU/
 * Multiple test correction
     * eigenMT: Efficient multiple-test correction http://montgomerylab.stanford.edu/resources/eigenMT/eigenMT.html
     * Fast multiple-test correction for LMMs: http://genetics.cs.ucla.edu/multiTrans/
@@ -359,13 +360,14 @@ When looking for a bioinformatics tool for a specific application:
 * Fast coverage estimate from BAM index: https://github.com/brentp/goleft/tree/master/indexcov
 * Detecting sample swaps: https://github.com/PapenfussLab/HaveYouSwappedYourSamples
 
-### ATAC-seq/DNase-seq
+### Chromatin accessibility
 
 * DNase footprinting: https://github.com/ajank/Romulus
 * HINT: http://costalab.org/publications-2/dh-hmm/ (was best out of 10 compared tools in recent NatMeth paper)
 * ALTRE: https://mathelab.github.io/ALTRE/vignette.html
 * Predict TF binding affinities using open chromatin + PWMs: https://github.com/schulzlab/TEPIC
 * LR-DNAse: TFBS prediction using features derived from DNase-seq: http://biorxiv.org/content/early/2016/10/24/082594
+* Identify accessible chromatin from NOMe-seq https://sourceforge.net/projects/came/
 
 ### ChIP-seq
 
@@ -414,6 +416,8 @@ When looking for a bioinformatics tool for a specific application:
     * https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
     * http://bioinfo.ut.ee/FastGT/
     * STR genotyping from NGS: http://melissagymrek.com/lobstr-code/
+* SVs
+    * Score SVs based on predicted functional impact https://github.com/lganel/SVScore
 * CNV calling
     * https://github.com/cui-lab/multigems
     * WHAM: CNV caller https://github.com/zeeev/wham
@@ -1075,4 +1079,4 @@ When looking for a bioinformatics tool for a specific application:
 * Bayesian identification of bifurcations in single-cell data: http://biorxiv.org/content/biorxiv/early/2016/09/21/076547.full.pdf
 * Prediction of promoter-enhancer interactions: http://biorxiv.org/content/biorxiv/early/2016/11/02/085241.full.pdf
 * Mocap: TFBS prediction from ATAC-seq http://biorxiv.org/content/biorxiv/early/2016/10/27/083998.full.pdf
-* Statistical method to determine deviation from time linearity in epigenetic aging: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005183 
+* Statistical method to determine deviation from time linearity in epigenetic aging: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005183
