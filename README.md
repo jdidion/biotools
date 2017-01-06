@@ -88,14 +88,10 @@ When looking for a bioinformatics tool for a specific application:
 * Reference panel of ~250 Dutch families http://biorxiv.org/content/early/2016/01/18/036897
 * FANTOM consortium has CAGE (5' single molecule RNA counting) data from ~1000 human cell/tissue/cell-line samples from ~300 different cell/tissue types
 * Full text of all PMC papers from 2008-present: ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/manuscript/
-* Human tissue-specific enhancers: http://www.enhanceratlas.org/
 * Phased genome sequences
     * >100 fully-phased: http://gigascience.biomedcentral.com/articles/10.1186/s13742-016-0148-z
     * Statistically phased: http://www.haplotype-reference-consortium.org/
     * Phased variants: http://genome.cshlp.org/content/early/2016/11/25/gr.210500.116.full.pdf+html
-* Searh HLI's genome data: hli-opensearch.com
-* Chromatin-state annotations + per-base functionality scores for 164 cell types: http://noble.gs.washington.edu/proj/encyclopedia/
-* Feature-based classification of human transcription factors: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1349-2
 
 # Genomics
 
@@ -130,6 +126,11 @@ When looking for a bioinformatics tool for a specific application:
 * dbMAE: mono-allelic expression https://mae.hms.harvard.edu/
 * Disease-gene associations http://www.disgenet.org/web/DisGeNET/menu/rdf
 * BISQUE: convert between database identifiers http://bisque.yulab.org/
+* Human tissue-specific enhancers: http://www.enhanceratlas.org/
+* Searh HLI's genome data: hli-opensearch.com
+* Chromatin-state annotations + per-base functionality scores for 164 cell types: http://noble.gs.washington.edu/proj/encyclopedia/
+* Feature-based classification of human transcription factors: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1349-2
+* Database of epifactors (epigenetic factors): http://epifactors.autosome.ru/
 
 ## Data Formats
 
@@ -157,6 +158,7 @@ When looking for a bioinformatics tool for a specific application:
 * General:
     * R interface to DAVID: http://www.bioconductor.org/packages/release/bioc/html/RDAVIDWebService.html
     * GSEA
+        * Cautions about the GSEA null model: http://bioinformatics.oxfordjournals.org/content/early/2017/01/02/bioinformatics.btw803.short
     * GiANT: uncertainty in GSEA https://cran.r-project.org/web/packages/GiANT/index.html
     * Ensemble gene set enrichment analysis: https://bitbucket.org/malhamdoosh/egsea
     * Fast GSA: https://github.com/billyhw/GSALightning
@@ -219,6 +221,7 @@ When looking for a bioinformatics tool for a specific application:
     * Prediction of causal variants from epigenomic annotations: https://github.mit.edu/liyue/rivieraBeta
     * DAP: Bayesian framework for QTL analysis and fine-mapping https://github.com/xqwen/dap
     * BayesFM: https://sourceforge.net/projects/bayesfm-mcmc-v1-0/
+    * http://apps.biocompute.org.uk/haprap/
 * LD score calculation and regression https://github.com/bulik/ldsc
 * Imputation of missing phenotype information http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3513.html
 * Epistasis
@@ -249,6 +252,15 @@ When looking for a bioinformatics tool for a specific application:
     * Interactive exploration: http://bioconductor.org/packages/release/bioc/html/shinyMethyl.html
     * eFORGE: identify cell type-specific signals in differentially methylated positions (mostly important for blood-based EWAS) http://eforge.cs.ucl.ac.uk/
 
+## Motif/TFBS
+
+* Fast, SNP-aware PWM matching https://www.cs.helsinki.fi/group/pssmfind/
+* Cell type-specific TFBS analysis (focuses analysis on TFs expressed in cell type of interest): https://github.com/Danko-Lab/rtfbs_db
+* Bayesian motif discovery: https://github.com/soedinglab/BaMMmotif
+* R package for TFBS analysis: http://bioconductor.org/packages/release/bioc/html/TFBSTools.html
+* FIMO and MCAST perform best of TFBS predictors: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1298-9 
+* Identifying intra-motif dependencies http://www.jstacs.de/index.php/InMoDe
+
 ## Network Analysis
 
 * Identification of module with biclustering: http://web.ist.utl.pt/rmch/bicnet/temporary/index.jsp
@@ -277,6 +289,7 @@ When looking for a bioinformatics tool for a specific application:
     * eCAVIAR: probability that a variant is causal for both QTL and eQTL http://genetics.cs.ucla.edu/caviar/
     * https://github.com/dleelab/qcat
     * Disease-associated risk variants: https://sites.google.com/site/emorydivan/
+    * Predicting gene targets from GWAS summary statistics https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4979185/
 * Chromatin States
     * GenoSTAN: http://bioconductor.org/packages/release/bioc/html/STAN.html
     * R package for predicting chromatin states from histone marks across conditions https://github.com/ataudt/chromstaR
@@ -292,6 +305,7 @@ When looking for a bioinformatics tool for a specific application:
     * [LINSIGHT](http://genome-mirror.cshl.edu/cgi-bin/hgTables?hgsid=110380_RYHnZaJsP5sXJRVSjw7Z6nhgc0oE&clade=mammal&org=Human&db=hg19&hgta_group=allTracks&hgta_track=LINSIGHT&hgta_table=0&hgta_regionType=genome&position=chr21%3A33031597-33041570&hgta_outputType=primaryTable&hgta_outFileName=)
     * Protein binding affinity: https://bitbucket.org/wenxiu/sequence-shape.git
     * Change in local frustration index: https://github.com/gersteinlab/frustration
+* Classification of cis-regulatory modules: https://github.com/weiyangedward/IMMBoost
 
 ## Sequencing Protocols
 
@@ -378,11 +392,6 @@ When looking for a bioinformatics tool for a specific application:
     * GenoGAM peak caller: https://master.bioconductor.org/packages/3.3/bioc/html/GenoGAM.html
     * De-noising: https://github.com/kundajelab/TF_chipseq_pipeline
     * Peak discretizer (merging of replicates): https://github.com/nanakiksc/zerone
-* TFBS prediction
-    * Cell type-specific TFBS analysis (focuses analysis on TFs expressed in cell type of interest): https://github.com/Danko-Lab/rtfbs_db
-    * Bayesian motif discovery: https://github.com/soedinglab/BaMMmotif
-    * R package for TFBS analysis: http://bioconductor.org/packages/release/bioc/html/TFBSTools.html
-    * FIMO and MCAST perform best of TFBS predictors: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1298-9 
 * hiddenDomains: https://sourceforge.net/projects/hiddendomains/
 * Network-based identification of relationships among ChIP-seq data sets: http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0925-0
 * Motif assessment: http://www.bioinf.ict.ru.ac.za/
@@ -412,6 +421,7 @@ When looking for a bioinformatics tool for a specific application:
 * Assembly
     * Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
     * Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
+* Matching variant sets: https://github.com/medvedevgroup/varmatch
 * Genotyping
     * https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
     * http://bioinfo.ut.ee/FastGT/
@@ -536,6 +546,7 @@ When looking for a bioinformatics tool for a specific application:
     * CLASS2: http://ccb.jhu.edu/people/florea/research/CLASS2/
     * https://sourceforge.net/projects/transcriptomeassembly/files/
     * Multi-sample transcriptome assembly: http://tacorna.github.io/
+    * Clustering to decontaminate de novo assemblies: https://github.com/Lafond-LapalmeJ/MCSC_Decontamination
 * Time series
     * http://diceseq.sourceforge.net/
 * Deconvolution:
@@ -628,6 +639,7 @@ When looking for a bioinformatics tool for a specific application:
     * Diffusion pseudiotime: http://www.helmholtz-muenchen.de/icb/research/groups/machine-learning/projects/dpt/index.html
     * https://github.com/theislab/kbranches
     * Construction co-expression networks: https://cran.r-project.org/web/packages/LEAP/index.html
+    * Differentila expression between trajectories https://github.com/kieranrcampbell/switchde
 * Pipelines
     * Seurat http://www.satijalab.org/seurat.html
     * SINCERA https://research.cchmc.org/pbge/sincera.html
@@ -711,6 +723,7 @@ When looking for a bioinformatics tool for a specific application:
 * kmer bloom filters: https://github.com/Kingsford-Group/kbf
 * BWT that incorporates genetic variants: https://github.com/iqbal-lab/gramtools
 * Fast bitwise operations on nucleotide sequences: https://github.com/kloetzl/biotwiddle
+* C++ interface to htslib, BWA-MEM, and Fermi (local assembly) (would be useful to build python bindings for this): https://github.com/walaj/SeqLib
 
 ## R
 
@@ -777,6 +790,7 @@ When looking for a bioinformatics tool for a specific application:
 * dill: alternative serialization
 * arrow: alternative to datetime
 * Template for scientific projects: https://github.com/uwescience/shablona
+* GO transplier: https://github.com/google/grumpy
 
 ## HPC
 
@@ -853,6 +867,7 @@ When looking for a bioinformatics tool for a specific application:
     * MTC weighted by variant: effect http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3507.html
     * Parallelizable FDR correction: http://bioinformatics.oxfordjournals.org/content/early/2016/02/25/bioinformatics.btw029.short
     * IHW: http://bioconductor.org/packages/release/bioc/html/IHW.html
+    * BonEV: Bonferonni FDR correction https://cran.r-project.org/web/packages/BonEV/index.html
 * Analysis of mutual information: https://github.com/jkleinj/arMI
 * Fast Bayesian alternative to lasso and ElasticNet for feature selection and effect estimation: https://cran.r-project.org/web/packages/EBglmnet/index.html
 * Genome-wide generalized addative models: https://master.bioconductor.org/packages/3.3/bioc/html/GenoGAM.html
@@ -901,6 +916,9 @@ When looking for a bioinformatics tool for a specific application:
 	* Encoding variable-length sequences: https://arxiv.org/abs/1505.01504
 	* Interactive sequence generation from RNNs: https://arxiv.org/abs/1612.04687
 	* DNNs with external memory: http://www.nature.com/nature/journal/v538/n7626/full/nature20101.html
+	* The Predictron: https://arxiv.org/abs/1612.08810
+	* Associative LSTM: https://arxiv.org/abs/1602.03032
+	* Conditional variational autoencoders: http://ijdykeman.github.io/ml/2016/12/21/cvae.html
 * Tools
 	* Tensorflow playground: http://playground.tensorflow.org/
 	* http://yosinski.com/deepvis
@@ -973,6 +991,7 @@ When looking for a bioinformatics tool for a specific application:
 * ggalt: many extensions to ggplot
 * ggraph: plotting graphs/networks
 * ggedit: interactive plot editor (Shiny gadget)
+* ggRandomForests https://cran.r-project.org/web/packages/ggRandomForests/index.html
 
 ### Plot Types
 
