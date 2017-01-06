@@ -222,6 +222,7 @@ When looking for a bioinformatics tool for a specific application:
     * DAP: Bayesian framework for QTL analysis and fine-mapping https://github.com/xqwen/dap
     * BayesFM: https://sourceforge.net/projects/bayesfm-mcmc-v1-0/
     * http://apps.biocompute.org.uk/haprap/
+    * Determining causal genes using TADs http://biorxiv.org/content/early/2016/11/15/087718
 * LD score calculation and regression https://github.com/bulik/ldsc
 * Imputation of missing phenotype information http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3513.html
 * Epistasis
@@ -259,7 +260,10 @@ When looking for a bioinformatics tool for a specific application:
 * Bayesian motif discovery: https://github.com/soedinglab/BaMMmotif
 * R package for TFBS analysis: http://bioconductor.org/packages/release/bioc/html/TFBSTools.html
 * FIMO and MCAST perform best of TFBS predictors: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1298-9 
-* Identifying intra-motif dependencies http://www.jstacs.de/index.php/InMoDe
+* Intra-motif dependencies
+    * Identifying http://www.jstacs.de/index.php/InMoDe
+    * Visualizing http://bioinformaticstools.mayo.edu/circularlogo/index.html
+* Dinucleotide weight tensors encode dependencies between positions in motifs: http://dwt.unibas.ch/
 
 ## Network Analysis
 
@@ -490,6 +494,7 @@ When looking for a bioinformatics tool for a specific application:
     * Quantify and correct for uncertainty in abundance estimates: https://github.com/PSI-Lab/BENTO-Seq
     * Simultaneous isoform discovery and quantification across multiple samples: http://cbio.ensmp.fr/flipflop
     * R package to compare normalization methods: https://github.com/Edert/NVT
+    * Filtering and tissue-aware normalization: http://bioconductor.org/packages/release/bioc/html/yarn.html
 * Workflows:
     * Artemis (RNA-Seq workflow designed around Kallisto): https://github.com/RamsinghLab/artemis
     * https://github.com/ririzarr/rafalib
@@ -502,6 +507,7 @@ When looking for a bioinformatics tool for a specific application:
     * Using prior knowledge: https://github.com/redsofa/LassoMP
     * CONDOR: simultaneous cis- and trans-eQTL analysis https://github.com/jplatig/condor
     * log allelic fold change (aFC) to quanitfy effect sizes of eQTL: http://biorxiv.org/content/biorxiv/early/2016/09/30/078717.full.pdf
+    * Identify cis mediators of trans-eQTL: http://biorxiv.org/content/early/2016/09/30/078683
 * Differential expression:
     * cjBitSeq: https://github.com/mqbssppe/cjBitSeq/wiki
     * Differential junction usage: https://github.com/hartleys/JunctionSeq
@@ -573,6 +579,7 @@ When looking for a bioinformatics tool for a specific application:
     * Mitigate cell-cycle effects: http://www.nature.com/articles/srep33892
     * Fast computation of probabilities of pairwise regulation https://github.com/lingfeiwang/findr
     * Align against synthetic transcript-based reference: https://github.com/Oshlack/Lace
+    * Interactive visualization http://bioconductor.org/packages/devel/bioc/html/Glimma.html
 
 ### Single-cell
 
@@ -693,6 +700,7 @@ When looking for a bioinformatics tool for a specific application:
     * SIFORM: http://bioinformatics.oxfordjournals.org/content/early/2016/07/03/bioinformatics.btw295.full
     * https://sourceforge.net/projects/epimine/
     * http://bioconductor.org/packages/release/bioc/html/fCCAC.html
+    * Deep learning-based framework for integrating multiple data types to predict another data type: https://github.com/ueser/FIDDLE
 * Multi-tissue: 
     * http://bioconductor.org/packages/release/bioc/html/HDTD.html
     * https://github.com/yuzhang123/IDEAS
@@ -719,8 +727,10 @@ When looking for a bioinformatics tool for a specific application:
 
 ## C++
 
+* kmers
+    * Streaming kmer counting https://github.com/bcgsc/ntCard
+    * kmer bloom filters: https://github.com/Kingsford-Group/kbf
 * High-performance concurrent hash table (C++11): https://github.com/efficient/libcuckoo
-* kmer bloom filters: https://github.com/Kingsford-Group/kbf
 * BWT that incorporates genetic variants: https://github.com/iqbal-lab/gramtools
 * Fast bitwise operations on nucleotide sequences: https://github.com/kloetzl/biotwiddle
 * C++ interface to htslib, BWA-MEM, and Fermi (local assembly) (would be useful to build python bindings for this): https://github.com/walaj/SeqLib
@@ -791,6 +801,7 @@ When looking for a bioinformatics tool for a specific application:
 * arrow: alternative to datetime
 * Template for scientific projects: https://github.com/uwescience/shablona
 * GO transplier: https://github.com/google/grumpy
+* Calling Rust libraries from python: https://medium.com/@caulagi/complementing-python-with-rust-657a8cb3d066#.6in8v0bte
 
 ## HPC
 
@@ -855,6 +866,7 @@ When looking for a bioinformatics tool for a specific application:
 * Multivariate analysis http://cran.r-project.org/web/views/Multivariate.html
 * Multivariate analysis of covariance (MANCOVA): http://en.wikipedia.org/wiki/MANCOVA
 * Nonnegative Matrix Factorization: https://cran.r-project.org/web/packages/NMF/vignettes/NMF-vignette.pdf
+* Tensor factorization: https://cran.r-project.org/package=tensorBF
 * Identification of correlated features within or between datasets: https://github.com/siskac/discordant
 * Bayesian alternatives to standard R functions: https://github.com/rasmusab/bayesian_first_aid
 * Bayesian regression modeling:
@@ -919,6 +931,7 @@ When looking for a bioinformatics tool for a specific application:
 	* The Predictron: https://arxiv.org/abs/1612.08810
 	* Associative LSTM: https://arxiv.org/abs/1602.03032
 	* Conditional variational autoencoders: http://ijdykeman.github.io/ml/2016/12/21/cvae.html
+	* Group equivariant CNN: http://jmlr.org/proceedings/papers/v48/cohenc16.pdf
 * Tools
 	* Tensorflow playground: http://playground.tensorflow.org/
 	* http://yosinski.com/deepvis
