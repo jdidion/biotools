@@ -93,6 +93,8 @@ When looking for a bioinformatics tool for a specific application:
     * Statistically phased: http://www.haplotype-reference-consortium.org/
     * Phased variants: http://genome.cshlp.org/content/early/2016/11/25/gr.210500.116.full.pdf+html
 
+http://snaptron.cs.jhu.edu/data/
+
 # Genomics
 
 ## General Information
@@ -479,7 +481,9 @@ When looking for a bioinformatics tool for a specific application:
 
 ### RNA
 
-* Set of novel (i.e. missing from annotation databases) splice junctions identified from SRA datasets: https://github.com/nellore/intropolis/blob/master/README.md
+* Splice junctions
+    * Set of novel (i.e. missing from annotation databases) splice junctions identified from SRA datasets: https://github.com/nellore/intropolis/blob/master/README.md
+    * Complete sets of splice junctions in public RNA-seq datasets: http://snaptron.cs.jhu.edu/data/	
 * QC
     * NOISeq - exploratory analysis of read mappings https://www.bioconductor.org/packages/release/bioc/html/NOISeq.html
     * AuPairWise: determine replicability without replicates https://github.com/sarbal/AuPairWise
