@@ -425,7 +425,9 @@ When looking for a bioinformatics tool for a specific application:
 * Assembly
     * Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
     * Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
-* Matching variant sets: https://github.com/medvedevgroup/varmatch
+* Comparing variant sets: 
+    * https://github.com/medvedevgroup/varmatch
+    * https://sites.google.com/site/banadf16/
 * Genotyping
     * https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
     * http://bioinfo.ut.ee/FastGT/
