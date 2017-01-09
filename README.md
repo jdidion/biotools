@@ -257,6 +257,7 @@ http://snaptron.cs.jhu.edu/data/
     * http://aminmahpour.github.io/PyMAP/
     * Interactive exploration: http://bioconductor.org/packages/release/bioc/html/shinyMethyl.html
     * eFORGE: identify cell type-specific signals in differentially methylated positions (mostly important for blood-based EWAS) http://eforge.cs.ucl.ac.uk/
+    * Model for EWAS using probe signal intensities: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1347-4
 
 ## Motif/TFBS
 
