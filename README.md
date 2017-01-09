@@ -115,6 +115,7 @@ When looking for a bioinformatics tool for a specific application:
 ## Candidate Prioritization
 
 * http://bioconductor.org/packages/GenRank/
+* Bayesian prioritizaiton of rare functional variants using RNA-seq data: https://github.com/ipw012/RIVER
 
 ## Databases
 
@@ -145,6 +146,8 @@ When looking for a bioinformatics tool for a specific application:
     * GQT
     * BCFtools: includes new tool to identify RoH http://samtools.github.io/bcftools/
     * Work with VCF in R: https://github.com/knausb/vcfR
+* BED/GFF
+    * https://github.com/ihh/gfftools
 
 ## Footprinting
 
@@ -259,7 +262,7 @@ When looking for a bioinformatics tool for a specific application:
 * Cell type-specific TFBS analysis (focuses analysis on TFs expressed in cell type of interest): https://github.com/Danko-Lab/rtfbs_db
 * Bayesian motif discovery: https://github.com/soedinglab/BaMMmotif
 * R package for TFBS analysis: http://bioconductor.org/packages/release/bioc/html/TFBSTools.html
-* FIMO and MCAST perform best of TFBS predictors: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1298-9 
+* FIMO and MCAST perform best of TFBS predictors: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1298-9
 * Intra-motif dependencies
     * Identifying http://www.jstacs.de/index.php/InMoDe
     * Visualizing http://bioinformaticstools.mayo.edu/circularlogo/index.html
@@ -309,6 +312,13 @@ When looking for a bioinformatics tool for a specific application:
     * [LINSIGHT](http://genome-mirror.cshl.edu/cgi-bin/hgTables?hgsid=110380_RYHnZaJsP5sXJRVSjw7Z6nhgc0oE&clade=mammal&org=Human&db=hg19&hgta_group=allTracks&hgta_track=LINSIGHT&hgta_table=0&hgta_regionType=genome&position=chr21%3A33031597-33041570&hgta_outputType=primaryTable&hgta_outFileName=)
     * Protein binding affinity: https://bitbucket.org/wenxiu/sequence-shape.git
     * Change in local frustration index: https://github.com/gersteinlab/frustration
+* Methylation
+    * CpGenie: predicts methylation from sequence, predicts impact of variants on nearby methylation https://github.com/gifford-lab/CpGenie
+* Chromatin accessibility
+    * http://scm.csail.mit.edu/
+* TFBS
+    * Predict TF binding affinities using open chromatin + PWMs: https://github.com/schulzlab/TEPIC
+    * LR-DNAse: TFBS prediction using features derived from DNase-seq: http://biorxiv.org/content/early/2016/10/24/082594
 * Classification of cis-regulatory modules: https://github.com/weiyangedward/IMMBoost
 
 ## Sequencing Protocols
@@ -358,7 +368,7 @@ When looking for a bioinformatics tool for a specific application:
 * DeepTools: more useful SAM/BAM operations http://deeptools.readthedocs.io/en/latest/content/list_of_tools.html
 * bedtools http://bedtools.readthedocs.io/en/latest/
 * bedops alternative/additional BED operations http://bedops.readthedocs.io/en/latest/
-* Normalization: 
+* Normalization:
     * https://github.com/allenxhcao/glscale
     * https://github.com/stephaniehicks/qsmooth
 * Demultiplexing/deduping barcoded reads w/ UMIs: http://gbcs.embl.de/portal/tiki-index.php?page=Je
@@ -372,7 +382,7 @@ When looking for a bioinformatics tool for a specific application:
 * Integrated report from multiple tools: http://multiqc.info/
 * Identify batch effects: https://github.com/mani2012/BatchQC
 * AlmostSignificant: https://github.com/bartongroup/AlmostSignificant
-* Genetic relatedness from raw reads: 
+* Genetic relatedness from raw reads:
     * https://github.com/kdmurray91/kwip
     * https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/Software.cgi
 * Fast coverage estimate from BAM index: https://github.com/brentp/goleft/tree/master/indexcov
@@ -425,9 +435,9 @@ When looking for a bioinformatics tool for a specific application:
 * Assembly
     * Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
     * Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
-* Comparing variant sets: 
-    * https://github.com/medvedevgroup/varmatch
-    * https://sites.google.com/site/banadf16/
+* Variant calling
+    * Matching variant sets: https://github.com/medvedevgroup/varmatch
+    * Post-processing variant calls to determine whether variants at regions with alternative loci have allele(s) from an alternate locus: https://github.com/charite/asdpex
 * Genotyping
     * https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
     * http://bioinfo.ut.ee/FastGT/
@@ -469,6 +479,7 @@ When looking for a bioinformatics tool for a specific application:
 
 ### RNA
 
+* Set of novel (i.e. missing from annotation databases) splice junctions identified from SRA datasets: https://github.com/nellore/intropolis/blob/master/README.md
 * QC
     * NOISeq - exploratory analysis of read mappings https://www.bioconductor.org/packages/release/bioc/html/NOISeq.html
     * AuPairWise: determine replicability without replicates https://github.com/sarbal/AuPairWise
@@ -582,6 +593,7 @@ When looking for a bioinformatics tool for a specific application:
     * Fast computation of probabilities of pairwise regulation https://github.com/lingfeiwang/findr
     * Align against synthetic transcript-based reference: https://github.com/Oshlack/Lace
     * Interactive visualization http://bioconductor.org/packages/devel/bioc/html/Glimma.html
+    * New factorization method for dimensionality reduction: https://github.com/brian-cleary/CS-SMAF
 
 ### Single-cell
 
@@ -629,6 +641,8 @@ When looking for a bioinformatics tool for a specific application:
     * D3E: http://hemberg-lab.github.io/D3E/
     * BASiCS: https://github.com/catavallejos/BASiCS
     * Beta Poisson: https://github.com/nghiavtr/BPSC
+* Splicing
+    * https://github.com/huangyh09/brie
 * Time-series/ordering/lineage prediction
     * Monocle
         * Analysis of pseudotime uncertainty: http://biorxiv.org/content/biorxiv/early/2016/04/05/047365.full.pdf
@@ -703,7 +717,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://sourceforge.net/projects/epimine/
     * http://bioconductor.org/packages/release/bioc/html/fCCAC.html
     * Deep learning-based framework for integrating multiple data types to predict another data type: https://github.com/ueser/FIDDLE
-* Multi-tissue: 
+* Multi-tissue:
     * http://bioconductor.org/packages/release/bioc/html/HDTD.html
     * https://github.com/yuzhang123/IDEAS
 * Specific data types:
@@ -850,7 +864,7 @@ When looking for a bioinformatics tool for a specific application:
 * Search for papers: https://www.semanticscholar.org/
 * Common probability distributions http://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/
 * How to share data with a statistician: https://github.com/jtleek/datasharing
-* Precision-recall curves: 
+* Precision-recall curves:
     * https://cran.r-project.org/web/packages/precrec/index.html
     * Alternative: http://link.springer.com/article/10.1007/s10994-009-5119-5
 
@@ -917,7 +931,7 @@ When looking for a bioinformatics tool for a specific application:
 	* API to add fuzzy logic: https://fuzzy.ai/docs
 * Architectures:
 	* http://www.asimovinstitute.org/neural-network-zoo/
-	* Deep residual: 
+	* Deep residual:
 		* http://image-net.org/challenges/talks/ilsvrc2015_deep_residual_learning_kaiminghe.pdf
 		* https://arxiv.org/abs/1512.03385
 	* Wide residual: https://arxiv.org/abs/1605.07146
