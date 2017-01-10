@@ -165,7 +165,7 @@ http://snaptron.cs.jhu.edu/data/
     * GSEA
         * Cautions about the GSEA null model: http://bioinformatics.oxfordjournals.org/content/early/2017/01/02/bioinformatics.btw803.short
     * GiANT: uncertainty in GSEA https://cran.r-project.org/web/packages/GiANT/index.html
-    * Ensemble gene set enrichment analysis: https://bitbucket.org/malhamdoosh/egsea
+    * Ensemble gene set enrichment analysis: http://bioconductor.org/packages/release/bioc/html/EGSEA.html
     * Fast GSA: https://github.com/billyhw/GSALightning
     * Fast GSEA: https://github.com/ctlab/fgsea
     * Multi-dimensional GSEA: http://bioconductor.org/packages/release/bioc/html/mdgsa.html
