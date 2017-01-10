@@ -287,6 +287,10 @@ http://snaptron.cs.jhu.edu/data/
 * OSS alternative to Inginuity pathway analysis: https://www.bioconductor.org/packages/release/bioc/html/QuaternaryProd.html
 * SAFE: spatial analysis of functional enrichment https://bitbucket.org/abarysh/safe
 
+## Population genetics
+
+* Population history from unphased whole-genomes: https://github.com/popgenmethods/smcpp
+
 ## Prediction
 
 * QTL
@@ -953,6 +957,7 @@ http://snaptron.cs.jhu.edu/data/
 	* Associative LSTM: https://arxiv.org/abs/1602.03032
 	* Conditional variational autoencoders: http://ijdykeman.github.io/ml/2016/12/21/cvae.html
 	* Group equivariant CNN: http://jmlr.org/proceedings/papers/v48/cohenc16.pdf
+	* QuickNet: https://arxiv.org/abs/1701.02291
 * Tools
 	* Tensorflow playground: http://playground.tensorflow.org/
 	* http://yosinski.com/deepvis
