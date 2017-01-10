@@ -189,6 +189,7 @@ http://snaptron.cs.jhu.edu/data/
     * AnnotatR: https://github.com/rcavalcante/annotatr/
 * Trait
     * traseR: Trait-associated SNP enrichment https://www.bioconductor.org/packages/release/bioc/html/traseR.html
+    * Identifying genetic heterogeneity within phenotypically defined subgroups: https://github.com/jamesliley/subtest
 * Multi-omics
     * Single-sample GSA across data sets: https://www.bioconductor.org/packages/3.3/bioc/html/mogsa.html
 * Network-based
