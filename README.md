@@ -230,6 +230,7 @@ http://snaptron.cs.jhu.edu/data/
     * BayesFM: https://sourceforge.net/projects/bayesfm-mcmc-v1-0/
     * http://apps.biocompute.org.uk/haprap/
     * Determining causal genes using TADs http://biorxiv.org/content/early/2016/11/15/087718
+    * Network analysis: https://github.com/YuanlongLiu/SigMod
 * LD score calculation and regression https://github.com/bulik/ldsc
 * Imputation of missing phenotype information http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3513.html
 * Epistasis
