@@ -134,6 +134,7 @@ http://snaptron.cs.jhu.edu/data/
 * Chromatin-state annotations + per-base functionality scores for 164 cell types: http://noble.gs.washington.edu/proj/encyclopedia/
 * Feature-based classification of human transcription factors: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1349-2
 * Database of epifactors (epigenetic factors): http://epifactors.autosome.ru/
+* Database of disease-associated methylation: http://202.97.205.78/diseasemeth/
 
 ## Data Formats
 
