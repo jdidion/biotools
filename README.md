@@ -550,6 +550,7 @@ http://snaptron.cs.jhu.edu/data/
     * https://github.com/ewyang089/SDEAP/wiki
     * Local subnetworks enriched for DE genes: https://cran.rstudio.com/web/packages/LEANR/index.html
     * https://github.com/beiyuanzhe/DiscriminantCut
+    Bayesian extenstion to BitSeq for differential transcript usage: https://github.com/mqbssppe/cjBitSeq
 * Co-expression/networks
     * http://biorxiv.org/content/early/2016/10/02/078741
     * BicMix: differential co-expression networks http://beehive.cs.princeton.edu/software/
