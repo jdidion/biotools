@@ -1077,6 +1077,7 @@ http://snaptron.cs.jhu.edu/data/
 * https://github.com/svaksha/pythonidae/blob/master/Computer-Graphics.md
 * XKCD-style plots: http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/?utm_content=buffera9a76&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 * Phylogenetic trees: http://etetoolkit.org/
+* Altair: https://altair-viz.github.io/
 
 ## Javascript
 
