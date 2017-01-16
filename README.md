@@ -607,6 +607,7 @@ http://snaptron.cs.jhu.edu/data/
     * Align against synthetic transcript-based reference: https://github.com/Oshlack/Lace
     * Interactive visualization http://bioconductor.org/packages/devel/bioc/html/Glimma.html
     * New factorization method for dimensionality reduction: https://github.com/brian-cleary/CS-SMAF
+    * Identify gene expression driven by copy number alteration in samples with matched RNA-seq and CNA data: https://www.bioconductor.org/packages/release/bioc/html/iGC.html
 
 ### Single-cell
 
@@ -749,6 +750,8 @@ http://snaptron.cs.jhu.edu/data/
     * http://biorxiv.org/content/biorxiv/early/2016/09/03/073189.full.pdf (Matlab code)
 * Imputation of missing data
     * http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1273-5
+* Other
+    * Identify class-descriminative motifs enriched in subclasses of overlapping annotations: https://github.com/seqcode/sequnwinder
 
 # General Programming Resources
 
