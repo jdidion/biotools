@@ -149,6 +149,7 @@ http://snaptron.cs.jhu.edu/data/
     * GQT
     * BCFtools: includes new tool to identify RoH http://samtools.github.io/bcftools/
     * Work with VCF in R: https://github.com/knausb/vcfR
+    * More VCF tools: http://vcf-kit.readthedocs.io/
 * BED/GFF
     * https://github.com/ihh/gfftools
 
@@ -1055,6 +1056,7 @@ http://snaptron.cs.jhu.edu/data/
 * Beeswarm: https://flowingdata.com/2016/09/08/beeswarm-plot-in-r-to-show-distributions/
 * http://flowingdata.com/2016/10/25/r-graph-gallery/
 * Tilegrams: http://flowingdata.com/2016/10/13/tilegrams-in-r/
+* Karyotype plots: http://bioconductor.org/packages/devel/bioc/html/karyoploteR.html
 
 ### Data Types
 
