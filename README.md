@@ -313,6 +313,8 @@ http://snaptron.cs.jhu.edu/data/
 * Enhancers
     * Prediction of enhancer strength from sequenced http://bioinformatics.hitsz.edu.cn/iEnhancer-2L
     * Prediction of core cell type-specific TFs from super enhancers https://bitbucket.org/young_computation/crcmapper
+* Coding mutations
+    * Predict mutation effects from sequence covariation: https://marks.hms.harvard.edu/evmutation/
 * Regulatory variants/TF binding
     * LedPred: prediction of regulatory sequences from ChIP-seq https://github.com/aitgon/LedPred
     * GERV: prediction of regulatory variants that affect TF inding http://gerv.csail.mit.edu/
