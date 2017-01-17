@@ -1148,3 +1148,4 @@ http://snaptron.cs.jhu.edu/data/
 * Prediction of promoter-enhancer interactions: http://biorxiv.org/content/biorxiv/early/2016/11/02/085241.full.pdf
 * Mocap: TFBS prediction from ATAC-seq http://biorxiv.org/content/biorxiv/early/2016/10/27/083998.full.pdf
 * Statistical method to determine deviation from time linearity in epigenetic aging: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005183
+* Multi-tissue eQTL meta-analysis: http://biorxiv.org/content/early/2017/01/16/100701
