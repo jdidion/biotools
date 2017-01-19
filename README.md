@@ -734,6 +734,7 @@ http://snaptron.cs.jhu.edu/data/
     * https://sourceforge.net/projects/epimine/
     * http://bioconductor.org/packages/release/bioc/html/fCCAC.html
     * Deep learning-based framework for integrating multiple data types to predict another data type: https://github.com/ueser/FIDDLE
+    * Significance-based https://www.bioconductor.org/packages/release/bioc/html/SMITE.html
 * Multi-tissue:
     * http://bioconductor.org/packages/release/bioc/html/HDTD.html
     * https://github.com/yuzhang123/IDEAS
