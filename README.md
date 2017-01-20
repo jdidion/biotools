@@ -211,6 +211,7 @@ http://snaptron.cs.jhu.edu/data/
     * Use local gene networks to improve trans-eQTL detection: https://github.com/PMBio/GNetLMM
     * Fast correlation testing: https://github.com/gabraham/flashpca/tree/master/flashpcaR
     * Gene and pathway association testing from summary statistics: https://cran.r-project.org/web/packages/aSPU/
+    * Account for LD and functional information: https://github.com/yjingj/SFBA
 * Multiple test correction
     * eigenMT: Efficient multiple-test correction http://montgomerylab.stanford.edu/resources/eigenMT/eigenMT.html
     * Fast multiple-test correction for LMMs: http://genetics.cs.ucla.edu/multiTrans/
