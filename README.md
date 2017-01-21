@@ -529,9 +529,11 @@ http://snaptron.cs.jhu.edu/data/
     * https://github.com/ririzarr/rafalib
     * Isolator: https://github.com/dcjones/isolator
 * eQTL
-    * MT-HESS: eQTL analysis across tissues http://www.mrc-bsu.cam.ac.uk/software/
-    * eQTLBMA: cross-tissue eQTL https://github.com/timflutre/eqtlbma
-    * Multi-tissue eQTL: https://cran.r-project.org/web/packages/JAGUAR/index.html
+    * Multi-tissue:
+        * HT-eQTL https://github.com/reagan0323/MT-eQTL
+        * MT-HESS: eQTL analysis across tissues http://www.mrc-bsu.cam.ac.uk/software/
+        * eQTLBMA: cross-tissue eQTL https://github.com/timflutre/eqtlbma
+        * Multi-tissue eQTL: https://cran.r-project.org/web/packages/JAGUAR/index.html
     * Quantile regression approach: https://xiaoyusong.shinyapps.io/QRBT/
     * Using prior knowledge: https://github.com/redsofa/LassoMP
     * CONDOR: simultaneous cis- and trans-eQTL analysis https://github.com/jplatig/condor
