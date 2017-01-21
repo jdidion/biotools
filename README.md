@@ -757,6 +757,7 @@ http://snaptron.cs.jhu.edu/data/
     * http://biorxiv.org/content/biorxiv/early/2016/09/03/073189.full.pdf (Matlab code)
 * Imputation of missing data
     * http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1273-5
+    * TensorPute: multi-dimensional imputation https://sites.google.com/site/tensortest2/
 * Other
     * Identify class-descriminative motifs enriched in subclasses of overlapping annotations: https://github.com/seqcode/sequnwinder
     * R class for integration algorithms: https://bioconductor.org/packages/release/bioc/html/MultiDataSet.html
