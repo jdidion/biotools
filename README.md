@@ -843,6 +843,7 @@ http://snaptron.cs.jhu.edu/data/
 * Template for scientific projects: https://github.com/uwescience/shablona
 * GO transplier: https://github.com/google/grumpy
 * Calling Rust libraries from python: https://medium.com/@caulagi/complementing-python-with-rust-657a8cb3d066#.6in8v0bte
+* Disabling python garbage collection speeds up programs: https://engineering.instagram.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172#.ri55nyjdu (only safe when the lifecycle is straight-forward for all objects, an thus reference counting is sufficient for memory management)
 
 ## HPC
 
