@@ -135,6 +135,7 @@ http://snaptron.cs.jhu.edu/data/
 * Feature-based classification of human transcription factors: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1349-2
 * Database of epifactors (epigenetic factors): http://epifactors.autosome.ru/
 * Database of disease-associated methylation: http://202.97.205.78/diseasemeth/
+* SRA metadata: http://deweylab.biostat.wisc.edu/metasra/
 
 ## Data Formats
 
@@ -173,6 +174,7 @@ http://snaptron.cs.jhu.edu/data/
     * Multi-dimensional GSEA: http://bioconductor.org/packages/release/bioc/html/mdgsa.html
     * GSEA with external information https://cran.r-project.org/web/packages/netgsa/index.html
     * QTest: http://statgen.snu.ac.kr/software/QTest/
+    * Gene set analysis with specific alternative hypothesis: https://bioconductor.org/packages/release/bioc/html/GSAR.html
 * GO term:
     * http://cbl-gorilla.cs.technion.ac.il/
     * http://lrpath.ncibi.org/
@@ -901,6 +903,7 @@ http://snaptron.cs.jhu.edu/data/
 * Random Forests in R: randomForest package
     * FuzzyForests are an extension of random forests for classification in which subsets of variables/features are highly correlated https://github.com/OHDSI/FuzzyForest
 * Clustering
+    * Help selecting biclustering algorithm: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1487-1
     * DBScan https://cran.r-project.org/web/packages/dbscan/dbscan.pdf
     * https://cran.r-project.org/web/packages/KODAMA/index.html
     * t-SNE: alternative to PCA and MDS: http://lvdmaaten.github.io/tsne/
@@ -967,7 +970,9 @@ http://snaptron.cs.jhu.edu/data/
 	* Recurrent scalable deep kernels: https://arxiv.org/abs/1610.08936
 	* Multiplicative LSTM: https://arxiv.org/abs/1609.07959
 	* Graph CNN: https://arxiv.org/abs/1609.02907
-	* Encoding variable-length sequences: https://arxiv.org/abs/1505.01504
+	* Encoding variable-length sequences: 
+	    * https://arxiv.org/abs/1505.01504
+	    * https://pnpnpn.github.io/dna2vec/
 	* Interactive sequence generation from RNNs: https://arxiv.org/abs/1612.04687
 	* DNNs with external memory: http://www.nature.com/nature/journal/v538/n7626/full/nature20101.html
 	* The Predictron: https://arxiv.org/abs/1612.08810
