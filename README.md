@@ -657,7 +657,7 @@ http://snaptron.cs.jhu.edu/data/
     * Vortex: http://web.stanford.edu/~samusik/vortex/
     * Identify rare cell types: RaceID http://www.nature.com/nature/journal/v525/n7568/full/nature14966.html
 * Differential Expression
-    * Monocle cole-trapnell-lab.github.io/monocle-release/
+    * Monocle cole-trapnell-lab.github.io/monocle-release/ (2.0 has Census algorithm for differential transcript analysis)
     * scDD: https://github.com/kdkorthauer/scDD
     * ISOP: comparison of isoform pairs in single cells https://github.com/nghiavtr/ISOP
     * D3E: http://hemberg-lab.github.io/D3E/
