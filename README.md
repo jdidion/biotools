@@ -936,6 +936,8 @@ http://snaptron.cs.jhu.edu/data/
     * https://github.com/brownan/Reed-Solomon
     * https://github.com/catid/wirehair
 * Succinct de Bruijn Graphs: http://alexbowe.com/succinct-debruijn-graphs/
+* Fast exact calculation of p-values in Friedman rank sum test: http://www.ru.nl/publish/pages/726696/friedmanrsd.zip
+    * The Friedman test is for testing whether any columns are consistently different from other columns in a matrix
 
 ## Python
 
