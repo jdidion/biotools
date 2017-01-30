@@ -1004,6 +1004,7 @@ http://snaptron.cs.jhu.edu/data/
 
 * Automatic text summarization: https://pypi.python.org/pypi/sumy
 * https://github.com/facebookresearch/fastText
+* Word2vec: models for predicting missing words https://en.m.wikipedia.org/wiki/Word2vec
 
 # Visualization
 
