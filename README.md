@@ -294,6 +294,7 @@ http://snaptron.cs.jhu.edu/data/
 * https://bitbucket.org/roygroup/merlin-p
 * OSS alternative to Inginuity pathway analysis: https://www.bioconductor.org/packages/release/bioc/html/QuaternaryProd.html
 * SAFE: spatial analysis of functional enrichment https://bitbucket.org/abarysh/safe
+* Similarity search: https://github.com/zhangjiaobxy/nssrfPackage
 
 ## Population genetics
 
@@ -469,7 +470,9 @@ http://snaptron.cs.jhu.edu/data/
     * REPdenovo: https://github.com/Reedwarbler/REPdenovo
 * Pipelines
     * SpeedSeq: alignment/annotation pipeline - https://github.com/hall-lab/speedseq
-* Ancestry and kinship analysis: http://illumina.github.io/akt/
+* Ancestry and kinship analysis
+    * http://illumina.github.io/akt/
+    * http://www.geenivaramu.ee/en/tools/mixfit
 * Phasing
     * Eagle2: https://data.broadinstitute.org/alkesgroup/Eagle/
     * Using HiC+partial haplotypes: https://github.com/YakhiniGroup/SpectraPh
