@@ -697,6 +697,7 @@ http://snaptron.cs.jhu.edu/data/
     * Tools from Teichmann lab (cellity, celloline, scrnatb): https://github.com/Teichlab/
     * SCell: https://github.com/diazlab/SCell
     * http://bioconductor.org/packages/scater
+    * https://github.com/joeburns06/hocuspocus
 * SNVs/CNVs
     * DNA SNV calling: https://bitbucket.org/hamimzafar/monovar
     * Ginko: analysis of CNVs in single-cell data: http://qb.cshl.edu/ginkgo/?q=/XWxZEerqqY477b9i4V8F
