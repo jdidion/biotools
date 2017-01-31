@@ -359,6 +359,7 @@ http://snaptron.cs.jhu.edu/data/
 * Prediction of functional impact
     * HaploReg: http://www.broadinstitute.org/mammals/haploreg/haploreg.php
     * Several tools/score sets: CADD, DANN, etc
+    * Disease-specific functional prediction https://sites.google.com/site/emorydivan/
     * Consensus approaches:
         * http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004962
         * http://jjwanglab.org/PRVCS/
