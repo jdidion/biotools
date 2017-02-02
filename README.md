@@ -319,6 +319,7 @@ http://snaptron.cs.jhu.edu/data/
 * Enhancers
     * Prediction of enhancer strength from sequenced http://bioinformatics.hitsz.edu.cn/iEnhancer-2L
     * Prediction of core cell type-specific TFs from super enhancers https://bitbucket.org/young_computation/crcmapper
+    * Prediction of superenhancers https://github.com/asntech/improse
 * Coding mutations
     * Predict mutation effects from sequence covariation: https://marks.hms.harvard.edu/evmutation/
 * Regulatory variants/TF binding
@@ -627,6 +628,8 @@ http://snaptron.cs.jhu.edu/data/
 * Comparative analysis of methods: http://biorxiv.org/content/early/2016/01/05/035758
 * Review of experimental design and analysis: http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0927-y
 * Sean Davis' list: https://github.com/seandavi/awesome-single-cell
+* Datasets:
+    * scRNAseqDB: https://bioinfo.uth.edu/scrnaseqdb/
 * Platforms
     * Microwells: http://www.nature.com/articles/srep33883
 * QC:
