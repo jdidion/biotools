@@ -951,6 +951,8 @@ http://snaptron.cs.jhu.edu/data/
 
 * http://www.clips.ua.ac.be/pages/pattern
 * Linear mixed-model solver https://github.com/nickFurlotte/pylmm
+* Launching a subprocess in a pseudo-terminal (e.g. for accepting passwords) https://github.com/pexpect/ptyprocess
+* Launch an editor from python: https://github.com/fmoo/python-editor
 
 ## Deep Learning
 
