@@ -1065,6 +1065,7 @@ http://snaptron.cs.jhu.edu/data/
 * ggraph: plotting graphs/networks
 * ggedit: interactive plot editor (Shiny gadget)
 * ggRandomForests https://cran.r-project.org/web/packages/ggRandomForests/index.html
+* superheat: pretty heatmaps https://github.com/rlbarter/superheat
 
 ### Plot Types
 
