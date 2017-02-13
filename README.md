@@ -136,12 +136,14 @@ http://snaptron.cs.jhu.edu/data/
 * Database of epifactors (epigenetic factors): http://epifactors.autosome.ru/
 * Database of disease-associated methylation: http://202.97.205.78/diseasemeth/
 * SRA metadata: http://deweylab.biostat.wisc.edu/metasra/
+* Human histone modifications: http://www.tongjidmb.com/human/index.html
 
 ## Data Formats
 
 * FASTA/FASTQ
     * Read filtering and extraction: https://github.com/ad3002/Cookiecutter
     * fqtools: for working with FASTQ files https://github.com/alastair-droop/fqtools
+    * Integrating results from multiple genome binning programs: https://github.com/songweizhi/Binning_refiner
 * SAM/BAM/CRAM
     * Read filtering and profiling: https://github.com/jwalabroad/VariantBam
 * VCF
@@ -542,6 +544,7 @@ http://snaptron.cs.jhu.edu/data/
         * MT-HESS: eQTL analysis across tissues http://www.mrc-bsu.cam.ac.uk/software/
         * eQTLBMA: cross-tissue eQTL https://github.com/timflutre/eqtlbma
         * Multi-tissue eQTL: https://cran.r-project.org/web/packages/JAGUAR/index.html
+	* Multi-tissue, polygenic TWAS: https://github.com/ypark/fqtl
     * Quantile regression approach: https://xiaoyusong.shinyapps.io/QRBT/
     * Using prior knowledge: https://github.com/redsofa/LassoMP
     * CONDOR: simultaneous cis- and trans-eQTL analysis https://github.com/jplatig/condor
@@ -895,6 +898,7 @@ http://snaptron.cs.jhu.edu/data/
 * Qsubsec: template language for defining SGE workflows https://github.com/alastair-droop/qsubsec
 * Nextflow and Nextflow Workbench: http://campagnelab.org/software/nextflow-workbench/
 * SUSHI: https://github.com/uzh/sushi
+* https://github.com/jdblischak/workflowr
 
 # Statistics/Machine Learning
 
@@ -917,6 +921,8 @@ http://snaptron.cs.jhu.edu/data/
     * https://cran.r-project.org/web/packages/KODAMA/index.html
     * t-SNE: alternative to PCA and MDS: http://lvdmaaten.github.io/tsne/
 	* http://distill.pub/2016/misread-tsne/
+    * Compressive k-means: https://arxiv.org/pdf/1610.08738.pdf
+    * Sparse convex: https://arxiv.org/pdf/1601.04586.pdf
 * Multivariate analysis http://cran.r-project.org/web/views/Multivariate.html
 * Multivariate analysis of covariance (MANCOVA): http://en.wikipedia.org/wiki/MANCOVA
 * Nonnegative Matrix Factorization: https://cran.r-project.org/web/packages/NMF/vignettes/NMF-vignette.pdf
@@ -946,6 +952,7 @@ http://snaptron.cs.jhu.edu/data/
 * Succinct de Bruijn Graphs: http://alexbowe.com/succinct-debruijn-graphs/
 * Fast exact calculation of p-values in Friedman rank sum test: http://www.ru.nl/publish/pages/726696/friedmanrsd.zip
     * The Friedman test is for testing whether any columns are consistently different from other columns in a matrix
+* Automated generation of ML pipelines: https://github.com/rhiever/tpot/tree/tpot-mdr
 
 ## Python
 
@@ -953,6 +960,7 @@ http://snaptron.cs.jhu.edu/data/
 * Linear mixed-model solver https://github.com/nickFurlotte/pylmm
 * Launching a subprocess in a pseudo-terminal (e.g. for accepting passwords) https://github.com/pexpect/ptyprocess
 * Launch an editor from python: https://github.com/fmoo/python-editor
+* Faster alternative to pyvcf: https://github.com/brentp/cyvcf2
 
 ## Deep Learning
 
@@ -1056,8 +1064,10 @@ http://snaptron.cs.jhu.edu/data/
 
 ### ggplot2
 
-* Cowplot - improve default ggplot: http://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html
-* ggplot2 theme for publication-quality figures: https://github.com/robertwilson190/ggplot2-theme
+* Themes
+    * Cowplot - improve default ggplot: http://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html
+    * ggplot2 theme for publication-quality figures: https://github.com/robertwilson190/ggplot2-theme
+    * https://github.com/hrbrmstr/hrbrthemes
 * ggtree: phylogenetic trees https://bioconductor.org/packages/release/bioc/html/ggtree.html
 * geomnet: network visualization
 * ggrepel: displaying text labels with minimal overlapping https://github.com/slowkow/ggrepel
@@ -1068,6 +1078,7 @@ http://snaptron.cs.jhu.edu/data/
 * ggedit: interactive plot editor (Shiny gadget)
 * ggRandomForests https://cran.r-project.org/web/packages/ggRandomForests/index.html
 * superheat: pretty heatmaps https://github.com/rlbarter/superheat
+* biplots https://github.com/vqv/ggbiplot
 
 ### Plot Types
 
