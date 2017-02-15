@@ -751,9 +751,9 @@ http://snaptron.cs.jhu.edu/data/
     * https://cran.r-project.org/web/packages/r.jive/
     * SIFORM: http://bioinformatics.oxfordjournals.org/content/early/2016/07/03/bioinformatics.btw295.full
     * https://sourceforge.net/projects/epimine/
-    * http://bioconductor.org/packages/release/bioc/html/fCCAC.html
     * Deep learning-based framework for integrating multiple data types to predict another data type: https://github.com/ueser/FIDDLE
     * Significance-based https://www.bioconductor.org/packages/release/bioc/html/SMITE.html
+    * Two-stage CCA identifies non-linear associations: https://github.com/kosyoshida/TSKCCA
 * Multi-tissue:
     * http://bioconductor.org/packages/release/bioc/html/HDTD.html
     * https://github.com/yuzhang123/IDEAS
@@ -1193,3 +1193,4 @@ http://snaptron.cs.jhu.edu/data/
 * Statistical method to determine deviation from time linearity in epigenetic aging: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005183
 * Multi-tissue eQTL meta-analysis: http://biorxiv.org/content/early/2017/01/16/100701
 * Missing value imputation evaluator: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1429-3
+* Simulated annealing for biological network alignment: https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btx090/2996219/SANA-Simulated-Annealing-far-outperforms-many
