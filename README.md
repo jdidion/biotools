@@ -216,6 +216,7 @@ http://snaptron.cs.jhu.edu/data/
     * Fast correlation testing: https://github.com/gabraham/flashpca/tree/master/flashpcaR
     * Gene and pathway association testing from summary statistics: https://cran.r-project.org/web/packages/aSPU/
     * Account for LD and functional information: https://github.com/yjingj/SFBA
+    * Correcting for prediction uncertainty in TWAS: http://biorxiv.org/content/early/2017/02/14/108316
 * Multiple test correction
     * eigenMT: Efficient multiple-test correction http://montgomerylab.stanford.edu/resources/eigenMT/eigenMT.html
     * Fast multiple-test correction for LMMs: http://genetics.cs.ucla.edu/multiTrans/
@@ -457,6 +458,7 @@ http://snaptron.cs.jhu.edu/data/
 * Assembly
     * Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
     * Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
+    * Cosmo/VARI: Assembler using succinct colored de Bruijn graphs to encode population information https://github.com/cosmo-team/cosmo/tree/VARI
 * Variant calling
     * Matching variant sets: https://github.com/medvedevgroup/varmatch
     * Post-processing variant calls to determine whether variants at regions with alternative loci have allele(s) from an alternate locus: https://github.com/charite/asdpex
@@ -789,6 +791,7 @@ http://snaptron.cs.jhu.edu/data/
 * BWT that incorporates genetic variants: https://github.com/iqbal-lab/gramtools
 * Fast bitwise operations on nucleotide sequences: https://github.com/kloetzl/biotwiddle
 * C++ interface to htslib, BWA-MEM, and Fermi (local assembly) (would be useful to build python bindings for this): https://github.com/walaj/SeqLib
+* Minimal perfect hash function: fast, large data sets https://github.com/rizkg/BBHash
 
 ## R
 
@@ -1189,3 +1192,4 @@ http://snaptron.cs.jhu.edu/data/
 * Mocap: TFBS prediction from ATAC-seq http://biorxiv.org/content/biorxiv/early/2016/10/27/083998.full.pdf
 * Statistical method to determine deviation from time linearity in epigenetic aging: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005183
 * Multi-tissue eQTL meta-analysis: http://biorxiv.org/content/early/2017/01/16/100701
+* Missing value imputation evaluator: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1429-3
