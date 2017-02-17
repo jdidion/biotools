@@ -462,6 +462,7 @@ http://snaptron.cs.jhu.edu/data/
 * Variant calling
     * Matching variant sets: https://github.com/medvedevgroup/varmatch
     * Post-processing variant calls to determine whether variants at regions with alternative loci have allele(s) from an alternate locus: https://github.com/charite/asdpex
+    * Filtering low-frequency variants that likely result from DNA damage: https://github.com/eilslabs/DKFZBiasFilter
 * Genotyping
     * https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
     * http://bioinfo.ut.ee/FastGT/
@@ -569,7 +570,8 @@ http://snaptron.cs.jhu.edu/data/
     * https://github.com/ewyang089/SDEAP/wiki
     * Local subnetworks enriched for DE genes: https://cran.rstudio.com/web/packages/LEANR/index.html
     * https://github.com/beiyuanzhe/DiscriminantCut
-    Bayesian extenstion to BitSeq for differential transcript usage: https://github.com/mqbssppe/cjBitSeq
+    * Bayesian extenstion to BitSeq for differential transcript usage: https://github.com/mqbssppe/cjBitSeq
+    * Stage-wise DE/DT https://github.com/statOmics/stageR
 * Co-expression/networks
     * http://biorxiv.org/content/early/2016/10/02/078741
     * BicMix: differential co-expression networks http://beehive.cs.princeton.edu/software/
@@ -902,6 +904,7 @@ http://snaptron.cs.jhu.edu/data/
 * Nextflow and Nextflow Workbench: http://campagnelab.org/software/nextflow-workbench/
 * SUSHI: https://github.com/uzh/sushi
 * https://github.com/jdblischak/workflowr
+* Data manager for R: https://cran.r-project.org/web/packages/repo/index.html
 
 # Statistics/Machine Learning
 
