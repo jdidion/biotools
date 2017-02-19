@@ -380,6 +380,9 @@ http://snaptron.cs.jhu.edu/data/
         * https://github.com/ged-lab/khmer
         * https://docs.google.com/presentation/d/1biQmLkwPlCOA56mNZdUAiXa1OyGE0qyvI2nvU0qlOIE/mobilepresent?pli=1&slide=id.p58
     * https://github.com/abdullah009/kcmbt_mt
+    * KAT https://github.com/TGAC/KAT
+    * ntCard https://github.com/bcgsc/ntCard
+    * KMC3 https://github.com/refresh-bio/KMC
 * Density-based clustering: https://bitbucket.org/jerry00/densitycut_dev
 * chopBAI: segment BAM indexes by region for faster access https://github.com/DecodeGenetics/chopBAI
 * GFFutils: http://daler.github.io/gffutils/
