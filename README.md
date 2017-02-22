@@ -721,6 +721,7 @@ http://snaptron.cs.jhu.edu/data/
     * SCell: https://github.com/diazlab/SCell
     * http://bioconductor.org/packages/scater
     * https://github.com/joeburns06/hocuspocus
+    * https://gitlab.com/uhcclxgg/granatum
 * SNVs/CNVs
     * DNA SNV calling: https://bitbucket.org/hamimzafar/monovar
     * Ginko: analysis of CNVs in single-cell data: http://qb.cshl.edu/ginkgo/?q=/XWxZEerqqY477b9i4V8F
