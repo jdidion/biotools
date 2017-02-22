@@ -177,6 +177,9 @@ http://snaptron.cs.jhu.edu/data/
     * GSEA with external information https://cran.r-project.org/web/packages/netgsa/index.html
     * QTest: http://statgen.snu.ac.kr/software/QTest/
     * Gene set analysis with specific alternative hypothesis: https://bioconductor.org/packages/release/bioc/html/GSAR.html
+* Gene sets
+    * http://bioconductor.org/packages/release/data/experiment/html/EGSEAdata.html
+    * http://genomespot.blogspot.com.au/2017/02/introducing-encode-gene-set-hub.html
 * GO term:
     * http://cbl-gorilla.cs.technion.ac.il/
     * http://lrpath.ncibi.org/
@@ -603,6 +606,7 @@ http://snaptron.cs.jhu.edu/data/
     * https://sourceforge.net/projects/transcriptomeassembly/files/
     * Multi-sample transcriptome assembly: http://tacorna.github.io/
     * Clustering to decontaminate de novo assemblies: https://github.com/Lafond-LapalmeJ/MCSC_Decontamination
+    * Assembly from unstranded data: http://big.hanyang.ac.kr/CAFE
 * Time series
     * http://diceseq.sourceforge.net/
 * Deconvolution:
@@ -1077,6 +1081,7 @@ http://snaptron.cs.jhu.edu/data/
     * Cowplot - improve default ggplot: http://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html
     * ggplot2 theme for publication-quality figures: https://github.com/robertwilson190/ggplot2-theme
     * https://github.com/hrbrmstr/hrbrthemes
+    * xkcd-style plots: http://xkcd.r-forge.r-project.org/
 * ggtree: phylogenetic trees https://bioconductor.org/packages/release/bioc/html/ggtree.html
 * geomnet: network visualization
 * ggrepel: displaying text labels with minimal overlapping https://github.com/slowkow/ggrepel
@@ -1088,6 +1093,7 @@ http://snaptron.cs.jhu.edu/data/
 * ggRandomForests https://cran.r-project.org/web/packages/ggRandomForests/index.html
 * superheat: pretty heatmaps https://github.com/rlbarter/superheat
 * biplots https://github.com/vqv/ggbiplot
+* logos: https://github.com/omarwagih/ggseqlogo
 
 ### Plot Types
 
