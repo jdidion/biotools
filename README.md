@@ -685,6 +685,8 @@ http://snaptron.cs.jhu.edu/data/
     * D3E: http://hemberg-lab.github.io/D3E/
     * BASiCS: https://github.com/catavallejos/BASiCS
     * Beta Poisson: https://github.com/nghiavtr/BPSC
+* Allele-specific expression
+    * SCALE accounts for "burstiness" of transcription: https://github.com/yuchaojiang/SCALE
 * Splicing
     * https://github.com/huangyh09/brie
 * Time-series/ordering/lineage prediction
@@ -727,7 +729,7 @@ http://snaptron.cs.jhu.edu/data/
 * Regulatory networks:
     * Gene co-expression: http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004892
     * https://github.com/hmatsu1226/SCODE
-* Other
+* Other scRNA-seq
     * Analysis of 3' tagging data: https://github.com/garber-lab/ESAT
     * StemID: Prediction of stem cells and lineage information https://github.com/dgrun/StemID
     * Phasing: https://github.com/edsgard/scphaser
@@ -735,6 +737,8 @@ http://snaptron.cs.jhu.edu/data/
     * UMI counting: https://github.com/vals/umis
 * Methylation
     * Prediction of missing information: https://github.com/cangermueller/deepcpg
+* ATAC-seq
+    * Infer TF variation: https://github.com/GreenleafLab/chromVAR
 
 ### Integrated Methods
 
