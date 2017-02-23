@@ -1211,3 +1211,4 @@ http://snaptron.cs.jhu.edu/data/
 * Multi-tissue eQTL meta-analysis: http://biorxiv.org/content/early/2017/01/16/100701
 * Missing value imputation evaluator: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1429-3
 * Simulated annealing for biological network alignment: https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btx090/2996219/SANA-Simulated-Annealing-far-outperforms-many
+* TF binding site prediction using memory-matching networks: https://arxiv.org/pdf/1702.06760.pdf
