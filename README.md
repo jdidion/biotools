@@ -137,6 +137,7 @@ http://snaptron.cs.jhu.edu/data/
 * Database of disease-associated methylation: http://202.97.205.78/diseasemeth/
 * SRA metadata: http://deweylab.biostat.wisc.edu/metasra/
 * Human histone modifications: http://www.tongjidmb.com/human/index.html
+* iRegNet3D: SNP-focused catalog of TF-TF, TF-DNA, and DNA-DNA interactions http://iregnet3d.yulab.org/index/
 
 ## Data Formats
 
@@ -337,6 +338,7 @@ http://snaptron.cs.jhu.edu/data/
     * [LINSIGHT](http://genome-mirror.cshl.edu/cgi-bin/hgTables?hgsid=110380_RYHnZaJsP5sXJRVSjw7Z6nhgc0oE&clade=mammal&org=Human&db=hg19&hgta_group=allTracks&hgta_track=LINSIGHT&hgta_table=0&hgta_regionType=genome&position=chr21%3A33031597-33041570&hgta_outputType=primaryTable&hgta_outFileName=)
     * Protein binding affinity: https://bitbucket.org/wenxiu/sequence-shape.git
     * Change in local frustration index: https://github.com/gersteinlab/frustration
+    * TFImpute: multi-task learning from ChIP-seq data across factors and tissues to impute TF binding for an unassayed tissue/factor combination: https://bitbucket.org/feeldead/tfimpute
 * Methylation
     * CpGenie: predicts methylation from sequence, predicts impact of variants on nearby methylation https://github.com/gifford-lab/CpGenie
 * Chromatin accessibility
