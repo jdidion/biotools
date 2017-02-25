@@ -871,6 +871,7 @@ http://snaptron.cs.jhu.edu/data/
 * Event loops for asynchronous programming
     * curio
     * gevent
+* Fast microservices: https://github.com/squeaky-pl/japronto
 * dill: alternative serialization
 * arrow: alternative to datetime
 * Template for scientific projects: https://github.com/uwescience/shablona
@@ -893,6 +894,10 @@ http://snaptron.cs.jhu.edu/data/
 
 * Diff tables: https://github.com/paulfitz/daff
 * Miller - work with tables http://johnkerl.org/miller/doc/build.html
+
+## Databases
+
+* CockroachDB: based on Google's distributed database https://github.com/cockroachdb/cockroach
 
 ## Reproducibility/Containerization
 
@@ -1166,20 +1171,19 @@ http://snaptron.cs.jhu.edu/data/
 	* https://guides.github.com/activities/citable-code/
 	* https://mozillascience.github.io/code-research-object/
 * Licenses: http://choosealicense.com/licenses/
-* Large file storage:
+* Data sharing:
 	* GitHub: https://github.com/blog/1986-announcing-git-large-file-storage-lfs
 	* Amazon CodeCommit: http://aws.amazon.com/codecommit/
+	* Dat: https://datproject.org/
+	* http://zenodo.org/
+	* https://figshare.com/
+	* Git plugin for version-control of data files: https://github.com/ctjacobs/git-rdm
 * Templates:
 	* InDesign template for preprint: https://github.com/cleterrier/ManuscriptTools/blob/master/biorxiv_template_CC2015.indd
 	* Rmarkdown templates for journal articles https://github.com/rstudio/rticles
 	* GitHub template for authoring papers: https://github.com/peerj/paper-now
 * OSF API: https://test-api.osf.io/v2/docs/
 * APIs for literature search: http://libguides.mit.edu/apis
-* Places to archive research output:
-	* http://zenodo.org/
-	* https://figshare.com/
-	* DAT: distributed data sharing http://dat-data.com/blog/2016-02-01-dat-1
-	* Git plugin for version-control of data files: https://github.com/ctjacobs/git-rdm
 * Assessing credit for bioinformatics software authorship: http://depsy.org/
 * Icons for presentations: http://cameronneylon.net/blog/some-slides-for-granting-permissions-or-not-in-presentations/
 * Patterns for data sharing: http://project-if.github.io/data-permissions-catalogue/
