@@ -1170,25 +1170,27 @@ http://snaptron.cs.jhu.edu/data/
 * DOI for code
 	* https://guides.github.com/activities/citable-code/
 	* https://mozillascience.github.io/code-research-object/
+	* Ruby library for fetching metadata for DOI: https://rubygems.org/gems/terrier
 * Licenses: http://choosealicense.com/licenses/
+* Code sharing
+    * CodeOcean: web platform to run algorithms https://codeocean.com
 * Data sharing:
-	* GitHub: https://github.com/blog/1986-announcing-git-large-file-storage-lfs
-	* Amazon CodeCommit: http://aws.amazon.com/codecommit/
-	* Dat: https://datproject.org/
-	* http://zenodo.org/
-	* https://figshare.com/
-	* Git plugin for version-control of data files: https://github.com/ctjacobs/git-rdm
+    * GitHub: https://github.com/blog/1986-announcing-git-large-file-storage-lfs
+    * Amazon CodeCommit: http://aws.amazon.com/codecommit/
+    * Dat: https://datproject.org/
+    * http://zenodo.org/
+    * https://figshare.com/
+    * Git plugin for version-control of data files: https://github.com/ctjacobs/git-rdm
+    * OSF API: https://test-api.osf.io/v2/docs/
+    * Patterns for data sharing: http://project-if.github.io/data-permissions-catalogue/
+    * Data project management: https://www.datazar.com
 * Templates:
-	* InDesign template for preprint: https://github.com/cleterrier/ManuscriptTools/blob/master/biorxiv_template_CC2015.indd
-	* Rmarkdown templates for journal articles https://github.com/rstudio/rticles
-	* GitHub template for authoring papers: https://github.com/peerj/paper-now
-* OSF API: https://test-api.osf.io/v2/docs/
+    * InDesign template for preprint: https://github.com/cleterrier/ManuscriptTools/blob/master/biorxiv_template_CC2015.indd
+    * Rmarkdown templates for journal articles https://github.com/rstudio/rticles
+    * GitHub template for authoring papers: https://github.com/peerj/paper-now
 * APIs for literature search: http://libguides.mit.edu/apis
 * Assessing credit for bioinformatics software authorship: http://depsy.org/
 * Icons for presentations: http://cameronneylon.net/blog/some-slides-for-granting-permissions-or-not-in-presentations/
-* Patterns for data sharing: http://project-if.github.io/data-permissions-catalogue/
-* Ruby library for fetching metadata for DOI: https://rubygems.org/gems/terrier
-* Data project management: https://www.datazar.com
 * Convert between (R)markdown and iPython notebooks: https://github.com/aaren/notedown
 
 ## Writing
