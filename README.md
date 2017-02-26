@@ -1184,6 +1184,7 @@ http://snaptron.cs.jhu.edu/data/
     * OSF API: https://test-api.osf.io/v2/docs/
     * Patterns for data sharing: http://project-if.github.io/data-permissions-catalogue/
     * Data project management: https://www.datazar.com
+    * Execute code from GitHub project with Jupyter notebooks: http://mybinder.org/
 * Templates:
     * InDesign template for preprint: https://github.com/cleterrier/ManuscriptTools/blob/master/biorxiv_template_CC2015.indd
     * Rmarkdown templates for journal articles https://github.com/rstudio/rticles
