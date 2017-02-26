@@ -797,6 +797,7 @@ http://snaptron.cs.jhu.edu/data/
 # General Programming Resources
 
 * Generate data type-specific compression formats: http://algorithms.cnag.cat/cargo/
+* Protobuf: fast cross-language/platform serialization of fixed-format messages https://developers.google.com/protocol-buffers/
 
 ## C++
 
