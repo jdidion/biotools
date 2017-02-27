@@ -327,6 +327,7 @@ http://snaptron.cs.jhu.edu/data/
     * Prediction of enhancer strength from sequenced http://bioinformatics.hitsz.edu.cn/iEnhancer-2L
     * Prediction of core cell type-specific TFs from super enhancers https://bitbucket.org/young_computation/crcmapper
     * Prediction of superenhancers https://github.com/asntech/improse
+    * Deep learning-based: https://github.com/wenjiegroup/BiRen
 * Coding mutations
     * Predict mutation effects from sequence covariation: https://marks.hms.harvard.edu/evmutation/
 * Regulatory variants/TF binding
@@ -738,6 +739,7 @@ http://snaptron.cs.jhu.edu/data/
     * Phasing: https://github.com/edsgard/scphaser
     * Classification using sets of known cell type-specific genes: https://github.com/YosefLab/FastProject/wiki
     * UMI counting: https://github.com/vals/umis
+    * Imputation of missing values: https://github.com/pkathail/magic/
 * Methylation
     * Prediction of missing information: https://github.com/cangermueller/deepcpg
 * ATAC-seq
