@@ -640,6 +640,7 @@ http://snaptron.cs.jhu.edu/data/
     * Interactive visualization http://bioconductor.org/packages/devel/bioc/html/Glimma.html
     * New factorization method for dimensionality reduction: https://github.com/brian-cleary/CS-SMAF
     * Identify gene expression driven by copy number alteration in samples with matched RNA-seq and CNA data: https://www.bioconductor.org/packages/release/bioc/html/iGC.html
+    * Database of public RNA-seq data sets processed using the same pipeline: https://github.com/mskcc/RNAseqDB
 
 ### Single-cell
 
