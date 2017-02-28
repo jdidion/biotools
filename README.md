@@ -1188,6 +1188,7 @@ http://snaptron.cs.jhu.edu/data/
     * Patterns for data sharing: http://project-if.github.io/data-permissions-catalogue/
     * Data project management: https://www.datazar.com
     * Execute code from GitHub project with Jupyter notebooks: http://mybinder.org/
+    * http://www.data-retriever.org/
 * Templates:
     * InDesign template for preprint: https://github.com/cleterrier/ManuscriptTools/blob/master/biorxiv_template_CC2015.indd
     * Rmarkdown templates for journal articles https://github.com/rstudio/rticles
