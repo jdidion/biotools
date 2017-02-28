@@ -138,6 +138,7 @@ http://snaptron.cs.jhu.edu/data/
 * SRA metadata: http://deweylab.biostat.wisc.edu/metasra/
 * Human histone modifications: http://www.tongjidmb.com/human/index.html
 * iRegNet3D: SNP-focused catalog of TF-TF, TF-DNA, and DNA-DNA interactions http://iregnet3d.yulab.org/index/
+* CTD: drug interactions and toxicity http://ctdbase.org/
 
 ## Data Formats
 
