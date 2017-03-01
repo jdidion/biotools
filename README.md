@@ -139,6 +139,8 @@ http://snaptron.cs.jhu.edu/data/
 * Human histone modifications: http://www.tongjidmb.com/human/index.html
 * iRegNet3D: SNP-focused catalog of TF-TF, TF-DNA, and DNA-DNA interactions http://iregnet3d.yulab.org/index/
 * CTD: drug interactions and toxicity http://ctdbase.org/
+* FANTOM lncRNA catalog: http://fantom.gsc.riken.jp/cat/
+* Integrated database of public ChIP-Seq datasets: http://chip-atlas.org/
 
 ## Data Formats
 
@@ -274,6 +276,8 @@ http://snaptron.cs.jhu.edu/data/
     * eFORGE: identify cell type-specific signals in differentially methylated positions (mostly important for blood-based EWAS) http://eforge.cs.ucl.ac.uk/
     * Model for EWAS using probe signal intensities: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1347-4
     * Reference-based tissue deconvolution (three different algorithms): https://github.com/sjczheng/EpiDISH
+    * Glint pipeline (qc, EWAS, population structure): http://glint-epigenetics.readthedocs.io/en/latest/
+    	* Bayesian extension of Refactor cell type heterogeneity correction that incorporates experimentally determined cell counts: https://github.com/cozygene/BayesCCE
 
 ## Motif/TFBS
 
@@ -341,6 +345,7 @@ http://snaptron.cs.jhu.edu/data/
     * Protein binding affinity: https://bitbucket.org/wenxiu/sequence-shape.git
     * Change in local frustration index: https://github.com/gersteinlab/frustration
     * TFImpute: multi-task learning from ChIP-seq data across factors and tissues to impute TF binding for an unassayed tissue/factor combination: https://bitbucket.org/feeldead/tfimpute
+    * Multiple instance learning of TF binding: http://www.cs.utsa.edu/~jruan/MIL/
 * Methylation
     * CpGenie: predicts methylation from sequence, predicts impact of variants on nearby methylation https://github.com/gifford-lab/CpGenie
 * Chromatin accessibility
@@ -774,6 +779,7 @@ http://snaptron.cs.jhu.edu/data/
     * Deep learning-based framework for integrating multiple data types to predict another data type: https://github.com/ueser/FIDDLE
     * Significance-based https://www.bioconductor.org/packages/release/bioc/html/SMITE.html
     * Two-stage CCA identifies non-linear associations: https://github.com/kosyoshida/TSKCCA
+    * HMM: https://link.springer.com/protocol/10.1007/978-1-4939-6753-7_10
 * Multi-tissue:
     * http://bioconductor.org/packages/release/bioc/html/HDTD.html
     * https://github.com/yuzhang123/IDEAS
@@ -938,6 +944,7 @@ http://snaptron.cs.jhu.edu/data/
 * Precision-recall curves:
     * https://cran.r-project.org/web/packages/precrec/index.html
     * Alternative: http://link.springer.com/article/10.1007/s10994-009-5119-5
+* R package for subsetting data into training/testing/validation sets: https://cran.r-project.org/web/packages/STPGA/index.html
 
 ## Methods/algorithms
 
@@ -1111,6 +1118,7 @@ http://snaptron.cs.jhu.edu/data/
 * superheat: pretty heatmaps https://github.com/rlbarter/superheat
 * biplots https://github.com/vqv/ggbiplot
 * logos: https://github.com/omarwagih/ggseqlogo
+* May any ggplot interactive: http://rpubs.com/turnersd/ggplotly-demo
 
 ### Plot Types
 
