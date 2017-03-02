@@ -181,13 +181,18 @@ http://snaptron.cs.jhu.edu/data/
     * GSEA with external information https://cran.r-project.org/web/packages/netgsa/index.html
     * QTest: http://statgen.snu.ac.kr/software/QTest/
     * Gene set analysis with specific alternative hypothesis: https://bioconductor.org/packages/release/bioc/html/GSAR.html
+    * clusterProfiler: <https://guangchuangyu.github.io/clusterProfiler/>
+    * DOSE: disease ontology <https://guangchuangyu.github.io/dose/>
+    * ReactomePA: <https://guangchuangyu.github.io/reactomepa/>
 * Gene sets
     * http://bioconductor.org/packages/release/data/experiment/html/EGSEAdata.html
     * http://genomespot.blogspot.com.au/2017/02/introducing-encode-gene-set-hub.html
 * GO term:
     * http://cbl-gorilla.cs.technion.ac.il/
     * http://lrpath.ncibi.org/
-    * Reduce GO term lists: http://revigo.irb.hr/
+    * Reduce GO term lists: 
+    	+ http://revigo.irb.hr/
+	+ <http://guangchuangyu.github.io/2015/10/use-simplify-to-remove-redundancy-of-enriched-go-terms/>
     * GO Express: https://www.bioconductor.org/packages/release/bioc/html/GOexpress.html
     * GO Extender: https://www.msu.edu/~jinchen/GOExtender/
     * http://iwera.ir/~ahmad/dal/
@@ -197,6 +202,7 @@ http://snaptron.cs.jhu.edu/data/
     * Functional enrichment with LD correction
 * MESH
     * MeSH over-representation: http://www.bioconductor.org/packages/release/bioc/vignettes/meshr/inst/doc/MeSH.pdf
+    * meshes: <https://guangchuangyu.github.io/meshes/>
 * Regional
     * LOLA: http://lola.computational-epigenetics.org
     * AnnotatR: https://github.com/rcavalcante/annotatr/
