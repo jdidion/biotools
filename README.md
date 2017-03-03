@@ -431,6 +431,8 @@ http://snaptron.cs.jhu.edu/data/
     * https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/Software.cgi
 * Fast coverage estimate from BAM index: https://github.com/brentp/goleft/tree/master/indexcov
 * Detecting sample swaps: https://github.com/PapenfussLab/HaveYouSwappedYourSamples
+* QC Fail articles:
+    * Patterned flow cells (HiSeq 3000+) have high rates of optical duplicates: https://sequencing.qcfail.com/articles/illumina-patterned-flow-cells-generate-duplicated-sequences/
 
 ### Chromatin accessibility
 
@@ -593,6 +595,7 @@ http://snaptron.cs.jhu.edu/data/
     * https://github.com/beiyuanzhe/DiscriminantCut
     * Bayesian extenstion to BitSeq for differential transcript usage: https://github.com/mqbssppe/cjBitSeq
     * Stage-wise DE/DT https://github.com/statOmics/stageR
+    * Computing heritability of gene expression: https://cran.r-project.org/web/packages/HeritSeq/index.html
 * Co-expression/networks
     * http://biorxiv.org/content/early/2016/10/02/078741
     * BicMix: differential co-expression networks http://beehive.cs.princeton.edu/software/
@@ -624,6 +627,7 @@ http://snaptron.cs.jhu.edu/data/
     * Assembly from unstranded data: http://big.hanyang.ac.kr/CAFE
 * Time series
     * http://diceseq.sourceforge.net/
+    * https://bioconductor.org/packages/release/bioc/html/ctsGE.html
 * Deconvolution:
     * VoCAL: https://cran.r-project.org/web/packages/ComICS/index.html
     * DeconRNASeq: deconvolute expression profiles in mixed tissues http://www.bioconductor.org/packages/2.12/bioc/vignettes/DeconRNASeq/inst/doc/DeconRNASeq.pdf
@@ -1022,6 +1026,7 @@ http://snaptron.cs.jhu.edu/data/
 	* biologicaly-focused neural networks https://github.com/kundajelab/dragonn/tree/master/dragonn
 	* analysis of features in deep neural networks https://github.com/kundajelab/deeplift
 	* API to add fuzzy logic: https://fuzzy.ai/docs
+	* Edward: probabalistic modeling, inference, and criticism; build on TensorFlow https://github.com/blei-lab/edward
 * Architectures:
 	* http://www.asimovinstitute.org/neural-network-zoo/
 	* Deep residual:
