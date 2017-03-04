@@ -1000,6 +1000,7 @@ http://snaptron.cs.jhu.edu/data/
 * Fast exact calculation of p-values in Friedman rank sum test: http://www.ru.nl/publish/pages/726696/friedmanrsd.zip
     * The Friedman test is for testing whether any columns are consistently different from other columns in a matrix
 * Automated generation of ML pipelines: https://github.com/rhiever/tpot/tree/tpot-mdr
+* Forecasting from time-series data: https://facebookincubator.github.io/prophet/ (this is a retail-centric model from Facebook, but could be adapted to biological data)
 
 ## Python
 
