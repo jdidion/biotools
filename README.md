@@ -1086,6 +1086,7 @@ http://snaptron.cs.jhu.edu/data/
 * Fluff: publication-quality genomics plots http://fluff.readthedocs.org
 * Visualization of feature density along the genome: https://github.com/sguizard/DensityMap
 * Circos-like visualization of chromosome structure with support for multiple data types https://rondo.ws
+* Comparison of different types of heatmaps: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1442-6
 
 ## Networks
 
