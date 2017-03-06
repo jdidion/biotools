@@ -184,6 +184,7 @@ http://snaptron.cs.jhu.edu/data/
     * clusterProfiler: <https://guangchuangyu.github.io/clusterProfiler/>
     * DOSE: disease ontology <https://guangchuangyu.github.io/dose/>
     * ReactomePA: <https://guangchuangyu.github.io/reactomepa/>
+    * https://cran.r-project.org/web/packages/SetRank/index.html
 * Gene sets
     * http://bioconductor.org/packages/release/data/experiment/html/EGSEAdata.html
     * http://genomespot.blogspot.com.au/2017/02/introducing-encode-gene-set-hub.html
@@ -757,6 +758,7 @@ http://snaptron.cs.jhu.edu/data/
     * Classification using sets of known cell type-specific genes: https://github.com/YosefLab/FastProject/wiki
     * UMI counting: https://github.com/vals/umis
     * Imputation of missing values: https://github.com/pkathail/magic/
+    * Power analysis: https://github.com/vals/umis/
 * Methylation
     * Prediction of missing information: https://github.com/cangermueller/deepcpg
 * ATAC-seq
@@ -899,6 +901,8 @@ http://snaptron.cs.jhu.edu/data/
 * GO transplier: https://github.com/google/grumpy
 * Calling Rust libraries from python: https://medium.com/@caulagi/complementing-python-with-rust-657a8cb3d066#.6in8v0bte
 * Disabling python garbage collection speeds up programs: https://engineering.instagram.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172#.ri55nyjdu (only safe when the lifecycle is straight-forward for all objects, an thus reference counting is sufficient for memory management)
+* Easily implementing function proxies/wrappers: http://wrapt.readthedocs.io/en/latest/
+* Cache system: https://bitbucket.org/zzzeek/dogpile.cache
 
 ## HPC
 
