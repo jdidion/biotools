@@ -1123,10 +1123,12 @@ http://snaptron.cs.jhu.edu/data/
     * ggplot2 theme for publication-quality figures: https://github.com/robertwilson190/ggplot2-theme
     * https://github.com/hrbrmstr/hrbrthemes
     * xkcd-style plots: http://xkcd.r-forge.r-project.org/
+* Color palattes
+    * https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html
+    * Color scales with clustering (would want to adapt this to ggplot): https://github.com/schne
 * ggtree: phylogenetic trees https://bioconductor.org/packages/release/bioc/html/ggtree.html
 * geomnet: network visualization
-* ggrepel: displaying text labels with minimal overlapping https://github.com/slowkow/ggrepel
-* Color scales with clustering (would want to adapt this to ggplot): https://github.com/schnerd/d3-scale-cluster
+* ggrepel: displaying text labels with minimal overlapping https://github.com/slowkow/ggrepelrd/d3-scale-cluster
 * ggforce: many extensions to ggplot
 * ggalt: many extensions to ggplot
 * ggraph: plotting graphs/networks
@@ -1135,7 +1137,7 @@ http://snaptron.cs.jhu.edu/data/
 * superheat: pretty heatmaps https://github.com/rlbarter/superheat
 * biplots https://github.com/vqv/ggbiplot
 * logos: https://github.com/omarwagih/ggseqlogo
-* May any ggplot interactive: http://rpubs.com/turnersd/ggplotly-demo
+* Make any ggplot interactive: http://rpubs.com/turnersd/ggplotly-demo
 
 ### Plot Types
 
