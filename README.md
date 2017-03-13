@@ -260,6 +260,7 @@ http://snaptron.cs.jhu.edu/data/
     * MEPID: marginal epistasis test http://www.xzlab.org/software.html
 * Other
     * Browser for geographical distribution of genetic variants: http://popgen.uchicago.edu/ggv/
+    * Integration of GWAS with molecular QTL: https://github.com/xqwen/integrative
 
 ## Microarray
 
@@ -1228,6 +1229,7 @@ http://snaptron.cs.jhu.edu/data/
 * Assessing credit for bioinformatics software authorship: http://depsy.org/
 * Icons for presentations: http://cameronneylon.net/blog/some-slides-for-granting-permissions-or-not-in-presentations/
 * Convert between (R)markdown and iPython notebooks: https://github.com/aaren/notedown
+* Continuous analysis: https://github.com/greenelab/continuous_analysis
 
 ## Writing
 
