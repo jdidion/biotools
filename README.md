@@ -1200,37 +1200,36 @@ http://snaptron.cs.jhu.edu/data/
 
 # Publication/Archiving
 
+* Licenses: http://choosealicense.com/licenses/
+* APIs for literature search: http://libguides.mit.edu/apis
+* Assessing credit for bioinformatics software authorship: http://depsy.org/
+* Icons for presentations: http://cameronneylon.net/blog/some-slides-for-granting-permissions-or-not-in-presentations/
+* Continuous analysis: https://github.com/greenelab/continuous_analysis
+
+## Code/Data sharing
 * DOI for code
 	* https://guides.github.com/activities/citable-code/
 	* https://mozillascience.github.io/code-research-object/
 	* Ruby library for fetching metadata for DOI: https://rubygems.org/gems/terrier
-* Licenses: http://choosealicense.com/licenses/
-* Code sharing
-    * CodeOcean: web platform to run algorithms https://codeocean.com
-* Data sharing:
-    * GitHub: https://github.com/blog/1986-announcing-git-large-file-storage-lfs
-    * Amazon CodeCommit: http://aws.amazon.com/codecommit/
-    * Dat: https://datproject.org/
-    * http://zenodo.org/
-    * https://figshare.com/
-    * Git plugin for version-control of data files: https://github.com/ctjacobs/git-rdm
-    * OSF API: https://test-api.osf.io/v2/docs/
-    * Patterns for data sharing: http://project-if.github.io/data-permissions-catalogue/
-    * Data project management: https://www.datazar.com
-    * Execute code from GitHub project with Jupyter notebooks: http://mybinder.org/
-    * http://www.data-retriever.org/
-    * Globus is an open source toolkit for transferring large data files; it implements the GridFTP protocol https://www.globus.org/
-    * bbcp is multi-stream scp (for point-to-point large file transfer) https://www.olcf.ornl.gov/kb_articles/transferring-data-with-bbcp/
-    * https://thinklab.com/
-* Templates:
-    * InDesign template for preprint: https://github.com/cleterrier/ManuscriptTools/blob/master/biorxiv_template_CC2015.indd
-    * Rmarkdown templates for journal articles https://github.com/rstudio/rticles
-    * GitHub template for authoring papers: https://github.com/peerj/paper-now
-* APIs for literature search: http://libguides.mit.edu/apis
-* Assessing credit for bioinformatics software authorship: http://depsy.org/
-* Icons for presentations: http://cameronneylon.net/blog/some-slides-for-granting-permissions-or-not-in-presentations/
-* Convert between (R)markdown and iPython notebooks: https://github.com/aaren/notedown
-* Continuous analysis: https://github.com/greenelab/continuous_analysis
+* CodeOcean: web platform to run algorithms https://codeocean.com
+* GitHub: https://github.com/blog/1986-announcing-git-large-file-storage-lfs
+* Amazon CodeCommit: http://aws.amazon.com/codecommit/
+* Dat: https://datproject.org/
+* http://zenodo.org/
+* https://figshare.com/
+* Git plugin for version-control of data files: https://github.com/ctjacobs/git-rdm
+* OSF API: https://test-api.osf.io/v2/docs/
+* Patterns for data sharing: http://project-if.github.io/data-permissions-catalogue/
+* Data project management: https://www.datazar.com
+* Execute code from GitHub project with Jupyter notebooks: http://mybinder.org/
+* http://www.data-retriever.org/
+* Globus is an open source toolkit for transferring large data files; it implements the GridFTP protocol https://www.globus.org/
+* bbcp is multi-stream scp (for point-to-point large file transfer) https://www.olcf.ornl.gov/kb_articles/transferring-data-with-bbcp/
+* https://thinklab.com/
+
+## Journals
+
+* Distill: Online, ML-focused journal http://distill.pub/journal/
 
 ## Writing
 
@@ -1238,6 +1237,11 @@ http://snaptron.cs.jhu.edu/data/
 * Collaborative writing
 	* https://draftin.com/documents
 	* http://quip.com
+* Templates:
+    * InDesign template for preprint: https://github.com/cleterrier/ManuscriptTools/blob/master/biorxiv_template_CC2015.indd
+    * Rmarkdown templates for journal articles https://github.com/rstudio/rticles
+    * GitHub template for authoring papers: https://github.com/peerj/paper-now
+* Convert between (R)markdown and iPython notebooks: https://github.com/aaren/notedown
 
 # Promising methods without software implementation
 
