@@ -1206,6 +1206,7 @@ http://snaptron.cs.jhu.edu/data/
 * Assessing credit for bioinformatics software authorship: http://depsy.org/
 * Icons for presentations: http://cameronneylon.net/blog/some-slides-for-granting-permissions-or-not-in-presentations/
 * Continuous analysis: https://github.com/greenelab/continuous_analysis
+* A nice template for bootstrapping your own academic website using GitHub: https://academicpages.github.io/
 
 ## Code/Data sharing
 * DOI for code
