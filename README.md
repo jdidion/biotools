@@ -1093,6 +1093,7 @@ http://snaptron.cs.jhu.edu/data/
 * Visualization of feature density along the genome: https://github.com/sguizard/DensityMap
 * Circos-like visualization of chromosome structure with support for multiple data types https://rondo.ws
 * Comparison of different types of heatmaps: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1442-6
+* Interactively build simulations and animated interaction diagrams: http://ncase.me/loopy/
 
 ## Networks
 
@@ -1237,6 +1238,7 @@ http://snaptron.cs.jhu.edu/data/
 * Collaborative writing
 	* https://draftin.com/documents
 	* http://quip.com
+	* https://usecanvas.com/
 * Templates:
     * InDesign template for preprint: https://github.com/cleterrier/ManuscriptTools/blob/master/biorxiv_template_CC2015.indd
     * Rmarkdown templates for journal articles https://github.com/rstudio/rticles
