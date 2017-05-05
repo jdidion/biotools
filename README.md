@@ -1207,6 +1207,7 @@ http://snaptron.cs.jhu.edu/data/
 * Icons for presentations: http://cameronneylon.net/blog/some-slides-for-granting-permissions-or-not-in-presentations/
 * Continuous analysis: https://github.com/greenelab/continuous_analysis
 * A nice template for bootstrapping your own academic website using GitHub: https://academicpages.github.io/
+* Desktop app for searching/managing papers: https://github.com/codeforscience/sciencefair
 
 ## Code/Data sharing
 * DOI for code
