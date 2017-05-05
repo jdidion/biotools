@@ -78,7 +78,7 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
 When looking for a bioinformatics tool for a specific application:
 
 * http://omictools.com/
-* http://gitxiv.com/category/bioinformatics
+* http://www.gitxiv.com/?cat%5B0%5D=bioinformatics
 * https://bio.tools/
 * https://biosharing.org
 
