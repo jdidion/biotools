@@ -403,6 +403,7 @@ http://snaptron.cs.jhu.edu/data/
     * KAT https://github.com/TGAC/KAT
     * ntCard https://github.com/bcgsc/ntCard
     * KMC3 https://github.com/refresh-bio/KMC
+    * https://github.com/uni-halle/gerbil
 * Density-based clustering: https://bitbucket.org/jerry00/densitycut_dev
 * chopBAI: segment BAM indexes by region for faster access https://github.com/DecodeGenetics/chopBAI
 * GFFutils: http://daler.github.io/gffutils/
@@ -435,6 +436,7 @@ http://snaptron.cs.jhu.edu/data/
 * Detecting sample swaps: https://github.com/PapenfussLab/HaveYouSwappedYourSamples
 * QC Fail articles:
     * Patterned flow cells (HiSeq 3000+) have high rates of optical duplicates: https://sequencing.qcfail.com/articles/illumina-patterned-flow-cells-generate-duplicated-sequences/
+* http://samstat.sourceforge.net/
 
 ### Chromatin accessibility
 
@@ -454,6 +456,7 @@ http://snaptron.cs.jhu.edu/data/
     * GenoGAM peak caller: https://master.bioconductor.org/packages/3.3/bioc/html/GenoGAM.html
     * De-noising: https://github.com/kundajelab/TF_chipseq_pipeline
     * Peak discretizer (merging of replicates): https://github.com/nanakiksc/zerone
+    * Compute error: https://github.com/tdhock/PeakError
 * hiddenDomains: https://sourceforge.net/projects/hiddendomains/
 * Network-based identification of relationships among ChIP-seq data sets: http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0925-0
 * Motif assessment: http://www.bioinf.ict.ru.ac.za/
@@ -658,6 +661,7 @@ http://snaptron.cs.jhu.edu/data/
     * New factorization method for dimensionality reduction: https://github.com/brian-cleary/CS-SMAF
     * Identify gene expression driven by copy number alteration in samples with matched RNA-seq and CNA data: https://www.bioconductor.org/packages/release/bioc/html/iGC.html
     * Database of public RNA-seq data sets processed using the same pipeline: https://github.com/mskcc/RNAseqDB
+    * Evaluation of aligners on long reads (GMap performs best): http://biorxiv.org/content/early/2017/04/11/126656
 
 ### Single-cell
 
@@ -710,7 +714,7 @@ http://snaptron.cs.jhu.edu/data/
 * Allele-specific expression
     * SCALE accounts for "burstiness" of transcription: https://github.com/yuchaojiang/SCALE
 * Splicing
-    * https://github.com/huangyh09/brie
+    * https://github.com/huangyh09/brie    
 * Time-series/ordering/lineage prediction
     * Monocle
         * Analysis of pseudotime uncertainty: http://biorxiv.org/content/biorxiv/early/2016/04/05/047365.full.pdf
@@ -760,6 +764,7 @@ http://snaptron.cs.jhu.edu/data/
     * UMI counting: https://github.com/vals/umis
     * Imputation of missing values: https://github.com/pkathail/magic/
     * Power analysis: https://github.com/vals/umis/
+    * Pooled perturbation experiments: https://github.com/asncd/MIMOSCA
 * Methylation
     * Prediction of missing information: https://github.com/cangermueller/deepcpg
 * ATAC-seq
@@ -817,10 +822,20 @@ http://snaptron.cs.jhu.edu/data/
     * Identify class-descriminative motifs enriched in subclasses of overlapping annotations: https://github.com/seqcode/sequnwinder
     * R class for integration algorithms: https://bioconductor.org/packages/release/bioc/html/MultiDataSet.html
 
+# Clinical data
+
+## EHR
+
+* BlueButton related tools https://github.com/amida-tech
+
 # General Programming Resources
 
 * Generate data type-specific compression formats: http://algorithms.cnag.cat/cargo/
-* Protobuf: fast cross-language/platform serialization of fixed-format messages https://developers.google.com/protocol-buffers/
+* Protocol buffers
+    * Protobuf: fast cross-language/platform serialization of fixed-format messages https://developers.google.com/protocol-buffers/
+    * https://capnproto.org/
+* IDEs
+    * VisualStudio (now free): https://www.visualstudio.com/vs/visual-studio-mac/
 
 ## C++
 
@@ -885,11 +900,12 @@ http://snaptron.cs.jhu.edu/data/
     * Snakemake
 * A regular expression scanner: https://github.com/mitsuhiko/python-regex-scanner
 * API for interacting with databases: https://github.com/kennethreitz/records
-* R formulas in python: https://github.com/pydata/patsy
 * RStudio for python: https://www.yhat.com/products/rodeo
 * boltons.debugutils: The entire boltons package has lots of useful stuff, but debugutils is particularly cool - you can add one line of code to enable you to drop into a debugger on signal (e.g. Ctrl-C): https://boltons.readthedocs.io/en/latest/debugutils.html
-* Non-negative matrix factorization: https://github.com/ccshao/nimfa
-* pyjamas: javascript bridge
+* Stats
+    * Non-negative matrix factorization: https://github.com/ccshao/nimfa
+    * http://www.statsmodels.org/stable/index.html
+    * R formulas in python: https://github.com/pydata/patsy
 * pyrasite: code injection into running applications
 * Dexy: documentation
 * Event loops for asynchronous programming
@@ -899,11 +915,17 @@ http://snaptron.cs.jhu.edu/data/
 * dill: alternative serialization
 * arrow: alternative to datetime
 * Template for scientific projects: https://github.com/uwescience/shablona
-* GO transplier: https://github.com/google/grumpy
-* Calling Rust libraries from python: https://medium.com/@caulagi/complementing-python-with-rust-657a8cb3d066#.6in8v0bte
+* FFI
+    * GO transplier: https://github.com/google/grumpy
+    * Calling Rust libraries from python: https://medium.com/@caulagi/complementing-python-with-rust-657a8cb3d066#.6in8v0bte
+    * pyjamas: javascript bridge
 * Disabling python garbage collection speeds up programs: https://engineering.instagram.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172#.ri55nyjdu (only safe when the lifecycle is straight-forward for all objects, an thus reference counting is sufficient for memory management)
 * Easily implementing function proxies/wrappers: http://wrapt.readthedocs.io/en/latest/
 * Cache system: https://bitbucket.org/zzzeek/dogpile.cache
+* Parse TOML (an enhanced config-file spec): https://github.com/uiri/toml
+* Web scraping
+    * https://github.com/grangier/python-goose
+    * https://scrapy.org/
 
 ## HPC
 
@@ -924,6 +946,7 @@ http://snaptron.cs.jhu.edu/data/
 ## Databases
 
 * CockroachDB: based on Google's distributed database https://github.com/cockroachdb/cockroach
+* In-memory key-value db in python: https://github.com/paxos-bankchain/subconscious
 
 ## Reproducibility/Containerization
 
@@ -967,6 +990,7 @@ http://snaptron.cs.jhu.edu/data/
 	* https://github.com/rushter/MLAlgorithms
 * Random Forests in R: randomForest package
     * FuzzyForests are an extension of random forests for classification in which subsets of variables/features are highly correlated https://github.com/OHDSI/FuzzyForest
+* Modrian forests https://scikit-garden.github.io/examples/MondrianTreeRegressor/
 * Clustering
     * Help selecting biclustering algorithm: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1487-1
     * DBScan https://cran.r-project.org/web/packages/dbscan/dbscan.pdf
@@ -1117,6 +1141,7 @@ http://snaptron.cs.jhu.edu/data/
 * Multilayer data plotted on a Hilbert curve: http://www.bioconductor.org/packages/devel/bioc/html/HilbertCurve.html
 * Visualize local epigenetic neighborhood of a SNP: http://bioconductor.org/packages/release/bioc/html/SNPhood.html
 * CIRCOS plots: https://cggl.horticulture.wisc.edu/software/
+* Nice looking boxplots: https://github.com/mw55309/perceptions
 
 ### ggplot2
 
@@ -1184,6 +1209,8 @@ http://snaptron.cs.jhu.edu/data/
 * XKCD-style plots: http://jakevdp.github.io/blog/2012/10/07/xkcd-style-plots-in-matplotlib/?utm_content=buffera9a76&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 * Phylogenetic trees: http://etetoolkit.org/
 * Altair: https://altair-viz.github.io/
+* Visualization dashboard: https://github.com/facebookresearch/visdom
+* http://holoviews.org/
 
 ## Javascript
 
@@ -1211,23 +1238,25 @@ http://snaptron.cs.jhu.edu/data/
 
 ## Code/Data sharing
 * DOI for code
-	* https://guides.github.com/activities/citable-code/
-	* https://mozillascience.github.io/code-research-object/
-	* Ruby library for fetching metadata for DOI: https://rubygems.org/gems/terrier
+    * http://zenodo.org/
+    * https://guides.github.com/activities/citable-code/
+    * https://mozillascience.github.io/code-research-object/
+    * Ruby library for fetching metadata for DOI: https://rubygems.org/gems/terrier
 * CodeOcean: web platform to run algorithms https://codeocean.com
 * GitHub: https://github.com/blog/1986-announcing-git-large-file-storage-lfs
 * Amazon CodeCommit: http://aws.amazon.com/codecommit/
-* Dat: https://datproject.org/
-* http://zenodo.org/
-* https://figshare.com/
+* Data sharing
+    * Dat: https://datproject.org/
+    * http://academictorrents.com/
+    * https://figshare.com/
+    * Patterns for data sharing: http://project-if.github.io/data-permissions-catalogue/
+    * Globus is an open source toolkit for transferring large data files; it implements the GridFTP protocol https://www.globus.org/
+    * bbcp is multi-stream scp (for point-to-point large file transfer) https://www.olcf.ornl.gov/kb_articles/transferring-data-with-bbcp/
 * Git plugin for version-control of data files: https://github.com/ctjacobs/git-rdm
 * OSF API: https://test-api.osf.io/v2/docs/
-* Patterns for data sharing: http://project-if.github.io/data-permissions-catalogue/
 * Data project management: https://www.datazar.com
 * Execute code from GitHub project with Jupyter notebooks: http://mybinder.org/
 * http://www.data-retriever.org/
-* Globus is an open source toolkit for transferring large data files; it implements the GridFTP protocol https://www.globus.org/
-* bbcp is multi-stream scp (for point-to-point large file transfer) https://www.olcf.ornl.gov/kb_articles/transferring-data-with-bbcp/
 * https://thinklab.com/
 
 ## Journals
