@@ -1211,6 +1211,7 @@ http://snaptron.cs.jhu.edu/data/
 * Altair: https://altair-viz.github.io/
 * Visualization dashboard: https://github.com/facebookresearch/visdom
 * http://holoviews.org/
+* GGplot clone: https://github.com/has2k1/plotnine
 
 ## Javascript
 
