@@ -1278,6 +1278,8 @@ http://snaptron.cs.jhu.edu/data/
     * Rmarkdown templates for journal articles https://github.com/rstudio/rticles
     * GitHub template for authoring papers: https://github.com/peerj/paper-now
 * Convert between (R)markdown and iPython notebooks: https://github.com/aaren/notedown
+* Pandoc scholar: https://github.com/pandoc-scholar/pandoc-scholar
+    * Nice paper showing example of generating manuscripts for two different journals: https://peerj.com/preprints/2648.pdf
 
 # Promising methods without software implementation
 
