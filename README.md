@@ -516,6 +516,8 @@ http://snaptron.cs.jhu.edu/data/
 * Other
     * VCF compression and data extraction: https://github.com/kedartatwawadi/GTRAC
     * Run length encoded multi-sample BWT + server: https://github.com/wtsi-svi/ReadServer
+* Nanopore
+    * https://github.com/nanoporetech/wub
 
 ### Methylation
 
