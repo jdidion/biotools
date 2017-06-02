@@ -491,6 +491,7 @@ http://snaptron.cs.jhu.edu/data/
     * Matching variant sets: https://github.com/medvedevgroup/varmatch
     * Post-processing variant calls to determine whether variants at regions with alternative loci have allele(s) from an alternate locus: https://github.com/charite/asdpex
     * Filtering low-frequency variants that likely result from DNA damage: https://github.com/eilslabs/DKFZBiasFilter
+    * Reference-free: https://github.com/dib-lab/kevlar
 * Genotyping
     * https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
     * http://bioinfo.ut.ee/FastGT/
