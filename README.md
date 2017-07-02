@@ -286,6 +286,7 @@ http://snaptron.cs.jhu.edu/data/
     * Reference-based tissue deconvolution (three different algorithms): https://github.com/sjczheng/EpiDISH
     * Glint pipeline (qc, EWAS, population structure): http://glint-epigenetics.readthedocs.io/en/latest/
     	* Bayesian extension of Refactor cell type heterogeneity correction that incorporates experimentally determined cell counts: https://github.com/cozygene/BayesCCE
+    * https://github.com/perishky/meffil/ 
 
 ## Motif/TFBS
 
@@ -336,6 +337,8 @@ http://snaptron.cs.jhu.edu/data/
 * Chromatin States
     * GenoSTAN: http://bioconductor.org/packages/release/bioc/html/STAN.html
     * R package for predicting chromatin states from histone marks across conditions https://github.com/ataudt/chromstaR
+    * Rule-based: http://www.statehub.org/
+    * Hierarchical HMM: https://github.com/gcyuan/diHMM
 * Enhancers
     * Prediction of enhancer strength from sequenced http://bioinformatics.hitsz.edu.cn/iEnhancer-2L
     * Prediction of core cell type-specific TFs from super enhancers https://bitbucket.org/young_computation/crcmapper
@@ -349,7 +352,7 @@ http://snaptron.cs.jhu.edu/data/
     * Score variant deleteriousness: http://cadd.gs.washington.edu/
     * BASSET: prediction of sequence activity https://github.com/davek44/Basset
     * DanQ: hybrid convolutional and recurrent neural network model for predicting the function of DNA de novo from sequence http://github.com/uci-cbcl/DanQ
-    * [LINSIGHT](http://genome-mirror.cshl.edu/cgi-bin/hgTables?hgsid=110380_RYHnZaJsP5sXJRVSjw7Z6nhgc0oE&clade=mammal&org=Human&db=hg19&hgta_group=allTracks&hgta_track=LINSIGHT&hgta_table=0&hgta_regionType=genome&position=chr21%3A33031597-33041570&hgta_outputType=primaryTable&hgta_outFileName=)
+    * [LINSIGHT](https://github.com/CshlSiepelLab/LINSIGHT)
     * Protein binding affinity: https://bitbucket.org/wenxiu/sequence-shape.git
     * Change in local frustration index: https://github.com/gersteinlab/frustration
     * TFImpute: multi-task learning from ChIP-seq data across factors and tissues to impute TF binding for an unassayed tissue/factor combination: https://bitbucket.org/feeldead/tfimpute
@@ -389,6 +392,7 @@ http://snaptron.cs.jhu.edu/data/
         * http://jjwanglab.org/PRVCS/
     * Impact of coding SNPs: http://pantherdb.org/tools/csnpScoreForm.jsp
     * Predict disease risk from GWAS summary statistics: https://github.com/yiminghu/AnnoPred
+    * http://queryor.cribi.unipd.it/cgi-bin/queryor/mainpage.pl
 
 ## Sequence Analysis
 
@@ -418,6 +422,7 @@ http://snaptron.cs.jhu.edu/data/
 * Normalization:
     * https://github.com/allenxhcao/glscale
     * https://github.com/stephaniehicks/qsmooth
+    * https://github.com/SchulzLab/ORNA
 * Demultiplexing/deduping barcoded reads w/ UMIs: http://gbcs.embl.de/portal/tiki-index.php?page=Je
 
 ### QC
@@ -457,6 +462,8 @@ http://snaptron.cs.jhu.edu/data/
     * De-noising: https://github.com/kundajelab/TF_chipseq_pipeline
     * Peak discretizer (merging of replicates): https://github.com/nanakiksc/zerone
     * Compute error: https://github.com/tdhock/PeakError
+    * Specifically for histone modifications: https://github.com/Bohdan-Khomtchouk/SUPERmerge
+    * https://github.com/vidarmehr/ChIPWig
 * hiddenDomains: https://sourceforge.net/projects/hiddendomains/
 * Network-based identification of relationships among ChIP-seq data sets: http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0925-0
 * Motif assessment: http://www.bioinf.ict.ru.ac.za/
@@ -487,6 +494,7 @@ http://snaptron.cs.jhu.edu/data/
     * Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
     * Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
     * Cosmo/VARI: Assembler using succinct colored de Bruijn graphs to encode population information https://github.com/cosmo-team/cosmo/tree/VARI
+    * Streaming: https://github.com/Shamir-Lab/Faucet
 * Variant calling
     * Matching variant sets: https://github.com/medvedevgroup/varmatch
     * Post-processing variant calls to determine whether variants at regions with alternative loci have allele(s) from an alternate locus: https://github.com/charite/asdpex
@@ -496,6 +504,8 @@ http://snaptron.cs.jhu.edu/data/
     * https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
     * http://bioinfo.ut.ee/FastGT/
     * STR genotyping from NGS: http://melissagymrek.com/lobstr-code/
+    * Compression of genotype data: http://sun.aei.polsl.pl/REFRESH/gtc
+    * Base quality recalibration * https://github.com/swainechen/lacer
 * SVs
     * Score SVs based on predicted functional impact https://github.com/lganel/SVScore
 * CNV calling
@@ -601,9 +611,13 @@ http://snaptron.cs.jhu.edu/data/
     * https://github.com/ewyang089/SDEAP/wiki
     * Local subnetworks enriched for DE genes: https://cran.rstudio.com/web/packages/LEANR/index.html
     * https://github.com/beiyuanzhe/DiscriminantCut
-    * Bayesian extenstion to BitSeq for differential transcript usage: https://github.com/mqbssppe/cjBitSeq
     * Stage-wise DE/DT https://github.com/statOmics/stageR
     * Computing heritability of gene expression: https://cran.r-project.org/web/packages/HeritSeq/index.html
+    * https://github.com/bee-hive/BIISQ
+    * Power analysis: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1648-2
+* Differential transcript usage
+    * https://github.com/bartongroup/Rats
+    * Bayesian extenstion to BitSeq for differential transcript usage: https://github.com/mqbssppe/cjBitSeq
 * Co-expression/networks
     * http://biorxiv.org/content/early/2016/10/02/078741
     * BicMix: differential co-expression networks http://beehive.cs.princeton.edu/software/
@@ -633,6 +647,8 @@ http://snaptron.cs.jhu.edu/data/
     * Multi-sample transcriptome assembly: http://tacorna.github.io/
     * Clustering to decontaminate de novo assemblies: https://github.com/Lafond-LapalmeJ/MCSC_Decontamination
     * Assembly from unstranded data: http://big.hanyang.ac.kr/CAFE
+    * https://github.com/Kingsford-Group/scallop
+    * Identification of transcript boundaries: https://github.com/realbigws/DeepBound
 * Time series
     * http://diceseq.sourceforge.net/
     * https://bioconductor.org/packages/release/bioc/html/ctsGE.html
@@ -665,6 +681,8 @@ http://snaptron.cs.jhu.edu/data/
     * Identify gene expression driven by copy number alteration in samples with matched RNA-seq and CNA data: https://www.bioconductor.org/packages/release/bioc/html/iGC.html
     * Database of public RNA-seq data sets processed using the same pipeline: https://github.com/mskcc/RNAseqDB
     * Evaluation of aligners on long reads (GMap performs best): http://biorxiv.org/content/early/2017/04/11/126656
+    * Fusion genes: http://star-fusion.github.io
+    * Test different ML algorithms for classifying expression profiles: https://github.com/gboris/blkbox
 
 ### Single-cell
 
@@ -707,6 +725,9 @@ http://snaptron.cs.jhu.edu/data/
     * CIDR: https://github.com/VCCRI/CIDR
     * Vortex: http://web.stanford.edu/~samusik/vortex/
     * Identify rare cell types: RaceID http://www.nature.com/nature/journal/v525/n7568/full/nature14966.html
+    * https://github.com/VCCRI/CIDR
+    * https://github.com/drisso/zinbwave
+    * http://www.pitt.edu/~wec47/singlecell.html
 * Differential Expression
     * Monocle cole-trapnell-lab.github.io/monocle-release/ (2.0 has Census algorithm for differential transcript analysis)
     * scDD: https://github.com/kdkorthauer/scDD
@@ -738,6 +759,7 @@ http://snaptron.cs.jhu.edu/data/
     * https://github.com/theislab/kbranches
     * Construction co-expression networks: https://cran.r-project.org/web/packages/LEAP/index.html
     * Differentila expression between trajectories https://github.com/kieranrcampbell/switchde
+    * FORKS: https://github.com/macsharma/FORKS
 * Pipelines
     * Seurat http://www.satijalab.org/seurat.html
     * SINCERA https://research.cchmc.org/pbge/sincera.html
@@ -768,6 +790,7 @@ http://snaptron.cs.jhu.edu/data/
     * Imputation of missing values: https://github.com/pkathail/magic/
     * Power analysis: https://github.com/vals/umis/
     * Pooled perturbation experiments: https://github.com/asncd/MIMOSCA
+    * Simulation: http://bioconductor.org/packages/splatter/
 * Methylation
     * Prediction of missing information: https://github.com/cangermueller/deepcpg
 * ATAC-seq
@@ -966,6 +989,8 @@ http://snaptron.cs.jhu.edu/data/
     * http://nwhitehead.github.io/pineapple/
     * RISE: presentations from Jupyter notebooks https://github.com/damianavila/RISE
 * Stencila: interesting alternative to Jupyter notebooks and R markdown https://stenci.la/
+* Bioinformatics software containers
+    * https://github.com/BioContainers
 
 ### Building Pipelines
 
@@ -1262,6 +1287,7 @@ http://snaptron.cs.jhu.edu/data/
 * Execute code from GitHub project with Jupyter notebooks: http://mybinder.org/
 * http://www.data-retriever.org/
 * https://thinklab.com/
+* http://www.researchobject.org/
 
 ## Journals
 
@@ -1302,3 +1328,5 @@ http://snaptron.cs.jhu.edu/data/
 * Missing value imputation evaluator: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1429-3
 * Simulated annealing for biological network alignment: https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btx090/2996219/SANA-Simulated-Annealing-far-outperforms-many
 * TF binding site prediction using memory-matching networks: https://arxiv.org/pdf/1702.06760.pdf
+* V-ALIGN: alignmnet on genome graphs http://www.biorxiv.org/content/biorxiv/early/2017/04/06/124941.full.pdf
+* Self-organizing maps for single-cell http://www.biorxiv.org/content/biorxiv/early/2017/04/05/124693.full.pdf
