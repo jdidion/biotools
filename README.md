@@ -92,8 +92,10 @@ When looking for a bioinformatics tool for a specific application:
     * >100 fully-phased: http://gigascience.biomedcentral.com/articles/10.1186/s13742-016-0148-z
     * Statistically phased: http://www.haplotype-reference-consortium.org/
     * Phased variants: http://genome.cshlp.org/content/early/2016/11/25/gr.210500.116.full.pdf+html
-
-http://snaptron.cs.jhu.edu/data/
+* Clinical trials: http://vivli.org/
+* Targets for drug discovery: https://www.targetvalidation.org/
+* Large medical datasets for ML: https://github.com/beamandrew/medical-data
+* Species images: http://phylopic.org/image/browse/
 
 # Genomics
 
@@ -159,6 +161,9 @@ http://snaptron.cs.jhu.edu/data/
     * More VCF tools: http://vcf-kit.readthedocs.io/
 * BED/GFF
     * https://github.com/ihh/gfftools
+    * https://github.com/billzt/gff3sort
+    * Combine p-values https://github.com/brentp/combined-pvalues
+    * Assessing interval overlap of multiple genomic features: https://github.com/andrew-leith/GINOM
 
 ## Footprinting
 
@@ -185,6 +190,7 @@ http://snaptron.cs.jhu.edu/data/
     * DOSE: disease ontology <https://guangchuangyu.github.io/dose/>
     * ReactomePA: <https://guangchuangyu.github.io/reactomepa/>
     * https://cran.r-project.org/web/packages/SetRank/index.html
+    * Identify and rank significance of overlaps: https://github.com/ryanlayer/giggle
 * Gene sets
     * http://bioconductor.org/packages/release/data/experiment/html/EGSEAdata.html
     * http://genomespot.blogspot.com.au/2017/02/introducing-encode-gene-set-hub.html
@@ -207,6 +213,7 @@ http://snaptron.cs.jhu.edu/data/
 * Regional
     * LOLA: http://lola.computational-epigenetics.org
     * AnnotatR: https://github.com/rcavalcante/annotatr/
+    * Compare epigenetic features in multiple samples: http://epigenome.wustl.edu/EpiCompare1/
 * Trait
     * traseR: Trait-associated SNP enrichment https://www.bioconductor.org/packages/release/bioc/html/traseR.html
     * Identifying genetic heterogeneity within phenotypically defined subgroups: https://github.com/jamesliley/subtest
@@ -231,6 +238,9 @@ http://snaptron.cs.jhu.edu/data/
     * Gene and pathway association testing from summary statistics: https://cran.r-project.org/web/packages/aSPU/
     * Account for LD and functional information: https://github.com/yjingj/SFBA
     * Correcting for prediction uncertainty in TWAS: http://biorxiv.org/content/early/2017/02/14/108316
+    * Using random forests https://github.com/0asa/TTree-source
+* Variance eQTL
+    * https://funpopgen.github.io/veqtl-mapper/
 * Multiple test correction
     * eigenMT: Efficient multiple-test correction http://montgomerylab.stanford.edu/resources/eigenMT/eigenMT.html
     * Fast multiple-test correction for LMMs: http://genetics.cs.ucla.edu/multiTrans/
@@ -252,6 +262,7 @@ http://snaptron.cs.jhu.edu/data/
     * http://apps.biocompute.org.uk/haprap/
     * Determining causal genes using TADs http://biorxiv.org/content/early/2016/11/15/087718
     * Network analysis: https://github.com/YuanlongLiu/SigMod
+    * Haplotype-based: http://apps.biocompute.org.uk/haprap/
 * LD score calculation and regression https://github.com/bulik/ldsc
 * Imputation of missing phenotype information http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3513.html
 * Epistasis
@@ -299,6 +310,7 @@ http://snaptron.cs.jhu.edu/data/
     * Identifying http://www.jstacs.de/index.php/InMoDe
     * Visualizing http://bioinformaticstools.mayo.edu/circularlogo/index.html
 * Dinucleotide weight tensors encode dependencies between positions in motifs: http://dwt.unibas.ch/
+* Circular logos: http://bioinformaticstools.mayo.edu/circularlogo/index.html
 
 ## Network Analysis
 
@@ -316,6 +328,7 @@ http://snaptron.cs.jhu.edu/data/
 * OSS alternative to Inginuity pathway analysis: https://www.bioconductor.org/packages/release/bioc/html/QuaternaryProd.html
 * SAFE: spatial analysis of functional enrichment https://bitbucket.org/abarysh/safe
 * Similarity search: https://github.com/zhangjiaobxy/nssrfPackage
+* Tissue-specific: https://cran.r-project.org/web/packages/GRAPE/index.html
 
 ## Population genetics
 
@@ -356,6 +369,7 @@ http://snaptron.cs.jhu.edu/data/
     * Protein binding affinity: https://bitbucket.org/wenxiu/sequence-shape.git
     * Change in local frustration index: https://github.com/gersteinlab/frustration
     * TFImpute: multi-task learning from ChIP-seq data across factors and tissues to impute TF binding for an unassayed tissue/factor combination: https://bitbucket.org/feeldead/tfimpute
+    * PPI https://www.ncbi.nlm.nih.gov/research/mutabind/index.fcgi/
     * Multiple instance learning of TF binding: http://www.cs.utsa.edu/~jruan/MIL/
 * Methylation
     * CpGenie: predicts methylation from sequence, predicts impact of variants on nearby methylation https://github.com/gifford-lab/CpGenie
@@ -365,6 +379,7 @@ http://snaptron.cs.jhu.edu/data/
     * Predict TF binding affinities using open chromatin + PWMs: https://github.com/schulzlab/TEPIC
     * LR-DNAse: TFBS prediction using features derived from DNase-seq: http://biorxiv.org/content/early/2016/10/24/082594
 * Classification of cis-regulatory modules: https://github.com/weiyangedward/IMMBoost
+* Imputation: https://github.com/tdurham86/PREDICTD
 
 ## Sequencing Protocols
 
@@ -393,6 +408,7 @@ http://snaptron.cs.jhu.edu/data/
     * Impact of coding SNPs: http://pantherdb.org/tools/csnpScoreForm.jsp
     * Predict disease risk from GWAS summary statistics: https://github.com/yiminghu/AnnoPred
     * http://queryor.cribi.unipd.it/cgi-bin/queryor/mainpage.pl
+* Tissue-specific https://github.com/kevinVervier/TiSAn
 
 ## Sequence Analysis
 
@@ -442,6 +458,7 @@ http://snaptron.cs.jhu.edu/data/
 * QC Fail articles:
     * Patterned flow cells (HiSeq 3000+) have high rates of optical duplicates: https://sequencing.qcfail.com/articles/illumina-patterned-flow-cells-generate-duplicated-sequences/
 * http://samstat.sourceforge.net/
+* Fingerprints: http://db.systemsbiology.net/gestalt/genome_fingerprints/
 
 ### Chromatin accessibility
 
@@ -634,6 +651,7 @@ http://snaptron.cs.jhu.edu/data/
     * Splice site prediction: http://cabgrid.res.in:8080/HSplice/
     * DRIM-seq: http://bioconductor.org/packages/release/bioc/html/DRIMSeq.html
     * Fast quantification of differential splicing: https://github.com/comprna/SUPPA
+    * Identify variant associated with splicing: https://sourceforge.net/projects/isvase/
 * Assembly:
     * CIDANE: http://ccb.jhu.edu/software/cidane/
     * transrate: evaluation of de novo assemblies http://hibberdlab.com/transrate/
@@ -652,6 +670,8 @@ http://snaptron.cs.jhu.edu/data/
 * Time series
     * http://diceseq.sourceforge.net/
     * https://bioconductor.org/packages/release/bioc/html/ctsGE.html
+    * http://bioinfo.ibp.ac.cn/Dynamic-BM/
+    * Differential isoform usage over time http://bioconductor.org/packages/devel/bioc/html/maSigPro.html
 * Deconvolution:
     * VoCAL: https://cran.r-project.org/web/packages/ComICS/index.html
     * DeconRNASeq: deconvolute expression profiles in mixed tissues http://www.bioconductor.org/packages/2.12/bioc/vignettes/DeconRNASeq/inst/doc/DeconRNASeq.pdf
@@ -696,6 +716,7 @@ http://snaptron.cs.jhu.edu/data/
 * QC:
     * http://www.morgridge.net/SinQC.html
     * https://github.com/YosefLab/scone
+    * Parallel transcriptome/epigenome data: https://github.com/ChengchenZhao/DrSeq2
 * Normalization
     * http://michelebusby.tumblr.com/post/130202229486/the-ks-test-looks-pretty-good-for-single-cell
     * Accounting for technical variation: http://www.nature.com/ncomms/2015/151022/ncomms9687/full/ncomms9687.html#supplementary-information
@@ -706,6 +727,8 @@ http://snaptron.cs.jhu.edu/data/
     * Correct for expression heterogeneity: https://github.com/PMBio/scLVM
     * Comparison of normalization methods: http://biorxiv.org/content/biorxiv/early/2016/07/17/064329.full.pdf
     * https://github.com/rhondabacher/SCnorm/tree/master/R
+    * Factor analysis: https://github.com/UcarLab/IA-SVA/
+    * qSVA corrects for RNA quality (in the SVA package)
 * Gene/Transcript counting
     * Modified version of Kallisto: https://github.com/govinda-kamath/clustering_on_transcript_compatibility_counts
     * DISCO: https://pbtech-vc.med.cornell.edu/git/mason-lab/disco/tree/master
@@ -773,6 +796,7 @@ http://snaptron.cs.jhu.edu/data/
     * http://bioconductor.org/packages/scater
     * https://github.com/joeburns06/hocuspocus
     * https://gitlab.com/uhcclxgg/granatum
+    * For epigenetic data: https://zhiji.shinyapps.io/scrat/
 * SNVs/CNVs
     * DNA SNV calling: https://bitbucket.org/hamimzafar/monovar
     * Ginko: analysis of CNVs in single-cell data: http://qb.cshl.edu/ginkgo/?q=/XWxZEerqqY477b9i4V8F
@@ -781,16 +805,20 @@ http://snaptron.cs.jhu.edu/data/
 * Regulatory networks:
     * Gene co-expression: http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004892
     * https://github.com/hmatsu1226/SCODE
+    * https://github.com/aertslab/SCENIC
 * Other scRNA-seq
     * Analysis of 3' tagging data: https://github.com/garber-lab/ESAT
     * StemID: Prediction of stem cells and lineage information https://github.com/dgrun/StemID
     * Phasing: https://github.com/edsgard/scphaser
     * Classification using sets of known cell type-specific genes: https://github.com/YosefLab/FastProject/wiki
     * UMI counting: https://github.com/vals/umis
-    * Imputation of missing values: https://github.com/pkathail/magic/
+    * Imputation of missing values
+        * https://github.com/pkathail/magic/
+	* https://github.com/Vivianstats/scImpute
     * Power analysis: https://github.com/vals/umis/
     * Pooled perturbation experiments: https://github.com/asncd/MIMOSCA
     * Simulation: http://bioconductor.org/packages/splatter/
+    * Comparison across experiments: https://github.com/hemberg-lab/scmap
 * Methylation
     * Prediction of missing information: https://github.com/cangermueller/deepcpg
 * ATAC-seq
@@ -862,6 +890,8 @@ http://snaptron.cs.jhu.edu/data/
     * https://capnproto.org/
 * IDEs
     * VisualStudio (now free): https://www.visualstudio.com/vs/visual-studio-mac/
+* Parameter optimization
+    * https://github.com/beamandrew/Spearmint
 
 ## C++
 
@@ -875,6 +905,8 @@ http://snaptron.cs.jhu.edu/data/
 * Minimal perfect hash function: fast, large data sets https://github.com/rizkg/BBHash
 
 ## R
+
+* Tidy data cheatsheet: http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
 
 ### Find packages
 
@@ -911,6 +943,7 @@ http://snaptron.cs.jhu.edu/data/
 * Work with PDF files: https://cran.r-project.org/web/packages/pdftools/index.html
 * Language-agnostic data frame format: https://github.com/wesm/feather
 * Make for R: https://github.com/richfitz/maker
+* Find root of current package: https://krlmlr.github.io/here/
 
 ## Python
 
@@ -920,6 +953,7 @@ http://snaptron.cs.jhu.edu/data/
         * Working with tabular data: http://docs.python-tablib.org/en/latest/
     	* Watch for Apache Arrow
     	* Pandas
+    * GFA: https://github.com/ggonnella/gfapy/tree/master/gfapy
 * Pipelines
     * Invoke: http://docs.pyinvoke.org/en/latest/
     * Toil: http://toil.readthedocs.io/en/latest/installation.html
@@ -1170,9 +1204,11 @@ http://snaptron.cs.jhu.edu/data/
 * Visualize local epigenetic neighborhood of a SNP: http://bioconductor.org/packages/release/bioc/html/SNPhood.html
 * CIRCOS plots: https://cggl.horticulture.wisc.edu/software/
 * Nice looking boxplots: https://github.com/mw55309/perceptions
+* Make multiplanel figures from a combination of plot types: https://cran.r-project.org/web/packages/multipanelfigure/
 
 ### ggplot2
 
+* Gallery of extensions: http://www.ggplot2-exts.org/gallery/
 * Themes
     * Cowplot - improve default ggplot: http://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html
     * ggplot2 theme for publication-quality figures: https://github.com/robertwilson190/ggplot2-theme
@@ -1181,6 +1217,7 @@ http://snaptron.cs.jhu.edu/data/
 * Color palattes
     * https://cran.r-project.org/web/packages/ggsci/vignettes/ggsci.html
     * Color scales with clustering (would want to adapt this to ggplot): https://github.com/schne
+    * https://ggsci.net/
 * ggtree: phylogenetic trees https://bioconductor.org/packages/release/bioc/html/ggtree.html
 * geomnet: network visualization
 * ggrepel: displaying text labels with minimal overlapping https://github.com/slowkow/ggrepelrd/d3-scale-cluster
@@ -1193,6 +1230,7 @@ http://snaptron.cs.jhu.edu/data/
 * biplots https://github.com/vqv/ggbiplot
 * logos: https://github.com/omarwagih/ggseqlogo
 * Make any ggplot interactive: http://rpubs.com/turnersd/ggplotly-demo
+* https://github.com/eclarke/ggbeeswarm: plot overlapping points without jitter
 
 ### Plot Types
 
@@ -1250,6 +1288,7 @@ http://snaptron.cs.jhu.edu/data/
 * Scraping/JS rendering: https://splash.readthedocs.org/en/latest/
 * Circos for Javascript: http://bioinfo.ibp.ac.cn/biocircos/
 * VegaLite: ggplot-like framework built on top of Vega, which is built on D3.js: https://vega.github.io/vega-lite/
+* GPU rendering: https://stardustjs.github.io
 
 ## Examples
 
@@ -1264,6 +1303,8 @@ http://snaptron.cs.jhu.edu/data/
 * Continuous analysis: https://github.com/greenelab/continuous_analysis
 * A nice template for bootstrapping your own academic website using GitHub: https://academicpages.github.io/
 * Desktop app for searching/managing papers: https://github.com/codeforscience/sciencefair
+* Recommend papers to cite based on your bibliography: http://labs.semanticscholar.org/citeomatic/
+* Word choices: https://pbs.twimg.com/media/DB4-B__XkAA3Nrw.jpg
 
 ## Code/Data sharing
 * DOI for code
