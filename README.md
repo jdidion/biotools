@@ -440,6 +440,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/stephaniehicks/qsmooth
     * https://github.com/SchulzLab/ORNA
 * Demultiplexing/deduping barcoded reads w/ UMIs: http://gbcs.embl.de/portal/tiki-index.php?page=Je
+* Hardware acceleration of alignment (requires $5k FPGA module): https://github.com/BilkentCompGen/GateKeeper
 
 ### QC
 
@@ -561,6 +562,10 @@ When looking for a bioinformatics tool for a specific application:
 ### MNase-seq
 
 * Alternative/differential nuleosome positioning: https://github.com/airoldilab/cplate
+
+### Nanopore
+
+* https://github.com/roblanf/minion_qc
 
 ### RNA
 
@@ -751,6 +756,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/VCCRI/CIDR
     * https://github.com/drisso/zinbwave
     * http://www.pitt.edu/~wec47/singlecell.html
+    * Neural networks for dimensionality reduction and clustering http://sb.cs.cmu.edu/scnn/
 * Differential Expression
     * Monocle cole-trapnell-lab.github.io/monocle-release/ (2.0 has Census algorithm for differential transcript analysis)
     * scDD: https://github.com/kdkorthauer/scDD
@@ -758,6 +764,7 @@ When looking for a bioinformatics tool for a specific application:
     * D3E: http://hemberg-lab.github.io/D3E/
     * BASiCS: https://github.com/catavallejos/BASiCS
     * Beta Poisson: https://github.com/nghiavtr/BPSC
+    * Zero-inflation correct enables use of DESeq2, etc w/ single cell data: https://github.com/statOmics/zingeR
 * Allele-specific expression
     * SCALE accounts for "burstiness" of transcription: https://github.com/yuchaojiang/SCALE
 * Splicing
@@ -1025,6 +1032,7 @@ When looking for a bioinformatics tool for a specific application:
 * Stencila: interesting alternative to Jupyter notebooks and R markdown https://stenci.la/
 * Bioinformatics software containers
     * https://github.com/BioContainers
+* Continuous analysis: https://github.com/greenelab/continuous_analysis
 
 ### Building Pipelines
 
@@ -1180,6 +1188,7 @@ When looking for a bioinformatics tool for a specific application:
 * Circos-like visualization of chromosome structure with support for multiple data types https://rondo.ws
 * Comparison of different types of heatmaps: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1442-6
 * Interactively build simulations and animated interaction diagrams: http://ncase.me/loopy/
+* Plotly: Charting library with multiple language bindings https://github.com/plotly/plotly.py
 
 ## Networks
 
@@ -1247,6 +1256,7 @@ When looking for a bioinformatics tool for a specific application:
 * http://flowingdata.com/2016/10/25/r-graph-gallery/
 * Tilegrams: http://flowingdata.com/2016/10/13/tilegrams-in-r/
 * Karyotype plots: http://bioconductor.org/packages/devel/bioc/html/karyoploteR.html
+* Joyplots (for multi-sample/category time-series data): https://github.com/halhen/viz-pub/blob/master/sports-time-of-day/2_gen_chart.R (TODO: make a dedicated geom for this)
 
 ### Data Types
 
@@ -1278,6 +1288,7 @@ When looking for a bioinformatics tool for a specific application:
 * Visualization dashboard: https://github.com/facebookresearch/visdom
 * http://holoviews.org/
 * GGplot clone: https://github.com/has2k1/plotnine
+* Dash: for building data-centric web apps https://github.com/plotly/dash
 
 ## Javascript
 
@@ -1307,6 +1318,7 @@ When looking for a bioinformatics tool for a specific application:
 * Word choices: https://pbs.twimg.com/media/DB4-B__XkAA3Nrw.jpg
 
 ## Code/Data sharing
+
 * DOI for code
     * http://zenodo.org/
     * https://guides.github.com/activities/citable-code/
