@@ -1103,6 +1103,7 @@ When looking for a bioinformatics tool for a specific application:
     * The Friedman test is for testing whether any columns are consistently different from other columns in a matrix
 * Automated generation of ML pipelines: https://github.com/rhiever/tpot/tree/tpot-mdr
 * Forecasting from time-series data: https://facebookincubator.github.io/prophet/ (this is a retail-centric model from Facebook, but could be adapted to biological data)
+* Visualizing ML features: https://github.com/pair-code/facets
 
 ## Python
 
@@ -1245,6 +1246,7 @@ When looking for a bioinformatics tool for a specific application:
     * http://rpubs.com/turnersd/ggplotly-demo
     * https://github.com/davidgohel/ggiraph
 * https://github.com/eclarke/ggbeeswarm: plot overlapping points without jitter
+* ggtern: Ternary diagrams https://bitbucket.org/nicholasehamilton/ggtern
 
 ### Plot Types
 
@@ -1366,6 +1368,7 @@ When looking for a bioinformatics tool for a specific application:
 * Convert between (R)markdown and iPython notebooks: https://github.com/aaren/notedown
 * Pandoc scholar: https://github.com/pandoc-scholar/pandoc-scholar
     * Nice paper showing example of generating manuscripts for two different journals: https://peerj.com/preprints/2648.pdf
+* Convert DOI to Bibtex entry
 
 # Promising methods without software implementation
 
