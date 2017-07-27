@@ -1266,7 +1266,9 @@ When looking for a bioinformatics tool for a specific application:
 * http://flowingdata.com/2016/10/25/r-graph-gallery/
 * Tilegrams: http://flowingdata.com/2016/10/13/tilegrams-in-r/
 * Karyotype plots: http://bioconductor.org/packages/devel/bioc/html/karyoploteR.html
-* Joyplots (for multi-sample/category time-series data): https://github.com/halhen/viz-pub/blob/master/sports-time-of-day/2_gen_chart.R (TODO: make a dedicated geom for this)
+* Joyplots (for multi-sample/category time-series data): 
+    * https://github.com/halhen/viz-pub/blob/master/sports-time-of-day/2_gen_chart.R (TODO: make a dedicated geom for this)
+    * In python: https://github.com/mwaskom/seaborn/pull/1238
 
 ### Data Types
 
