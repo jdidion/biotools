@@ -902,6 +902,7 @@ When looking for a bioinformatics tool for a specific application:
 * Diff/patch/merge for data tables
     * js/python: http://paulfitz.github.io/daff/
     * R: https://github.com/edwindj/daff
+* Pipe output of a shell command to a website (unfortunately can't be used in NIH HPC since nodes do not allow network connections): https://seashells.io/
 
 ## C++
 
@@ -1247,6 +1248,8 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/davidgohel/ggiraph
 * https://github.com/eclarke/ggbeeswarm: plot overlapping points without jitter
 * ggtern: Ternary diagrams https://bitbucket.org/nicholasehamilton/ggtern
+* ggpubr: Publication-ready plots, including barplot alternatives: http://www.sthda.com/english/rpkgs/ggpubr/
+* joyplots: https://github.com/clauswilke/ggjoy
 
 ### Plot Types
 
@@ -1342,6 +1345,7 @@ When looking for a bioinformatics tool for a specific application:
     * Patterns for data sharing: http://project-if.github.io/data-permissions-catalogue/
     * Globus is an open source toolkit for transferring large data files; it implements the GridFTP protocol https://www.globus.org/
     * bbcp is multi-stream scp (for point-to-point large file transfer) https://www.olcf.ornl.gov/kb_articles/transferring-data-with-bbcp/
+    * Quilt: package manager for data https://quiltdata.com/
 * Git plugin for version-control of data files: https://github.com/ctjacobs/git-rdm
 * OSF API: https://test-api.osf.io/v2/docs/
 * Data project management: https://www.datazar.com
