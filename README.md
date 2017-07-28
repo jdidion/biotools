@@ -1327,8 +1327,9 @@ When looking for a bioinformatics tool for a specific application:
 * A nice template for bootstrapping your own academic website using GitHub: https://academicpages.github.io/
 * Desktop app for searching/managing papers: https://github.com/codeforscience/sciencefair
 * Recommend papers to cite based on your bibliography: http://labs.semanticscholar.org/citeomatic/
-* Word choices: https://pbs.twimg.com/media/DB4-B__XkAA3Nrw.jpg
+* Word choices: [](https://pbs.twimg.com/media/DB4-B__XkAA3Nrw.jpg)
 * Prepare papers for any journal format: https://typeset.io/
+* Slideboards: Mashup of slides and FAQ to explain a publication http://slideboard.herokuapp.com/
 
 ## Code/Data sharing
 
