@@ -904,6 +904,8 @@ When looking for a bioinformatics tool for a specific application:
     * js/python: http://paulfitz.github.io/daff/
     * R: https://github.com/edwindj/daff
 * Pipe output of a shell command to a website (unfortunately can't be used in NIH HPC since nodes do not allow network connections): https://seashells.io/
+* Debugging
+    * Sandsifter: Fuzzer https://github.com/xoreaxeaxeax/sandsifter
 
 ## C++
 
@@ -1038,6 +1040,7 @@ When looking for a bioinformatics tool for a specific application:
 * Bioinformatics software containers
     * https://github.com/BioContainers
 * Continuous analysis: https://github.com/greenelab/continuous_analysis
+* Jupyter notebooks on Azure: https://notebooks.azure.com/
 
 ### Building Pipelines
 
@@ -1249,7 +1252,9 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/davidgohel/ggiraph
 * https://github.com/eclarke/ggbeeswarm: plot overlapping points without jitter
 * ggtern: Ternary diagrams https://bitbucket.org/nicholasehamilton/ggtern
-* ggpubr: Publication-ready plots, including barplot alternatives: http://www.sthda.com/english/rpkgs/ggpubr/
+* ggpubr: Publication-ready plots, including
+    * barplot alternatives: http://www.sthda.com/english/rpkgs/ggpubr/
+    * ggarrange, for flexible multi-panel figures
 * joyplots: https://github.com/clauswilke/ggjoy
 
 ### Plot Types
