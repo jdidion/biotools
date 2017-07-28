@@ -584,12 +584,13 @@ When looking for a bioinformatics tool for a specific application:
         * Sleuth is a companion R package for differential expression analysis http://pachterlab.github.io/sleuth/
         * Different models can be used in Sleuth to, for example, perform time-course experiments http://nxn.se/post/134227694720/timecourse-analysis-with-sleuth
     * tximport: R package for aggregating transcript-level quantifications for gene-level analysis: http://f1000research.com/articles/4-1521/v1
-    * Wasabi: prepare Salmon/Sailfish output for Kallisto https://github.com/COMBINE-lab/wasabi
+    * Wasabi: prepare Salmon/Sailfish output for Sleuth https://github.com/COMBINE-lab/wasabi
     * featureCounts: read summarization http://bioinf.wehi.edu.au/featureCounts/
     * D-GEX: Quantification of whole-transcriptome gene expression from landmark genes https://github.com/uci-cbcl/D-GEX
     * Faster version of HTSeq/featureCount: https://github.com/qinzhu/VERSE
     * Quantification using both structure and abundance information: https://pypi.python.org/pypi/rsq
     * Improve transcript quantification by integrating PolII ChIP-seq data: https://github.com/pliu55/RSEM/tree/pRSEM
+    * Hera: simultaneous alignment, quantification, and fusion detection https://github.com/bioturing/hera
 * Correction/Normalization
     * Choosing normalization methods: https://arxiv.org/abs/1609.00959
     * TDM: cross-platform normalization https://github.com/greenelab/TDMresults
