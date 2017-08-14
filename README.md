@@ -1382,6 +1382,8 @@ When looking for a bioinformatics tool for a specific application:
 * Pandoc scholar: https://github.com/pandoc-scholar/pandoc-scholar
     * Nice paper showing example of generating manuscripts for two different journals: https://peerj.com/preprints/2648.pdf
 * Convert DOI to Bibtex entry
+* Online equation editor: https://www.mathcha.io/
+* Simplified markup language for equations: http://asciimath.org/
 
 # Promising methods without software implementation
 
