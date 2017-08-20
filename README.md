@@ -507,7 +507,9 @@ When looking for a bioinformatics tool for a specific application:
     * Align simultaneously against multiple reference genomes http://1001genomes.org/software/genomemapper.html
     * Compressed reference-based alignment: http://groups.csail.mit.edu/cb/cora/
     * Compression and querying of aligned haplotype data: https://github.com/richarddurbin/pbwt
-    * Graph aligner (mainly for local realignment): https://github.com/ekg/glia
+    * Graph-based
+        * Mainly for local realignment: https://github.com/ekg/glia
+        * For long reads: https://github.com/isovic/graphmap 
 * Assembly
     * Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
     * Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
