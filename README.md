@@ -1348,6 +1348,7 @@ When looking for a bioinformatics tool for a specific application:
 * Circos for Javascript: http://bioinfo.ibp.ac.cn/biocircos/
 * VegaLite: ggplot-like framework built on top of Vega, which is built on D3.js: https://vega.github.io/vega-lite/
 * GPU rendering: https://stardustjs.github.io
+* Dataviz components built on top of D3: http://nivo.rocks/?ref=producthunt#/components
 
 ## Examples
 
