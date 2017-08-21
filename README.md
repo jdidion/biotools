@@ -690,6 +690,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/Kingsford-Group/scallop
     * Identification of transcript boundaries: https://github.com/realbigws/DeepBound
     * Corset: gene counts from a transcriptome assembly https://github.com/Oshlack/Corset/wiki
+    * Consensus method: https://github.com/macmanes-lab/Oyster_River_Protocol
 * Time series
     * http://diceseq.sourceforge.net/
     * https://bioconductor.org/packages/release/bioc/html/ctsGE.html
