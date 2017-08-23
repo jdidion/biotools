@@ -415,6 +415,7 @@ When looking for a bioinformatics tool for a specific application:
     * Impact of coding SNPs: http://pantherdb.org/tools/csnpScoreForm.jsp
     * Predict disease risk from GWAS summary statistics: https://github.com/yiminghu/AnnoPred
     * http://queryor.cribi.unipd.it/cgi-bin/queryor/mainpage.pl
+    * Using epigenomic data https://github.com/mulin0424/cepip
 * Tissue-specific https://github.com/kevinVervier/TiSAn
 
 ## Sequence Analysis
@@ -498,6 +499,7 @@ When looking for a bioinformatics tool for a specific application:
 * https://github.com/cfce/chilin
 * Web-based tool to compute enrichment at a variety of genomic features: http://liulab.dfci.harvard.edu/CEAS/
 * Database of labeled ChIP-seq peaks: http://cbio.ensmp.fr/thocking/chip-seq-chunk-db/ (error of peak calls computed using https://github.com/tdhock/PeakError)
+* https://github.com/milospjanic/ChIPSeqFPro
 
 ### Chromatin Interactions
 
@@ -573,6 +575,7 @@ When looking for a bioinformatics tool for a specific application:
 * Correction for cell-type composition: http://www.cs.tau.ac.il/~heran/cozygene/software/refactor.html
 * Predicting gene expression from methylation: http://arxiv.org/abs/1603.08386
 * GEM: R package for meQTL and EWAS https://bioconductor.org/packages/devel/bioc/html/GEM.html
+* Call CNVs from methylation array data: https://github.com/mknoll/cnAnalysis450k
 
 ### MNase-seq
 
@@ -606,6 +609,7 @@ When looking for a bioinformatics tool for a specific application:
     * Quantification using both structure and abundance information: https://pypi.python.org/pypi/rsq
     * Improve transcript quantification by integrating PolII ChIP-seq data: https://github.com/pliu55/RSEM/tree/pRSEM
     * Hera: simultaneous alignment, quantification, and fusion detection https://github.com/bioturing/hera
+    * Aligner calibraiton: https://bitbucket.org/irenerodriguez/fbb
 * Correction/Normalization
     * Choosing normalization methods: https://arxiv.org/abs/1609.00959
     * TDM: cross-platform normalization https://github.com/greenelab/TDMresults
@@ -632,6 +636,7 @@ When looking for a bioinformatics tool for a specific application:
     * CONDOR: simultaneous cis- and trans-eQTL analysis https://github.com/jplatig/condor
     * log allelic fold change (aFC) to quanitfy effect sizes of eQTL: http://biorxiv.org/content/biorxiv/early/2016/09/30/078717.full.pdf
     * Identify cis mediators of trans-eQTL: http://biorxiv.org/content/early/2016/09/30/078683
+    * https://cran.r-project.org/web/packages/QRank/
 * Differential expression:
     * cjBitSeq: https://github.com/mqbssppe/cjBitSeq/wiki
     * Differential junction usage: https://github.com/hartleys/JunctionSeq
@@ -674,6 +679,7 @@ When looking for a bioinformatics tool for a specific application:
     * Fast quantification of differential splicing: https://github.com/comprna/SUPPA
     * Identify variant associated with splicing: https://sourceforge.net/projects/isvase/
     * Prediction of intronic splice branchpoints: https://github.com/betsig/branchpointer/
+    * Proportion spliced index: https://github.com/comprna/Junckey
 * Assembly:
     * CIDANE: http://ccb.jhu.edu/software/cidane/
     * transrate: evaluation of de novo assemblies http://hibberdlab.com/transrate/
@@ -707,7 +713,7 @@ When looking for a bioinformatics tool for a specific application:
     * Identify gene fusions: https://github.com/ndaniel/fusioncatcher
     * Fusion genes: http://star-fusion.github.io
     * Identify gene expression driven by copy number alteration in samples with matched RNA-seq and CNA data: https://www.bioconductor.org/packages/release/bioc/html/iGC.html
-    
+    * Fusion identification using kallisto: https://github.com/pmelsted/pizzly
 * Other
     * Biclustering for gene co-expression analysis: http://bioconductor.org/packages/devel/bioc/html/QUBIC.html
     * Sample size calculation for experimental design: https://cran.r-project.org/web/packages/ssizeRNA/index.html
@@ -755,6 +761,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/rhondabacher/SCnorm/tree/master/R
     * Factor analysis: https://github.com/UcarLab/IA-SVA/
     * qSVA corrects for RNA quality (in the SVA package)
+    * ERCC https://bitbucket.org/bsblabludwig/bearscc
 * Gene/Transcript counting
     * Modified version of Kallisto: https://github.com/govinda-kamath/clustering_on_transcript_compatibility_counts
     * DISCO: https://pbtech-vc.med.cornell.edu/git/mason-lab/disco/tree/master
@@ -850,6 +857,7 @@ When looking for a bioinformatics tool for a specific application:
     * Pooled perturbation experiments: https://github.com/asncd/MIMOSCA
     * Simulation: http://bioconductor.org/packages/splatter/
     * Comparison across experiments: https://github.com/hemberg-lab/scmap
+    * Demuxlet: using natural genetic variation to demultiple 10x data https://github.com/hyunminkang/apigenome
 * Methylation
     * Prediction of missing information: https://github.com/cangermueller/deepcpg
 * ATAC-seq
