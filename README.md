@@ -417,6 +417,7 @@ When looking for a bioinformatics tool for a specific application:
     * http://queryor.cribi.unipd.it/cgi-bin/queryor/mainpage.pl
     * Using epigenomic data https://github.com/mulin0424/cepip
 * Tissue-specific https://github.com/kevinVervier/TiSAn
+* VCF visualization with Circos plot: http://legolas.ariel.ac.il/~tools/CircosVCF/
 
 ## Sequence Analysis
 
@@ -500,6 +501,7 @@ When looking for a bioinformatics tool for a specific application:
 * Web-based tool to compute enrichment at a variety of genomic features: http://liulab.dfci.harvard.edu/CEAS/
 * Database of labeled ChIP-seq peaks: http://cbio.ensmp.fr/thocking/chip-seq-chunk-db/ (error of peak calls computed using https://github.com/tdhock/PeakError)
 * https://github.com/milospjanic/ChIPSeqFPro
+* https://github.com/XingTang2014/annoPeak
 
 ### Chromatin Interactions
 
