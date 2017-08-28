@@ -502,6 +502,8 @@ When looking for a bioinformatics tool for a specific application:
 * Database of labeled ChIP-seq peaks: http://cbio.ensmp.fr/thocking/chip-seq-chunk-db/ (error of peak calls computed using https://github.com/tdhock/PeakError)
 * https://github.com/milospjanic/ChIPSeqFPro
 * https://github.com/XingTang2014/annoPeak
+* EM algorithm for cooperatively bound TFs: https://github.com/vishakad/cpi-em
+* Find different modes of binding: https://narlikarlab.github.io/DIVERSITY/
 
 ### Chromatin Interactions
 
@@ -589,6 +591,8 @@ When looking for a bioinformatics tool for a specific application:
 
 ### RNA
 
+* Annotations
+    * Reassembly and annotation of public data for multi-tissue transcriptome map: http://big.hanyang.ac.kr/CAFE
 * Splice junctions
     * Set of novel (i.e. missing from annotation databases) splice junctions identified from SRA datasets: https://github.com/nellore/intropolis/blob/master/README.md
     * Complete sets of splice junctions in public RNA-seq datasets: http://snaptron.cs.jhu.edu/data/	
@@ -740,7 +744,9 @@ When looking for a bioinformatics tool for a specific application:
 
 ### Single-cell
 
-* Comparative analysis of methods: http://biorxiv.org/content/early/2016/01/05/035758
+* Comparative analysis of methods: 
+    * http://www.sciencedirect.com/science/article/pii/S1097276517300497
+    * https://www.nature.com/nmeth/journal/v14/n4/full/nmeth.4220.html
 * Review of experimental design and analysis: http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0927-y
 * Sean Davis' list: https://github.com/seandavi/awesome-single-cell
 * Datasets:
