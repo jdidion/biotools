@@ -378,6 +378,7 @@ When looking for a bioinformatics tool for a specific application:
     * TFImpute: multi-task learning from ChIP-seq data across factors and tissues to impute TF binding for an unassayed tissue/factor combination: https://bitbucket.org/feeldead/tfimpute
     * PPI https://www.ncbi.nlm.nih.gov/research/mutabind/index.fcgi/
     * Multiple instance learning of TF binding: http://www.cs.utsa.edu/~jruan/MIL/
+    * Cell type-specific: https://github.com/uci-cbcl/FactorNet
 * Methylation
     * CpGenie: predicts methylation from sequence, predicts impact of variants on nearby methylation https://github.com/gifford-lab/CpGenie
 * Chromatin accessibility
@@ -460,7 +461,9 @@ When looking for a bioinformatics tool for a specific application:
 * DOGMA: Measure completeness of a transcriptome or proteome assembly https://ebbgit.uni-muenster.de/domainWorld/DOGMA/
 * Identify and remove UMI sequences from reads: https://github.com/CGATOxford/UMI-tools
 * Integrated report from multiple tools: http://multiqc.info/
-* Identify batch effects: https://github.com/mani2012/BatchQC
+* Batch effects: 
+    * https://github.com/mani2012/BatchQC
+    * Correct batch effects using residual neural net: https://github.com/ushaham/BatchEffectRemoval
 * AlmostSignificant: https://github.com/bartongroup/AlmostSignificant
 * Genetic relatedness from raw reads:
     * https://github.com/kdmurray91/kwip
@@ -500,11 +503,14 @@ When looking for a bioinformatics tool for a specific application:
 * https://github.com/cfce/chilin
 * Web-based tool to compute enrichment at a variety of genomic features: http://liulab.dfci.harvard.edu/CEAS/
 * Database of labeled ChIP-seq peaks: http://cbio.ensmp.fr/thocking/chip-seq-chunk-db/ (error of peak calls computed using https://github.com/tdhock/PeakError)
-* https://github.com/milospjanic/ChIPSeqFPro
-* https://github.com/XingTang2014/annoPeak
 * EM algorithm for cooperatively bound TFs: https://github.com/vishakad/cpi-em
 * Find different modes of binding: https://narlikarlab.github.io/DIVERSITY/
-
+* Functional analysis
+    * http://bioconductor.org/packages/FunChIP
+    * https://github.com/XingTang2014/annoPeak
+* Pipelines
+    * https://github.com/milospjanic/ChIPSeqFPro
+   
 ### Chromatin Interactions
 
 * Model 3D chromosome structure from Hi-C contact maps + optional FISH constraints: https://github.com/yjzhang/FISH_MDS.jl, https://github.com/yjzhang/3DC-Browser
@@ -793,6 +799,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/drisso/zinbwave
     * http://www.pitt.edu/~wec47/singlecell.html
     * Neural networks for dimensionality reduction and clustering http://sb.cs.cmu.edu/scnn/
+    * https://github.com/srmcc/dcss_single_cell
 * Differential Expression
     * Monocle cole-trapnell-lab.github.io/monocle-release/ (2.0 has Census algorithm for differential transcript analysis)
     * scDD: https://github.com/kdkorthauer/scDD
@@ -866,6 +873,7 @@ When looking for a bioinformatics tool for a specific application:
     * Simulation: http://bioconductor.org/packages/splatter/
     * Comparison across experiments: https://github.com/hemberg-lab/scmap
     * Demuxlet: using natural genetic variation to demultiple 10x data https://github.com/hyunminkang/apigenome
+    * Alignment of multiple single-cell data sets: https://github.com/jw156605/MATCHER
 * Methylation
     * Prediction of missing information: https://github.com/cangermueller/deepcpg
 * ATAC-seq
