@@ -102,6 +102,9 @@ When looking for a bioinformatics tool for a specific application:
 * Targets for drug discovery: https://www.targetvalidation.org/
 * Large medical datasets for ML: https://github.com/beamandrew/medical-data
 * Species images: http://phylopic.org/image/browse/
+* Public RNA-Seq data: https://jhubiostatistics.shinyapps.io/recount/ with phenotype predictions https://bioconductor.org/packages/release/bioc/html/recount.html
+* Whole genomes of 150 Danish individuals: http://www.nature.com/nature/journal/v548/n7665/full/nature23264.html
+* Interactive multi-omics tissue assay database: https://ccb-web.cs.uni-saarland.de/imota/
 
 # Genomics
 
@@ -126,6 +129,7 @@ When looking for a bioinformatics tool for a specific application:
 
 * http://bioconductor.org/packages/GenRank/
 * Bayesian prioritizaiton of rare functional variants using RNA-seq data: https://github.com/ipw012/RIVER
+* http://snp-nexus.org/IW-Scoring/
 
 ## Databases
 
@@ -336,6 +340,7 @@ When looking for a bioinformatics tool for a specific application:
 * SAFE: spatial analysis of functional enrichment https://bitbucket.org/abarysh/safe
 * Similarity search: https://github.com/zhangjiaobxy/nssrfPackage
 * Tissue-specific: https://cran.r-project.org/web/packages/GRAPE/index.html
+* CLR with B-Spline for mutual information-based inference of transcriptional regulatory networks: https://bitbucket.org/Jonathan-Ish-Horowicz/fastgenemi/
 
 ## Population genetics
 
@@ -354,6 +359,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/dleelab/qcat
     * Disease-associated risk variants: https://sites.google.com/site/emorydivan/
     * Predicting gene targets from GWAS summary statistics https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4979185/
+    * https://github.com/igm-team/orion-public
 * Chromatin States
     * GenoSTAN: http://bioconductor.org/packages/release/bioc/html/STAN.html
     * R package for predicting chromatin states from histone marks across conditions https://github.com/ataudt/chromstaR
@@ -449,6 +455,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/allenxhcao/glscale
     * https://github.com/stephaniehicks/qsmooth
     * https://github.com/SchulzLab/ORNA
+    * https://github.com/jpvert/suquan
 * Demultiplexing/deduping barcoded reads w/ UMIs: http://gbcs.embl.de/portal/tiki-index.php?page=Je
 * Hardware acceleration of alignment (requires $5k FPGA module): https://github.com/BilkentCompGen/GateKeeper
 * Detection and removement of barcode swapping (issue on Illumina sequencers that used patterned flow cells: https://github.com/MarioniLab/BarcodeSwapping2017
@@ -488,6 +495,7 @@ When looking for a bioinformatics tool for a specific application:
 ### ChIP-seq
 
 * Pre-processing
+    * Quality assessment: https://github.com/rnakato/SSP
     * Allocation of multi-mapping reads: https://github.com/keleslab/permseq
 * Peak calling
     * GC-aware peak caller: https://bioconductor.org/packages/devel/bioc/html/gcapc.html
@@ -534,7 +542,6 @@ When looking for a bioinformatics tool for a specific application:
         * https://github.com/MohammadJRS/SureMap
 	* https://github.com/lh3/minimap2
 	* Graph-based: https://github.com/isovic/graphmap 
-        
 * Assembly
     * Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
     * Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
@@ -670,6 +677,8 @@ When looking for a bioinformatics tool for a specific application:
     * Computing heritability of gene expression: https://cran.r-project.org/web/packages/HeritSeq/index.html
     * https://github.com/bee-hive/BIISQ
     * Power analysis: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1648-2
+    * Using a beta binomial model with dynamic correction for overdispersion: https://github.com/GuoshuaiCai/BBDG
+    * Kmer-based: https://github.com/Transipedia/dekupl
 * Differential transcript usage
     * https://github.com/bartongroup/Rats
     * Bayesian extenstion to BitSeq for differential transcript usage: https://github.com/mqbssppe/cjBitSeq
@@ -757,6 +766,7 @@ When looking for a bioinformatics tool for a specific application:
 * Sean Davis' list: https://github.com/seandavi/awesome-single-cell
 * Datasets:
     * scRNAseqDB: https://bioinfo.uth.edu/scrnaseqdb/
+    * Analysis-ready datasets: http://imlspenticton.uzh.ch:3838/conquer/
 * Platforms
     * Microwells: http://www.nature.com/articles/srep33883
 * QC:
@@ -809,6 +819,7 @@ When looking for a bioinformatics tool for a specific application:
     * Beta Poisson: https://github.com/nghiavtr/BPSC
     * Zero-inflation correct enables use of DESeq2, etc w/ single cell data: https://github.com/statOmics/zingeR
     * DESingle: https://github.com/miaozhun/DEsingle
+    * https://github.com/willtownes/vamf-paper
 * Allele-specific expression
     * SCALE accounts for "burstiness" of transcription: https://github.com/yuchaojiang/SCALE
 * Splicing
@@ -868,16 +879,19 @@ When looking for a bioinformatics tool for a specific application:
     * Imputation of missing values
         * https://github.com/pkathail/magic/
 	* https://github.com/Vivianstats/scImpute
+	* https://cran.r-project.org/web/packages/DrImpute/index.html
     * Power analysis: https://github.com/vals/umis/
     * Pooled perturbation experiments: https://github.com/asncd/MIMOSCA
     * Simulation: http://bioconductor.org/packages/splatter/
     * Comparison across experiments: https://github.com/hemberg-lab/scmap
     * Demuxlet: using natural genetic variation to demultiple 10x data https://github.com/hyunminkang/apigenome
     * Alignment of multiple single-cell data sets: https://github.com/jw156605/MATCHER
+    * Topological analysis: https://github.com/RabadanLab/scTDA
 * Methylation
     * Prediction of missing information: https://github.com/cangermueller/deepcpg
 * ATAC-seq
     * Infer TF variation: https://github.com/GreenleafLab/chromVAR
+    * Clustering: https://github.com/timydaley/scABC
 
 ### Integrated Methods
 
@@ -907,6 +921,7 @@ When looking for a bioinformatics tool for a specific application:
     * Significance-based https://www.bioconductor.org/packages/release/bioc/html/SMITE.html
     * Two-stage CCA identifies non-linear associations: https://github.com/kosyoshida/TSKCCA
     * HMM: https://link.springer.com/protocol/10.1007/978-1-4939-6753-7_10
+    * https://github.com/KnowEnG/pgenmi
 * Multi-tissue:
     * http://bioconductor.org/packages/release/bioc/html/HDTD.html
     * https://github.com/yuzhang123/IDEAS
@@ -917,6 +932,7 @@ When looking for a bioinformatics tool for a specific application:
     * GenoSkyline: predict tissue-specific functional regions from epigenomic data http://genocanyon.med.yale.edu/GenoSkyline
 * Network-based:
     * Merging networks: https://github.com/maxconway/SNFtool
+    * https://sourceforge.net/projects/xmwas/
 * Causality
     * Hybrid BN/CMI approach to constructing GRNs: http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1005024
 * Noise/bias:
@@ -1159,6 +1175,11 @@ When looking for a bioinformatics tool for a specific application:
 * Automated generation of ML pipelines: https://github.com/rhiever/tpot/tree/tpot-mdr
 * Forecasting from time-series data: https://facebookincubator.github.io/prophet/ (this is a retail-centric model from Facebook, but could be adapted to biological data)
 * Visualizing ML features: https://github.com/pair-code/facets
+* Topological analysis:
+    * https://github.com/MLWave/kepler-mapper
+    * https://github.com/RabadanLab/sakmapper
+    * http://danifold.net/mapper/
+    * https://github.com/paultpearson/TDAmapper
 
 ## Python
 
@@ -1310,6 +1331,7 @@ When looking for a bioinformatics tool for a specific application:
     * ggarrange, for flexible multi-panel figures
 * joyplots: https://github.com/clauswilke/ggjoy
 * colorbindr: test effect of colorblindness on readability of plots https://github.com/clauswilke/colorblindr
+* Marginal plots: https://twitter.com/ClausWilke/status/900776341494276096
 
 ### Plot Types
 
