@@ -1390,6 +1390,7 @@ When looking for a bioinformatics tool for a specific application:
 
 ## Python
 
+* Graphic of python libraries for visualization: https://pbs.twimg.com/media/C9QBxNsU0AEokR_.jpg
 * Seaborn: http://web.stanford.edu/~mwaskom/software/seaborn/index.html
     * Tutorial: http://www.jesshamrick.com/2016/04/13/reproducible-plots/
 * Bokeh: http://bokeh.pydata.org/docs/user_guide/charts.html
