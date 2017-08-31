@@ -104,9 +104,6 @@ When looking for a bioinformatics tool for a specific application:
 * Species images: http://phylopic.org/image/browse/
 * Public RNA-Seq data: https://jhubiostatistics.shinyapps.io/recount/ with phenotype predictions https://bioconductor.org/packages/release/bioc/html/recount.html
 * Whole genomes of 150 Danish individuals: http://www.nature.com/nature/journal/v548/n7665/full/nature23264.html
-* Interactive multi-omics tissue assay database: https://ccb-web.cs.uni-saarland.de/imota/
-* Database of cis-regulatory elements (enhancers): http://www.kostkalab.net/software.html
-* Database of genetic variant effects on gene expression: https://xhaubem01.u.hpc.mssm.edu/gwas2genes/
 
 # Genomics
 
@@ -155,6 +152,10 @@ When looking for a bioinformatics tool for a specific application:
 * CTD: drug interactions and toxicity http://ctdbase.org/
 * FANTOM lncRNA catalog: http://fantom.gsc.riken.jp/cat/
 * Integrated database of public ChIP-Seq datasets: http://chip-atlas.org/
+* Alternative splicing: http://vastdb.crg.eu/wiki/Main_Page
+* Interactive multi-omics tissue assay database: https://ccb-web.cs.uni-saarland.de/imota/
+* Database of cis-regulatory elements (enhancers): http://www.kostkalab.net/software.html
+* Database of genetic variant effects on gene expression: https://xhaubem01.u.hpc.mssm.edu/gwas2genes/
 
 ## Data Formats
 
