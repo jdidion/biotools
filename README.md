@@ -394,6 +394,7 @@ When looking for a bioinformatics tool for a specific application:
     * PPI https://www.ncbi.nlm.nih.gov/research/mutabind/index.fcgi/
     * Multiple instance learning of TF binding: http://www.cs.utsa.edu/~jruan/MIL/
     * Cell type-specific: https://github.com/uci-cbcl/FactorNet
+    * Predict TF binding from ATAC-Seq using deep neural network:  https://github.com/hiranumn/deepatac
 * Methylation
     * CpGenie: predicts methylation from sequence, predicts impact of variants on nearby methylation https://github.com/gifford-lab/CpGenie
 * Chromatin accessibility
