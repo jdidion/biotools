@@ -327,6 +327,7 @@ When looking for a bioinformatics tool for a specific application:
 * Dinucleotide weight tensors encode dependencies between positions in motifs: http://dwt.unibas.ch/
 * Circular logos: http://bioinformaticstools.mayo.edu/circularlogo/index.html
 * Convert kernels learned by CNN to PWMs: ftp://ftp.cbi.pku.edu.cn/pub/software/CBI/k2p
+* https://github.com/schulter/crbm
 
 ## Network Analysis
 
