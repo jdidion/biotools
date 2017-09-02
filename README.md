@@ -556,6 +556,7 @@ When looking for a bioinformatics tool for a specific application:
     * Long read
         * https://github.com/MohammadJRS/SureMap
 	* https://github.com/lh3/minimap2
+	* https://github.com/ocxtal/minialign
 	* Graph-based: https://github.com/isovic/graphmap 
 * Assembly
     * Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
