@@ -1096,6 +1096,7 @@ When looking for a bioinformatics tool for a specific application:
 * Flink: https://flink.apache.org/
 * Dask: http://dask.pydata.org/en/latest/
 * Efficient tabular storage: http://matthewrocklin.com/blog/work/2015/08/28/Storage/
+* Common runtime for various libraries (e.g. Pandas, TensorFlow) that speeds up execution when interfacing the libraries with each other: https://weld-project.github.io/
 
 ## Command Line (OSX/Linux)
 
@@ -1138,6 +1139,7 @@ When looking for a bioinformatics tool for a specific application:
 * https://github.com/jdblischak/workflowr
 * Data manager for R: https://cran.r-project.org/web/packages/repo/index.html
 * SnakeChunks: components for SnakeMake https://github.com/SnakeChunks/SnakeChunks
+* dgsh: bash variant that has primitives for parallelizing tasks https://www2.dmst.aueb.gr/dds/sw/dgsh
 
 # Statistics/Machine Learning
 
@@ -1297,6 +1299,7 @@ When looking for a bioinformatics tool for a specific application:
 * Comparison of different types of heatmaps: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1442-6
 * Interactively build simulations and animated interaction diagrams: http://ncase.me/loopy/
 * Plotly: Charting library with multiple language bindings https://github.com/plotly/plotly.py
+* Open-access visualization research: http://oavis.steveharoz.com/
 
 ## Networks
 
