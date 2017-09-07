@@ -492,6 +492,7 @@ When looking for a bioinformatics tool for a specific application:
     * Patterned flow cells (HiSeq 3000+) have high rates of optical duplicates: https://sequencing.qcfail.com/articles/illumina-patterned-flow-cells-generate-duplicated-sequences/
 * http://samstat.sourceforge.net/
 * Fingerprints: http://db.systemsbiology.net/gestalt/genome_fingerprints/
+* http://fastq.bio/
 
 ### Chromatin accessibility
 
