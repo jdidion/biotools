@@ -102,7 +102,10 @@ When looking for a bioinformatics tool for a specific application:
 * Targets for drug discovery: https://www.targetvalidation.org/
 * Large medical datasets for ML: https://github.com/beamandrew/medical-data
 * Species images: http://phylopic.org/image/browse/
-* Public RNA-Seq data: https://jhubiostatistics.shinyapps.io/recount/ with phenotype predictions https://bioconductor.org/packages/release/bioc/html/recount.html
+* Public RNA-Seq data: 
+    * https://jhubiostatistics.shinyapps.io/recount/ 
+    * with phenotype predictions https://bioconductor.org/packages/release/bioc/html/recount.html
+    * human and mouse: http://amp.pharm.mssm.edu/archs4
 * Whole genomes of 150 Danish individuals: http://www.nature.com/nature/journal/v548/n7665/full/nature23264.html
 
 # Genomics
@@ -657,6 +660,7 @@ When looking for a bioinformatics tool for a specific application:
     * R package to compare normalization methods: https://github.com/Edert/NVT
     * Filtering and tissue-aware normalization: http://bioconductor.org/packages/release/bioc/html/yarn.html
     * Bias correction for transcript abundance estimation: https://www.lexogen.com/mix-square-scientific-license/
+    * Replacement for htseq-counts/featureCounts that handles multi-mapping reads: https://bitbucket.org/mzytnicki/multi-mapping-counter
 * Workflows:
     * Artemis (RNA-Seq workflow designed around Kallisto): https://github.com/RamsinghLab/artemis
     * https://github.com/ririzarr/rafalib
@@ -1425,6 +1429,7 @@ When looking for a bioinformatics tool for a specific application:
 * VegaLite: ggplot-like framework built on top of Vega, which is built on D3.js: https://vega.github.io/vega-lite/
 * GPU rendering: https://stardustjs.github.io
 * Dataviz components built on top of D3: http://nivo.rocks/?ref=producthunt#/components
+* https://emeeks.github.io/semiotic/#/
 
 ## Examples
 
@@ -1493,6 +1498,7 @@ When looking for a bioinformatics tool for a specific application:
 * Convert DOI to Bibtex entry
 * Online equation editor: https://www.mathcha.io/
 * Simplified markup language for equations: http://asciimath.org/
+* https://editoria.pub/
 
 # Promising methods without software implementation
 
