@@ -1448,6 +1448,7 @@ When looking for a bioinformatics tool for a specific application:
 * Word choices: [](https://pbs.twimg.com/media/DB4-B__XkAA3Nrw.jpg)
 * Prepare papers for any journal format: https://typeset.io/
 * Slideboards: Mashup of slides and FAQ to explain a publication http://slideboard.herokuapp.com/
+* Two-column rmarkdown template: http://dirk.eddelbuettel.com/code/pinp.html
 
 ## Code/Data sharing
 
