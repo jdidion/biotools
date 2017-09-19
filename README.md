@@ -560,6 +560,7 @@ When looking for a bioinformatics tool for a specific application:
     * Long read
         * https://github.com/MohammadJRS/SureMap
 	* https://github.com/lh3/minimap2
+	    * Python binding: https://pypi.python.org/pypi/mappy
 	* https://github.com/ocxtal/minialign
 	* Graph-based: https://github.com/isovic/graphmap 
 * Assembly
