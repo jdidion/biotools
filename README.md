@@ -562,7 +562,8 @@ When looking for a bioinformatics tool for a specific application:
 	* https://github.com/lh3/minimap2
 	    * Python binding: https://pypi.python.org/pypi/mappy
 	* https://github.com/ocxtal/minialign
-	* Graph-based: https://github.com/isovic/graphmap 
+	* Graph-based: https://github.com/isovic/graphmap
+	* https://github.com/xiaochuanle/MECAT
 * Assembly
     * Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
     * Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
