@@ -1451,6 +1451,7 @@ When looking for a bioinformatics tool for a specific application:
 * Prepare papers for any journal format: https://typeset.io/
 * Slideboards: Mashup of slides and FAQ to explain a publication http://slideboard.herokuapp.com/
 * Two-column rmarkdown template: http://dirk.eddelbuettel.com/code/pinp.html
+* Generate manuscripts on GitHub: https://github.com/greenelab/manubot-rootstock
 
 ## Code/Data sharing
 
