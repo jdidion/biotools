@@ -993,6 +993,7 @@ When looking for a bioinformatics tool for a specific application:
 * Debugging
     * Sandsifter: Fuzzer https://github.com/xoreaxeaxeax/sandsifter
 * JSON Diff: http://www.jsondiff.com/
+* Google C++ and python libraries: https://github.com/abseil/abseil-py
 
 ## C++
 
