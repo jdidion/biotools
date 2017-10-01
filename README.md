@@ -1368,6 +1368,7 @@ When looking for a bioinformatics tool for a specific application:
 * joyplots: https://github.com/clauswilke/ggjoy
 * colorbindr: test effect of colorblindness on readability of plots https://github.com/clauswilke/colorblindr
 * Marginal plots: https://twitter.com/ClausWilke/status/900776341494276096
+* gggenes: https://github.com/wilkox/gggenes
 
 ### Plot Types
 
