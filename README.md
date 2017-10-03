@@ -727,6 +727,7 @@ When looking for a bioinformatics tool for a specific application:
     * Prediction of intronic splice branchpoints: https://github.com/betsig/branchpointer/
     * Proportion spliced index: https://github.com/comprna/Junckey
     * https://github.com/timbitz/Whippet.jl
+    * http://github.com/henryxushi/SparseIso
 * Assembly:
     * CIDANE: http://ccb.jhu.edu/software/cidane/
     * transrate: evaluation of de novo assemblies http://hibberdlab.com/transrate/
