@@ -474,6 +474,7 @@ When looking for a bioinformatics tool for a specific application:
 * Hardware acceleration of alignment (requires $5k FPGA module): https://github.com/BilkentCompGen/GateKeeper
 * Detection and removement of barcode swapping (issue on Illumina sequencers that used patterned flow cells: https://github.com/MarioniLab/BarcodeSwapping2017
 * Data processing pipelines for many types of omics data, built using NextFlow and Singularity: https://github.com/c-guzman/cipher-workflow-platform
+* Index and fetch data from BGZF-compressed files.
 
 ### QC
 
@@ -745,6 +746,7 @@ When looking for a bioinformatics tool for a specific application:
     * Identification of transcript boundaries: https://github.com/realbigws/DeepBound
     * Corset: gene counts from a transcriptome assembly https://github.com/Oshlack/Corset/wiki
     * Consensus method: https://github.com/macmanes-lab/Oyster_River_Protocol
+    * https://github.com/Oshlack/necklace
 * Time series
     * http://diceseq.sourceforge.net/
     * https://bioconductor.org/packages/release/bioc/html/ctsGE.html
@@ -1334,6 +1336,8 @@ When looking for a bioinformatics tool for a specific application:
 * CIRCOS plots: https://cggl.horticulture.wisc.edu/software/
 * Nice looking boxplots: https://github.com/mw55309/perceptions
 * Make multiplanel figures from a combination of plot types: https://cran.r-project.org/web/packages/multipanelfigure/
+* http://bioconductor.org/packages/release/bioc/html/karyoploteR.html
+* https://github.com/jkruppa/kmerPyramid
 
 ### ggplot2
 
