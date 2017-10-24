@@ -1015,6 +1015,7 @@ When looking for a bioinformatics tool for a specific application:
 * Counting quotient filter: https://github.com/splatlab/cqf
 * Succinct de Bruijn Graphs: http://alexbowe.com/succinct-debruijn-graphs/
 * Blazing signature filter: fast pairwise comparison of e.g. gene expression matrices https://github.com/PNNL-Comp-Mass-Spec/bsf-py
+* rr debugger: record and playback executions http://rr-project.org/
 
 ## R
 
@@ -1316,6 +1317,7 @@ When looking for a bioinformatics tool for a specific application:
 * Interactively build simulations and animated interaction diagrams: http://ncase.me/loopy/
 * Plotly: Charting library with multiple language bindings https://github.com/plotly/plotly.py
 * Open-access visualization research: http://oavis.steveharoz.com/
+* https://carto.com/carto-colors/
 
 ## Networks
 
@@ -1431,6 +1433,7 @@ When looking for a bioinformatics tool for a specific application:
 * http://holoviews.org/
 * GGplot clone: https://github.com/has2k1/plotnine
 * Dash: for building data-centric web apps https://github.com/plotly/dash
+* https://python-graph-gallery.com/
 
 ## Javascript
 
