@@ -114,6 +114,7 @@ When looking for a bioinformatics tool for a specific application:
 
 * Migrating to GRCh38: https://software.broadinstitute.org/gatk/blog?id=8180
 * Mappings between contig names in different assemblies: https://github.com/dpryan79/ChromosomeMappings
+* Command-line interface to download and manage reference genomes: https://github.com/simonvh/genomepy
 
 ## Algorithms
 
@@ -439,6 +440,9 @@ When looking for a bioinformatics tool for a specific application:
     * Using epigenomic data https://github.com/mulin0424/cepip
 * Tissue-specific https://github.com/kevinVervier/TiSAn
 * VCF visualization with Circos plot: http://legolas.ariel.ac.il/~tools/CircosVCF/
+* HGVS
+    * This is a standard notation for variants http://varnomen.hgvs.org/
+    * Toolkit for working with HGVS-formatted variants: https://github.com/biocommons/hgvs
 
 ## Sequence Analysis
 
@@ -1096,6 +1100,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/grangier/python-goose
     * https://scrapy.org/
 * Visualize python code execution time as a heatmap in a Jupyter notebook: https://github.com/csurfer/pyheatmagic
+* High-level API for working with GFA (i.e. graph genomes): https://github.com/ggonnella/gfapy
 
 ## HPC
 
