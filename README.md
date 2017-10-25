@@ -1519,6 +1519,7 @@ When looking for a bioinformatics tool for a specific application:
 * Online equation editor: https://www.mathcha.io/
 * Simplified markup language for equations: http://asciimath.org/
 * https://editoria.pub/
+* https://github.com/substance/texture
 
 # Promising methods without software implementation
 
