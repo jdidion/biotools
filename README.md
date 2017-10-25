@@ -176,6 +176,7 @@ When looking for a bioinformatics tool for a specific application:
     * BCFtools: includes new tool to identify RoH http://samtools.github.io/bcftools/
     * Work with VCF in R: https://github.com/knausb/vcfR
     * More VCF tools: http://vcf-kit.readthedocs.io/
+    * Validation: https://github.com/EBIvariation/vcf-validator
 * BED/GFF
     * https://github.com/ihh/gfftools
     * https://github.com/billzt/gff3sort
