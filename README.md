@@ -1103,6 +1103,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://scrapy.org/
 * Visualize python code execution time as a heatmap in a Jupyter notebook: https://github.com/csurfer/pyheatmagic
 * High-level API for working with GFA (i.e. graph genomes): https://github.com/ggonnella/gfapy
+* Fast and memory-efficient object counting: https://github.com/RaRe-Technologies/bounter
 
 ## HPC
 
