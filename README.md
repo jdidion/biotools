@@ -563,6 +563,7 @@ When looking for a bioinformatics tool for a specific application:
     * Compressed reference-based alignment: http://groups.csail.mit.edu/cb/cora/
     * Compression and querying of aligned haplotype data: https://github.com/richarddurbin/pbwt
     * Graph-based (mainly for local realignment): https://github.com/ekg/glia
+    * https://github.com/ocxtal/libgaba
     * Long read
         * https://github.com/MohammadJRS/SureMap
 	* https://github.com/lh3/minimap2
