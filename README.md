@@ -576,6 +576,7 @@ When looking for a bioinformatics tool for a specific application:
     * Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
     * Cosmo/VARI: Assembler using succinct colored de Bruijn graphs to encode population information https://github.com/cosmo-team/cosmo/tree/VARI
     * Streaming: https://github.com/Shamir-Lab/Faucet
+    * https://github.com/pmelsted/bfgraph
 * Variant calling
     * Matching variant sets: https://github.com/medvedevgroup/varmatch
     * Post-processing variant calls to determine whether variants at regions with alternative loci have allele(s) from an alternate locus: https://github.com/charite/asdpex
