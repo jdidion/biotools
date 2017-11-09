@@ -1385,6 +1385,7 @@ When looking for a bioinformatics tool for a specific application:
 * colorbindr: test effect of colorblindness on readability of plots https://github.com/clauswilke/colorblindr
 * Marginal plots: https://twitter.com/ClausWilke/status/900776341494276096
 * gggenes: https://github.com/wilkox/gggenes
+* egg: combine multiple plots https://cran.rstudio.com/web/packages/egg/
 
 ### Plot Types
 
@@ -1438,6 +1439,7 @@ When looking for a bioinformatics tool for a specific application:
 * GGplot clone: https://github.com/has2k1/plotnine
 * Dash: for building data-centric web apps https://github.com/plotly/dash
 * https://python-graph-gallery.com/
+* Plot genome tracks: https://github.com/deeptools/pyGenomeTracks
 
 ## Javascript
 
