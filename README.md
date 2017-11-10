@@ -1386,6 +1386,7 @@ When looking for a bioinformatics tool for a specific application:
 * Marginal plots: https://twitter.com/ClausWilke/status/900776341494276096
 * gggenes: https://github.com/wilkox/gggenes
 * egg: combine multiple plots https://cran.rstudio.com/web/packages/egg/
+* https://omarwagih.github.io/ggseqlogo/
 
 ### Plot Types
 
