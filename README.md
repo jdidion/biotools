@@ -79,14 +79,9 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
 
 * BlueButton related tools https://github.com/amida-tech
 
-# Discovery
+# Data Management
 
-When looking for a bioinformatics tool for a specific application:
-
-* http://omictools.com/
-* http://www.gitxiv.com/?cat%5B0%5D=bioinformatics
-* https://bio.tools/
-* https://biosharing.org
+* Send stdout to a Google Sheet: https://github.com/kren1/tosheets
 
 # Data Sets
 
@@ -107,6 +102,15 @@ When looking for a bioinformatics tool for a specific application:
     * with phenotype predictions https://bioconductor.org/packages/release/bioc/html/recount.html
     * human and mouse: http://amp.pharm.mssm.edu/archs4
 * Whole genomes of 150 Danish individuals: http://www.nature.com/nature/journal/v548/n7665/full/nature23264.html
+
+# Discovery
+
+When looking for a bioinformatics tool for a specific application:
+
+* http://omictools.com/
+* http://www.gitxiv.com/?cat%5B0%5D=bioinformatics
+* https://bio.tools/
+* https://biosharing.org
 
 # Genomics
 
@@ -356,6 +360,7 @@ When looking for a bioinformatics tool for a specific application:
 ## Population genetics
 
 * Population history from unphased whole-genomes: https://github.com/popgenmethods/smcpp
+* Management of allele-frequency data: https://grenaud.github.io/glactools/
 
 ## Prediction
 
@@ -1106,6 +1111,8 @@ When looking for a bioinformatics tool for a specific application:
 * Visualize python code execution time as a heatmap in a Jupyter notebook: https://github.com/csurfer/pyheatmagic
 * High-level API for working with GFA (i.e. graph genomes): https://github.com/ggonnella/gfapy
 * Fast and memory-efficient object counting: https://github.com/RaRe-Technologies/bounter
+* Fast string matching: https://bergvca.github.io/2017/10/14/super-fast-string-matching.html
+* Web-based IDE built on Jupyter: https://github.com/jupyterlab/jupyterlab
 
 ## HPC
 
@@ -1322,6 +1329,7 @@ When looking for a bioinformatics tool for a specific application:
 * Plotly: Charting library with multiple language bindings https://github.com/plotly/plotly.py
 * Open-access visualization research: http://oavis.steveharoz.com/
 * https://carto.com/carto-colors/
+* libvips: fast imgae processing library (C++ and python bindings) https://github.com/jcupitt/libvips
 
 ## Networks
 
@@ -1387,6 +1395,8 @@ When looking for a bioinformatics tool for a specific application:
 * gggenes: https://github.com/wilkox/gggenes
 * egg: combine multiple plots https://cran.rstudio.com/web/packages/egg/
 * https://omarwagih.github.io/ggseqlogo/
+* Plotting background data: https://drsimonj.svbtle.com/plotting-background-data-for-groups-with-ggplot2
+* Theme using IBM Plex fonts: https://github.com/juliasilge/silgelib/blob/master/R/graphing.R
 
 ### Plot Types
 
@@ -1550,3 +1560,4 @@ When looking for a bioinformatics tool for a specific application:
 * V-ALIGN: alignmnet on genome graphs http://www.biorxiv.org/content/biorxiv/early/2017/04/06/124941.full.pdf
 * Self-organizing maps for single-cell http://www.biorxiv.org/content/biorxiv/early/2017/04/05/124693.full.pdf
 * New locality sensitive hashing method: http://www.biorxiv.org/content/biorxiv/early/2017/08/25/180471.full.pdf
+* Extracting knowledge from RFs: https://www.biorxiv.org/content/early/2017/11/10/217695
