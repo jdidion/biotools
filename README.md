@@ -1168,6 +1168,7 @@ When looking for a bioinformatics tool for a specific application:
 * Data manager for R: https://cran.r-project.org/web/packages/repo/index.html
 * SnakeChunks: components for SnakeMake https://github.com/SnakeChunks/SnakeChunks
 * dgsh: bash variant that has primitives for parallelizing tasks https://www2.dmst.aueb.gr/dds/sw/dgsh
+* Rabix: visual editor for CWL pipelines http://rabix.io/
 
 # Statistics/Machine Learning
 
