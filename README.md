@@ -167,6 +167,7 @@ When looking for a bioinformatics tool for a specific application:
 
 ## Data Formats
 
+* Fast ordered sampling of records: https://github.com/tonymugen/sampleSNPs/
 * FASTA/FASTQ
     * Read filtering and extraction: https://github.com/ad3002/Cookiecutter
     * fqtools: for working with FASTQ files https://github.com/alastair-droop/fqtools
