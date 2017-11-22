@@ -1563,3 +1563,4 @@ When looking for a bioinformatics tool for a specific application:
 * Self-organizing maps for single-cell http://www.biorxiv.org/content/biorxiv/early/2017/04/05/124693.full.pdf
 * New locality sensitive hashing method: http://www.biorxiv.org/content/biorxiv/early/2017/08/25/180471.full.pdf
 * Extracting knowledge from RFs: https://www.biorxiv.org/content/early/2017/11/10/217695
+* Iterative random forest: https://www.biorxiv.org/content/biorxiv/early/2017/11/20/222299.full.pdf
