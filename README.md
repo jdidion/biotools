@@ -727,6 +727,7 @@ When looking for a bioinformatics tool for a specific application:
 * ASE
     * GeniASE: ASE without haplotypes http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4758070/pdf/srep21134.pdf
     * Without phasing: http://lifecenter.sgst.cn/cisASE/
+    * ASElux: https://drive.google.com/open?id=0B7E7HSjQ-SumQmlPc1Z0aUR5Sk0
 * Splicing
     * https://github.com/hartleys/JunctionSeq
     * https://github.com/lkmklsmn/SplicER
@@ -1008,8 +1009,10 @@ When looking for a bioinformatics tool for a specific application:
 * Pipe output of a shell command to a website (unfortunately can't be used in NIH HPC since nodes do not allow network connections): https://seashells.io/
 * Debugging
     * Sandsifter: Fuzzer https://github.com/xoreaxeaxeax/sandsifter
+    * https://github.com/agermanidis/livepython
 * JSON Diff: http://www.jsondiff.com/
 * Google C++ and python libraries: https://github.com/abseil/abseil-py
+* Share a terminal as a web page: https://github.com/yudai/gotty
 
 ## C++
 
@@ -1114,6 +1117,7 @@ When looking for a bioinformatics tool for a specific application:
 * Fast and memory-efficient object counting: https://github.com/RaRe-Technologies/bounter
 * Fast string matching: https://bergvca.github.io/2017/10/14/super-fast-string-matching.html
 * Web-based IDE built on Jupyter: https://github.com/jupyterlab/jupyterlab
+* Trace system calls in multiprocessing context: https://github.com/pinterest/ptracer
 
 ## HPC
 
@@ -1360,6 +1364,7 @@ When looking for a bioinformatics tool for a specific application:
 * Make multiplanel figures from a combination of plot types: https://cran.r-project.org/web/packages/multipanelfigure/
 * http://bioconductor.org/packages/release/bioc/html/karyoploteR.html
 * https://github.com/jkruppa/kmerPyramid
+* https://github.com/venyao/shinyCircos
 
 ### ggplot2
 
