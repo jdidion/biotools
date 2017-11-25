@@ -1118,6 +1118,7 @@ When looking for a bioinformatics tool for a specific application:
 * Fast string matching: https://bergvca.github.io/2017/10/14/super-fast-string-matching.html
 * Web-based IDE built on Jupyter: https://github.com/jupyterlab/jupyterlab
 * Trace system calls in multiprocessing context: https://github.com/pinterest/ptracer
+* skbio: http://scikit-bio.org/docs/0.4.1/index.html
 
 ## HPC
 
