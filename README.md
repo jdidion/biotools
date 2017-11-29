@@ -761,6 +761,7 @@ When looking for a bioinformatics tool for a specific application:
     * Corset: gene counts from a transcriptome assembly https://github.com/Oshlack/Corset/wiki
     * Consensus method: https://github.com/macmanes-lab/Oyster_River_Protocol
     * https://github.com/Oshlack/necklace
+    * https://github.com/ruolin/strawberry
 * Time series
     * http://diceseq.sourceforge.net/
     * https://bioconductor.org/packages/release/bioc/html/ctsGE.html
