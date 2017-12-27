@@ -1029,6 +1029,7 @@ When looking for a bioinformatics tool for a specific application:
 * Succinct de Bruijn Graphs: http://alexbowe.com/succinct-debruijn-graphs/
 * Blazing signature filter: fast pairwise comparison of e.g. gene expression matrices https://github.com/PNNL-Comp-Mass-Spec/bsf-py
 * rr debugger: record and playback executions http://rr-project.org/
+* clip: command line parser https://github.com/muellan/clipp
 
 ## R
 
