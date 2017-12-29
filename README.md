@@ -1408,6 +1408,7 @@ When looking for a bioinformatics tool for a specific application:
 * https://omarwagih.github.io/ggseqlogo/
 * Plotting background data: https://drsimonj.svbtle.com/plotting-background-data-for-groups-with-ggplot2
 * Theme using IBM Plex fonts: https://github.com/juliasilge/silgelib/blob/master/R/graphing.R
+* https://github.com/thomasp85/patchwork
 
 ### Plot Types
 
