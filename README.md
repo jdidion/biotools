@@ -1160,8 +1160,9 @@ When looking for a bioinformatics tool for a specific application:
 * Jupyter notebooks:
     * http://jupyter.org/
     * http://mybinder.org/
-    * http://nwhitehead.github.io/pineapple/
     * RISE: presentations from Jupyter notebooks https://github.com/damianavila/RISE
+    * Convert to markdown: https://github.com/aaren/notedown
+* GUI frontend to IPython: http://nwhitehead.github.io/pineapple/
 * Stencila: interesting alternative to Jupyter notebooks and R markdown https://stenci.la/
 * Bioinformatics software containers
     * https://github.com/BioContainers
