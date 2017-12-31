@@ -1014,6 +1014,7 @@ When looking for a bioinformatics tool for a specific application:
 * JSON Diff: http://www.jsondiff.com/
 * Google C++ and python libraries: https://github.com/abseil/abseil-py
 * Share a terminal as a web page: https://github.com/yudai/gotty
+* Spec for CSV files with metadata: http://docs.astropy.org/en/stable/api/astropy.io.ascii.Ecsv.html
 
 ## C++
 
@@ -1114,6 +1115,7 @@ When looking for a bioinformatics tool for a specific application:
 * Web scraping
     * https://github.com/grangier/python-goose
     * https://scrapy.org/
+    * https://github.com/tryolabs/requestium
 * Visualize python code execution time as a heatmap in a Jupyter notebook: https://github.com/csurfer/pyheatmagic
 * High-level API for working with GFA (i.e. graph genomes): https://github.com/ggonnella/gfapy
 * Fast and memory-efficient object counting: https://github.com/RaRe-Technologies/bounter
@@ -1121,6 +1123,8 @@ When looking for a bioinformatics tool for a specific application:
 * Web-based IDE built on Jupyter: https://github.com/jupyterlab/jupyterlab
 * Trace system calls in multiprocessing context: https://github.com/pinterest/ptracer
 * skbio: http://scikit-bio.org/docs/0.4.1/index.html
+* Extract keywords from text: https://github.com/vi3k6i5/flashtext
+* Working with time-series data: https://github.com/RJT1990/pyflux
 
 ## HPC
 
