@@ -1169,6 +1169,7 @@ When looking for a bioinformatics tool for a specific application:
 * Continuous analysis: https://github.com/greenelab/continuous_analysis
 * Jupyter notebooks on Azure: https://notebooks.azure.com/
 * Creating reproducible workflows with R Markdown documents: https://jdblischak.github.io/workflowr/
+* Another alternative to Jupyter: https://nteract.io/
 
 ### Building Pipelines
 
