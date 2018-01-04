@@ -1125,6 +1125,7 @@ When looking for a bioinformatics tool for a specific application:
 * skbio: http://scikit-bio.org/docs/0.4.1/index.html
 * Extract keywords from text: https://github.com/vi3k6i5/flashtext
 * Working with time-series data: https://github.com/RJT1990/pyflux
+* Probability distributions and other related functions: https://pomegranate.readthedocs.io/en/latest/
 
 ## HPC
 
