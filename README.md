@@ -1162,14 +1162,17 @@ When looking for a bioinformatics tool for a specific application:
     * http://mybinder.org/
     * RISE: presentations from Jupyter notebooks https://github.com/damianavila/RISE
     * Convert to markdown: https://github.com/aaren/notedown
+    * Jupyter notebooks on Azure: https://notebooks.azure.com/
+    * Diff/merge: https://github.com/jupyter/nbdime
+* Jupyter alternatives:
+    * https://nteract.io/
+    * http://www.unnotebook.com/
 * GUI frontend to IPython: http://nwhitehead.github.io/pineapple/
 * Stencila: interesting alternative to Jupyter notebooks and R markdown https://stenci.la/
 * Bioinformatics software containers
     * https://github.com/BioContainers
 * Continuous analysis: https://github.com/greenelab/continuous_analysis
-* Jupyter notebooks on Azure: https://notebooks.azure.com/
 * Creating reproducible workflows with R Markdown documents: https://jdblischak.github.io/workflowr/
-* Another alternative to Jupyter: https://nteract.io/
 
 ### Building Pipelines
 
