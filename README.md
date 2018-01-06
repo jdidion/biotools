@@ -187,6 +187,10 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/billzt/gff3sort
     * Combine p-values https://github.com/brentp/combined-pvalues
     * Assessing interval overlap of multiple genomic features: https://github.com/andrew-leith/GINOM
+* Improved command line viewing of formatted data
+    * http://lindenb.github.io/jvarkit/PrettySam.html
+    * https://biosyntax.org/install
+    * https://github.com/koelling/dnacol
 
 ## Footprinting
 
