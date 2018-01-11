@@ -1508,7 +1508,6 @@ When looking for a bioinformatics tool for a specific application:
 * Word choices: [](https://pbs.twimg.com/media/DB4-B__XkAA3Nrw.jpg)
 * Prepare papers for any journal format: https://typeset.io/
 * Slideboards: Mashup of slides and FAQ to explain a publication http://slideboard.herokuapp.com/
-* Two-column rmarkdown template: http://dirk.eddelbuettel.com/code/pinp.html
 * Generate manuscripts on GitHub: https://github.com/greenelab/manubot-rootstock
 
 ## Code/Data sharing
@@ -1554,7 +1553,9 @@ When looking for a bioinformatics tool for a specific application:
     * InDesign template for preprint: https://github.com/cleterrier/ManuscriptTools/blob/master/biorxiv_template_CC2015.indd
     * Rmarkdown templates for journal articles https://github.com/rstudio/rticles
     * GitHub template for authoring papers: https://github.com/peerj/paper-now
+    * Two-column rmarkdown template: http://dirk.eddelbuettel.com/code/pinp.html
 * Convert between (R)markdown and iPython notebooks: https://github.com/aaren/notedown
+* Publication-quality tables for markdown: https://cran.r-project.org/web/packages/flextable/index.html
 * Pandoc scholar: https://github.com/pandoc-scholar/pandoc-scholar
     * Nice paper showing example of generating manuscripts for two different journals: https://peerj.com/preprints/2648.pdf
 * Convert DOI to Bibtex entry
