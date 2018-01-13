@@ -1040,6 +1040,7 @@ When looking for a bioinformatics tool for a specific application:
 
 * Tidy data cheatsheet: http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
 * Multiple variable assignment: https://github.com/nteetor/zeallot
+* Summary statistics: https://github.com/ropenscilabs/skimr
 
 ### Find packages
 
@@ -1382,6 +1383,7 @@ When looking for a bioinformatics tool for a specific application:
 * http://bioconductor.org/packages/release/bioc/html/karyoploteR.html
 * https://github.com/jkruppa/kmerPyramid
 * https://github.com/venyao/shinyCircos
+* PCA+clustering: http://r-forge.r-project.org/projects/thresher/
 
 ### ggplot2
 
