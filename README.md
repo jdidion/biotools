@@ -1492,6 +1492,7 @@ When looking for a bioinformatics tool for a specific application:
 * GPU rendering: https://stardustjs.github.io
 * Dataviz components built on top of D3: http://nivo.rocks/?ref=producthunt#/components
 * https://emeeks.github.io/semiotic/#/
+* Genome browser components: https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine
 
 ## Examples
 
