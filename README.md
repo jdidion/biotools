@@ -168,6 +168,7 @@ When looking for a bioinformatics tool for a specific application:
 ## Data Formats
 
 * Fast ordered sampling of records: https://github.com/tonymugen/sampleSNPs/
+* Searching overlaps of large collections of interval databases: https://github.com/ryanlayer/giggle/
 * FASTA/FASTQ
     * Read filtering and extraction: https://github.com/ad3002/Cookiecutter
     * fqtools: for working with FASTQ files https://github.com/alastair-droop/fqtools
@@ -1162,7 +1163,6 @@ When looking for a bioinformatics tool for a specific application:
 	* http://bioboxes.org/available-bioboxes/
 	* http://ivory.idyll.org/blog//2015-docker-and-replicating-papers.html
 	* GUI for running Docker images locally: https://kitematic.com/
-* NextFlow: http://www.nextflow.io/
 * Jupyter notebooks:
     * http://jupyter.org/
     * http://mybinder.org/
@@ -1192,6 +1192,7 @@ When looking for a bioinformatics tool for a specific application:
 * SnakeChunks: components for SnakeMake https://github.com/SnakeChunks/SnakeChunks
 * dgsh: bash variant that has primitives for parallelizing tasks https://www2.dmst.aueb.gr/dds/sw/dgsh
 * Rabix: visual editor for CWL pipelines http://rabix.io/
+* List of workflow systems: https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems
 
 # Statistics/Machine Learning
 
