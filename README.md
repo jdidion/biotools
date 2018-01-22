@@ -823,6 +823,7 @@ When looking for a bioinformatics tool for a specific application:
     * http://www.morgridge.net/SinQC.html
     * https://github.com/YosefLab/scone
     * Parallel transcriptome/epigenome data: https://github.com/ChengchenZhao/DrSeq2
+    * https://bitbucket.org/princessmaximacenter/Sharq
 * Normalization
     * http://michelebusby.tumblr.com/post/130202229486/the-ks-test-looks-pretty-good-for-single-cell
     * Accounting for technical variation: http://www.nature.com/ncomms/2015/151022/ncomms9687/full/ncomms9687.html#supplementary-information
@@ -1193,6 +1194,7 @@ When looking for a bioinformatics tool for a specific application:
 * dgsh: bash variant that has primitives for parallelizing tasks https://www2.dmst.aueb.gr/dds/sw/dgsh
 * Rabix: visual editor for CWL pipelines http://rabix.io/
 * List of workflow systems: https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems
+* Experimental directory structure: alternative to HDF5 https://github.com/CINPLA/exdir/
 
 # Statistics/Machine Learning
 
