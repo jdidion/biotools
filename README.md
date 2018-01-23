@@ -1190,7 +1190,10 @@ When looking for a bioinformatics tool for a specific application:
 * SUSHI: https://github.com/uzh/sushi
 * https://github.com/jdblischak/workflowr
 * Data manager for R: https://cran.r-project.org/web/packages/repo/index.html
-* SnakeChunks: components for SnakeMake https://github.com/SnakeChunks/SnakeChunks
+* SnakeMake
+    * SnakeChunks: components for SnakeMake https://github.com/SnakeChunks/SnakeChunks
+    * Create command line programs from SnakeMake workflows: https://github.com/nh13/snakeparse
+    * GUI: http://sequana.readthedocs.io/en/master/sequanix.html
 * dgsh: bash variant that has primitives for parallelizing tasks https://www2.dmst.aueb.gr/dds/sw/dgsh
 * Rabix: visual editor for CWL pipelines http://rabix.io/
 * List of workflow systems: https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems
