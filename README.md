@@ -1597,3 +1597,4 @@ When looking for a bioinformatics tool for a specific application:
 * Self-organizing maps for single-cell http://www.biorxiv.org/content/biorxiv/early/2017/04/05/124693.full.pdf
 * New locality sensitive hashing method: http://www.biorxiv.org/content/biorxiv/early/2017/08/25/180471.full.pdf
 * Extracting knowledge from RFs: https://www.biorxiv.org/content/early/2017/11/10/217695
+* Bloom filters without false-positives across a constrained set of values: http://lendulet.tmit.bme.hu/lendulet_website/wp-content/papercite-data/pdf/kiss2018bloom.pdf
