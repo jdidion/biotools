@@ -1097,7 +1097,9 @@ When looking for a bioinformatics tool for a specific application:
 * A regular expression scanner: https://github.com/mitsuhiko/python-regex-scanner
 * API for interacting with databases: https://github.com/kennethreitz/records
 * RStudio for python: https://www.yhat.com/products/rodeo
-* boltons.debugutils: The entire boltons package has lots of useful stuff, but debugutils is particularly cool - you can add one line of code to enable you to drop into a debugger on signal (e.g. Ctrl-C): https://boltons.readthedocs.io/en/latest/debugutils.html
+* Debugging
+    * boltons.debugutils: The entire boltons package has lots of useful stuff, but debugutils is particularly cool - you can add one line of code to enable you to drop into a debugger on signal (e.g. Ctrl-C): https://boltons.readthedocs.io/en/latest/debugutils.html
+    * Web-based debugger: https://github.com/alexmojaki/birdseye
 * Stats
     * Non-negative matrix factorization: https://github.com/ccshao/nimfa
     * http://www.statsmodels.org/stable/index.html
@@ -1127,7 +1129,6 @@ When looking for a bioinformatics tool for a specific application:
 * High-level API for working with GFA (i.e. graph genomes): https://github.com/ggonnella/gfapy
 * Fast and memory-efficient object counting: https://github.com/RaRe-Technologies/bounter
 * Fast string matching: https://bergvca.github.io/2017/10/14/super-fast-string-matching.html
-* Web-based IDE built on Jupyter: https://github.com/jupyterlab/jupyterlab
 * Trace system calls in multiprocessing context: https://github.com/pinterest/ptracer
 * skbio: http://scikit-bio.org/docs/0.4.1/index.html
 * Extract keywords from text: https://github.com/vi3k6i5/flashtext
@@ -1171,6 +1172,8 @@ When looking for a bioinformatics tool for a specific application:
     * Convert to markdown: https://github.com/aaren/notedown
     * Jupyter notebooks on Azure: https://notebooks.azure.com/
     * Diff/merge: https://github.com/jupyter/nbdime
+    * Web-based IDE built on Jupyter: https://github.com/jupyterlab/jupyterlab
+    * Convert Jupyter notebook to Sphinx documentation: https://matthew-brett.github.io/nb2plots
 * Jupyter alternatives:
     * https://nteract.io/
     * http://www.unnotebook.com/
