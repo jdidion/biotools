@@ -748,6 +748,7 @@ When looking for a bioinformatics tool for a specific application:
     * Proportion spliced index: https://github.com/comprna/Junckey
     * https://github.com/timbitz/Whippet.jl
     * http://github.com/henryxushi/SparseIso
+    * https://github.com/tigerhu15/PennDiff
 * Assembly:
     * CIDANE: http://ccb.jhu.edu/software/cidane/
     * transrate: evaluation of de novo assemblies http://hibberdlab.com/transrate/
@@ -1134,6 +1135,7 @@ When looking for a bioinformatics tool for a specific application:
 * Extract keywords from text: https://github.com/vi3k6i5/flashtext
 * Working with time-series data: https://github.com/RJT1990/pyflux
 * Probability distributions and other related functions: https://pomegranate.readthedocs.io/en/latest/
+* Global optimization: https://github.com/chrisstroemel/Simple
 
 ## HPC
 
@@ -1229,6 +1231,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://cran.r-project.org/web/packages/KODAMA/index.html
     * t-SNE: alternative to PCA and MDS: http://lvdmaaten.github.io/tsne/
 	* http://distill.pub/2016/misread-tsne/
+    * UMAP: https://github.com/lmcinnes/umap
     * Compressive k-means: https://arxiv.org/pdf/1610.08738.pdf
     * Sparse convex: https://arxiv.org/pdf/1601.04586.pdf
 * Multivariate analysis http://cran.r-project.org/web/views/Multivariate.html
@@ -1453,6 +1456,7 @@ When looking for a bioinformatics tool for a specific application:
 * Joyplots (for multi-sample/category time-series data): 
     * https://github.com/halhen/viz-pub/blob/master/sports-time-of-day/2_gen_chart.R (TODO: make a dedicated geom for this)
     * In python: https://github.com/mwaskom/seaborn/pull/1238
+* Half-violin plot: https://gist.github.com/jbburant/b3bd4961f3f5b03aeb542ed33a8fe062
 
 ### Data Types
 
