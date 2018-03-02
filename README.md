@@ -491,6 +491,7 @@ When looking for a bioinformatics tool for a specific application:
 * Detection and removement of barcode swapping (issue on Illumina sequencers that used patterned flow cells: https://github.com/MarioniLab/BarcodeSwapping2017
 * Data processing pipelines for many types of omics data, built using NextFlow and Singularity: https://github.com/c-guzman/cipher-workflow-platform
 * Index and fetch data from BGZF-compressed files.
+* https://github.com/baudisgroup/segment-liftover
 
 ### QC
 
