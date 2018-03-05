@@ -1082,6 +1082,7 @@ When looking for a bioinformatics tool for a specific application:
 * Language-agnostic data frame format: https://github.com/wesm/feather
 * Make for R: https://github.com/richfitz/maker
 * Find root of current package: https://krlmlr.github.io/here/
+* Work with genomic ranges using dplyr-like syntax. 
 
 ## Python
 
