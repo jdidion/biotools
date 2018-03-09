@@ -1275,6 +1275,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/paultpearson/TDAmapper
 * Feature selection workflows: https://github.com/enriquea/feseR
 * Iterative random forest: https://github.com/sumbose/iRF
+* Compares method for outlier detection: https://cran.r-project.org/web/packages/OutliersO3/index.html
 
 ## Python
 
