@@ -636,6 +636,7 @@ When looking for a bioinformatics tool for a specific application:
 * GEM: R package for meQTL and EWAS https://bioconductor.org/packages/devel/bioc/html/GEM.html
 * Call CNVs from methylation array data: https://github.com/mknoll/cnAnalysis450k
 * Compression tool for bedMethyl files: https://github.com/jianhao2016/METHCOMP
+* https://github.com/RWilton/Arioc
 
 ### MNase-seq
 
