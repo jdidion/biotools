@@ -1026,7 +1026,7 @@ When looking for a bioinformatics tool for a specific application:
 * Share a terminal as a web page: https://github.com/yudai/gotty
 * Spec for CSV files with metadata: http://docs.astropy.org/en/stable/api/astropy.io.ascii.Ecsv.html
 
-## C++
+## C/C++
 
 * kmers
     * Streaming kmer counting https://github.com/bcgsc/ntCard
@@ -1041,6 +1041,7 @@ When looking for a bioinformatics tool for a specific application:
 * Blazing signature filter: fast pairwise comparison of e.g. gene expression matrices https://github.com/PNNL-Comp-Mass-Spec/bsf-py
 * rr debugger: record and playback executions http://rr-project.org/
 * clip: command line parser https://github.com/muellan/clipp
+* klib: generic library with fast implementations of striped Smith-Waterman and other NGS-related algorithms https://github.com/attractivechaos/klib
 
 ## R
 
