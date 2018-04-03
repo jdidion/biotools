@@ -362,6 +362,7 @@ When looking for a bioinformatics tool for a specific application:
 * Similarity search: https://github.com/zhangjiaobxy/nssrfPackage
 * Tissue-specific: https://cran.r-project.org/web/packages/GRAPE/index.html
 * CLR with B-Spline for mutual information-based inference of transcriptional regulatory networks: https://bitbucket.org/Jonathan-Ish-Horowicz/fastgenemi/
+* Functional module identification and enrichement through Gene Ontology terms https://www.nature.com/articles/s41598-018-23672-0
 
 ## Population genetics
 
