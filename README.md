@@ -1208,6 +1208,7 @@ When looking for a bioinformatics tool for a specific application:
 * Rabix: visual editor for CWL pipelines http://rabix.io/
 * List of workflow systems: https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems
 * Experimental directory structure: alternative to HDF5 https://github.com/CINPLA/exdir/
+* Structured projects that can be run on multiple workflow engines: http://reana.readthedocs.io/
 
 # Statistics/Machine Learning
 
@@ -1278,6 +1279,7 @@ When looking for a bioinformatics tool for a specific application:
 * Feature selection workflows: https://github.com/enriquea/feseR
 * Iterative random forest: https://github.com/sumbose/iRF
 * Compares method for outlier detection: https://cran.r-project.org/web/packages/OutliersO3/index.html
+* Comparison of inference methods: http://jenniferhill7.wixsite.com/acic-2016/competition
 
 ## Python
 
@@ -1373,6 +1375,7 @@ When looking for a bioinformatics tool for a specific application:
 * Open-access visualization research: http://oavis.steveharoz.com/
 * https://carto.com/carto-colors/
 * libvips: fast imgae processing library (C++ and python bindings) https://github.com/jcupitt/libvips
+* Generate flow charts, etc using markdown-like syntax: https://github.com/knsv/mermaid
 
 ## Networks
 
