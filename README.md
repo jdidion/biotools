@@ -771,6 +771,7 @@ When looking for a bioinformatics tool for a specific application:
     * Consensus method: https://github.com/macmanes-lab/Oyster_River_Protocol
     * https://github.com/Oshlack/necklace
     * https://github.com/ruolin/strawberry
+    * https://github.com/bee-hive/BIISQ
 * Time series
     * http://diceseq.sourceforge.net/
     * https://bioconductor.org/packages/release/bioc/html/ctsGE.html
@@ -1334,6 +1335,7 @@ When looking for a bioinformatics tool for a specific application:
 	* Tensorflow playground: http://playground.tensorflow.org/
 	* http://yosinski.com/deepvis
 	* https://medium.com/@shivon/the-current-state-of-machine-intelligence-3-0-e4d305da032e#.gw0ywcpkv
+	* Visualize hyperparameters: https://github.com/ContextLab/hypertools
 * Non-bio networks that might be applied
 	* https://github.com/david-gpu/srez
 	* Deep learning with text: https://explosion.ai/blog/deep-learning-formula-nlp
@@ -1501,6 +1503,7 @@ When looking for a bioinformatics tool for a specific application:
 * Dash: for building data-centric web apps https://github.com/plotly/dash
 * https://python-graph-gallery.com/
 * Plot genome tracks: https://github.com/deeptools/pyGenomeTracks
+* http://pygal.org/en/stable/
 
 ## Javascript
 
