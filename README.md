@@ -1198,6 +1198,7 @@ When looking for a bioinformatics tool for a specific application:
 * Flo http://flo.readthedocs.org/en/latest/index.html
 * Qsubsec: template language for defining SGE workflows https://github.com/alastair-droop/qsubsec
 * Nextflow and Nextflow Workbench: https://www.nextflow.io/ and http://campagnelab.org/software/nextflow-workbench/
+    * https://github.com/assemblerflow/assemblerflow
 * SUSHI: https://github.com/uzh/sushi
 * https://github.com/jdblischak/workflowr
 * Data manager for R: https://cran.r-project.org/web/packages/repo/index.html
