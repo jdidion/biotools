@@ -593,13 +593,16 @@ When looking for a bioinformatics tool for a specific application:
     * Matching variant sets: https://github.com/medvedevgroup/varmatch
     * Post-processing variant calls to determine whether variants at regions with alternative loci have allele(s) from an alternate locus: https://github.com/charite/asdpex
     * Filtering low-frequency variants that likely result from DNA damage: https://github.com/eilslabs/DKFZBiasFilter
-    * Reference-free: https://github.com/dib-lab/kevlar
+    * Reference-free:
+      * https://github.com/dib-lab/kevlar
+      * https://github.com/jandrewrfarrell/RUFUS
 * Genotyping
     * https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
     * http://bioinfo.ut.ee/FastGT/
     * STR genotyping from NGS: http://melissagymrek.com/lobstr-code/
     * Compression of genotype data: http://sun.aei.polsl.pl/REFRESH/gtc
-    * Base quality recalibration * https://github.com/swainechen/lacer
+    * Base quality recalibration: https://github.com/swainechen/lacer
+    * Mosaic variants: https://github.com/abyzovlab/Leucippus
 * SVs
     * Score SVs based on predicted functional impact https://github.com/lganel/SVScore
 * CNV calling
