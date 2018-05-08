@@ -1494,7 +1494,6 @@ When looking for a bioinformatics tool for a specific application:
 * Graphic of python libraries for visualization: https://pbs.twimg.com/media/C9QBxNsU0AEokR_.jpg
 * Seaborn: http://web.stanford.edu/~mwaskom/software/seaborn/index.html
     * Tutorial: http://www.jesshamrick.com/2016/04/13/reproducible-plots/
-* Bokeh: http://bokeh.pydata.org/docs/user_guide/charts.html
 * Vincent: https://github.com/wrobstory/vincent
 * Pyxley (Shiny for python): http://multithreaded.stitchfix.com/blog/2015/07/16/pyxley/
 * https://github.com/svaksha/pythonidae/blob/master/Computer-Graphics.md
@@ -1504,10 +1503,14 @@ When looking for a bioinformatics tool for a specific application:
 * Visualization dashboard: https://github.com/facebookresearch/visdom
 * http://holoviews.org/
 * GGplot clone: https://github.com/has2k1/plotnine
-* Dash: for building data-centric web apps https://github.com/plotly/dash
 * https://python-graph-gallery.com/
 * Plot genome tracks: https://github.com/deeptools/pyGenomeTracks
 * http://pygal.org/en/stable/
+* Web based/interactive
+    * https://github.com/dgrtwo/gleam
+    * https://github.com/adamhajari/spyre
+    * Bokeh: http://bokeh.pydata.org/docs/user_guide/charts.html
+    * Dash: for building data-centric web apps https://github.com/plotly/dash
 
 ## Javascript
 
