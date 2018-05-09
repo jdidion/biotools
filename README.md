@@ -1411,6 +1411,7 @@ When looking for a bioinformatics tool for a specific application:
 * https://github.com/jkruppa/kmerPyramid
 * https://github.com/venyao/shinyCircos
 * PCA+clustering: http://r-forge.r-project.org/projects/thresher/
+* Create pallete from colors in an image: https://github.com/AndreaCirilloAC/paletter
 
 ### ggplot2
 
