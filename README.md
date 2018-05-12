@@ -102,6 +102,7 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
     * with phenotype predictions https://bioconductor.org/packages/release/bioc/html/recount.html
     * human and mouse: http://amp.pharm.mssm.edu/archs4
 * Whole genomes of 150 Danish individuals: http://www.nature.com/nature/journal/v548/n7665/full/nature23264.html
+* Simons Genome Diversity Project: https://www.simonsfoundation.org/simons-genome-diversity-project/
 
 # Discovery
 
@@ -164,6 +165,7 @@ When looking for a bioinformatics tool for a specific application:
 * Interactive multi-omics tissue assay database: https://ccb-web.cs.uni-saarland.de/imota/
 * Database of cis-regulatory elements (enhancers): http://www.kostkalab.net/software.html
 * Database of genetic variant effects on gene expression: https://xhaubem01.u.hpc.mssm.edu/gwas2genes/
+* Structural variation: https://www.ncbi.nlm.nih.gov/dbvar
 
 ## Data Formats
 
@@ -192,6 +194,7 @@ When looking for a bioinformatics tool for a specific application:
     * http://lindenb.github.io/jvarkit/PrettySam.html
     * https://biosyntax.org/install
     * https://github.com/koelling/dnacol
+* Generate NCBI submission data: https://github.com/genomeannotation/GAG
 
 ## Footprinting
 
@@ -343,6 +346,7 @@ When looking for a bioinformatics tool for a specific application:
 * Circular logos: http://bioinformaticstools.mayo.edu/circularlogo/index.html
 * Convert kernels learned by CNN to PWMs: ftp://ftp.cbi.pku.edu.cn/pub/software/CBI/k2p
 * https://github.com/schulter/crbm
+* https://github.com/daquang/YAMDA
 
 ## Network Analysis
 
@@ -412,6 +416,8 @@ When looking for a bioinformatics tool for a specific application:
     * Multiple instance learning of TF binding: http://www.cs.utsa.edu/~jruan/MIL/
     * Cell type-specific: https://github.com/uci-cbcl/FactorNet
     * Predict TF binding from ATAC-Seq using deep neural network:  https://github.com/hiranumn/deepatac
+    * http://genome.grid.wayne.edu/centisnps/
+    * Benchmark: https://github.com/Oncostat/BenchmarkNCVTools
 * Methylation
     * CpGenie: predicts methylation from sequence, predicts impact of variants on nearby methylation https://github.com/gifford-lab/CpGenie
 * Chromatin accessibility
@@ -514,6 +520,8 @@ When looking for a bioinformatics tool for a specific application:
 * http://samstat.sourceforge.net/
 * Fingerprints: http://db.systemsbiology.net/gestalt/genome_fingerprints/
 * http://fastq.bio/
+* https://github.com/nilesh-tawari/ChronQC
+* Read Origin Protocol: https://github.com/smangul1/rop
 
 ### Chromatin accessibility
 
@@ -524,6 +532,7 @@ When looking for a bioinformatics tool for a specific application:
 * LR-DNAse: TFBS prediction using features derived from DNase-seq: http://biorxiv.org/content/early/2016/10/24/082594
 * Identify accessible chromatin from NOMe-seq https://sourceforge.net/projects/came/
 * Nucleotide-specific bias adjustment: https://github.com/txje/sequence-bias-adjustment
+* ATAC-seq peak caller: https://github.com/LiuLabUB/HMMRATAC
 
 ### ChIP-seq
 
@@ -609,6 +618,8 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/cui-lab/multigems
     * WHAM: CNV caller https://github.com/zeeev/wham
     * Identification of mosic events: https://github.com/asifrim/mrmosaic
+* Somatic
+    * https://github.com/SciLifeLab/Sarek
 * Repeat calling
     * REPdenovo: https://github.com/Reedwarbler/REPdenovo
 * Pipelines
@@ -621,11 +632,14 @@ When looking for a bioinformatics tool for a specific application:
     * Using HiC+partial haplotypes: https://github.com/YakhiniGroup/SpectraPh
     * PhaseME http://beehive.cs.princeton.edu/wiki/phaseme/
     * HapCut2 (unclear if this works with standard Illumina WGS) https://github.com/vibansal/HapCUT2
+* Graph
+    * https://gitlab.com/dvalenzu/PanVC
+    * Graph genome alignment and variant calling on SevenBridges: https://www.sevenbridges.com/graph/
+* Nanopore
+    * https://github.com/nanoporetech/wub
 * Other
     * VCF compression and data extraction: https://github.com/kedartatwawadi/GTRAC
     * Run length encoded multi-sample BWT + server: https://github.com/wtsi-svi/ReadServer
-* Nanopore
-    * https://github.com/nanoporetech/wub
 
 ### Methylation
 
@@ -648,6 +662,7 @@ When looking for a bioinformatics tool for a specific application:
 ### Nanopore
 
 * https://github.com/roblanf/minion_qc
+* Clinical application: https://www.nature.com/articles/s41467-017-01343-4
 
 ### RNA
 
@@ -755,6 +770,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/timbitz/Whippet.jl
     * http://github.com/henryxushi/SparseIso
     * https://github.com/tigerhu15/PennDiff
+    * https://github.com/abl0719/ASElux
 * Assembly:
     * CIDANE: http://ccb.jhu.edu/software/cidane/
     * transrate: evaluation of de novo assemblies http://hibberdlab.com/transrate/
@@ -845,6 +861,7 @@ When looking for a bioinformatics tool for a specific application:
     * Factor analysis: https://github.com/UcarLab/IA-SVA/
     * qSVA corrects for RNA quality (in the SVA package)
     * ERCC https://bitbucket.org/bsblabludwig/bearscc
+    * Weighting method that enables bulk RNA-seq tools to be used with single-cell: https://www.ncbi.nlm.nih.gov/pubmed/29478411
 * Gene/Transcript counting
     * Modified version of Kallisto: https://github.com/govinda-kamath/clustering_on_transcript_compatibility_counts
     * DISCO: https://pbtech-vc.med.cornell.edu/git/mason-lab/disco/tree/master
@@ -1185,6 +1202,7 @@ When looking for a bioinformatics tool for a specific application:
     * Diff/merge: https://github.com/jupyter/nbdime
     * Web-based IDE built on Jupyter: https://github.com/jupyterlab/jupyterlab
     * Convert Jupyter notebook to Sphinx documentation: https://matthew-brett.github.io/nb2plots
+    * Diagram editor: https://blog.jupyter.org/a-diagram-editor-for-jupyterlab-a254121ff919
 * Jupyter alternatives:
     * https://nteract.io/
     * http://www.unnotebook.com/
@@ -1224,6 +1242,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://cran.r-project.org/web/packages/precrec/index.html
     * Alternative: http://link.springer.com/article/10.1007/s10994-009-5119-5
 * R package for subsetting data into training/testing/validation sets: https://cran.r-project.org/web/packages/STPGA/index.html
+* Second-generation p-values: https://github.com/lucymcgowan/sgpvalue
 
 ## Methods/algorithms
 
