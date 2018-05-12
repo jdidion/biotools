@@ -1000,6 +1000,7 @@ When looking for a bioinformatics tool for a specific application:
     * Two-stage CCA identifies non-linear associations: https://github.com/kosyoshida/TSKCCA
     * HMM: https://link.springer.com/protocol/10.1007/978-1-4939-6753-7_10
     * https://github.com/KnowEnG/pgenmi
+    * https://github.com/bioFAM/MOFA
 * Multi-tissue:
     * http://bioconductor.org/packages/release/bioc/html/HDTD.html
     * https://github.com/yuzhang123/IDEAS
