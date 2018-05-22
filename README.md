@@ -103,7 +103,12 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
     * human and mouse: http://amp.pharm.mssm.edu/archs4
 * Whole genomes of 150 Danish individuals: http://www.nature.com/nature/journal/v548/n7665/full/nature23264.html
 * Simons Genome Diversity Project: https://www.simonsfoundation.org/simons-genome-diversity-project/
-
+* BloodPAC: https://doi.bloodpac.org/BLOODPAC.0001/
+* Reference haplotypes for STR phasing: https://www.biorxiv.org/content/early/2018/03/06/277673
+* http://www.docm.info/
+* Normalized, batch-corrected RNA-seq for both normal (GTEx) and cancer (TCGA) data: https://www.nature.com/articles/sdata201861
+* Hartwig WGS (requires data request): https://www.hartwigmedicalfoundation.nl/en/wgs-database/
+    
 # Discovery
 
 When looking for a bioinformatics tool for a specific application:
@@ -166,6 +171,10 @@ When looking for a bioinformatics tool for a specific application:
 * Database of cis-regulatory elements (enhancers): http://www.kostkalab.net/software.html
 * Database of genetic variant effects on gene expression: https://xhaubem01.u.hpc.mssm.edu/gwas2genes/
 * Structural variation: https://www.ncbi.nlm.nih.gov/dbvar
+* PharmacoDB
+    * Search multiple cancer pharmacogenomic databases with a single query
+    * Software is GPL licensed; target databases have various licenses
+    * http://pharmacodb.pmgenomics.ca
 
 ## Data Formats
 
@@ -429,16 +438,25 @@ When looking for a bioinformatics tool for a specific application:
 * Imputation: https://github.com/tdurham86/PREDICTD
 * Variable selection for random forest: https://github.com/jomayer/SMuRF
 
+## Security
+    * Secret sharing schemes for keeping patient ID secret while being able to reconstruct it from other identifiers: https://pdfs.semanticscholar.org/0307/48be9820512a1d5582351552bd0452711296.pdf
+    
 ## Sequencing Protocols
 
 * Single cell
     * Simultaneous RNA and methylation (and inference of CNV): http://www.nature.com/cr/journal/vaop/ncurrent/full/cr201623a.html
     * Simultaneous RNA and methylation (scM&T-seq): http://www.nature.com/nmeth/journal/v13/n3/full/nmeth.3728.html
     * Simultaneous RNA and protein measurements: http://www.sciencedirect.com/science/article/pii/S2211124715014345
+* CRISPR-DS: Uses CRISPR/Cas9 excision of target sequences to improve library quality relative to hybrid capture: https://www.biorxiv.org/content/early/2017/10/23/207027
 
 ## Simulation
 
 * InterSIM: simulate correlated multi-omics data https://cran.r-project.org/web/packages/InterSIM/index.html
+* Simulate capture sequencing: https://github.com/mdcao/capsim
+* Database of simulated tumor genomes (created with BamSurgeon on NA12878 background): https://www.biorxiv.org/content/early/2018/02/07/261503
+* Simulation of cancer genomes: https://github.com/rsemeraro/XomeBlender
+* Simulate CNVs: https://github.com/pughlab/bamgineer
+* Simulate mutations in a BAM file: https://github.com/adamewing/bamsurgeon
 
 ## Variant annotation
 
@@ -1354,10 +1372,6 @@ When looking for a bioinformatics tool for a specific application:
     	* Watch for Apache Arrow
     	* Pandas
     * GFA: https://github.com/ggonnella/gfapy/tree/master/gfapy
-* Pipelines
-    * Invoke: http://docs.pyinvoke.org/en/latest/
-    * Toil: http://toil.readthedocs.io/en/latest/installation.html
-    * Snakemake
 * A regular expression scanner: https://github.com/mitsuhiko/python-regex-scanner
 * API for interacting with databases: https://github.com/kennethreitz/records
 * RStudio for python: https://www.yhat.com/products/rodeo
@@ -1399,6 +1413,14 @@ When looking for a bioinformatics tool for a specific application:
 * Working with time-series data: https://github.com/RJT1990/pyflux
 * Probability distributions and other related functions: https://pomegranate.readthedocs.io/en/latest/
 * Global optimization: https://github.com/chrisstroemel/Simple
+* HPAT: framework for automatically parallizing numpy and pandas code using MPI https://github.com/IntelLabs/hpat
+* CuPy: Numpy-like implementation of GPU-accelerated array operations https://github.com/cupy/cupy
+* Command-line interface to download and manage reference genomes: https://github.com/simonvh/genomepy
+* API for working with HGVS-formatted variants: https://github.com/biocommons/hgvs
+* B+ Tree: Hash table backed by on-disk storage https://github.com/NicolasLM/bplustree
+* Chunked, compressed ndarrays http://zarr.readthedocs.io/en/latest/index.html
+* Easy colored/styled printing in command line apps https://github.com/UltimateHackers/hue
+* http://alimanfoo.github.io/2017/06/14/read-vcf.html
 
 ## HPC
 
@@ -1469,6 +1491,15 @@ When looking for a bioinformatics tool for a specific application:
 * List of workflow systems: https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems
 * Experimental directory structure: alternative to HDF5 https://github.com/CINPLA/exdir/
 * Structured projects that can be run on multiple workflow engines: http://reana.readthedocs.io/
+* Invoke: http://docs.pyinvoke.org/en/latest/
+* Toil: http://toil.readthedocs.io/en/latest/installation.html
+* Snakemake
+* Reflow: workflow management system developed by Grail https://github.com/grailbio/reflow
+
+## Other
+
+* Automated system for sequencing core facilities using microservices architecture: https://www.biorxiv.org/content/early/2017/11/06/214858
+* Aether manages bidding for AWS and Azure credits: http://aether.kosticlab.org/
 
 # Statistics/Machine Learning
 
