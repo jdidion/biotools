@@ -1922,3 +1922,4 @@ When looking for a bioinformatics tool for a specific application:
 * New locality sensitive hashing method: http://www.biorxiv.org/content/biorxiv/early/2017/08/25/180471.full.pdf
 * Extracting knowledge from RFs: https://www.biorxiv.org/content/early/2017/11/10/217695
 * Bloom filters without false-positives across a constrained set of values: http://lendulet.tmit.bme.hu/lendulet_website/wp-content/papercite-data/pdf/kiss2018bloom.pdf
+* Adaptive pruning of boosted trees: https://arxiv.org/pdf/1805.07592.pdf
