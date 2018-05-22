@@ -427,6 +427,7 @@ When looking for a bioinformatics tool for a specific application:
     * LR-DNAse: TFBS prediction using features derived from DNase-seq: http://biorxiv.org/content/early/2016/10/24/082594
 * Classification of cis-regulatory modules: https://github.com/weiyangedward/IMMBoost
 * Imputation: https://github.com/tdurham86/PREDICTD
+* Variable selection for random forest: https://github.com/jomayer/SMuRF
 
 ## Sequencing Protocols
 
@@ -461,6 +462,21 @@ When looking for a bioinformatics tool for a specific application:
 * HGVS
     * This is a standard notation for variants http://varnomen.hgvs.org/
     * Toolkit for working with HGVS-formatted variants: https://github.com/biocommons/hgvs
+* Integration of multiple predictive measures of mutation deleterious effect: https://www.ncbi.nlm.nih.gov/research/snpdelscore/
+* Varsome: database that aggregates variant information from many sources
+    * https://varsome.com/
+    * Provides a REST API that can be queried with dbSNP or HGVS IDs
+* CHESS: new gene annotation database
+    * Contains most genes from RefSeq and Gencode, plus additional genes discovered from GTEx transcripts
+    * http://ccb.jhu.edu/chess/
+* Constrained coding regions: https://github.com/quinlan-lab/ccrhtml
+* Database of human chromosomal fragile sites: http://webs.iiitd.edu.in/raghava/humcfs
+* FunSeq2: http://funseq2.gersteinlab.org
+* Deep learning-based: https://www.biorxiv.org/content/early/2017/12/18/235655.1
+* Predicting loss-of-function from expression: https://www.nature.com/articles/s41467-017-00443-5
+* Search engine for indexing and intersecting with large numbers of annotation BED/VCF files: https://github.com/ryanlayer/giggle/
+* Prediction of missense variants: https://www.biorxiv.org/content/early/2018/02/02/259390
+* SV: http://lbgi.fr/AnnotSV/
 
 ## Sequence Analysis
 
@@ -522,6 +538,10 @@ When looking for a bioinformatics tool for a specific application:
 * http://fastq.bio/
 * https://github.com/nilesh-tawari/ChronQC
 * Read Origin Protocol: https://github.com/smangul1/rop
+* QC on Illumina run folder: https://github.com/Molmed/checkQC
+* New diploid reference for benchmarking: https://www.biorxiv.org/content/early/2017/11/22/223297
+* Historical tracking: https://github.com/nilesh-tawari/ChronQC
+* Estimate library complexity: http://smithlabresearch.org/software/preseq/
 
 ### Chromatin accessibility
 
@@ -580,6 +600,28 @@ When looking for a bioinformatics tool for a specific application:
 * Duplicate removal
     * https://sourceforge.net/projects/pardre/
 * Alignment
+    * Recommendations:
+	* https://github.com/CCDG/Pipeline-Standardization
+	* These are optimized for germline variant calling, however there are a few interesting points
+	* BWA MEM has a hidden option that enables "deterministic alignment results" (-K 100000000)
+	* They recommend binning of quality scores for greater compression
+    	    * Scores 2-6 correspond to Illumina error codes and are left as-is
+            * 10, 20, 30
+            * Round scores to the nearest value in probability space
+        * The have some recommendations for standardizing headers
+    * AGA: aligner specifically for coding sequences that takes into account the translated protein sequence: https://github.com/emweb/aga
+    * Scaling alignment to massively parallel processors
+        * https://www.biorxiv.org/content/early/2017/10/24/205328
+        * Parallelizing hundreds of threads on Xeon Phi (64-72 core processors)
+    * Alignment speed-up using PIM technologies: https://arxiv.org/abs/1711.01177
+    * Whisper
+        * Accelerates alignment by pre-sorting reads by sequence, and only aligning non-duplicates
+        * http://sun.aei.polsl.pl/REFRESH/Whisper
+        * Paper: https://www.biorxiv.org/content/early/2017/12/28/240358?rss=1&utm_source=dlvr.it&utm_medium=twitter
+    * Other
+        * Optical computing: https://www.optalysys.com/
+        * FPGA: http://edicogenome.com/dragen-bioit-platform/
+        * Selecting variants for graph genome: https://www.biorxiv.org/content/early/2018/04/30/311720
     * Align simultaneously against multiple reference genomes http://1001genomes.org/software/genomemapper.html
     * Compressed reference-based alignment: http://groups.csail.mit.edu/cb/cora/
     * Compression and querying of aligned haplotype data: https://github.com/richarddurbin/pbwt
@@ -598,13 +640,40 @@ When looking for a bioinformatics tool for a specific application:
     * Cosmo/VARI: Assembler using succinct colored de Bruijn graphs to encode population information https://github.com/cosmo-team/cosmo/tree/VARI
     * Streaming: https://github.com/Shamir-Lab/Faucet
     * https://github.com/pmelsted/bfgraph
+* Post-alignment
+    * Base quality recalibration: https://github.com/swainechen/lacer
+    * Indel realignment: https://github.com/mozack/abra
+    * Error correction
+	* https://github.com/isovic/racon
+	* https://github.com/mikessh/mageri
+	* https://github.com/gringer/bioinfscripts/blob/master/readstomper.pl
+	* https://github.com/morinlab/ProDuSe/
+	* https://www.genomics.agilent.com/en/NGS-Data-Analysis-Software/AGeNT/?cid=AG-PT-154&tabId=prod2570007 
 * Variant calling
     * Matching variant sets: https://github.com/medvedevgroup/varmatch
     * Post-processing variant calls to determine whether variants at regions with alternative loci have allele(s) from an alternate locus: https://github.com/charite/asdpex
     * Filtering low-frequency variants that likely result from DNA damage: https://github.com/eilslabs/DKFZBiasFilter
     * Reference-free:
-      * https://github.com/dib-lab/kevlar
-      * https://github.com/jandrewrfarrell/RUFUS
+        * https://github.com/dib-lab/kevlar
+        * https://github.com/jandrewrfarrell/RUFUS
+    * DeepVariant is now open source
+	* https://github.com/google/deepvariant
+	* https://blog.dnanexus.com/2017-12-05-evaluating-deepvariant-googles-machine-learning-variant-caller/?utm_source=email&utm_medium=mailchimp&utm_campaign=december_newsletter
+	* https://blog.dnanexus.com/2018-01-16-evaluating-the-performance-of-ngs-pipelines-on-noisy-wgs-data/
+	* Currently it doesn't handle somatic calling
+* Deep learning will increase accuracy in the nest GATK release: https://gatkforums.broadinstitute.org/gatk/discussion/10996/deep-learning-in-gatk4
+    * Benchmarking
+	* GA4GH/PrecisionFDA guidelines and tools for germline variants
+	* https://www.biorxiv.org/content/early/2018/02/23/270157
+	* https://github.com/ga4gh/benchmarking-tools
+	* https://platform.dnanexus.com/login?scope=%7B%22full%22%3A+true%7D&redirect_uri=https%3A%2F%2Fprecision.fda.gov%2Freturn_from_login&client_id=precision_fda_gov
+    * Ococo
+    	* Variant calling is performed in a streaming fashion, with evidence for variation being updated from each read as it is mapped. Theoretically, new evidence can be ignored once the confidence level reaches a certain threshold. In practice, they show this is about 10% of reads. However, they only deal with SNPs. It would be interesting to investigate whether:
+	* This can be extended to somatic variant calling
+	* This can work with rare variants (eg cfDNA)
+	* https://github.com/karel-brinda/ococo
+	* Paper: https://arxiv.org/pdf/1712.01146.pdf
+    * Distributed variant calling using Spark: http://bdgenomics.org/projects/
 * Genotyping
     * https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
     * http://bioinfo.ut.ee/FastGT/
@@ -612,14 +681,69 @@ When looking for a bioinformatics tool for a specific application:
     * Compression of genotype data: http://sun.aei.polsl.pl/REFRESH/gtc
     * Base quality recalibration: https://github.com/swainechen/lacer
     * Mosaic variants: https://github.com/abyzovlab/Leucippus
-* SVs
+    * HISAT-genotype: http://ccb.jhu.edu/hisat-genotype/index.php/Main_Page
+    * Other
+* SVs/CNV calling
     * Score SVs based on predicted functional impact https://github.com/lganel/SVScore
-* CNV calling
+    * Pipelines for CNV calling:
+	* https://www.biorxiv.org/content/early/2017/09/28/195230
+	* https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1833-3
+	* https://github.com/yuchaojiang/CODEX2
+    * STIX: A tool for determining the frequency of SVs in population data: https://github.com/ryanlayer/stix
+    * Tool for online review of SVs: https://github.com/jbelyeu/SV-plaudit
+    * Using off-target reads to call CNVs: https://ep70.eventpilotadmin.com/web/page.php?page=IntHtml&project=ASHG17&id=170120230
+    * GRIDSS: detects rearrangements using du Bruijn graph assembly
+    * https://github.com/PapenfussLab/gridss
+    * https://github.com/broadinstitute/ichorCNA
+    * https://github.com/brentp/indelope
     * https://github.com/cui-lab/multigems
     * WHAM: CNV caller https://github.com/zeeev/wham
     * Identification of mosic events: https://github.com/asifrim/mrmosaic
-* Somatic
-    * https://github.com/SciLifeLab/Sarek
+        * This may be useful for calling allele-specific (i.e. heterozygous) copy number variation: https://drive.google.com/open?id=0B7E7HSjQ-SumQmlPc1Z0aUR5Sk0
+    * Benchmarking of pipelines for calling complex variants: https://www.biorxiv.org/content/early/2017/11/23/218529
+    * Manta and novoBreak performed best in DREME challenge for SV calling: https://www.biorxiv.org/content/early/2017/11/25/224733
+    * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4344483/
+    * https://academic.oup.com/nar/article/43/14/e90/2902627
+    * http://www.pnas.org/content/107/39/16910.full
+    * http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0075350
+    * https://genomebiology.biomedcentral.com/articles/10.1186/gb-2011-12-10-r108
+    * https://www.biorxiv.org/content/early/2017/10/10/119636
+    * Mappability tracks, for normalizing CNV calls http://genome-test.soe.ucsc.edu/cgi-bin/hgTrackUi?hgsid=392476445_0mwMQdJgiLvv8WtNo4YktFt41IkI&c=chr1&g=umap
+    * http://www.pnas.org/content/115/8/1871.short
+    * https://github.com/brentp/smoove
+    * https://github.com/walaj/svaba
+    * Consensus caller: https://github.com/TheJacksonLaboratory/SVE
+    * Randomized algorithm to speed up CNV calling: https://sourceforge.net/projects/genseng/
+    * CNV calling from plasma: https://www.biorxiv.org/content/early/2018/03/28/290171
+    * CODEX2: https://github.com/yuchaojiang/CODEX2
+* STR
+    * Pipeline to estimate mutational parameters for every STR in the human genome: https://www.nature.com/ng/journal/v49/n10/full/ng.3952.html
+    * MIRMMR: MSI caller
+	* https://github.com/ding-lab/MIRMMR
+	* Uses methylation and mutation information
+    * Targeted STR profiling: http://darwin.informatics.indiana.edu/str/
+    * Krait: integrated microsatellite detection and primer design
+	* https://github.com/lmdu/krait
+	* https://www.biorxiv.org/content/early/2017/11/18/221754
+    * MANTIS: https://github.com/OSU-SRLab/MANTIS
+    * MSIsensor: https://github.com/ding-lab/msisensor
+	* https://www.biorxiv.org/content/early/2018/01/10/246108
+	* They generate a reference STR database using PacBio
+	* They provide software to estimate STR number from short-read data using the reference database
+    * This could be used to quickly extract STR-containing sequences from a BAM: https://github.com/rkmlab/perf
+* Variant filtering
+    * Using deep learning model to filter false-positive variants
+	* https://www.biorxiv.org/content/biorxiv/early/2017/09/11/149146.full.pdf
+	* Pre-trained (using GIAB) Illumina and IonTorrent models are here: https://github.com/gedoardo83/GARFIELD-NGS
+    * ISOWN
+	* Distinguishes somatic from germline variants
+	* https://github.com/ikalatskaya/ISOWN
+	* Paper: https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-017-0446-9
+    * Bystro: annotation and filtering (web only)
+	* https://bystro.io/
+	* https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1387-3
+    * SevenBridges': https://github.com/sbg/smart-variant-filtering
+    * https://github.com/aquaskyline/Skyhawk
 * Repeat calling
     * REPdenovo: https://github.com/Reedwarbler/REPdenovo
 * Pipelines
@@ -627,19 +751,49 @@ When looking for a bioinformatics tool for a specific application:
 * Ancestry and kinship analysis
     * http://illumina.github.io/akt/
     * http://www.geenivaramu.ee/en/tools/mixfit
-* Phasing
+* Phasing/Haplotyping
     * Eagle2: https://data.broadinstitute.org/alkesgroup/Eagle/
     * Using HiC+partial haplotypes: https://github.com/YakhiniGroup/SpectraPh
     * PhaseME http://beehive.cs.princeton.edu/wiki/phaseme/
     * HapCut2 (unclear if this works with standard Illumina WGS) https://github.com/vibansal/HapCUT2
+    * hap.py: Illumina tool for identifying local haplotypes
+        * https://github.com/Illumina/hap.py/blob/master/doc/happy.md
+    * This might be useful in multiBP merging and in detecting contamination
+        * For single individuals: https://github.com/jcna99/PEATH
+        * https://arxiv.org/abs/1801.09864
+    * Alignment-free:
+        * Uses kmer frequency: https://github.com/paudano/kestrel
+    * IVC
+        * https://github.com/namsyvo/IVC
+        * Integrates alignment and variant calling
+        * Uses known variant information
+        * Germline, Illumina paired-end only
+    * Using decision tree: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2147-9
 * Graph
     * https://gitlab.com/dvalenzu/PanVC
     * Graph genome alignment and variant calling on SevenBridges: https://www.sevenbridges.com/graph/
-* Nanopore
-    * https://github.com/nanoporetech/wub
+* Full Pipelines
+    * superFreq: https://github.com/ChristofferFlensburg/superFreq
+    * GROM: https://osf.io/6rtws/
+    * Amplicon
+        * Canary: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1950-z
+        * https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1985-1
+    * DNAScan
+        * https://github.com/KHP-Informatics/DNAscan
+        * Align with HiSAT2; realign soft-clipped and unaligned reads with BWA MEM due to poor performance of indel calling from HISAT2-aligned data
+        * Variant calling with Freebayes, extract indel positions and realign with GATK HC, perform hard filtering
+        * Manta and Expansion Hunter for SVs
+* Non-Illumina
+    * Adapter between aligners and downstream tools for handling PacBio quality values
+        * https://github.com/mchaisso/pbsamstream
+    * BGI compared to Illumina: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190264
+    * Nanopore
+        * https://github.com/nanoporetech/wub
 * Other
     * VCF compression and data extraction: https://github.com/kedartatwawadi/GTRAC
     * Run length encoded multi-sample BWT + server: https://github.com/wtsi-svi/ReadServer
+    * Amplicon
+	* Pisces: https://github.com/Illumina/Pisces/
 
 ### Methylation
 
@@ -970,6 +1124,88 @@ When looking for a bioinformatics tool for a specific application:
 * ATAC-seq
     * Infer TF variation: https://github.com/GreenleafLab/chromVAR
     * Clustering: https://github.com/timydaley/scABC
+
+### Somatic
+
+* QC
+    * Bias detection
+        * https://www.degruyter.com/downloadpdf/j/jib.2017.14.issue-3/jib-2017-0025/jib-2017-0025.pdf
+        * This method is targeted to RNA-Seq, but should work for CNV calling from Exome data as well
+    * Deconvolution of signal (allele frequency, gene expression, etc) from heterogeneous tissue data: https://github.com/tedroman/WSCUnmix
+* Variant Calling
+    * Review of somatic variant callers: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5852328/
+    * FMI abstracts on variant calling from tumor-only sequencing
+    * http://cancerres.aacrjournals.org/content/74/19_Supplement/1893
+    * http://ascopubs.org/doi/abs/10.1200/jco.2015.33.15_suppl.11084
+    * https://github.com/SciLifeLab/Sarek
+    * Comparison of 9 somatic variant callers
+        * http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0151664
+        * From 2016; should be updated with MuTect2 and Strelka2
+    * Lancet: new somatic variant caller based on genome graphs
+        * https://github.com/nygenome/lancet
+        * Non-commercial license
+    * Some recommended tools/pipelines for calling low-frequency variants:
+	* https://github.com/tamilieberman/TB-diversity-across-organs
+	* http://csb5.github.io/lofreq/
+	* https://github.com/TGenNorth/ASAP
+	* https://www.ncbi.nlm.nih.gov/pubmed/25201145
+	* Goby uses deep learning for somatic variant calling: http://campagnelab.org/software/goby/
+    * MC3/PanCan
+        * https://www.synapse.org/#!Synapse:syn7214402/wiki/406010
+        * Variant call merger: https://github.com/covingto/pancanmafmerge
+    * Ensemble method with random forest integration of results from multiple callers:
+	* https://github.com/skandlab/SMuRF
+	* Paper: https://www.biorxiv.org/content/early/2018/02/23/270413
+    * TNScope: Sentieon's pipeline
+	* https://www.biorxiv.org/content/early/2018/01/19/250647
+	* Includes machine learning-based variant filtering
+    * xATLAS
+	* https://github.com/jfarek/xatlas
+	* Uses a logistic regression model based on truth sets (e.g. GIAB) to assign quality scores
+* CNA/SV
+    * Infer the tumor cell fraction of SV: https://github.com/mcmero/SVclone
+    * A study of using shallow WGS on low-quality FFPE samples for CNV calling used QDNASeq for segmentation
+	* https://bioconductor.org/packages/release/bioc/html/QDNAseq.html
+	* Adjusts for CG content and mappability
+	* Found 7M reads was optimal
+	* https://www.biorxiv.org/content/early/2017/12/08/231480
+    * Germline CNVs may be predictive of cancer susceptibility: https://www.biorxiv.org/content/early/2018/04/17/303339
+* Variant Filtering
+    * https://github.com/ctDNA/TNER
+    * This is a cool approach for constructing a ChIP-Seq control from integration of multiple public data sets: https://www.biorxiv.org/content/early/2018/03/08/278762. It strikes me that a similar approach could be used to generate matched controls for tumor-only samples.
+* Tumor Purity
+    * IchorCNA
+	* Estimates tumor cell fraction from low-pass WGS; should probably be adaptable to deep targeted sequencing
+	* https://github.com/broadinstitute/ichorCNA
+    * Accurity (tumor-normal)
+	* https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty043/4827681
+	* Control for tumor purity differences in methylation analysis: https://www.biorxiv.org/content/early/2018/01/16/248781
+    * PyLOH: https://github.com/uci-cbcl/PyLOH
+    * Tumor Muational Burden
+	* http://moat.gersteinlab.org/
+* Variant Annotation
+    * CHASM and SNV-Box
+	* CHASM Predicts functional significance of somatic missense mutations
+	* SNV-Box is a database of pre-computed features of all possible amino acid substitutions in the human genome
+	* http://wiki.chasmsoftware.org/index.php/Main_Page
+	*  Not free for commercial use, but it was developed at JHU and Vogelstein is a co-author on at least some of the publications
+    * Orchid: framework for annotation and machine learning of cancer variants: https://github.com/wittelab/orchid
+    * Discover potential cancer driver elements
+	* https://github.com/smshuai/DriverPower
+	* http://www.lagelab.org/projects/
+	* http://bioinformatics.mdanderson.org/main/CanDrA#CanDrA
+    * Predict cancer subtype using biological networks based on somatic variants: https://www.biorxiv.org/content/early/2017/12/03/228031
+    * PCGR: Annotate cancer genomes with clinical information:
+	* https://github.com/sigven/pcgr
+	* Integrates many public databases
+    * Benchmark of methods to identify pathogenic non-coding variation: https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/bty008/4798701?redirectedFrom=fulltext
+* Predict cancer type/signature
+    * From mutations: https://www.nature.com/articles/nature12477
+    * From SNV+SV calls: https://www.biorxiv.org/content/early/2018/02/18/267500
+    * Machine learning method to predict cancer type from variant calls: https://www.biorxiv.org/content/early/2017/11/05/214494
+    * Prediction of inherited susceptibility to 20 difference cancer types: http://www.pnas.org/content/115/6/1322.short
+    * Computing polygenic risk scores and association with cancers: https://www.biorxiv.org/content/early/2017/10/19/205021
+    * Predict driver mutations: https://github.com/KarchinLab/CHASMplus
 
 ### Integrated Methods
 
@@ -1402,6 +1638,16 @@ When looking for a bioinformatics tool for a specific application:
 * https://carto.com/carto-colors/
 * libvips: fast imgae processing library (C++ and python bindings) https://github.com/jcupitt/libvips
 * Generate flow charts, etc using markdown-like syntax: https://github.com/knsv/mermaid
+* CircosVCF
+    * Visualization of variant calls from a VCF on a CIRCOS plot
+    * http://legolas.ariel.ac.il/~tools/CircosVCF
+* Interactive reports: https://github.com/Genomon-Project/paplot
+    * Make plots from regions of BAM files
+    * Useful for very deep sequencing
+* https://github.com/ryanlayer/samplot
+* Visual inspection:
+    * https://github.com/MarWoes/viper
+    * https://www.biorxiv.org/content/early/2018/02/21/266262
 
 ## Networks
 
