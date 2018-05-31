@@ -175,6 +175,7 @@ When looking for a bioinformatics tool for a specific application:
     * Search multiple cancer pharmacogenomic databases with a single query
     * Software is GPL licensed; target databases have various licenses
     * http://pharmacodb.pmgenomics.ca
+* https://hive.biochemistry.gwu.edu/biomuta/readme
 
 ## Data Formats
 
@@ -1220,6 +1221,7 @@ When looking for a bioinformatics tool for a specific application:
 	* https://github.com/sigven/pcgr
 	* Integrates many public databases
     * Benchmark of methods to identify pathogenic non-coding variation: https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/bty008/4798701?redirectedFrom=fulltext
+    * http://bioinformatics.mdanderson.org/main/FASMIC
 * Predict cancer type/signature
     * From mutations: https://www.nature.com/articles/nature12477
     * From SNV+SV calls: https://www.biorxiv.org/content/early/2018/02/18/267500
@@ -1229,6 +1231,7 @@ When looking for a bioinformatics tool for a specific application:
     * Predict driver mutations: https://github.com/KarchinLab/CHASMplus
 * Clonality
     * https://cran.r-project.org/web/packages/QuantumClone/index.html
+    * https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0128-6/MediaObjects/41588_2018_128_MOESM1_ESM.pdf
 
 ### Integrated Methods
 
