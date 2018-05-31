@@ -427,6 +427,7 @@ When looking for a bioinformatics tool for a specific application:
     * Predict TF binding from ATAC-Seq using deep neural network:  https://github.com/hiranumn/deepatac
     * http://genome.grid.wayne.edu/centisnps/
     * Benchmark: https://github.com/Oncostat/BenchmarkNCVTools
+    * https://github.com/samesense/pathopredictor
 * Methylation
     * CpGenie: predicts methylation from sequence, predicts impact of variants on nearby methylation https://github.com/gifford-lab/CpGenie
 * Chromatin accessibility
@@ -685,6 +686,7 @@ When looking for a bioinformatics tool for a specific application:
 	* https://www.biorxiv.org/content/early/2018/02/23/270157
 	* https://github.com/ga4gh/benchmarking-tools
 	* https://platform.dnanexus.com/login?scope=%7B%22full%22%3A+true%7D&redirect_uri=https%3A%2F%2Fprecision.fda.gov%2Freturn_from_login&client_id=precision_fda_gov
+	* Using trios: https://github.com/sbg/geck
     * Ococo
     	* Variant calling is performed in a streaming fashion, with evidence for variation being updated from each read as it is mapped. Theoretically, new evidence can be ignored once the confidence level reaches a certain threshold. In practice, they show this is about 10% of reads. However, they only deal with SNPs. It would be interesting to investigate whether:
 	* This can be extended to somatic variant calling
@@ -787,6 +789,7 @@ When looking for a bioinformatics tool for a specific application:
         * Uses known variant information
         * Germline, Illumina paired-end only
     * Using decision tree: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2147-9
+    * https://github.com/jcna99/PEATH
 * Graph
     * https://gitlab.com/dvalenzu/PanVC
     * Graph genome alignment and variant calling on SevenBridges: https://www.sevenbridges.com/graph/
@@ -1224,6 +1227,8 @@ When looking for a bioinformatics tool for a specific application:
     * Prediction of inherited susceptibility to 20 difference cancer types: http://www.pnas.org/content/115/6/1322.short
     * Computing polygenic risk scores and association with cancers: https://www.biorxiv.org/content/early/2017/10/19/205021
     * Predict driver mutations: https://github.com/KarchinLab/CHASMplus
+* Clonality
+    * https://cran.r-project.org/web/packages/QuantumClone/index.html
 
 ### Integrated Methods
 
@@ -1532,8 +1537,10 @@ When looking for a bioinformatics tool for a specific application:
     * UMAP: https://github.com/lmcinnes/umap
     * Compressive k-means: https://arxiv.org/pdf/1610.08738.pdf
     * Sparse convex: https://arxiv.org/pdf/1601.04586.pdf
-* Multivariate analysis http://cran.r-project.org/web/views/Multivariate.html
-* Multivariate analysis of covariance (MANCOVA): http://en.wikipedia.org/wiki/MANCOVA
+* Multivariate
+    * http://cran.r-project.org/web/views/Multivariate.html
+    * Multivariate analysis of covariance (MANCOVA): http://en.wikipedia.org/wiki/MANCOVA
+    * Correlation https://www.biorxiv.org/content/biorxiv/early/2018/05/25/330498.full.pdf
 * Nonnegative Matrix Factorization: https://cran.r-project.org/web/packages/NMF/vignettes/NMF-vignette.pdf
 * Tensor factorization: https://cran.r-project.org/package=tensorBF
 * Identification of correlated features within or between datasets: https://github.com/siskac/discordant
@@ -1868,6 +1875,7 @@ When looking for a bioinformatics tool for a specific application:
 * http://www.data-retriever.org/
 * https://thinklab.com/
 * http://www.researchobject.org/
+* http://datalad.org/
 
 ## Journals
 
