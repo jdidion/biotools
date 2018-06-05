@@ -535,6 +535,10 @@ When looking for a bioinformatics tool for a specific application:
 * Index and fetch data from BGZF-compressed files.
 * https://github.com/baudisgroup/segment-liftover
 
+### Demultiplexing
+
+* https://axe-demultiplexer.readthedocs.io/en/latest/usage.html
+
 ### QC
 
 * Qualimap2: http://qualimap.bioinfo.cipf.es/
@@ -703,7 +707,7 @@ When looking for a bioinformatics tool for a specific application:
     * Base quality recalibration: https://github.com/swainechen/lacer
     * Mosaic variants: https://github.com/abyzovlab/Leucippus
     * HISAT-genotype: http://ccb.jhu.edu/hisat-genotype/index.php/Main_Page
-    * Other
+    * Trio-based concordance: https://github.com/sbg/VBT-TrioAnalysis
 * SVs/CNV calling
     * Score SVs based on predicted functional impact https://github.com/lganel/SVScore
     * Pipelines for CNV calling:
