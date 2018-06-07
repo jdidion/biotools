@@ -1507,6 +1507,7 @@ When looking for a bioinformatics tool for a specific application:
 * Toil: http://toil.readthedocs.io/en/latest/installation.html
 * Snakemake
 * Reflow: workflow management system developed by Grail https://github.com/grailbio/reflow
+* drake: https://github.com/ropensci/drake
 
 ## Other
 
@@ -1563,6 +1564,7 @@ When looking for a bioinformatics tool for a specific application:
     * Parallelizable FDR correction: http://bioinformatics.oxfordjournals.org/content/early/2016/02/25/bioinformatics.btw029.short
     * IHW: http://bioconductor.org/packages/release/bioc/html/IHW.html
     * BonEV: Bonferonni FDR correction https://cran.r-project.org/web/packages/BonEV/index.html
+    * Myriads: http://myriads.webs.uvigo.es/
 * Analysis of mutual information: https://github.com/jkleinj/arMI
 * Fast Bayesian alternative to lasso and ElasticNet for feature selection and effect estimation: https://cran.r-project.org/web/packages/EBglmnet/index.html
 * Genome-wide generalized addative models: https://master.bioconductor.org/packages/3.3/bioc/html/GenoGAM.html
