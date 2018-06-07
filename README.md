@@ -108,8 +108,7 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
 * http://www.docm.info/
 * Normalized, batch-corrected RNA-seq for both normal (GTEx) and cancer (TCGA) data: https://www.nature.com/articles/sdata201861
 * Hartwig WGS (requires data request): https://www.hartwigmedicalfoundation.nl/en/wgs-database/
-* Orthogonally validated TP and FP CNVs: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5473400/
-
+    
 # Discovery
 
 When looking for a bioinformatics tool for a specific application:
@@ -770,13 +769,16 @@ When looking for a bioinformatics tool for a specific application:
 	* https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1387-3
     * SevenBridges': https://github.com/sbg/smart-variant-filtering
     * https://github.com/aquaskyline/Skyhawk
+    * This paper describes criteria that identify 100% of FP (as determined by Sanger sequencing) in a large clinical dataset https://www.biorxiv.org/content/early/2018/05/31/335950?rss=1
 * Repeat calling
     * REPdenovo: https://github.com/Reedwarbler/REPdenovo
 * Pipelines
     * SpeedSeq: alignment/annotation pipeline - https://github.com/hall-lab/speedseq
+    * GenomeVIP: cloud-based pipeline https://github.com/ding-lab/GenomeVIP/
 * Ancestry and kinship analysis
     * http://illumina.github.io/akt/
     * http://www.geenivaramu.ee/en/tools/mixfit
+    * Genotype clustering and ethnicity prediction using Deep Belief Networks: https://arxiv.org/abs/1805.12218
 * Phasing/Haplotyping
     * Eagle2: https://data.broadinstitute.org/alkesgroup/Eagle/
     * Using HiC+partial haplotypes: https://github.com/YakhiniGroup/SpectraPh
