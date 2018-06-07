@@ -108,7 +108,8 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
 * http://www.docm.info/
 * Normalized, batch-corrected RNA-seq for both normal (GTEx) and cancer (TCGA) data: https://www.nature.com/articles/sdata201861
 * Hartwig WGS (requires data request): https://www.hartwigmedicalfoundation.nl/en/wgs-database/
-    
+* Orthogonally validated TP and FP CNVs: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5473400/
+
 # Discovery
 
 When looking for a bioinformatics tool for a specific application:
