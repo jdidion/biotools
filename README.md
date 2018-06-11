@@ -430,6 +430,8 @@ When looking for a bioinformatics tool for a specific application:
     * http://genome.grid.wayne.edu/centisnps/
     * Benchmark: https://github.com/Oncostat/BenchmarkNCVTools
     * https://github.com/samesense/pathopredictor
+    * Cell-type agnostic regulatory activity prediction from ENCODE: http://screen.encodeproject.org/
+    * Segway functional scores: https://noble.gs.washington.edu/proj/encyclopedia/
 * Methylation
     * CpGenie: predicts methylation from sequence, predicts impact of variants on nearby methylation https://github.com/gifford-lab/CpGenie
 * Chromatin accessibility
