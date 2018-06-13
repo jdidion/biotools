@@ -1530,6 +1530,7 @@ When looking for a bioinformatics tool for a specific application:
     * Alternative: http://link.springer.com/article/10.1007/s10994-009-5119-5
 * R package for subsetting data into training/testing/validation sets: https://cran.r-project.org/web/packages/STPGA/index.html
 * Second-generation p-values: https://github.com/lucymcgowan/sgpvalue
+* PMML: interchange format for trained models https://en.wikipedia.org/wiki/Predictive_Model_Markup_Language
 
 ## Methods/algorithms
 
