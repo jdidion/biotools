@@ -537,6 +537,7 @@ When looking for a bioinformatics tool for a specific application:
 * Data processing pipelines for many types of omics data, built using NextFlow and Singularity: https://github.com/c-guzman/cipher-workflow-platform
 * Index and fetch data from BGZF-compressed files.
 * https://github.com/baudisgroup/segment-liftover
+* Recover unaligned reads: https://github.com/VCCRI/Scavenger
 
 ### Demultiplexing
 
