@@ -751,6 +751,7 @@ When looking for a bioinformatics tool for a specific application:
     * Randomized algorithm to speed up CNV calling: https://sourceforge.net/projects/genseng/
     * CNV calling from plasma: https://www.biorxiv.org/content/early/2018/03/28/290171
     * CODEX2: https://github.com/yuchaojiang/CODEX2
+    * Ensemble caller: https://github.com/HaoKeLab/ensembleCNV
 * STR
     * Pipeline to estimate mutational parameters for every STR in the human genome: https://www.nature.com/ng/journal/v49/n10/full/ng.3952.html
     * MIRMMR: MSI caller
