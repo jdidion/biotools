@@ -109,6 +109,10 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
 * Normalized, batch-corrected RNA-seq for both normal (GTEx) and cancer (TCGA) data: https://www.nature.com/articles/sdata201861
 * Hartwig WGS (requires data request): https://www.hartwigmedicalfoundation.nl/en/wgs-database/
 * Orthogonally validated TP and FP CNVs: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5473400/
+* Microarray transcriptome profiles prepared for ML applications: https://www.biorxiv.org/content/biorxiv/early/2018/06/22/353698.full.pdf
+* Cloud resource for filtering 1kg data
+    * http://bamsi.research.it.uu.se/
+    * Python API: https://github.com/NGDSG/BAMSI-API
 
 # Discovery
 
@@ -214,7 +218,7 @@ When looking for a bioinformatics tool for a specific application:
 * SeqGL: predict TF binding from DNase/ATAC-seq https://bitbucket.org/leslielab/seqgl/wiki/Home
 * DeFCoM: https://bitbucket.org/bryancquach/defcom
 
-## Functional Enrichment
+## Functional Enrichment/Ontology
 
 * General:
     * R interface to DAVID: http://www.bioconductor.org/packages/release/bioc/html/RDAVIDWebService.html
@@ -233,6 +237,7 @@ When looking for a bioinformatics tool for a specific application:
     * ReactomePA: <https://guangchuangyu.github.io/reactomepa/>
     * https://cran.r-project.org/web/packages/SetRank/index.html
     * Identify and rank significance of overlaps: https://github.com/ryanlayer/giggle
+    * Generate feature vectors from ontology annotations: https://github.com/bio-ontology-research-group/onto2vec
 * Gene sets
     * http://bioconductor.org/packages/release/data/experiment/html/EGSEAdata.html
     * http://genomespot.blogspot.com.au/2017/02/introducing-encode-gene-set-hub.html
@@ -711,7 +716,6 @@ When looking for a bioinformatics tool for a specific application:
 * Genotyping
     * https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
     * http://bioinfo.ut.ee/FastGT/
-    * STR genotyping from NGS: http://melissagymrek.com/lobstr-code/
     * Compression of genotype data: http://sun.aei.polsl.pl/REFRESH/gtc
     * Base quality recalibration: https://github.com/swainechen/lacer
     * Mosaic variants: https://github.com/abyzovlab/Leucippus
@@ -768,6 +772,8 @@ When looking for a bioinformatics tool for a specific application:
 	* They provide software to estimate STR number from short-read data using the reference database
     * This could be used to quickly extract STR-containing sequences from a BAM: https://github.com/rkmlab/perf 
     * https://github.com/mehrdadbakhtiari/adVNTR
+    * https://github.com/mcfrith/tandem-genotypes
+    * http://melissagymrek.com/lobstr-code/
 * Variant filtering
     * Using deep learning model to filter false-positive variants
 	* https://www.biorxiv.org/content/biorxiv/early/2017/09/11/149146.full.pdf
@@ -899,6 +905,7 @@ When looking for a bioinformatics tool for a specific application:
     * Filtering and tissue-aware normalization: http://bioconductor.org/packages/release/bioc/html/yarn.html
     * Bias correction for transcript abundance estimation: https://www.lexogen.com/mix-square-scientific-license/
     * Replacement for htseq-counts/featureCounts that handles multi-mapping reads: https://bitbucket.org/mzytnicki/multi-mapping-counter
+    * https://github.com/wgmao/DataRemix
 * Workflows:
     * Artemis (RNA-Seq workflow designed around Kallisto): https://github.com/RamsinghLab/artemis
     * https://github.com/ririzarr/rafalib
@@ -1664,11 +1671,13 @@ When looking for a bioinformatics tool for a specific application:
 	* Conditional variational autoencoders: http://ijdykeman.github.io/ml/2016/12/21/cvae.html
 	* Group equivariant CNN: http://jmlr.org/proceedings/papers/v48/cohenc16.pdf
 	* QuickNet: https://arxiv.org/abs/1701.02291
+	* Collection of pre-trained tensorflow models: https://github.com/tensorflow/models/tree/master/research
 * Tools
 	* Tensorflow playground: http://playground.tensorflow.org/
 	* http://yosinski.com/deepvis
 	* https://medium.com/@shivon/the-current-state-of-machine-intelligence-3-0-e4d305da032e#.gw0ywcpkv
 	* Visualize hyperparameters: https://github.com/ContextLab/hypertools
+	* Convolutional layers for DNA sequence: https://github.com/koonimaru/DeepGMAP
 * Non-bio networks that might be applied
 	* https://github.com/david-gpu/srez
 	* Deep learning with text: https://explosion.ai/blog/deep-learning-formula-nlp
