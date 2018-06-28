@@ -282,6 +282,7 @@ When looking for a bioinformatics tool for a specific application:
     * Correcting for prediction uncertainty in TWAS: http://biorxiv.org/content/early/2017/02/14/108316
     * Using random forests https://github.com/0asa/TTree-source
     * Using k-mers: https://github.com/atifrahman/HAWK
+    * BOLT-LMM: https://data.broadinstitute.org/alkesgroup/BOLT-LMM/
 * Variance eQTL
     * https://funpopgen.github.io/veqtl-mapper/
 * Multiple test correction
@@ -323,6 +324,7 @@ When looking for a bioinformatics tool for a specific application:
 * Impute from Affy expression arrays: http://simtk.org/home/affyimpute
 * SNP
     * Call haplotypes https://cran.r-project.org/web/packages/GHap/index.html
+    * Neural network for breakpoint detection for CNV calling: https://www.biorxiv.org/content/biorxiv/early/2018/06/24/354423.full.pdf
 * Methylation
     * Minfi: R package for working with 450k methylation arrays
     * D3M: two-sample test of differential methylation from distribution-valued data https://cran.r-project.org/web/packages/D3M/D3M.pdf
@@ -538,6 +540,7 @@ When looking for a bioinformatics tool for a specific application:
 * Index and fetch data from BGZF-compressed files.
 * https://github.com/baudisgroup/segment-liftover
 * Recover unaligned reads: https://github.com/VCCRI/Scavenger
+* Intersection and visualization of multiple gene/region sets: https://bitbucket.org/CBGR/intervene
 
 ### Demultiplexing
 
@@ -570,6 +573,7 @@ When looking for a bioinformatics tool for a specific application:
 * New diploid reference for benchmarking: https://www.biorxiv.org/content/early/2017/11/22/223297
 * Historical tracking: https://github.com/nilesh-tawari/ChronQC
 * Estimate library complexity: http://smithlabresearch.org/software/preseq/
+* Protocol-specific pre-processing: https://github.com/lh3/pre-pe
 
 ### Chromatin accessibility
 
@@ -662,6 +666,7 @@ When looking for a bioinformatics tool for a specific application:
 	* https://github.com/ocxtal/minialign
 	* Graph-based: https://github.com/isovic/graphmap
 	* https://github.com/xiaochuanle/MECAT
+    * Correct sex chromosome-related errors/artifacts: https://github.com/WilsonSayresLab/XYalign
 * Assembly
     * Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
     * Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
@@ -712,6 +717,7 @@ When looking for a bioinformatics tool for a specific application:
     * Mosaic variants: https://github.com/abyzovlab/Leucippus
     * HISAT-genotype: http://ccb.jhu.edu/hisat-genotype/index.php/Main_Page
     * Trio-based concordance: https://github.com/sbg/VBT-TrioAnalysis
+    * Using a graph reference: https://github.com/bioinformatics-centre/BayesTyper
 * SVs/CNV calling
     * Score SVs based on predicted functional impact https://github.com/lganel/SVScore
     * Pipelines for CNV calling:
@@ -759,7 +765,8 @@ When looking for a bioinformatics tool for a specific application:
 	* https://www.biorxiv.org/content/early/2018/01/10/246108
 	* They generate a reference STR database using PacBio
 	* They provide software to estimate STR number from short-read data using the reference database
-    * This could be used to quickly extract STR-containing sequences from a BAM: https://github.com/rkmlab/perf
+    * This could be used to quickly extract STR-containing sequences from a BAM: https://github.com/rkmlab/perf 
+    * https://github.com/mehrdadbakhtiari/adVNTR
 * Variant filtering
     * Using deep learning model to filter false-positive variants
 	* https://www.biorxiv.org/content/biorxiv/early/2017/09/11/149146.full.pdf
@@ -822,6 +829,7 @@ When looking for a bioinformatics tool for a specific application:
     * BGI compared to Illumina: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190264
     * Nanopore
         * https://github.com/nanoporetech/wub
+	* Detect analytes from raw event data: https://github.com/nanoporetech/mako
 * Other
     * VCF compression and data extraction: https://github.com/kedartatwawadi/GTRAC
     * Run length encoded multi-sample BWT + server: https://github.com/wtsi-svi/ReadServer
@@ -1152,6 +1160,7 @@ When looking for a bioinformatics tool for a specific application:
     * Demuxlet: using natural genetic variation to demultiple 10x data https://github.com/hyunminkang/apigenome
     * Alignment of multiple single-cell data sets: https://github.com/jw156605/MATCHER
     * Topological analysis: https://github.com/RabadanLab/scTDA
+    * Deconvolution of bulk RNA from scRNA: https://github.com/xuranw/MuSiC
 * Methylation
     * Prediction of missing information: https://github.com/cangermueller/deepcpg
 * ATAC-seq
@@ -1203,6 +1212,7 @@ When looking for a bioinformatics tool for a specific application:
 	* Found 7M reads was optimal
 	* https://www.biorxiv.org/content/early/2017/12/08/231480
     * Germline CNVs may be predictive of cancer susceptibility: https://www.biorxiv.org/content/early/2018/04/17/303339
+    * https://github.com/yuchaojiang/MARATHON
 * Variant Filtering
     * https://github.com/ctDNA/TNER
     * This is a cool approach for constructing a ChIP-Seq control from integration of multiple public data sets: https://www.biorxiv.org/content/early/2018/03/08/278762. It strikes me that a similar approach could be used to generate matched controls for tumor-only samples.
@@ -1243,6 +1253,11 @@ When looking for a bioinformatics tool for a specific application:
 * Clonality
     * https://cran.r-project.org/web/packages/QuantumClone/index.html
     * https://static-content.springer.com/esm/art%3A10.1038%2Fs41588-018-0128-6/MediaObjects/41588_2018_128_MOESM1_ESM.pdf
+    * Benchmarking, plus description of CloneFinder: https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/bty469/5040314
+* MSI
+    * https://github.com/kzkedzierska/sonics
+* Other
+    * Bioconductor package with various methods for working with TCGA data: https://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html
 
 ### Integrated Methods
 
@@ -1274,6 +1289,8 @@ When looking for a bioinformatics tool for a specific application:
     * HMM: https://link.springer.com/protocol/10.1007/978-1-4939-6753-7_10
     * https://github.com/KnowEnG/pgenmi
     * https://github.com/bioFAM/MOFA
+    * https://github.com/jinghan1018/tensor_decomp
+    * Unsupervised: https://github.com/bioFAM/MOFA
 * Multi-tissue:
     * http://bioconductor.org/packages/release/bioc/html/HDTD.html
     * https://github.com/yuzhang123/IDEAS
@@ -1703,6 +1720,7 @@ When looking for a bioinformatics tool for a specific application:
 * Visual inspection:
     * https://github.com/MarWoes/viper
     * https://www.biorxiv.org/content/early/2018/02/21/266262
+* Venn diagrams: https://github.com/vqf/nVenn
 
 ## Networks
 
