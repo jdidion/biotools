@@ -181,6 +181,7 @@ When looking for a bioinformatics tool for a specific application:
     * Software is GPL licensed; target databases have various licenses
     * http://pharmacodb.pmgenomics.ca
 * https://hive.biochemistry.gwu.edu/biomuta/readme
+* Database of druggable variant information (web only): http://depo-dinglab.ddns.net/
 
 ## Data Formats
 
@@ -1621,6 +1622,7 @@ When looking for a bioinformatics tool for a specific application:
 * Iterative random forest: https://github.com/sumbose/iRF
 * Compares method for outlier detection: https://cran.r-project.org/web/packages/OutliersO3/index.html
 * Comparison of inference methods: http://jenniferhill7.wixsite.com/acic-2016/competition
+* Polynomial regression: https://github.com/matloff/polyreg
 
 ## Python
 
