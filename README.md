@@ -775,6 +775,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/mehrdadbakhtiari/adVNTR
     * https://github.com/mcfrith/tandem-genotypes
     * http://melissagymrek.com/lobstr-code/
+    * Genotyping STR longer than read length: https://github.com/gymreklab/GangSTR
 * Variant filtering
     * Using deep learning model to filter false-positive variants
 	* https://www.biorxiv.org/content/biorxiv/early/2017/09/11/149146.full.pdf
