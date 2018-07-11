@@ -673,6 +673,7 @@ When looking for a bioinformatics tool for a specific application:
 	* Graph-based: https://github.com/isovic/graphmap
 	* https://github.com/xiaochuanle/MECAT
     * Correct sex chromosome-related errors/artifacts: https://github.com/WilsonSayresLab/XYalign
+    * Lossy compression of quality scores: https://github.com/jkbonfield/crumble
 * Assembly
     * Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
     * Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
@@ -1301,6 +1302,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/bioFAM/MOFA
     * https://github.com/jinghan1018/tensor_decomp
     * Unsupervised: https://github.com/bioFAM/MOFA
+    * https://noble.gs.washington.edu/proj/avocado/
 * Multi-tissue:
     * http://bioconductor.org/packages/release/bioc/html/HDTD.html
     * https://github.com/yuzhang123/IDEAS
