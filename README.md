@@ -896,6 +896,7 @@ When looking for a bioinformatics tool for a specific application:
     * Improve transcript quantification by integrating PolII ChIP-seq data: https://github.com/pliu55/RSEM/tree/pRSEM
     * Hera: simultaneous alignment, quantification, and fusion detection https://github.com/bioturing/hera
     * Aligner calibraiton: https://bitbucket.org/irenerodriguez/fbb
+    * Quantification using k-mers unique to each gene: https://github.com/informationsea/Matataki
 * Correction/Normalization
     * Choosing normalization methods: https://arxiv.org/abs/1609.00959
     * TDM: cross-platform normalization https://github.com/greenelab/TDMresults
