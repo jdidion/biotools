@@ -969,7 +969,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/davidaknowles/leafcutter
     * http://www.mhs.biol.ethz.ch/research/krek/jsplice.html
     * Splice site prediction: http://cabgrid.res.in:8080/HSplice/
-    * DRIM-seq: http://bioconductor.org/packages/release/bioc/html/DRIMSeq.html
+    * DRIM-seq: http://bioconductor.org/packages/DRIMSeq
     * Fast quantification of differential splicing: https://github.com/comprna/SUPPA
     * Identify variant associated with splicing: https://sourceforge.net/projects/isvase/
     * Prediction of intronic splice branchpoints: https://github.com/betsig/branchpointer/
@@ -978,6 +978,7 @@ When looking for a bioinformatics tool for a specific application:
     * http://github.com/henryxushi/SparseIso
     * https://github.com/tigerhu15/PennDiff
     * https://github.com/abl0719/ASElux
+    * F1000/Bioconductor workflow on DRIMSeq and DEXSeq for DTU: https://f1000research.com/articles/7-952/v1
 * Assembly:
     * CIDANE: http://ccb.jhu.edu/software/cidane/
     * transrate: evaluation of de novo assemblies http://hibberdlab.com/transrate/
