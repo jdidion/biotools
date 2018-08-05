@@ -596,6 +596,7 @@ When looking for a bioinformatics tool for a specific application:
 * Identify accessible chromatin from NOMe-seq https://sourceforge.net/projects/came/
 * Nucleotide-specific bias adjustment: https://github.com/txje/sequence-bias-adjustment
 * ATAC-seq peak caller: https://github.com/LiuLabUB/HMMRATAC
+* esATAC: ATAC-Seq pipeline https://bioconductor.org/packages/release/bioc/html/esATAC.html
 
 ### ChIP-seq
 
@@ -1552,6 +1553,11 @@ When looking for a bioinformatics tool for a specific application:
 * Reflow: workflow management system developed by Grail https://github.com/grailbio/reflow
 * drake: https://github.com/ropensci/drake
 
+### Software Distribution
+
+* Executable archives (xar): https://github.com/facebookincubator/xar
+
+
 ## Other
 
 * Automated system for sequencing core facilities using microservices architecture: https://www.biorxiv.org/content/early/2017/11/06/214858
@@ -1690,6 +1696,7 @@ When looking for a bioinformatics tool for a specific application:
 	* https://medium.com/@shivon/the-current-state-of-machine-intelligence-3-0-e4d305da032e#.gw0ywcpkv
 	* Visualize hyperparameters: https://github.com/ContextLab/hypertools
 	* Convolutional layers for DNA sequence: https://github.com/koonimaru/DeepGMAP
+	* Interpret neuron importance: https://arxiv.org/abs/1807.09946
 * Non-bio networks that might be applied
 	* https://github.com/david-gpu/srez
 	* Deep learning with text: https://explosion.ai/blog/deep-learning-formula-nlp
