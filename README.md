@@ -113,6 +113,7 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
 * Cloud resource for filtering 1kg data
     * http://bamsi.research.it.uu.se/
     * Python API: https://github.com/NGDSG/BAMSI-API
+* Paired mRNA and protein abundance in 26 human tissues: https://www.biorxiv.org/content/biorxiv/early/2018/06/27/357137.full.pdf
 
 # Discovery
 
@@ -445,6 +446,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/samesense/pathopredictor
     * Cell-type agnostic regulatory activity prediction from ENCODE: http://screen.encodeproject.org/
     * Segway functional scores: https://noble.gs.washington.edu/proj/encyclopedia/
+    * Predict effect of variants on epigenetic factors (chromatin accessibility, histone marks, etc): http://deepfigv.mssm.edu/downloads.html
 * Methylation
     * CpGenie: predicts methylation from sequence, predicts impact of variants on nearby methylation https://github.com/gifford-lab/CpGenie
 * Chromatin accessibility
@@ -552,6 +554,7 @@ When looking for a bioinformatics tool for a specific application:
 * https://github.com/baudisgroup/segment-liftover
 * Recover unaligned reads: https://github.com/VCCRI/Scavenger
 * Intersection and visualization of multiple gene/region sets: https://bitbucket.org/CBGR/intervene
+* Mantis: index of raw-read datasets for efficient and exacty queries https://github.com/splatlab/mantis
 
 ### Demultiplexing
 
@@ -597,6 +600,8 @@ When looking for a bioinformatics tool for a specific application:
 * Nucleotide-specific bias adjustment: https://github.com/txje/sequence-bias-adjustment
 * ATAC-seq peak caller: https://github.com/LiuLabUB/HMMRATAC
 * esATAC: ATAC-Seq pipeline https://bioconductor.org/packages/release/bioc/html/esATAC.html
+* Predict targets of accessible regions: https://github.com/cole-trapnell-lab/cicero-release
+* HINT-ATAC: TF footprinting from ATAC-Seq data http://www.regulatory-genomics.org/hint/introduction/
 
 ### ChIP-seq
 
@@ -706,8 +711,8 @@ When looking for a bioinformatics tool for a specific application:
 	* https://github.com/google/deepvariant
 	* https://blog.dnanexus.com/2017-12-05-evaluating-deepvariant-googles-machine-learning-variant-caller/?utm_source=email&utm_medium=mailchimp&utm_campaign=december_newsletter
 	* https://blog.dnanexus.com/2018-01-16-evaluating-the-performance-of-ngs-pipelines-on-noisy-wgs-data/
-	* Currently it doesn't handle somatic calling
-* Deep learning will increase accuracy in the nest GATK release: https://gatkforums.broadinstitute.org/gatk/discussion/10996/deep-learning-in-gatk4
+	* Currently it doesn't handle somatic calling 
+    * Deep learning will increase accuracy in the nest GATK release: https://gatkforums.broadinstitute.org/gatk/discussion/10996/deep-learning-in-gatk4
     * Benchmarking
 	* GA4GH/PrecisionFDA guidelines and tools for germline variants
 	* https://www.biorxiv.org/content/early/2018/02/23/270157
@@ -721,6 +726,7 @@ When looking for a bioinformatics tool for a specific application:
 	* https://github.com/karel-brinda/ococo
 	* Paper: https://arxiv.org/pdf/1712.01146.pdf
     * Distributed variant calling using Spark: http://bdgenomics.org/projects/
+    * De-novo variant caller: https://github.com/bgm-cwg/novoCaller
 * Genotyping
     * https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
     * http://bioinfo.ut.ee/FastGT/
@@ -852,6 +858,10 @@ When looking for a bioinformatics tool for a specific application:
     * Amplicon
 	* Pisces: https://github.com/Illumina/Pisces/
 
+### Metagenomics
+
+* Alignment-free functional binning and abundance estimation: https://github.com/snz20/carnelian
+
 ### Methylation
 
 * BS-SNPer: fast SNP calling from bisulfite-converted sequencing reads https://github.com/hellbelly/BS-Snper
@@ -874,6 +884,7 @@ When looking for a bioinformatics tool for a specific application:
 
 * https://github.com/roblanf/minion_qc
 * Clinical application: https://www.nature.com/articles/s41467-017-01343-4
+* Signal-level barcode demux: https://github.com/rrwick/Deepbinner
 
 ### RNA
 
@@ -916,6 +927,7 @@ When looking for a bioinformatics tool for a specific application:
     * Bias correction for transcript abundance estimation: https://www.lexogen.com/mix-square-scientific-license/
     * Replacement for htseq-counts/featureCounts that handles multi-mapping reads: https://bitbucket.org/mzytnicki/multi-mapping-counter
     * https://github.com/wgmao/DataRemix
+    * Junction compatibility score for idenitifying genes whose isoform-level abundance estimates differ significantly from expectation: https://github.com/csoneson/annotation_problem_txabundance
 * Workflows:
     * Artemis (RNA-Seq workflow designed around Kallisto): https://github.com/RamsinghLab/artemis
     * https://github.com/ririzarr/rafalib
@@ -1057,6 +1069,8 @@ When looking for a bioinformatics tool for a specific application:
     * Analysis-ready datasets: http://imlspenticton.uzh.ch:3838/conquer/
 * Platforms
     * Microwells: http://www.nature.com/articles/srep33883
+* Simulation
+    * https://github.com/YosefLab/SymSim
 * QC:
     * http://www.morgridge.net/SinQC.html
     * https://github.com/YosefLab/scone
@@ -1113,6 +1127,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/willtownes/vamf-paper
 * Allele-specific expression
     * SCALE accounts for "burstiness" of transcription: https://github.com/yuchaojiang/SCALE
+    * https://github.com/churchill-lab/scBASE
 * Splicing
     * https://github.com/huangyh09/brie    
 * Time-series/ordering/lineage prediction
@@ -1232,6 +1247,8 @@ When looking for a bioinformatics tool for a specific application:
 	* https://www.biorxiv.org/content/early/2017/12/08/231480
     * Germline CNVs may be predictive of cancer susceptibility: https://www.biorxiv.org/content/early/2018/04/17/303339
     * https://github.com/yuchaojiang/MARATHON
+    * Allele-specific SV calling: https://github.com/ma-compbio/Weaver
+        * Phasing SVs with noisy data: http://sci-hub.tw/http://liebertpub.com/doi/pdf/10.1089/cmb.2018.0022
 * Variant Filtering
     * https://github.com/ctDNA/TNER
     * This is a cool approach for constructing a ChIP-Seq control from integration of multiple public data sets: https://www.biorxiv.org/content/early/2018/03/08/278762. It strikes me that a similar approach could be used to generate matched controls for tumor-only samples.
@@ -1262,6 +1279,9 @@ When looking for a bioinformatics tool for a specific application:
 	* Integrates many public databases
     * Benchmark of methods to identify pathogenic non-coding variation: https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/bty008/4798701?redirectedFrom=fulltext
     * http://bioinformatics.mdanderson.org/main/FASMIC
+    * Database of TCGA alternative splicing events https://www.cell.com/cancer-cell/fulltext/S1535-6108(18)30306-4#secsectitle0080
+    * Consensus driver gene identification pipeline and database of cancer driver genes in TCGA: https://www.cell.com/cell/fulltext/S0092-8674(18)30237-X
+    * TCGA pathogenic signalling pathways: https://www.cell.com/cell/fulltext/S0092-8674(18)30359-3?cid=tw%26p
 * Predict cancer type/signature
     * From mutations: https://www.nature.com/articles/nature12477
     * From SNV+SV calls: https://www.biorxiv.org/content/early/2018/02/18/267500
@@ -1477,6 +1497,9 @@ When looking for a bioinformatics tool for a specific application:
 * Chunked, compressed ndarrays http://zarr.readthedocs.io/en/latest/index.html
 * Easy colored/styled printing in command line apps https://github.com/UltimateHackers/hue
 * http://alimanfoo.github.io/2017/06/14/read-vcf.html
+* Launching a subprocess in a pseudo-terminal (e.g. for accepting passwords) https://github.com/pexpect/ptyprocess
+* Launch an editor from python: https://github.com/fmoo/python-editor
+* Faster alternative to pyvcf: https://github.com/brentp/cyvcf2
 
 ## HPC
 
@@ -1644,9 +1667,7 @@ When looking for a bioinformatics tool for a specific application:
 
 * http://www.clips.ua.ac.be/pages/pattern
 * Linear mixed-model solver https://github.com/nickFurlotte/pylmm
-* Launching a subprocess in a pseudo-terminal (e.g. for accepting passwords) https://github.com/pexpect/ptyprocess
-* Launch an editor from python: https://github.com/fmoo/python-editor
-* Faster alternative to pyvcf: https://github.com/brentp/cyvcf2
+* Exact inference in HMMs with large number of hidden states: https://github.com/regevs/factorial_hmm
 
 ## Deep Learning
 
