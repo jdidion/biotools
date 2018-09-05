@@ -216,6 +216,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://biosyntax.org/install
     * https://github.com/koelling/dnacol
 * Generate NCBI submission data: https://github.com/genomeannotation/GAG
+* Convert between many different formats, using a SQL database as intermediate representation: https://watson.hgen.pitt.edu/mega2/mega2r/
 
 ## Footprinting
 
@@ -589,20 +590,6 @@ When looking for a bioinformatics tool for a specific application:
 * Estimate library complexity: http://smithlabresearch.org/software/preseq/
 * Protocol-specific pre-processing: https://github.com/lh3/pre-pe
 
-### Chromatin accessibility
-
-* DNase footprinting: https://github.com/ajank/Romulus
-* HINT: http://costalab.org/publications-2/dh-hmm/ (was best out of 10 compared tools in recent NatMeth paper)
-* ALTRE: https://mathelab.github.io/ALTRE/vignette.html
-* Predict TF binding affinities using open chromatin + PWMs: https://github.com/schulzlab/TEPIC
-* LR-DNAse: TFBS prediction using features derived from DNase-seq: http://biorxiv.org/content/early/2016/10/24/082594
-* Identify accessible chromatin from NOMe-seq https://sourceforge.net/projects/came/
-* Nucleotide-specific bias adjustment: https://github.com/txje/sequence-bias-adjustment
-* ATAC-seq peak caller: https://github.com/LiuLabUB/HMMRATAC
-* esATAC: ATAC-Seq pipeline https://bioconductor.org/packages/release/bioc/html/esATAC.html
-* Predict targets of accessible regions: https://github.com/cole-trapnell-lab/cicero-release
-* HINT-ATAC: TF footprinting from ATAC-Seq data http://www.regulatory-genomics.org/hint/introduction/
-
 ### ChIP-seq
 
 * Pre-processing
@@ -631,6 +618,21 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/milospjanic/ChIPSeqFPro
 * Shape motifs: https://github.com/h-samee/shape-motif
 * K-mer-based alternative to PWMs for predicting TF binding sites: http://groups.csail.mit.edu/cgs/gem/kmac/
+
+### Chromatin accessibility
+
+* DNase footprinting: https://github.com/ajank/Romulus
+* HINT: http://costalab.org/publications-2/dh-hmm/ (was best out of 10 compared tools in recent NatMeth paper)
+* ALTRE: https://mathelab.github.io/ALTRE/vignette.html
+* Predict TF binding affinities using open chromatin + PWMs: https://github.com/schulzlab/TEPIC
+* LR-DNAse: TFBS prediction using features derived from DNase-seq: http://biorxiv.org/content/early/2016/10/24/082594
+* Identify accessible chromatin from NOMe-seq https://sourceforge.net/projects/came/
+* Nucleotide-specific bias adjustment: https://github.com/txje/sequence-bias-adjustment
+* ATAC-seq peak caller: https://github.com/LiuLabUB/HMMRATAC
+* esATAC: ATAC-Seq pipeline https://bioconductor.org/packages/release/bioc/html/esATAC.html
+* Predict targets of accessible regions: https://github.com/cole-trapnell-lab/cicero-release
+* HINT-ATAC: TF footprinting from ATAC-Seq data http://www.regulatory-genomics.org/hint/introduction/
+* ATAC-Seq QC: https://bioconductor.org/packages/release/bioc/html/ATACseqQC.html
 
 ### Chromatin Interactions
 
@@ -1573,6 +1575,7 @@ When looking for a bioinformatics tool for a specific application:
 * Invoke: http://docs.pyinvoke.org/en/latest/
 * Toil: http://toil.readthedocs.io/en/latest/installation.html
 * Snakemake
+    * Pipelines for several genomic/epigenomic analyses https://github.com/maxplanck-ie/snakepipes
 * Reflow: workflow management system developed by Grail https://github.com/grailbio/reflow
 * drake: https://github.com/ropensci/drake
 
