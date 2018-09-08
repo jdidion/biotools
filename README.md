@@ -187,6 +187,9 @@ When looking for a bioinformatics tool for a specific application:
     * http://pharmacodb.pmgenomics.ca
 * https://hive.biochemistry.gwu.edu/biomuta/readme
 * Database of druggable variant information (web only): http://depo-dinglab.ddns.net/
+* CHESS: new gene annotation database
+    * Contains most genes from RefSeq and Gencode, plus additional genes discovered from GTEx transcripts
+    * http://ccb.jhu.edu/chess/
 
 ## Data Formats
 
@@ -425,9 +428,17 @@ When looking for a bioinformatics tool for a specific application:
     * Prediction of enhancer strength from sequenced http://bioinformatics.hitsz.edu.cn/iEnhancer-2L
     * Prediction of core cell type-specific TFs from super enhancers https://bitbucket.org/young_computation/crcmapper
     * Prediction of superenhancers https://github.com/asntech/improse
-    * Deep learning-based: https://github.com/wenjiegroup/BiRen
+    * Deep learning-based:
+        * https://github.com/wenjiegroup/BiRen
+        * https://www.biorxiv.org/content/early/2018/08/24/398115
+        * https://www.biorxiv.org/content/early/2018/02/14/264200
 * Coding mutations
     * Predict mutation effects from sequence covariation: https://marks.hms.harvard.edu/evmutation/
+    * Predicting loss-of-function from expression: https://www.nature.com/articles/s41467-017-00443-5
+    * Prediction of missense variants: https://www.biorxiv.org/content/early/2018/02/02/259390
+    * Disease-specific functional prediction https://sites.google.com/site/emorydivan/
+    * Impact of coding SNPs: http://pantherdb.org/tools/csnpScoreForm.jsp
+    * Predict disease risk from GWAS summary statistics: https://github.com/yiminghu/AnnoPred
 * Regulatory variants/TF binding
     * LedPred: prediction of regulatory sequences from ChIP-seq https://github.com/aitgon/LedPred
     * GERV: prediction of regulatory variants that affect TF inding http://gerv.csail.mit.edu/
@@ -448,6 +459,12 @@ When looking for a bioinformatics tool for a specific application:
     * Cell-type agnostic regulatory activity prediction from ENCODE: http://screen.encodeproject.org/
     * Segway functional scores: https://noble.gs.washington.edu/proj/encyclopedia/
     * Predict effect of variants on epigenetic factors (chromatin accessibility, histone marks, etc): http://deepfigv.mssm.edu/downloads.html
+    * HaploReg: http://www.broadinstitute.org/mammals/haploreg/haploreg.php
+    * Consensus approaches:
+        * http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004962
+        * http://jjwanglab.org/PRVCS/
+    * http://queryor.cribi.unipd.it/cgi-bin/queryor/mainpage.pl
+    * Using epigenomic data https://github.com/mulin0424/cepip
 * Methylation
     * CpGenie: predicts methylation from sequence, predicts impact of variants on nearby methylation https://github.com/gifford-lab/CpGenie
 * Chromatin accessibility
@@ -485,17 +502,6 @@ When looking for a bioinformatics tool for a specific application:
 * http://snpeff.sourceforge.net/
 * Normalization of SNP ID's from literature: https://github.com/rockt/SETH
 * https://hail.is/
-* Prediction of functional impact
-    * HaploReg: http://www.broadinstitute.org/mammals/haploreg/haploreg.php
-    * Several tools/score sets: CADD, DANN, etc
-    * Disease-specific functional prediction https://sites.google.com/site/emorydivan/
-    * Consensus approaches:
-        * http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004962
-        * http://jjwanglab.org/PRVCS/
-    * Impact of coding SNPs: http://pantherdb.org/tools/csnpScoreForm.jsp
-    * Predict disease risk from GWAS summary statistics: https://github.com/yiminghu/AnnoPred
-    * http://queryor.cribi.unipd.it/cgi-bin/queryor/mainpage.pl
-    * Using epigenomic data https://github.com/mulin0424/cepip
 * Tissue-specific https://github.com/kevinVervier/TiSAn
 * VCF visualization with Circos plot: http://legolas.ariel.ac.il/~tools/CircosVCF/
 * HGVS
@@ -505,17 +511,13 @@ When looking for a bioinformatics tool for a specific application:
 * Varsome: database that aggregates variant information from many sources
     * https://varsome.com/
     * Provides a REST API that can be queried with dbSNP or HGVS IDs
-* CHESS: new gene annotation database
-    * Contains most genes from RefSeq and Gencode, plus additional genes discovered from GTEx transcripts
-    * http://ccb.jhu.edu/chess/
 * Constrained coding regions: https://github.com/quinlan-lab/ccrhtml
 * Database of human chromosomal fragile sites: http://webs.iiitd.edu.in/raghava/humcfs
 * FunSeq2: http://funseq2.gersteinlab.org
 * Deep learning-based: https://www.biorxiv.org/content/early/2017/12/18/235655.1
-* Predicting loss-of-function from expression: https://www.nature.com/articles/s41467-017-00443-5
 * Search engine for indexing and intersecting with large numbers of annotation BED/VCF files: https://github.com/ryanlayer/giggle/
-* Prediction of missense variants: https://www.biorxiv.org/content/early/2018/02/02/259390
 * SV: http://lbgi.fr/AnnotSV/
+* Clinical annotation: https://github.com/ding-lab/CharGer
 
 ## Sequence Analysis
 
@@ -556,6 +558,7 @@ When looking for a bioinformatics tool for a specific application:
 * Recover unaligned reads: https://github.com/VCCRI/Scavenger
 * Intersection and visualization of multiple gene/region sets: https://bitbucket.org/CBGR/intervene
 * Mantis: index of raw-read datasets for efficient and exacty queries https://github.com/splatlab/mantis
+* Toolkit for working with unique kmers: https://github.com/shenwei356/unikmer
 
 ### Demultiplexing
 
@@ -863,6 +866,8 @@ When looking for a bioinformatics tool for a specific application:
 ### Metagenomics
 
 * Alignment-free functional binning and abundance estimation: https://github.com/snz20/carnelian
+* Map reads against redundant databases: https://bitbucket.org/genomicepidemiology/kma
+* Taxonomic classificatino using pseudoalignment: https://github.com/mreppell/Karp
 
 ### Methylation
 
@@ -1714,6 +1719,8 @@ When looking for a bioinformatics tool for a specific application:
 	* Group equivariant CNN: http://jmlr.org/proceedings/papers/v48/cohenc16.pdf
 	* QuickNet: https://arxiv.org/abs/1701.02291
 	* Collection of pre-trained tensorflow models: https://github.com/tensorflow/models/tree/master/research
+	* Generalized framework for genomic signal recognition: https://zenodo.org/record/1117159
+	* Using autoencoders to impute missing values: https://github.com/gevaertlab/DAPL
 * Tools
 	* Tensorflow playground: http://playground.tensorflow.org/
 	* http://yosinski.com/deepvis
@@ -1937,6 +1944,7 @@ When looking for a bioinformatics tool for a specific application:
 * Prepare papers for any journal format: https://typeset.io/
 * Slideboards: Mashup of slides and FAQ to explain a publication http://slideboard.herokuapp.com/
 * Generate manuscripts on GitHub: https://github.com/greenelab/manubot-rootstock
+* General-purpose archival format: https://github.com/fair-research/bdbag/
 
 ## Code/Data sharing
 
