@@ -323,6 +323,7 @@ When looking for a bioinformatics tool for a specific application:
     * Network analysis: https://github.com/YuanlongLiu/SigMod
     * Haplotype-based: http://apps.biocompute.org.uk/haprap/
 * LD score calculation and regression https://github.com/bulik/ldsc
+* Find directional effect of a signed functional annotation using summary statistics: https://github.com/yakirr/sldp
 * Imputation of missing phenotype information http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.3513.html
 * Epistasis
     * General linear-mixed model library; also includes mixed-RF method for detecting epistasis with population structure correction: https://github.com/PMBio/limix
@@ -533,6 +534,7 @@ When looking for a bioinformatics tool for a specific application:
     * ntCard https://github.com/bcgsc/ntCard
     * KMC3 https://github.com/refresh-bio/KMC
     * https://github.com/uni-halle/gerbil
+    * Toolkit for working with unique kmers: https://github.com/shenwei356/unikmer
 * Density-based clustering: https://bitbucket.org/jerry00/densitycut_dev
 * chopBAI: segment BAM indexes by region for faster access https://github.com/DecodeGenetics/chopBAI
 * GFFutils: http://daler.github.io/gffutils/
@@ -558,7 +560,7 @@ When looking for a bioinformatics tool for a specific application:
 * Recover unaligned reads: https://github.com/VCCRI/Scavenger
 * Intersection and visualization of multiple gene/region sets: https://bitbucket.org/CBGR/intervene
 * Mantis: index of raw-read datasets for efficient and exacty queries https://github.com/splatlab/mantis
-* Toolkit for working with unique kmers: https://github.com/shenwei356/unikmer
+* Machine learning method for determining sequence identity: https://github.com/TulsaBioinformaticsToolsmith/FASTCAR
 
 ### Demultiplexing
 
@@ -1215,6 +1217,7 @@ When looking for a bioinformatics tool for a specific application:
         * https://www.degruyter.com/downloadpdf/j/jib.2017.14.issue-3/jib-2017-0025/jib-2017-0025.pdf
         * This method is targeted to RNA-Seq, but should work for CNV calling from Exome data as well
     * Deconvolution of signal (allele frequency, gene expression, etc) from heterogeneous tissue data: https://github.com/tedroman/WSCUnmix
+    * Remove strand bias artifacts (e.g. FFPE samples): https://github.com/mikdio/SOBDetector
 * Variant Calling
     * Review of somatic variant callers: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5852328/
     * FMI abstracts on variant calling from tumor-only sequencing
