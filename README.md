@@ -872,6 +872,7 @@ When looking for a bioinformatics tool for a specific application:
 * Alignment-free functional binning and abundance estimation: https://github.com/snz20/carnelian
 * Map reads against redundant databases: https://bitbucket.org/genomicepidemiology/kma
 * Taxonomic classificatino using pseudoalignment: https://github.com/mreppell/Karp
+* Iterative bloom filter and Yara mapper for rapid updating and mapping to large metagenomic databases: https://gitlab.com/pirovc/dream_yara/
 
 ### Methylation
 
