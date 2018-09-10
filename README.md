@@ -745,10 +745,11 @@ When looking for a bioinformatics tool for a specific application:
     * Using a graph reference: https://github.com/bioinformatics-centre/BayesTyper
 * SVs/CNV calling
     * Score SVs based on predicted functional impact https://github.com/lganel/SVScore
-    * Pipelines for CNV calling:
+    * Pipelines for CNV/SV calling:
 	* https://www.biorxiv.org/content/early/2017/09/28/195230
 	* https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1833-3
 	* https://github.com/yuchaojiang/CODEX2
+	* https://github.com/ssadedin/ximmer
     * STIX: A tool for determining the frequency of SVs in population data: https://github.com/ryanlayer/stix
     * Tool for online review of SVs: https://github.com/jbelyeu/SV-plaudit
     * Using off-target reads to call CNVs: https://ep70.eventpilotadmin.com/web/page.php?page=IntHtml&project=ASHG17&id=170120230
@@ -796,6 +797,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/mcfrith/tandem-genotypes
     * http://melissagymrek.com/lobstr-code/
     * Genotyping STR longer than read length: https://github.com/gymreklab/GangSTR
+    * Alignment-free STR genotyping: https://github.com/jbudis/dante
 * Variant filtering
     * Using deep learning model to filter false-positive variants
 	* https://www.biorxiv.org/content/biorxiv/early/2017/09/11/149146.full.pdf
