@@ -519,6 +519,7 @@ When looking for a bioinformatics tool for a specific application:
 * Search engine for indexing and intersecting with large numbers of annotation BED/VCF files: https://github.com/ryanlayer/giggle/
 * SV: http://lbgi.fr/AnnotSV/
 * Clinical annotation: https://github.com/ding-lab/CharGer
+* Gene panel/disease-specific annotation and filtering: https://www.ebi.ac.uk/gene2phenotype/g2p_vep_plugin
 
 ## Sequence Analysis
 
