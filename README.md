@@ -562,6 +562,7 @@ When looking for a bioinformatics tool for a specific application:
 * Intersection and visualization of multiple gene/region sets: https://bitbucket.org/CBGR/intervene
 * Mantis: index of raw-read datasets for efficient and exacty queries https://github.com/splatlab/mantis
 * Machine learning method for determining sequence identity: https://github.com/TulsaBioinformaticsToolsmith/FASTCAR
+* Progressive MSA (DNA or protein) with indel evolution: https://github.com/acg-team/ProPIP
 
 ### Demultiplexing
 
@@ -1222,6 +1223,7 @@ When looking for a bioinformatics tool for a specific application:
         * This method is targeted to RNA-Seq, but should work for CNV calling from Exome data as well
     * Deconvolution of signal (allele frequency, gene expression, etc) from heterogeneous tissue data: https://github.com/tedroman/WSCUnmix
     * Remove strand bias artifacts (e.g. FFPE samples): https://github.com/mikdio/SOBDetector
+* Personal reference editor: https://github.com/precisionomics/PRESM
 * Variant Calling
     * Review of somatic variant callers: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5852328/
     * FMI abstracts on variant calling from tumor-only sequencing
@@ -1595,7 +1597,6 @@ When looking for a bioinformatics tool for a specific application:
 
 * Executable archives (xar): https://github.com/facebookincubator/xar
 
-
 ## Other
 
 * Automated system for sequencing core facilities using microservices architecture: https://www.biorxiv.org/content/early/2017/11/06/214858
@@ -1818,6 +1819,7 @@ When looking for a bioinformatics tool for a specific application:
 * https://github.com/venyao/shinyCircos
 * PCA+clustering: http://r-forge.r-project.org/projects/thresher/
 * Create pallete from colors in an image: https://github.com/AndreaCirilloAC/paletter
+* clustree: Plot custer trees, for determining number of clusters to use: https://cran.r-project.org/web/packages/clustree/
 
 ### ggplot2
 
@@ -1918,6 +1920,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/adamhajari/spyre
     * Bokeh: http://bokeh.pydata.org/docs/user_guide/charts.html
     * Dash: for building data-centric web apps https://github.com/plotly/dash
+* 2D visualization of DNA sequences: https://github.com/Lab41/squiggle
 
 ## Javascript
 
