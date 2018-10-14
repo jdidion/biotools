@@ -1031,6 +1031,7 @@ When looking for a bioinformatics tool for a specific application:
     * https://github.com/Oshlack/necklace
     * https://github.com/ruolin/strawberry
     * https://github.com/bee-hive/BIISQ
+    * Cluster and annotate contigs from denovo assemblies: https://github.com/COMBINE-lab/grouper
 * Time series
     * http://diceseq.sourceforge.net/
     * https://bioconductor.org/packages/release/bioc/html/ctsGE.html
