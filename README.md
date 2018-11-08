@@ -1,6 +1,6 @@
 This is a collection of bioinformatics tools I have sourced from recent literature, organized by topic. I have not used most of these tools.
 
--*Table of Contents**
+**Table of Contents**
 
 <!-- toc -->
 
