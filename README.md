@@ -768,6 +768,7 @@ When looking for a bioinformatics tool for a specific application:
     - Paper: https://arxiv.org/pdf/1712.01146.pdf
   - Distributed variant calling using Spark: http://bdgenomics.org/projects/
   - De-novo variant caller: https://github.com/bgm-cwg/novoCaller
+  - Create population-specific blacklists: http://lab.rockefeller.edu/casanova/BL/programs
 - Genotyping
   - ebGenotyping: https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
   - FastGT: http://bioinfo.ut.ee/FastGT/
@@ -818,6 +819,7 @@ When looking for a bioinformatics tool for a specific application:
     - Ensemble method: https://github.com/girirajanlab/CN_Learn
     - Reference sample selection: https://www.biorxiv.org/content/early/2018/11/25/478313.1
     - Generate consensus reads (optionally using UMIs): https://github.com/OpenGene/gencore
+    - Breakpoint prediction: https://github.com/SinOncology/Break
 - STR
   - Pipeline to estimate mutational parameters for every STR in the human genome: https://www.nature.com/ng/journal/v49/n10/full/ng.3952.html
   - MIRMMR: MSI caller
@@ -1499,6 +1501,7 @@ When looking for a bioinformatics tool for a specific application:
 - Tidy data cheatsheet: http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
 - Multiple variable assignment: https://github.com/nteetor/zeallot
 - Summary statistics: https://github.com/ropenscilabs/skimr
+- Applying tidy principals to GRanges: https://bioconductor.org/packages/release/bioc/html/plyranges
 
 ### Find packages
 
@@ -1958,6 +1961,7 @@ When looking for a bioinformatics tool for a specific application:
 - hextri: multiclass hexagonal bins https://cran.r-project.org/web/packages/hextri/vignettes/hexbin-classes.html
 - trellis: https://www.bioconductor.org/packages/release/bioc/html/gtrellis.html
 - Complex heat maps: http://www.bioconductor.org/packages/devel/bioc/html/ComplexHeatmap.html
+  - Includes ability to generate upset plots
 - Scatterplot Matrix: http://bl.ocks.org/mbostock/4063663
 - Beeswarm: https://flowingdata.com/2016/09/08/beeswarm-plot-in-r-to-show-distributions/
 - http://flowingdata.com/2016/10/25/r-graph-gallery/
