@@ -238,6 +238,7 @@ When looking for a bioinformatics tool for a specific application:
   - Gff3Sort: https://github.com/billzt/gff3sort
   - Combine p-values https://github.com/brentp/combined-pvalues
   - Assessing interval overlap of multiple genomic features: https://github.com/andrew-leith/GINOM
+  - Python toolkit: https://github.com/dputhier/pygtftk
 - Improved command line viewing of formatted data
   - PrettySam: http://lindenb.github.io/jvarkit/PrettySam.html
   - BioSyntax: https://biosyntax.org/install
@@ -631,6 +632,7 @@ When looking for a bioinformatics tool for a specific application:
 - Historical tracking: https://github.com/nilesh-tawari/ChronQC
 - Estimate library complexity: http://smithlabresearch.org/software/preseq/
 - Protocol-specific pre-processing: https://github.com/lh3/pre-pe
+- fluff: https://fluff.readthedocs.io/en/latest/introduction.html
 
 ### ChIP-seq
 
@@ -660,6 +662,7 @@ When looking for a bioinformatics tool for a specific application:
   - ChIPSeqFPro: https://github.com/milospjanic/ChIPSeqFPro
 - Shape motifs: https://github.com/h-samee/shape-motif
 - K-mer-based alternative to PWMs for predicting TF binding sites: http://groups.csail.mit.edu/cgs/gem/kmac/
+- Recalibrate p-values from peak callers: https://github.com/theodorejperkins/RECAP
 
 ### Chromatin accessibility
 
@@ -727,7 +730,9 @@ When looking for a bioinformatics tool for a specific application:
   - Minimap2: https://github.com/lh3/minimap2
     - Python binding: https://pypi.python.org/pypi/mappy
   - Minialign: https://github.com/ocxtal/minialign
-  - Graph-based: https://github.com/isovic/graphmap
+  - Graph-based:
+    - https://github.com/isovic/graphmap
+    - https://github.com/maickrau/GraphAligner
   - MECAT: https://github.com/xiaochuanle/MECAT
   - Correct sex chromosome-related errors/artifacts: https://github.com/WilsonSayresLab/XYalign
   - Lossy compression of quality scores: https://github.com/jkbonfield/crumble
@@ -828,6 +833,7 @@ When looking for a bioinformatics tool for a specific application:
   - Graph-based genotyping: https://github.com/illumina/paragraph
   - Deep learning-based caller: https://github.com/CSuperlei/DeepSV
   - Fusion detection: https://github.com/sgilab/JuLI
+  - Alignment-free SV genotyping: https://github.com/Parsoa/NebulousSerendipity
   - Exome/targeted
     - Exon-level CNV calling in exome/targeted seqeuencing: https://github.com/SD-Genomics/DeviCNV
     - Ensemble method: https://github.com/girirajanlab/CN_Learn
@@ -1301,6 +1307,7 @@ When looking for a bioinformatics tool for a specific application:
   - Deconvolution of bulk RNA from scRNA: https://github.com/xuranw/MuSiC
 - Methylation
   - Prediction of missing information: https://github.com/cangermueller/deepcpg
+  - Mapping: https://github.com/wupengomics/scBS-map
 - ATAC-seq
   - Infer TF variation: https://github.com/GreenleafLab/chromVAR
   - Clustering: https://github.com/timydaley/scABC
@@ -1789,6 +1796,8 @@ When looking for a bioinformatics tool for a specific application:
 - Compares method for outlier detection: https://cran.r-project.org/web/packages/OutliersO3/index.html
 - Comparison of inference methods: http://jenniferhill7.wixsite.com/acic-2016/competition
 - Polynomial regression: https://github.com/matloff/polyreg
+- Alternative importance score for random forrest classifiers: https://github.com/StephanSeifert/SurrogateMinimalDepth
+- Feature generation from sequences: https://github.com/mrzResearchArena/PyFeat/
 
 ## Python
 
@@ -1971,6 +1980,7 @@ When looking for a bioinformatics tool for a specific application:
 - Plotting background data: https://drsimonj.svbtle.com/plotting-background-data-for-groups-with-ggplot2
 - Theme using IBM Plex fonts: https://github.com/juliasilge/silgelib/blob/master/R/graphing.R
 - Patchwork: https://github.com/thomasp85/patchwork
+- ggupset: https://github.com/const-ae/ggupset
 
 ### Plot Types
 
