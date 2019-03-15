@@ -28,6 +28,7 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
   - [Simulation](#simulation)
   - [Variant annotation](#variant-annotation)
   - [Sequence Analysis](#sequence-analysis)
+    - [Reference datasets](#reference-datasets)
     - [General-purpose](#general-purpose)
     - [Demultiplexing](#demultiplexing)
     - [QC](#qc)
@@ -558,6 +559,12 @@ When looking for a bioinformatics tool for a specific application:
 
 ## Sequence Analysis
 
+### Reference datasets
+
+- gnomAD: SNV, small InDels, MNV, SV, and LoF metrics from large numbers of exomes and whole-genomes: https://gnomad.broadinstitute.org/downloads
+- Structural variation
+  - 1000G: http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/hgsv_sv_discovery/working/20181025_EEE_SV-Pop_1/AltReference_EEE_SV-Pop_1/
+
 ### General-purpose
 
 - Google Genomics R API: https://followthedata.wordpress.com/2015/02/05/notes-on-genomics-apis-2-google-genomics-api/
@@ -795,6 +802,7 @@ When looking for a bioinformatics tool for a specific application:
   - HISAT-genotype: http://ccb.jhu.edu/hisat-genotype/index.php/Main_Page
   - Trio-based concordance: https://github.com/sbg/VBT-TrioAnalysis
   - Using a graph reference: https://github.com/bioinformatics-centre/BayesTyper
+  - https://github.com/AlgoLab/malva
 - SVs/CNV calling
   - Score SVs based on predicted functional impact https://github.com/lganel/SVScore
   - Pipelines for CNV/SV calling:
@@ -1163,6 +1171,8 @@ When looking for a bioinformatics tool for a specific application:
   - Evaluation of aligners on long reads (GMap performs best): http://biorxiv.org/content/early/2017/04/11/126656
   - Test different ML algorithms for classifying expression profiles: https://github.com/gboris/blkbox
   - Find regions of correlated expression: https://cran.r-project.org/web/packages/SegCorr/index.html
+  - Tools for barcoded RNA-Seq: https://github.com/lhhunghimself/LINCS_RNAseq_cpp
+    - Includes umimerge_filter, which converts barcoded RNA-Seq alignments into a 8-byte hashes (barcode + position)
 
 ### Single-cell
 
@@ -1367,6 +1377,7 @@ When looking for a bioinformatics tool for a specific application:
     - CNValidator
   - Estimate copy number and purity: https://github.com/keyuan/ccube
   - Allele-specific CNA: https://github.com/wheelerb/hsegHMM
+  - DEFOR: https://github.com/drzh/defor
 - Variant Filtering
   - TNER: https://github.com/ctDNA/TNER
   - This is a cool approach for constructing a ChIP-Seq control from integration of multiple public data sets: https://www.biorxiv.org/content/early/2018/03/08/278762. It strikes me that a similar approach could be used to generate matched controls for tumor-only samples.
@@ -1682,6 +1693,7 @@ When looking for a bioinformatics tool for a specific application:
   - BioContainers: https://github.com/BioContainers
 - Continuous analysis: https://github.com/greenelab/continuous_analysis
 - Creating reproducible workflows with R Markdown documents: https://jdblischak.github.io/workflowr/
+- Popper: http://falsifiable.us/
 
 ### Building Pipelines
 
