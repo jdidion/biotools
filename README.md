@@ -28,7 +28,6 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
   - [Simulation](#simulation)
   - [Variant annotation](#variant-annotation)
   - [Sequence Analysis](#sequence-analysis)
-    - [Reference datasets](#reference-datasets)
     - [General-purpose](#general-purpose)
     - [Demultiplexing](#demultiplexing)
     - [QC](#qc)
@@ -132,6 +131,9 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
   - Python API: https://github.com/NGDSG/BAMSI-API
 - Paired mRNA and protein abundance in 26 human tissues: https://www.biorxiv.org/content/biorxiv/early/2018/06/27/357137.full.pdf
 - Cancer cell lines: correlation with primary tumor data (analysis for use as models): http://comphealth.ucsf.edu/TCGA110/
+- gnomAD: SNV, small InDels, MNV, SV, and LoF metrics from large numbers of exomes and whole-genomes: https://gnomad.broadinstitute.org/downloads
+- 1000G Structural variation: http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/hgsv_sv_discovery/working/20181025_EEE_SV-Pop_1/AltReference_EEE_SV-Pop_1/
+- PGP UK: https://www.personalgenomes.org.uk/data/
 
 # Discovery
 
@@ -558,12 +560,6 @@ When looking for a bioinformatics tool for a specific application:
 - Cravat: https://github.com/KarchinLab/open-cravat/tree/master/cravat
 
 ## Sequence Analysis
-
-### Reference datasets
-
-- gnomAD: SNV, small InDels, MNV, SV, and LoF metrics from large numbers of exomes and whole-genomes: https://gnomad.broadinstitute.org/downloads
-- Structural variation
-  - 1000G: http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/hgsv_sv_discovery/working/20181025_EEE_SV-Pop_1/AltReference_EEE_SV-Pop_1/
 
 ### General-purpose
 
