@@ -134,6 +134,7 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
 - gnomAD: SNV, small InDels, MNV, SV, and LoF metrics from large numbers of exomes and whole-genomes: https://gnomad.broadinstitute.org/downloads
 - 1000G Structural variation: http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/hgsv_sv_discovery/working/20181025_EEE_SV-Pop_1/AltReference_EEE_SV-Pop_1/
 - PGP UK: https://www.personalgenomes.org.uk/data/
+- Platinum genomes phased variant calls: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001224.v1.p1
 
 # Discovery
 
