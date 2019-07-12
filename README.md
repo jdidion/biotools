@@ -139,8 +139,10 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
 - PGP UK: https://www.personalgenomes.org.uk/data/
 - Platinum genomes phased variant calls: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001224.v1.p1
 - ICGC: https://dcc.icgc.org/
-- Cancer Cell Line Encylopedia: https://portal.gdc.cancer.gov/legacy-archive/search/f
-- Deep sequencing of 3 cancer cell lines on 2 sequencing platforms: https://www.biorxiv.org/content/10.1101/623702v1
+- Cancer Cell Lines
+  - Encylopedia: https://portal.gdc.cancer.gov/legacy-archive/search/f
+  - Deep sequencing of 3 cancer cell lines (2 colorectal, one breast cancer) on 2 sequencing platforms: https://www.biorxiv.org/content/10.1101/623702v1
+  - Deep sequencing of another breast cancer cell line (SEQC2 consoritum): https://www.biorxiv.org/content/biorxiv/early/2019/05/13/625624.full.pdf
 - Variation benchmark datasets: http://structure.bmc.lu.se/VariBench/
 
 # Discovery
@@ -513,6 +515,7 @@ When looking for a bioinformatics tool for a specific application:
     - PRVCS: http://jjwanglab.org/PRVCS/
   - Queryor: http://queryor.cribi.unipd.it/cgi-bin/queryor/mainpage.pl
   - Using epigenomic data https://github.com/mulin0424/cepip
+  - Tissue-specific effects on expression: https://github.com/FunctionLab/ExPecto
 - Methylation
   - CpGenie: predicts methylation from sequence, predicts impact of variants on nearby methylation https://github.com/gifford-lab/CpGenie
 - Chromatin accessibility
@@ -619,6 +622,7 @@ When looking for a bioinformatics tool for a specific application:
 - Machine learning method for determining sequence identity: https://github.com/TulsaBioinformaticsToolsmith/FASTCAR
 - Progressive MSA (DNA or protein) with indel evolution: https://github.com/acg-team/ProPIP
 - Tools to create ENCODE blacklists, and pre-computed blacklists for model organisms: https://github.com/Boyle-Lab/Blacklist
+- Server for reference sequences and indices: https://github.com/databio/refgenie
 
 ### Demultiplexing
 
@@ -1256,6 +1260,7 @@ When looking for a bioinformatics tool for a specific application:
 - Simulation
   - SymSim: https://github.com/YosefLab/SymSim
   - Using GANs: https://github.com/imsb-uke/scGAN
+  - https://github.com/COMBINE-lab/minnow
 - QC
   - http://www.morgridge.net/SinQC.html
   - https://github.com/YosefLab/scone
@@ -1401,6 +1406,7 @@ When looking for a bioinformatics tool for a specific application:
   - Deconvolution of signal (allele frequency, gene expression, etc) from heterogeneous tissue data: https://github.com/tedroman/WSCUnmix
   - Remove strand bias artifacts (e.g. FFPE samples): https://github.com/mikdio/SOBDetector
 - Personal reference editor: https://github.com/precisionomics/PRESM
+- Sentieon includes step for "co-realignment" which just seems to be merging tumor+normal and doing indel realignment on the merged sample to harmonize indel alignment for better comparability after variant calling.
 - Variant Calling
   - Review of somatic variant callers: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5852328/
   - FMI abstracts on variant calling from tumor-only sequencing
@@ -1424,6 +1430,7 @@ When looking for a bioinformatics tool for a specific application:
   - Ensemble method with random forest integration of results from multiple callers:
     - https://github.com/skandlab/SMuRF
     - Paper: https://www.biorxiv.org/content/early/2018/02/23/270413
+  - http://bioinform.github.io/somaticseq/
   - TNScope: Sentieon's pipeline
     - https://www.biorxiv.org/content/early/2018/01/19/250647
     - Includes machine learning-based variant filtering
@@ -1435,6 +1442,7 @@ When looking for a bioinformatics tool for a specific application:
   - Deep learning
     - https://github.com/jingmeng-bioinformatics/DeepSSV
     - NeuSomatic (non-commercial license)
+  - Optimized for FFPE: https://www.ciscall.org/en/ciscall7.html
 - CNA/SV
   - Infer the tumor cell fraction of SV: https://github.com/mcmero/SVclone
   - A study of using shallow WGS on low-quality FFPE samples for CNV calling used QDNASeq for segmentation
@@ -1457,6 +1465,7 @@ When looking for a bioinformatics tool for a specific application:
   - TNER: https://github.com/ctDNA/TNER
   - This is a cool approach for constructing a ChIP-Seq control from integration of multiple public data sets: https://www.biorxiv.org/content/early/2018/03/08/278762. It strikes me that a similar approach could be used to generate matched controls for tumor-only samples.
   - Features used to design a RF classifier: https://www.biorxiv.org/content/biorxiv/early/2019/06/13/670687.full.pdf
+  - SGZ method used by FoundationOne for filtering germline variants from tumor-only variant calls https://github.com/jsunfmi/SGZ
 - Tumor Purity
   - IchorCNA
     - Estimates tumor cell fraction from low-pass WGS; should probably be adaptable to deep targeted sequencing
@@ -1466,8 +1475,10 @@ When looking for a bioinformatics tool for a specific application:
   - PyLOH: https://github.com/uci-cbcl/PyLOH
   - AllFit: https://github.com/KhiabanianLab/All-FIT
   - TPES: using SNVs https://bitbucket.org/l0ka/tpes/src/master/
+  - From methylation: https://github.com/xjtu-omics/MEpurity
 - Tumor Muational Burden
   - http://moat.gersteinlab.org/
+  - ecTMB: https://github.com/bioinform/ecTMB
 - Variant Annotation
   - CHASM and SNV-Box
     - CHASM Predicts functional significance of somatic missense mutations
