@@ -222,6 +222,7 @@ When looking for a bioinformatics tool for a specific application:
   - http://ccb.jhu.edu/chess/
 - Variant benchmark datasets: http://structure.bmc.lu.se/VariBench/
 - Metabase: aggregates various gene annotation sources: http://metascape.org
+- CIViC: https://civicdb.org/home
 
 ## Data Formats
 
@@ -247,6 +248,7 @@ When looking for a bioinformatics tool for a specific application:
   - Work with VCF in R: https://github.com/knausb/vcfR
   - More VCF tools: http://vcf-kit.readthedocs.io/
   - Validation: https://github.com/EBIvariation/vcf-validator
+  - Index and subset VCF files: https://github.com/tomkurowski/tersect
 - BED/GFF
   - GFFTools: https://github.com/ihh/gfftools
   - Gff3Sort: https://github.com/billzt/gff3sort
@@ -835,11 +837,11 @@ When looking for a bioinformatics tool for a specific application:
   - Scotch: ML approach for calling intermediate-sized indels: https://github.com/AshleyLab/scotch
   - Encoding variant information in BWT: https://www.uni-ulm.de/in/theo/research/seqana/
   - Detect variants by comparing reads between samples without genome alignment: https://github.com/akiomiyao/ped
+  - Train DNN variant calling models (commercial): https://magnolia.sh/
 - Genotyping
   - ebGenotyping: https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
   - FastGT: http://bioinfo.ut.ee/FastGT/
   - Compression of genotype data: http://sun.aei.polsl.pl/REFRESH/gtc
-  - Base quality recalibration: https://github.com/swainechen/lacer
   - Mosaic variants: https://github.com/abyzovlab/Leucippus
   - HISAT-genotype: http://ccb.jhu.edu/hisat-genotype/index.php/Main_Page
   - Trio-based concordance: https://github.com/sbg/VBT-TrioAnalysis
@@ -924,6 +926,7 @@ When looking for a bioinformatics tool for a specific application:
   - arcasHLA: https://github.com/RabadanLab/arcasHLA
 - mtDNA
   - https://github.com/linzhi2013/MitoZ
+  - Haplogroup classification: https://github.com/seppinho/haplogrep-cmd
 - Variant filtering
   - GARFIELD: Using deep learning model to filter false-positive variants
     - https://www.biorxiv.org/content/biorxiv/early/2017/09/11/149146.full.pdf
@@ -947,9 +950,10 @@ When looking for a bioinformatics tool for a specific application:
   - GenomeVIP: cloud-based pipeline https://github.com/ding-lab/GenomeVIP/
   - superFreq: https://github.com/ChristofferFlensburg/superFreq
   - GROM: https://osf.io/6rtws/
-  - Amplicon
+  - Amplicon/targeted
     - Canary: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1950-z
     - pyAmpli: https://mbeyens.github.io/pyAmpli/
+    - amplimap: https://github.com/koelling/amplimap
   - DNAScan
     - https://github.com/KHP-Informatics/DNAscan
     - Align with HiSAT2; realign soft-clipped and unaligned reads with BWA MEM due to poor performance of indel calling from HISAT2-aligned data
@@ -963,6 +967,7 @@ When looking for a bioinformatics tool for a specific application:
   - ngsRelate: https://github.com/ANGSD/ngsRelate
   - Fast D-statistics: https://github.com/millanek/Dsuite
   - Compute genome fingerprint from VCF: https://github.com/gglusman/genome-fingerprints
+  - https://github.com/daviddaiweizhang/fraposa
 - Phasing/Haplotyping
   - Eagle2: https://data.broadinstitute.org/alkesgroup/Eagle/
   - Using HiC+partial haplotypes: https://github.com/YakhiniGroup/SpectraPh
@@ -1242,6 +1247,7 @@ When looking for a bioinformatics tool for a specific application:
   - Find regions of correlated expression: https://cran.r-project.org/web/packages/SegCorr/index.html
   - Tools for barcoded RNA-Seq: https://github.com/lhhunghimself/LINCS_RNAseq_cpp
     - Includes umimerge_filter, which converts barcoded RNA-Seq alignments into a 8-byte hashes (barcode + position)
+  - Predict CNA from gene expression: http://wang-lab.ust.hk/software/Software.html
 
 ### Single-cell
 
@@ -1919,6 +1925,7 @@ When looking for a bioinformatics tool for a specific application:
 - Linear mixed-model solver https://github.com/nickFurlotte/pylmm
 - Exact inference in HMMs with large number of hidden states: https://github.com/regevs/factorial_hmm
 - scikit-learn-compatible package for graph statistics: https://graspy.neurodata.io/
+- Library for preprocessing various NGS formats for input into Keras or other DL libraries: https://github.com/BIMSBbioinfo/janggu
 
 ## Deep Learning
 
@@ -2233,6 +2240,7 @@ When looking for a bioinformatics tool for a specific application:
 - Distill: Online, ML-focused journal http://distill.pub/journal/
 - JORS: https://openresearchsoftware.metajnl.com/
 - JOSS: http://joss.theoj.org/
+- Open source publishing platform: https://libero.pub/
 
 ## Writing
 
