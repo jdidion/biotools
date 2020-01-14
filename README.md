@@ -785,6 +785,9 @@ When looking for a bioinformatics tool for a specific application:
     - Glia (mainly for local realignment): https://github.com/ekg/glia
     - Raptor: https://github.com/isovic/raptor
     - https://github.com/lh3/minigraph
+    - Selecting variants for graph genome: https://www.biorxiv.org/content/early/2018/04/30/311720
+  - Pan-genome
+    - Build pan-genome index https://github.com/SJTU-CGM/HUPAN
   - MECAT: https://github.com/xiaochuanle/MECAT
   - Correct sex chromosome-related errors/artifacts:
     - https://github.com/WilsonSayresLab/XYalign
@@ -793,8 +796,6 @@ When looking for a bioinformatics tool for a specific application:
   - Other
     - Optical computing: https://www.optalysys.com/
     - FPGA: http://edicogenome.com/dragen-bioit-platform/
-    - Selecting variants for graph genome: https://www.biorxiv.org/content/early/2018/04/30/311720
-    - Fix reference allele bias of the Isaac aligner https://github.com/danchubb/FixVAF
 - Assembly
   - Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
   - Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
@@ -820,6 +821,7 @@ When looking for a bioinformatics tool for a specific application:
   - Fast pileup of targeted regions in C/Python: https://github.com/brentp/hileup
   - Lossy compression of quality scores: https://github.com/jkbonfield/crumble
   - Denoising (error correction + quality score adjustment): https://github.com/ihwang/SAMDUDE
+  - Fix reference allele bias of the Isaac aligner https://github.com/danchubb/FixVAF
 - Variant calling
   - Matching variant sets: https://github.com/medvedevgroup/varmatch
   - Post-processing variant calls to determine whether variants at regions with alternative loci have allele(s) from an alternate locus: https://github.com/charite/asdpex
@@ -1107,6 +1109,7 @@ When looking for a bioinformatics tool for a specific application:
   - Correcting for RNA quality: https://github.com/jengelmann/FastqPuri
   - Error correction using DBG: https://github.com/Malfoy/BCT
   - Prefilter reads to discard those that won't align to genes of interest https://github.com/AlgoLab/shark
+  - Use hash of reference transcriptome to convert between transcriptome builds https://bioconductor.org/packages/tximeta
 - Align/quantify
   - Need to re-evaluate HiSat2 + StringTie pipeline https://github.com/gpertea/stringtie
   - RapMap: stand-alone lightweight alignment library: https://github.com/COMBINE-lab/RapMap/tree/SAQuasiAlignment
