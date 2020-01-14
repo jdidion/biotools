@@ -1503,6 +1503,7 @@ When looking for a bioinformatics tool for a specific application:
     - NeuSomatic (non-commercial license)
   - Optimized for FFPE: https://www.ciscall.org/en/ciscall7.html
   - Optimized for rare variants in ultra-deep sequencing http://github.com/cibiobcg/abemus
+  - Learn mutation profile to refine varinat calls: https://github.com/bmannakee/batcaver
 - CNA/SV
   - Infer the tumor cell fraction of SV: https://github.com/mcmero/SVclone
   - A study of using shallow WGS on low-quality FFPE samples for CNV calling used QDNASeq for segmentation
