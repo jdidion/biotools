@@ -4,88 +4,89 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
 
 <!-- toc -->
 
-- [Clinical data](#Clinical-data)
-  - [EHR](#EHR)
-- [Data Management](#Data-Management)
-- [Data Sets](#Data-Sets)
-- [Discovery](#Discovery)
-- [Genomics](#Genomics)
-  - [General Information](#General-Information)
-  - [Algorithms](#Algorithms)
-  - [Assay Design](#Assay-Design)
-  - [Candidate Prioritization](#Candidate-Prioritization)
-  - [Databases](#Databases)
-  - [Data Formats](#Data-Formats)
-  - [Functional Enrichment/Ontology](#Functional-EnrichmentOntology)
-  - [GWAS/QTL](#GWASQTL)
-  - [Microarray](#Microarray)
-  - [Motif/TFBS](#MotifTFBS)
-  - [Network Analysis](#Network-Analysis)
-  - [Population genetics](#Population-genetics)
-  - [Prediction](#Prediction)
-  - [Security](#Security)
-  - [Sequencing Protocols](#Sequencing-Protocols)
-  - [Simulation](#Simulation)
-  - [Variant annotation](#Variant-annotation)
-  - [Sequence Analysis](#Sequence-Analysis)
-    - [General-purpose](#General-purpose)
-    - [Demultiplexing](#Demultiplexing)
-    - [QC](#QC)
-    - [ChIP-seq](#ChIP-seq)
-    - [Chromatin accessibility](#Chromatin-accessibility)
-    - [Chromatin Interactions](#Chromatin-Interactions)
-    - [DNA](#DNA)
-    - [Footprinting](#Footprinting)
-    - [Metagenomics](#Metagenomics)
-    - [Methylation](#Methylation)
-    - [MNase-seq](#MNase-seq)
-    - [Nanopore](#Nanopore)
-    - [RNA](#RNA)
-    - [Single-cell](#Single-cell)
-    - [Somatic](#Somatic)
-    - [Integrated Methods](#Integrated-Methods)
-- [General Programming Resources](#General-Programming-Resources)
-  - [C/C++](#CC)
-  - [R](#R)
-    - [Find packages](#Find-packages)
-    - [Database](#Database)
-    - [Data Cleaning](#Data-Cleaning)
-    - [Reporting](#Reporting)
-    - [Misc](#Misc)
-  - [Python](#Python)
-  - [HPC](#HPC)
-  - [Command Line (OSX/Linux)](#Command-Line-OSXLinux)
-  - [Databases](#Databases-1)
-  - [Reproducibility/Containerization](#ReproducibilityContainerization)
-    - [Building Pipelines](#Building-Pipelines)
-    - [Software Distribution](#Software-Distribution)
-  - [Other](#Other)
-- [Statistics/Machine Learning](#StatisticsMachine-Learning)
-  - [Methods/algorithms](#Methodsalgorithms)
-  - [Python](#Python-1)
-  - [Deep Learning](#Deep-Learning)
-  - [Web APIs](#Web-APIs)
-  - [Data Sets](#Data-Sets-1)
-  - [Text classification](#Text-classification)
-- [Visualization](#Visualization)
-  - [Networks](#Networks)
-  - [Phylogenetic trees](#Phylogenetic-trees)
-  - [R](#R-1)
+- [Clinical data](#clinical-data)
+  - [EHR](#ehr)
+- [Data Management](#data-management)
+- [Data Sets](#data-sets)
+- [Discovery](#discovery)
+- [Genomics](#genomics)
+  - [General Information](#general-information)
+  - [Algorithms](#algorithms)
+  - [Assay Design](#assay-design)
+  - [Candidate Prioritization](#candidate-prioritization)
+  - [Databases](#databases)
+  - [Data Formats](#data-formats)
+  - [Functional Enrichment/Ontology](#functional-enrichmentontology)
+  - [GWAS/QTL](#gwasqtl)
+  - [Microarray](#microarray)
+  - [Motif/TFBS](#motiftfbs)
+  - [Network Analysis](#network-analysis)
+  - [Population genetics](#population-genetics)
+  - [Prediction](#prediction)
+  - [Security](#security)
+  - [Sequencing Protocols](#sequencing-protocols)
+  - [Simulation](#simulation)
+  - [Variant annotation](#variant-annotation)
+  - [Sequence Analysis](#sequence-analysis)
+    - [General-purpose](#general-purpose)
+    - [Demultiplexing](#demultiplexing)
+    - [QC](#qc)
+    - [ChIP-seq](#chip-seq)
+    - [Chromatin accessibility](#chromatin-accessibility)
+    - [Chromatin Interactions](#chromatin-interactions)
+    - [DNA](#dna)
+    - [Footprinting](#footprinting)
+    - [Metagenomics](#metagenomics)
+    - [Methylation](#methylation)
+    - [MNase-seq](#mnase-seq)
+    - [Nanopore/PacBio](#nanoporepacbio)
+    - [RNA](#rna)
+    - [Single-cell](#single-cell)
+    - [Somatic](#somatic)
+    - [Integrated Methods](#integrated-methods)
+- [General Programming Resources](#general-programming-resources)
+  - [C/C++](#cc)
+  - [R](#r)
+    - [Find packages](#find-packages)
+    - [Database](#database)
+    - [Data Cleaning](#data-cleaning)
+    - [Reporting](#reporting)
+    - [Misc](#misc)
+  - [Python](#python)
+  - [HPC](#hpc)
+  - [Command Line (OSX/Linux)](#command-line-osxlinux)
+  - [Databases](#databases-1)
+  - [Reproducibility/Containerization](#reproducibilitycontainerization)
+    - [Building Pipelines](#building-pipelines)
+    - [Software Distribution](#software-distribution)
+  - [Other](#other)
+- [Statistics/Machine Learning](#statisticsmachine-learning)
+  - [Methods/algorithms](#methodsalgorithms)
+  - [Python](#python-1)
+  - [Deep Learning](#deep-learning)
+  - [Web APIs](#web-apis)
+  - [Data Sets](#data-sets-1)
+  - [Text classification](#text-classification)
+- [Visualization](#visualization)
+  - [Genome browsers](#genome-browsers)
+  - [Networks](#networks)
+  - [Phylogenetic trees](#phylogenetic-trees)
+  - [R](#r-1)
     - [ggplot2](#ggplot2)
-    - [Plot Types](#Plot-Types)
-    - [Data Types](#Data-Types)
-    - [Interactive](#Interactive)
-  - [Python](#Python-2)
-  - [Javascript](#Javascript)
-  - [Examples](#Examples)
-- [Publication/Archiving](#PublicationArchiving)
-  - [Code/Data sharing](#CodeData-sharing)
-  - [Journals](#Journals)
-  - [Writing](#Writing)
-  - [Posters](#Posters)
-  - [Slides](#Slides)
-  - [CV](#CV)
-- [Promising methods without software implementation](#Promising-methods-without-software-implementation)
+    - [Plot Types](#plot-types)
+    - [Data Types](#data-types)
+    - [Interactive](#interactive)
+  - [Python](#python-2)
+  - [Javascript](#javascript)
+  - [Examples](#examples)
+- [Publication/Archiving](#publicationarchiving)
+  - [Code/Data sharing](#codedata-sharing)
+  - [Journals](#journals)
+  - [Writing](#writing)
+  - [Posters](#posters)
+  - [Slides](#slides)
+  - [CV](#cv)
+- [Promising methods without software implementation](#promising-methods-without-software-implementation)
 
 <!-- tocstop -->
 
@@ -140,10 +141,11 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
 - Platinum genomes phased variant calls: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001224.v1.p1
 - ICGC: https://dcc.icgc.org/
 - Cancer Cell Lines
-  - Encylopedia: https://portal.gdc.cancer.gov/legacy-archive/search/f
+  - Encylopedia: https://gdc.cancer.gov/
   - Deep sequencing of 3 cancer cell lines (2 colorectal, one breast cancer) on 2 sequencing platforms: https://www.biorxiv.org/content/10.1101/623702v1
   - Deep sequencing of another breast cancer cell line (SEQC2 consoritum): https://www.biorxiv.org/content/biorxiv/early/2019/05/13/625624.full.pdf
 - Variation benchmark datasets: http://structure.bmc.lu.se/VariBench/
+- RNA Atlas https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?&dscope=RNAATLAS&option=about_dscope
 
 # Discovery
 
@@ -223,6 +225,7 @@ When looking for a bioinformatics tool for a specific application:
 - Variant benchmark datasets: http://structure.bmc.lu.se/VariBench/
 - Metabase: aggregates various gene annotation sources: http://metascape.org
 - CIViC: https://civicdb.org/home
+- Search publications and clinical trials by genes/variants/drugs https://vist.informatik.hu-berlin.de/
 
 ## Data Formats
 
@@ -417,6 +420,7 @@ When looking for a bioinformatics tool for a specific application:
 - Convert kernels learned by CNN to PWMs: ftp://ftp.cbi.pku.edu.cn/pub/software/CBI/k2p
 - CRBM: https://github.com/schulter/crbm
 - YAMDA: https://github.com/daquang/YAMDA
+- Clustering of peaks: https://github.com/BackofenLab/StoatyDive
 
 ## Network Analysis
 
@@ -460,6 +464,9 @@ When looking for a bioinformatics tool for a specific application:
   - AnnoPred: https://github.com/yiminghu/AnnoPred
 - Pathogenicity
   - Disease-specific https://github.com/samesense/pathopredictor
+  - SVs https://github.com/gersteinlab/SVFX
+  - https://data.broadinstitute.org/alkesgroup/LDSCORE/Kim_annotboost/
+  - Frequency conservation score http://bioinfo.cnic.es/FCS
 - Causal variant
   - Ensemble method: https://github.com/gifford-lab/EnsembleExpr/
   - eCAVIAR: probability that a variant is causal for both QTL and eQTL http://genetics.cs.ucla.edu/caviar/
@@ -575,9 +582,11 @@ When looking for a bioinformatics tool for a specific application:
 - Gene panel/disease-specific annotation and filtering: https://www.ebi.ac.uk/gene2phenotype/g2p_vep_plugin
 - Cravat: https://github.com/KarchinLab/open-cravat/tree/master/cravat
 - Individual, per-gene pathogenicity scores: https://github.com/UoS-HGIG/GenePy
+- Pharmacogenomic: https://github.com/PharmGKB/PharmCAT
 - SV
   - AnnotSV: http://lbgi.fr/AnnotSV/
   - Curation/annotation by depth: https://github.com/brentp/duphold
+- Protein sequence and structure annotation for variants https://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/DisaStr/GetPage.pl?varmap=TRUE
 
 ## Sequence Analysis
 
@@ -625,6 +634,13 @@ When looking for a bioinformatics tool for a specific application:
 - Progressive MSA (DNA or protein) with indel evolution: https://github.com/acg-team/ProPIP
 - Tools to create ENCODE blacklists, and pre-computed blacklists for model organisms: https://github.com/Boyle-Lab/Blacklist
 - Server for reference sequences and indices: https://github.com/databio/refgenie
+- Coverage
+  - Fast coverage estimate from BAM index: https://github.com/brentp/goleft/tree/master/indexcov
+  - Quantification and normalization of coverage peaks: https://github.com/ncbi/BAMscale
+  - Library for distributed coverage calculation using Spark https://github.com/ZSI-Bio/bdg-sequila
+- Additional tools built on GATK4 https://bimberlab.github.io/DISCVRSeq/toolDoc/index.html
+- Query compressed GFF/GTF files https://github.com/qm2/gpress
+- Liftover alignments from one reference to another: https://github.com/CMU-SAFARI/AirLift
 
 ### Demultiplexing
 
@@ -645,7 +661,6 @@ When looking for a bioinformatics tool for a specific application:
 - Genetic relatedness from raw reads:
   - https://github.com/kdmurray91/kwip
   - https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/Software.cgi
-- Fast coverage estimate from BAM index: https://github.com/brentp/goleft/tree/master/indexcov
 - Detecting sample swaps: https://github.com/PapenfussLab/HaveYouSwappedYourSamples
 - QC Fail articles:
   - Patterned flow cells (HiSeq 3000+) have high rates of optical duplicates: https://sequencing.qcfail.com/articles/illumina-patterned-flow-cells-generate-duplicated-sequences/
@@ -661,7 +676,6 @@ When looking for a bioinformatics tool for a specific application:
 - Protocol-specific pre-processing: https://github.com/lh3/pre-pe
 - fluff: https://fluff.readthedocs.io/en/latest/introduction.html
 - GenMap: compute mappability; pre-built indices https://github.com/cpockrandt/genmap
-- Quantification and normalization of coverage peaks: https://github.com/ncbi/BAMscale
 
 ### ChIP-seq
 
@@ -714,6 +728,7 @@ When looking for a bioinformatics tool for a specific application:
   - Has associated viewer
     - https://github.com/lidaof/qATACviewer/tree/localjson
     - https://qa.targetepigenomics.org/
+- Denoising of low-covereage/noisy ATAC-seq: https://github.com/clara-genomics/AtacWorks
 
 ### Chromatin Interactions
 
@@ -779,6 +794,7 @@ When looking for a bioinformatics tool for a specific application:
     - Optical computing: https://www.optalysys.com/
     - FPGA: http://edicogenome.com/dragen-bioit-platform/
     - Selecting variants for graph genome: https://www.biorxiv.org/content/early/2018/04/30/311720
+    - Fix reference allele bias of the Isaac aligner https://github.com/danchubb/FixVAF
 - Assembly
   - Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
   - Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
@@ -789,6 +805,7 @@ When looking for a bioinformatics tool for a specific application:
   - Polishing: https://github.com/bcgsc/ntedit
   - Long-read
     - https://github.com/lbcb-sci/ra
+  - Pre-masking repeats: https://github.com/mills-lab/PALMER
 - Post-alignment
   - Base quality recalibration: https://github.com/swainechen/lacer
   - Indel realignment (also supports RNAseq): https://github.com/mozack/abra2
@@ -838,6 +855,8 @@ When looking for a bioinformatics tool for a specific application:
   - Encoding variant information in BWT: https://www.uni-ulm.de/in/theo/research/seqana/
   - Detect variants by comparing reads between samples without genome alignment: https://github.com/akiomiyao/ped
   - Train DNN variant calling models (commercial): https://magnolia.sh/
+  - Align and call simultaneously: https://github.com/hsinnan75/MapCaller
+  - For reads with UMIs https://gitlab.com/vincent-sater/umi-varcal-master
 - Genotyping
   - ebGenotyping: https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
   - FastGT: http://bioinfo.ut.ee/FastGT/
@@ -854,7 +873,6 @@ When looking for a bioinformatics tool for a specific application:
   - Anaconda: https://mcg.ustc.edu.cn/bsc/ANACONDA/
   - CODEX2: https://github.com/yuchaojiang/CODEX2
   - Ximmer: https://github.com/ssadedin/ximmer
-  - STIX: A tool for determining the frequency of SVs in population data: https://github.com/ryanlayer/stix
   - Tool for online review of SVs: https://github.com/jbelyeu/SV-plaudit
   - Using off-target reads to call CNVs: https://ep70.eventpilotadmin.com/web/page.php?page=IntHtml&project=ASHG17&id=170120230
   - GRIDSS: detects rearrangements using du Bruijn graph assembly: https://github.com/PapenfussLab/gridss
@@ -885,14 +903,20 @@ When looking for a bioinformatics tool for a specific application:
     - https://github.com/HaoKeLab/ensembleCNV
     - Parliament2
     - Different variant callers excel at calling different types of SVs: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1720-5
-  - Population-scale: https://github.com/hall-lab/svtools
-  - Graph-based genotyping: https://github.com/illumina/paragraph
+  - Population-scale:
+    - https://github.com/hall-lab/svtools
+    - STIX: A tool for determining the frequency of SVs in population data https://github.com/ryanlayer/stix
+    - https://github.com/kehrlab/PopDel
   - Deep learning-based callers:
     - https://github.com/CSuperlei/DeepSV
     - Specifically for duplications and deletions: https://github.com/tomh1lll/dudeml
+    - DL-CNV: https://www.aimspress.com/article/10.3934/mbe.2020011/fulltext.html
   - Fusion detection: https://github.com/sgilab/JuLI
-  - Alignment-free SV genotyping: https://github.com/Parsoa/NebulousSerendipity
-  - Genotyping tandem repeats: https://github.com/mcfrith/tandem-genotypes
+  - Genotyping
+    - Benchmarks: https://academic.oup.com/gigascience/article/8/9/giz110/5565134
+    - Alignment-free SV genotyping: https://github.com/Parsoa/NebulousSerendipity
+    - Genotyping tandem repeats: https://github.com/mcfrith/tandem-genotypes
+    - Graph-based genotyping: https://github.com/illumina/paragraph
   - Linked read: https://github.com/sgreer77/gemtools
   - Savvy: uses off-target reads https://github.com/rdemolgen/SavvySuite
   - Exome/targeted
@@ -927,6 +951,7 @@ When looking for a bioinformatics tool for a specific application:
 - mtDNA
   - https://github.com/linzhi2013/MitoZ
   - Haplogroup classification: https://github.com/seppinho/haplogrep-cmd
+  - https://github.com/KCCG/mity
 - Variant filtering
   - GARFIELD: Using deep learning model to filter false-positive variants
     - https://www.biorxiv.org/content/biorxiv/early/2017/09/11/149146.full.pdf
@@ -959,6 +984,7 @@ When looking for a bioinformatics tool for a specific application:
     - Align with HiSAT2; realign soft-clipped and unaligned reads with BWA MEM due to poor performance of indel calling from HISAT2-aligned data
     - Variant calling with Freebayes, extract indel positions and realign with GATK HC, perform hard filtering
     - Manta and Expansion Hunter for SVs
+  - PECaller/PEMapper: population caller, does not produce BAM files https://github.com/wingolab-org/pecaller
 - Ancestry and kinship analysis
   - AKT: http://illumina.github.io/akt/
   - MixFit: http://www.geenivaramu.ee/en/tools/mixfit
@@ -997,6 +1023,9 @@ When looking for a bioinformatics tool for a specific application:
   - Adapter between aligners and downstream tools for handling PacBio quality values
     - https://github.com/mchaisso/pbsamstream
   - BGI compared to Illumina: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190264
+- Dimensionality reduction
+  - https://github.com/yhg926/public_kssd
+  - https://github.com/medvedevgroup/UST/
 - Other
   - VCF compression and data extraction: https://github.com/kedartatwawadi/GTRAC
   - Run length encoded multi-sample BWT + server: https://github.com/wtsi-svi/ReadServer
@@ -1034,11 +1063,14 @@ When looking for a bioinformatics tool for a specific application:
   - https://github.com/tare/LuxGLM/ 
   - Metilene: Calling differential methylation http://www.bioinf.uni-leipzig.de/Software/metilene/
   - Using VAE: https://www.biorxiv.org/content/early/2018/11/07/433763
+  - Differential allele-specific methylation: https://github.com/markrobinsonuzh/DAMEfinder
 - Association
   - MACAU: Mixed-model association http://www.xzlab.org/software.html
   - GEM: R package for meQTL and EWAS https://bioconductor.org/packages/devel/bioc/html/GEM.html
 - Microarray
   - Call CNVs from methylation array data: https://github.com/mknoll/cnAnalysis450k
+- Pipelines
+  - https://github.com/MarWoes/wg-blimp
 - Other
   - Compression tool for bedMethyl files: https://github.com/jianhao2016/METHCOMP
   - Reference-free bisulfite sequence comparison: https://github.com/thomasvangurp/epiGBS
@@ -1048,7 +1080,7 @@ When looking for a bioinformatics tool for a specific application:
 
 - Alternative/differential nuleosome positioning: https://github.com/airoldilab/cplate
 
-### Nanopore
+### Nanopore/PacBio
 
 - Minion_qc: https://github.com/roblanf/minion_qc
 - Clinical application: https://www.nature.com/articles/s41467-017-01343-4
@@ -1058,6 +1090,8 @@ When looking for a bioinformatics tool for a specific application:
 - https://github.com/nanoporetech/wub
 - Detect analytes from raw event data: https://github.com/nanoporetech/mako
 - Online CNA detection: https://sourceforge.net/projects/nanogladiator/
+- SV calling: https://github.com/tjiangHIT/cuteSV
+- Removing low-quality read segments: https://bitbucket.org/berkeleylab/jgi-miniscrub/src/master/
 
 ### RNA
 
@@ -1072,6 +1106,7 @@ When looking for a bioinformatics tool for a specific application:
   - dupRadar: duplications https://www.bioconductor.org/packages/release/bioc/html/dupRadar.html
   - Correcting for RNA quality: https://github.com/jengelmann/FastqPuri
   - Error correction using DBG: https://github.com/Malfoy/BCT
+  - Prefilter reads to discard those that won't align to genes of interest https://github.com/AlgoLab/shark
 - Align/quantify
   - Need to re-evaluate HiSat2 + StringTie pipeline https://github.com/gpertea/stringtie
   - RapMap: stand-alone lightweight alignment library: https://github.com/COMBINE-lab/RapMap/tree/SAQuasiAlignment
@@ -1080,9 +1115,11 @@ When looking for a bioinformatics tool for a specific application:
     - Different models can be used in Sleuth to, for example, perform time-course experiments http://nxn.se/post/134227694720/timecourse-analysis-with-sleuth
   - tximport: R package for aggregating transcript-level quantifications for gene-level analysis: http://f1000research.com/articles/4-1521/v1
   - Wasabi: prepare Salmon/Sailfish output for Sleuth https://github.com/COMBINE-lab/wasabi
-  - featureCounts: read summarization http://bioinf.wehi.edu.au/featureCounts/
+  - featureCounts:
+    - http://bioinf.wehi.edu.au/featureCounts/
+    - featureCounts replacement with better handling of multi-mapping reads: https://bitbucket.org/mzytnicki/multi-mapping-counter/src/master/
+    - Faster version of HTSeq/featureCount: https://github.com/qinzhu/VERSE
   - D-GEX: Quantification of whole-transcriptome gene expression from landmark genes https://github.com/uci-cbcl/D-GEX
-  - Faster version of HTSeq/featureCount: https://github.com/qinzhu/VERSE
   - Quantification using both structure and abundance information: https://pypi.python.org/pypi/rsq
   - Improve transcript quantification by integrating PolII ChIP-seq data: https://github.com/pliu55/RSEM/tree/pRSEM
   - Hera: simultaneous alignment, quantification, and fusion detection https://github.com/bioturing/hera
@@ -1092,6 +1129,8 @@ When looking for a bioinformatics tool for a specific application:
   - TPMCalculator: https://github.com/ncbi/TPMCalculator
   - Convert between BAM and TCC: https://github.com/pachterlab/bam2tcc
   - Long read: https://github.com/hitbc/deSALT
+  - XAEM: http://fafner.meb.ki.se/biostatwiki/xaem/
+  - Segmentation https://github.com/HCBravoLab/yanagi
 - Correction/Normalization
   - Choosing normalization methods: https://arxiv.org/abs/1609.00959
   - TDM: cross-platform normalization https://github.com/greenelab/TDMresults
@@ -1114,6 +1153,7 @@ When looking for a bioinformatics tool for a specific application:
   - RNACocktail: https://bioinform.github.io/rnacocktail/
   - QuickRNASeq: http://baohongz.github.io/QuickRNASeq/
   - Encode long-read: https://github.com/ENCODE-DCC/long-rna-seq-pipeline
+  - Fusion detection: https://github.com/bcgsc/pavfinder
 - eQTL
   - Multi-tissue
     - HT-eQTL https://github.com/reagan0323/MT-eQTL
@@ -1161,6 +1201,7 @@ When looking for a bioinformatics tool for a specific application:
   - GeniASE: ASE without haplotypes http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4758070/pdf/srep21134.pdf
   - Without phasing: http://lifecenter.sgst.cn/cisASE/
   - ASElux: https://drive.google.com/open?id=0B7E7HSjQ-SumQmlPc1Z0aUR5Sk0
+  - BLMRM https://github.com/JingXieMIZZOU/BLMRM
 - Splicing
   - JunctionSeq: https://github.com/hartleys/JunctionSeq
   - SplicER: https://github.com/lkmklsmn/SplicER
@@ -1179,6 +1220,7 @@ When looking for a bioinformatics tool for a specific application:
   - PennDiff: https://github.com/tigerhu15/PennDiff
   - ASElux: https://github.com/abl0719/ASElux
   - F1000/Bioconductor workflow on DRIMSeq and DEXSeq for DTU: https://f1000research.com/articles/7-952/v1
+  - Alternative splicing https://github.com/raphaelleman/SpliceLauncher
 - Assembly
   - CIDANE: http://ccb.jhu.edu/software/cidane/
   - transrate: evaluation of de novo assemblies http://hibberdlab.com/transrate/
@@ -1258,6 +1300,7 @@ When looking for a bioinformatics tool for a specific application:
 - Review of experimental design and analysis: http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0927-y
 - Sean Davis' list: https://github.com/seandavi/awesome-single-cell
 - Binary format and tools for storing single-cell data: https://github.com/BUStools
+- Loom: http://linnarssonlab.org/loompy/index.html
 - Datasets
   - scRNAseqDB: https://bioinfo.uth.edu/scrnaseqdb/
   - Analysis-ready datasets: http://imlspenticton.uzh.ch:3838/conquer/
@@ -1272,6 +1315,7 @@ When looking for a bioinformatics tool for a specific application:
   - https://github.com/YosefLab/scone
   - Parallel transcriptome/epigenome data: https://github.com/ChengchenZhao/DrSeq2
   - https://bitbucket.org/princessmaximacenter/Sharq
+  - Predict coverage increase from deeper sequencing: https://github.com/smithlabcode/preseq
 - Normalization
   - ks test: http://michelebusby.tumblr.com/post/130202229486/the-ks-test-looks-pretty-good-for-single-cell
   - Accounting for technical variation: http://www.nature.com/ncomms/2015/151022/ncomms9687/full/ncomms9687.html#supplementary-information
@@ -1324,6 +1368,7 @@ When looking for a bioinformatics tool for a specific application:
   - DESingle: https://github.com/miaozhun/DEsingle
   - VAMF: https://github.com/willtownes/vamf-paper
   - Post-clustering: https://github.com/jessemzhang/tn_test
+- Sketching: https://github.com/bendemeo/hopper
 - Allele-specific expression
   - SCALE accounts for "burstiness" of transcription: https://github.com/yuchaojiang/SCALE
   - scBASE: https://github.com/churchill-lab/scBASE
@@ -1366,11 +1411,13 @@ When looking for a bioinformatics tool for a specific application:
   - scPite: https://github.com/LuyiTian/scPipe
   - Scrat: For epigenetic data: https://zhiji.shinyapps.io/scrat/
   - scanpy: https://github.com/theislab/scanpy
+  - pegasus: https://github.com/klarman-cell-observatory/pegasus
 - SNVs/CNVs
   - DNA SNV calling: https://bitbucket.org/hamimzafar/monovar
   - Ginko: analysis of CNVs in single-cell data: http://qb.cshl.edu/ginkgo/?q=/XWxZEerqqY477b9i4V8F
   - CNV calling: http://genome.cshlp.org/content/early/2016/01/15/gr.198937.115.full.pdf
   - Genotyping: https://bitbucket.org/aroth85/scg/wiki/Home
+  - Variant calling from RNA-seq: https://github.com/adamcornish/red_panda
 - Regulatory networks
   - Gene co-expression: http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004892
   - SCODE: https://github.com/hmatsu1226/SCODE
@@ -1396,12 +1443,15 @@ When looking for a bioinformatics tool for a specific application:
   - Alignment of multiple single-cell data sets: https://github.com/jw156605/MATCHER
   - Topological analysis: https://github.com/RabadanLab/scTDA
   - Deconvolution of bulk RNA from scRNA: https://github.com/xuranw/MuSiC
+  - Minimum metadata for reporting scRNA-seq experiments: https://arxiv.org/abs/1910.14623
 - Methylation
   - Prediction of missing information: https://github.com/cangermueller/deepcpg
   - Mapping: https://github.com/wupengomics/scBS-map
 - ATAC-seq
   - Infer TF variation: https://github.com/GreenleafLab/chromVAR
   - Clustering: https://github.com/timydaley/scABC
+- HLA
+  - https://github.com/10XGenomics/scHLAcount
 
 ### Somatic
 
@@ -1449,6 +1499,7 @@ When looking for a bioinformatics tool for a specific application:
     - https://github.com/jingmeng-bioinformatics/DeepSSV
     - NeuSomatic (non-commercial license)
   - Optimized for FFPE: https://www.ciscall.org/en/ciscall7.html
+  - Optimized for rare variants in ultra-deep sequencing http://github.com/cibiobcg/abemus
 - CNA/SV
   - Infer the tumor cell fraction of SV: https://github.com/mcmero/SVclone
   - A study of using shallow WGS on low-quality FFPE samples for CNV calling used QDNASeq for segmentation
@@ -1467,6 +1518,9 @@ When looking for a bioinformatics tool for a specific application:
   - Allele-specific CNA: https://github.com/wheelerb/hsegHMM
   - DEFOR: https://github.com/drzh/defor
   - Joint tumor-normal detection: https://github.com/yongzhuang/TumorCNV
+  - Normalization: https://github.com/baudisgroup/mecan4cna
+  - Allele-specific CNV calling for multi-sample tumor/normal https://github.com/imgag/ClinCNV
+  - Background correction prior to CNV calling: https://github.com/mskilab/dryclean
 - Variant Filtering
   - TNER: https://github.com/ctDNA/TNER
   - This is a cool approach for constructing a ChIP-Seq control from integration of multiple public data sets: https://www.biorxiv.org/content/early/2018/03/08/278762. It strikes me that a similar approach could be used to generate matched controls for tumor-only samples.
@@ -1481,7 +1535,14 @@ When looking for a bioinformatics tool for a specific application:
   - PyLOH: https://github.com/uci-cbcl/PyLOH
   - AllFit: https://github.com/KhiabanianLab/All-FIT
   - TPES: using SNVs https://bitbucket.org/l0ka/tpes/src/master/
-  - From methylation: https://github.com/xjtu-omics/MEpurity
+  - From methylation:
+    - https://github.com/xjtu-omics/MEpurity
+    - https://github.com/mwsill/RFpurify
+  - DeepPurity https://www.biorxiv.org/content/10.1101/805135v1.full.pdf (no open-source code)
+- Joint calling
+  - CN, tumor purity, and LOH https://bioconductor.org/packages/release/bioc/html/PureCN.html
+  - purity, ploidy, and allele-specific CN https://github.com/Crick-CancerGenomics/ascat
+  - purity, ploidy, SV, and CN in tumor-normal: https://github.com/hartwigmedical/gridss-purple-linx
 - Tumor Muational Burden
   - http://moat.gersteinlab.org/
   - ecTMB: https://github.com/bioinform/ecTMB
@@ -1519,10 +1580,12 @@ When looking for a bioinformatics tool for a specific application:
   - Benchmarking, plus description of CloneFinder: https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/bty469/5040314
 - MSI
   - Sonics: https://github.com/kzkedzierska/sonics
+  - MSIsensor-pro https://github.com/xjtu-omics/msisensor-pro
 - Neoantigen 
   - pVACtools: https://github.com/griffithlab/pVACtools
   - NeoPredPipe: https://github.com/MathOnco/NeoPredPipe
   - https://github.com/neoanthill/neoANT-HILL
+  - Using phased somatic mutations https://github.com/pdxgx/neoepiscope
 - ctDNA/cfDNA
   - TNER: background error reduction https://github.com/ctDNA/TNER
 - Other
@@ -1746,6 +1809,7 @@ When looking for a bioinformatics tool for a specific application:
 - BAM:
   - Pure python BAM parser https://github.com/betteridiot/bamnostic
 - Alternative to pandas for larger-than-memory datasets: https://vaex.readthedocs.io/en/latest/
+- Load PLINK data into Dask arrays https://github.com/limix/pandas-plink
 
 ## HPC
 
@@ -1946,6 +2010,7 @@ When looking for a bioinformatics tool for a specific application:
   - API to add fuzzy logic: https://fuzzy.ai/docs
   - Edward: probabalistic modeling, inference, and criticism; build on TensorFlow https://github.com/blei-lab/edward
   - VectorFlow: specifically designed for sparse data https://github.com/Netflix/vectorflow
+  - secml: https://gitlab.com/secml/secml
 - Architectures:
   - http://www.asimovinstitute.org/neural-network-zoo/
   - Deep residual:
@@ -2036,6 +2101,13 @@ When looking for a bioinformatics tool for a specific application:
 - BBC Visual and Data Journalism guide
   - Cookbook: https://bbc.github.io/rcookbook/
   - bbplot package: https://github.com/bbc/bbplot
+
+
+## Genome browsers
+
+* Graph
+  * https://github.com/MoMI-G/MoMI-G
+  * https://github.com/docpaa/mumdex/
 
 ## Networks
 
@@ -2170,6 +2242,7 @@ When looking for a bioinformatics tool for a specific application:
   - Dash: for building data-centric web apps https://github.com/plotly/dash
 - 2D visualization of DNA sequences: https://github.com/Lab41/squiggle
 - Dashboards: https://panel.pyviz.org/
+- https://github.com/harbourlab/SparK
 
 ## Javascript
 
