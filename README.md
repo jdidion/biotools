@@ -796,6 +796,7 @@ When looking for a bioinformatics tool for a specific application:
   - Other
     - Optical computing: https://www.optalysys.com/
     - FPGA: http://edicogenome.com/dragen-bioit-platform/
+    - Completeness statistics for MSA: https://github.com/thomaskf/AliStat
 - Assembly
   - Build de Bruijn Graph from multiple genomes: https://github.com/medvedevgroup/TwoPaCo
   - Align to a de Brujn graph: https://github.com/Malfoy/BGREAT
