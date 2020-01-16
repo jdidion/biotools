@@ -859,6 +859,8 @@ When looking for a bioinformatics tool for a specific application:
   - Train DNN variant calling models (commercial): https://magnolia.sh/
   - Align and call simultaneously: https://github.com/hsinnan75/MapCaller
   - For reads with UMIs https://gitlab.com/vincent-sater/umi-varcal-master
+  - Varlociraptor: call given candidate variants and filter based on FDR https://varlociraptor.github.io/docs/calling/
+    - Works for somatic or an arbitrary experimental design (described in a config file)
 - Genotyping
   - ebGenotyping: https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
   - FastGT: http://bioinfo.ut.ee/FastGT/
