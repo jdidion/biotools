@@ -1097,6 +1097,7 @@ When looking for a bioinformatics tool for a specific application:
   - https://github.com/tf2/CNest
   - https://github.com/alok123t/HyINDEL
   - https://github.com/yaozhong/deepIntraSV
+  - https://github.com/TheJacksonLaboratory/JAX-CNV
   - CNVnator
     - Python extension: https://github.com/abyzovlab/CNVpytor
   - Ensemble caller:
@@ -1240,6 +1241,7 @@ When looking for a bioinformatics tool for a specific application:
   - Long reads: https://github.com/twolinin/LongPhase/
   - https://github.com/rhysf/HaplotypeTools
   - https://github.com/dmiller903/trioPhaser
+  - https://github.com/twolinin/LongPhase/
 - Amplicon
   - Pisces: https://github.com/Illumina/Pisces/
 - Graph
