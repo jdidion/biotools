@@ -740,6 +740,7 @@ When looking for a bioinformatics tool for a specific application:
 - https://github.com/reneshbedre/HTSeqQC
 - https://github.com/Griffan/FASTQuick
 - Empirical quality filtering: https://github.com/bodeolukolu/ngsComposer
+- https://github.com/DaehwanKimLab/seqwho
 
 ### ChIP-seq
 
