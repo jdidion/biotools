@@ -922,7 +922,6 @@ When looking for a bioinformatics tool for a specific application:
   - Base quality recalibration:
     - https://github.com/swainechen/lacer
     - https://github.com/broadinstitute/firepony
-    - 
   - Indel realignment (also supports RNAseq): https://github.com/mozack/abra2
   - Error correction
     - Racon: https://github.com/isovic/racon
