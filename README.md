@@ -623,6 +623,7 @@ When looking for a bioinformatics tool for a specific application:
   - Curation/annotation by depth: https://github.com/brentp/duphold
 - Protein sequence and structure annotation for variants https://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/DisaStr/GetPage.pl?varmap=TRUE
 - https://github.com/mulinlab/VarNote
+- Allele Dispersion Score: how population-specific is a variant? https://github.com/wassermanlab/ADS
 
 ## Sequence Analysis
 
@@ -1533,6 +1534,7 @@ When looking for a bioinformatics tool for a specific application:
       - https://github.com/suhrig/arriba
 - Long read
   - [bambu](https://github.com/GoekeLab/bambu): reference-guided transcript discovery and quantification
+  - https://github.com/vladimirsouza/lrRNAseqVariantCalling
 - Other
   - Biclustering for gene co-expression analysis: http://bioconductor.org/packages/devel/bioc/html/QUBIC.html
   - Sample size calculation for experimental design: https://cran.r-project.org/web/packages/ssizeRNA/index.html
