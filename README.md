@@ -1853,6 +1853,7 @@ When looking for a bioinformatics tool for a specific application:
   - http://moat.gersteinlab.org/
   - ecTMB: https://github.com/bioinform/ecTMB
   - https://bioserver.ieo.it/shiny/app/tmbler
+  - Normalizing mutation count by read depth https://github.com/OmnesRes/depth_norm
 - Variant Annotation
   - CHASM and SNV-Box
     - CHASM Predicts functional significance of somatic missense mutations
