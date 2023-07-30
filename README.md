@@ -681,11 +681,14 @@ When looking for a bioinformatics tool for a specific application:
 - Detection and removement of barcode swapping (issue on Illumina sequencers that used patterned flow cells: https://github.com/MarioniLab/BarcodeSwapping2017
 - Data processing pipelines for many types of omics data, built using NextFlow and Singularity: https://github.com/c-guzman/cipher-workflow-platform
 - Liftover
-  - Segment liftover: https://github.com/baudisgroup/segment-liftover
-  - Liftover alignments from one reference to another: https://github.com/CMU-SAFARI/AirLift
+  - SNPs: https://github.com/enormandeau/snplift
+  - Variants in confident regions: https://github.com/verilylifesciences/genomewarp
+  - Segments: https://github.com/baudisgroup/segment-liftover
+  - Alignments
+    - https://github.com/CMU-SAFARI/AirLift
+    - https://github.com/milkschen/leviosam2
   - Identying unstable positions between genome versions https://github.com/cathaloruaidh/genomeBuildConversion
   - remapping reads using a chain file https://github.com/CMU-SAFARI/FastRemap
-  - Convert coordinates between assemblies https://github.com/milkschen/leviosam2
 - Recover unaligned reads: https://github.com/VCCRI/Scavenger
 - Mantis: index of raw-read datasets for efficient and exacty queries https://github.com/splatlab/mantis
 - Machine learning method for determining sequence identity: https://github.com/TulsaBioinformaticsToolsmith/FASTCAR
@@ -1132,6 +1135,7 @@ When looking for a bioinformatics tool for a specific application:
     - Python extension: https://github.com/abyzovlab/CNVpytor
   - https://github.com/imgag/ClinCNV
   - https://github.com/lxwgcool/EigenDel
+  - https://github.com/ITBE-Lab/MA
   - Ensemble caller:
     - https://github.com/HaoKeLab/ensembleCNV
     - Parliament2 https://github.com/dnanexus/parliament2
@@ -1198,6 +1202,7 @@ When looking for a bioinformatics tool for a specific application:
     - https://github.com/SimCab-CHU/ifCNV
     - Deep learning https://github.com/ciceklab/ECOLE
   - Detect non-reference sequence variants from population data https://github.com/kehrlab/PopIns2
+  - https://github.com/tprodanov/parascopy
 - STR
   - Pipeline to estimate mutational parameters for every STR in the human genome: https://www.nature.com/ng/journal/v49/n10/full/ng.3952.html
   - MIRMMR: MSI caller
@@ -1311,7 +1316,6 @@ When looking for a bioinformatics tool for a specific application:
 - Other
   - VCF compression and data extraction: https://github.com/kedartatwawadi/GTRAC
   - Run length encoded multi-sample BWT + server: https://github.com/wtsi-svi/ReadServer
-  - Liftover between genome assemblies: https://github.com/verilylifesciences/genomewarp
   - Generate artificial human genomes https://gitlab.inria.fr/ml_genetics/public/artificial_genomes
   - Simluate gene-disrupting variants https://github.com/wassermanlab/GeneBreaker
 
@@ -1368,6 +1372,7 @@ When looking for a bioinformatics tool for a specific application:
   - https://github.com/jlab-code/MethylStar
   - https://github.com/NuttyLogic/BSBolt
   - https://github.com/sarahet/RLM
+  - https://github.com/FischerJo/FAME
 - Other
   - Compression tool for bedMethyl files: https://github.com/jianhao2016/METHCOMP
   - Reference-free bisulfite sequence comparison: https://github.com/thomasvangurp/epiGBS
@@ -1396,6 +1401,7 @@ When looking for a bioinformatics tool for a specific application:
   - https://arxiv.org/abs/2010.02391
 - Annotations
   - Reassembly and annotation of public data for multi-tissue transcriptome map: http://big.hanyang.ac.kr/CAFE
+  - Annotates transcripts with intron retention so they can be ignored (reduces assembly bias): https://github.com/Shao-Group/irtool
 - Splice junctions
   - Set of novel (i.e. missing from annotation databases) splice junctions identified from SRA datasets: https://github.com/nellore/intropolis/blob/master/README.md
   - Complete sets of splice junctions in public RNA-seq datasets: http://snaptron.cs.jhu.edu/data/
@@ -1859,6 +1865,7 @@ When looking for a bioinformatics tool for a specific application:
   - Tumor-only
     - https://github.com/pllittle/UNMASC
     - https://github.com/heiniglab/DeepSom
+  - GPU-accelerated: https://github.com/wwylab/MuSE
 - CNA/SV
   - Infer the tumor cell fraction of SV: https://github.com/mcmero/SVclone
   - A study of using shallow WGS on low-quality FFPE samples for CNV calling used QDNASeq for segmentation
@@ -1971,6 +1978,7 @@ When looking for a bioinformatics tool for a specific application:
   - Using phased somatic mutations https://github.com/pdxgx/neoepiscope
   - https://github.com/koesterlab/microphaser
   - https://github.com/icbi-lab/nextNEOpi
+  - https://gitlab.com/landscape-of-effective-neoantigens-software
 - HRD
   - Genomic Scar Analysis - call copy number and detect HRD from targeted capture sequencing https://github.com/shaominghui/GSA
   - https://github.com/maxwell-lab/HRDex
@@ -1987,6 +1995,7 @@ When looking for a bioinformatics tool for a specific application:
   - Regional mutation density classifies cancer type: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006953
   - Hotspots https://github.gersteinlab.org/nimbus
   - Phase germline variants using tumor copy number https://github.com/bowentan/CNAHap
+  - Somatic variant calling from singe-cell (transcriptomic, ATAC-seq) https://github.com/cortes-ciriano-lab/SComatic
 
 ### Integrated Methods
 
@@ -2032,6 +2041,7 @@ When looking for a bioinformatics tool for a specific application:
   - GenoSkyline: predict tissue-specific functional regions from epigenomic data http://genocanyon.med.yale.edu/GenoSkyline
   - Integrate DNA and RNA: https://github.com/griffithlab/regtools
   - Association of gene expression with SVs https://github.com/chadcreighton/SVExpress
+  - https://github.com/jsalignon/cactus
 - Network-based:
   - Merging networks: https://github.com/maxconway/SNFtool
   - XMWAS: https://sourceforge.net/projects/xmwas/
