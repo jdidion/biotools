@@ -590,15 +590,9 @@ When looking for a bioinformatics tool for a specific application:
 
 ## Simulation
 
-- InterSIM: simulate correlated multi-omics data https://cran.r-project.org/web/packages/InterSIM/index.html
-- Simulate capture sequencing: https://github.com/mdcao/capsim
-- Database of simulated tumor genomes (created with BamSurgeon on NA12878 background): https://www.biorxiv.org/content/early/2018/02/07/261503
-- Simulation of cancer genomes: https://github.com/rsemeraro/XomeBlender
-- Simulate CNVs: https://github.com/pughlab/bamgineer
-- Simulate mutations in a BAM file: https://github.com/adamewing/bamsurgeon
 - GWAS: https://github.com/chr1swallace/simGWAS
 - Perturbation of genomic intervals http://bedshift.databio.org/en/latest/
-- https://github.com/RAHenriksen/NGSNGS
+- Local ancestry: https://www.biorxiv.org/content/10.1101/836254v1
 
 ## Variant annotation
 
@@ -632,6 +626,7 @@ When looking for a bioinformatics tool for a specific application:
 - Protein sequence and structure annotation for variants https://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/DisaStr/GetPage.pl?varmap=TRUE
 - https://github.com/mulinlab/VarNote
 - Allele Dispersion Score: how population-specific is a variant? https://github.com/wassermanlab/ADS
+- Sequence context: https://github.com/elolab/VarSCAT
 
 ## Sequence Analysis
 
@@ -676,8 +671,11 @@ When looking for a bioinformatics tool for a specific application:
   - QSmooth: https://github.com/stephaniehicks/qsmooth
   - ORNA: https://github.com/SchulzLab/ORNA
   - Suquan: https://github.com/jpvert/suquan
-- Demultiplexing/deduping barcoded reads w/ UMIs: http://gbcs.embl.de/portal/tiki-index.php?page=Je
-- Hardware acceleration of alignment (requires $5k FPGA module): https://github.com/BilkentCompGen/GateKeeper
+- Demultiplexing:
+  - http://gbcs.embl.de/portal/tiki-index.php?page=Je
+  - https://davidsongroup.github.io/flexiplex/
+  - Axe: https://axe-demultiplexer.readthedocs.io/en/latest/usage.html
+  - FuzzySplit: https://github.com/Daniel-Liu-c0deb0t/Java-Fuzzy-Search
 - Detection and removement of barcode swapping (issue on Illumina sequencers that used patterned flow cells: https://github.com/MarioniLab/BarcodeSwapping2017
 - Data processing pipelines for many types of omics data, built using NextFlow and Singularity: https://github.com/c-guzman/cipher-workflow-platform
 - Liftover
@@ -693,13 +691,17 @@ When looking for a bioinformatics tool for a specific application:
 - Mantis: index of raw-read datasets for efficient and exacty queries https://github.com/splatlab/mantis
 - Machine learning method for determining sequence identity: https://github.com/TulsaBioinformaticsToolsmith/FASTCAR
 - Progressive MSA (DNA or protein) with indel evolution: https://github.com/acg-team/ProPIP
-- Tools to create ENCODE blacklists, and pre-computed blacklists for model organisms: https://github.com/Boyle-Lab/Blacklist
+- Blacklists
+  - Tools to create ENCODE blacklists, and pre-computed blacklists for model organisms: https://github.com/Boyle-Lab/Blacklist
+  - https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03027-3
 - Server for reference sequences and indices: https://github.com/databio/refgenie
 - Coverage
   - Fast coverage estimate from BAM index: https://github.com/brentp/goleft/tree/master/indexcov
   - Quantification and normalization of coverage peaks: https://github.com/ncbi/BAMscale
   - Library for distributed coverage calculation using Spark https://github.com/ZSI-Bio/bdg-sequila
   - https://github.com/telatin/bamtocov
+  - https://github.com/brentp/mosdepth
+  - https://github.com/sstadick/perbase
 - Additional tools built on GATK4 https://bimberlab.github.io/DISCVRSeq/toolDoc/index.html
 - Query compressed GFF/GTF files https://github.com/qm2/gpress
 - Sort reads and remove duplicates (for compression and to accelerate alignment): https://github.com/bioinformatics-polito/BioSeqZip
@@ -713,11 +715,17 @@ When looking for a bioinformatics tool for a specific application:
   - https://bioconductor.org/packages/release/bioc/html/megadepth.html
   - https://bitbucket.org/ustenzel/bathometer/src
 - https://github.com/pachterlab/ffq
-
-### Demultiplexing
-
-- Axe: https://axe-demultiplexer.readthedocs.io/en/latest/usage.html
-- FuzzySplit: https://github.com/Daniel-Liu-c0deb0t/Java-Fuzzy-Search
+- Simulation
+  - https://galantelab.github.io/Sandy
+  - https://github.com/adamewing/bamsurgeon
+  - https://github.com/WongLabPrograms/COMPASS
+  - SimuG: https://github.com/yjx1217/simuG
+  - Multi-modal simulator: https://www.biorxiv.org/content/10.1101/2020.02.06.936971v1
+  - Reads with UMIs: https://gitlab.com/vincent-sater/umigen-master
+  - https://github.com/CompGenomeLab/boquila
+  - https://github.com/qasimyu/simuscop
+  - https://github.com/schmeing/ReSeq
+  - https://github.com/RAHenriksen/NGSNGS
 
 ### QC
 
@@ -798,6 +806,11 @@ When looking for a bioinformatics tool for a specific application:
 - Nucleotide-matched background sequences for motif enrichment https://bitbucket.org/CBGR/biasaway/src/master/
 - Motif discovery:
   - K-mer based without peak calling https://github.com/menzel/nopeak
+- Simulation
+  - http://www.bioconductor.org/packages/release/bioc/html/ChIPsim.html
+  - ChIPulate: https://github.com/vishakad/chipulate
+  - Tulip: https://github.com/gymreklab/Tulip
+  - Chips: https://github.com/gymreklab/chips
 
 ### Chromatin accessibility
 
@@ -829,6 +842,8 @@ When looking for a bioinformatics tool for a specific application:
 - Deep learning-based denoiser https://github.com/clara-parabricks/AtacWorks
 - https://github.com/Dongwon-Lee/gkmQC
 - https://github.com/jvierstra/footprint-tools
+- Simulation
+  - https://github.com/bowang-lab/simATAC
 
 ### Chromatin Interactions
 
@@ -840,6 +855,10 @@ When looking for a bioinformatics tool for a specific application:
 - Call CNVs and translocations https://github.com/parklab/HiNT
 - qc: https://github.com/cerebis/qc3C
 - Aligner: https://github.com/xiaochuanle/Falign
+- Simulation
+  - https://github.com/cerebis/sim3C
+  - https://github.com/ay-lab/AveSim
+  - https://github.com/yezhengSTAT/FreeHiC
 
 ### DNA
 
@@ -982,6 +1001,7 @@ When looking for a bioinformatics tool for a specific application:
     - Deep learning will increase accuracy in the nest GATK release: https://gatkforums.broadinstitute.org/gatk/discussion/10996/deep-learning-in-gatk4
     - Nvidia https://github.com/clara-genomics/DL4VC
     - Train DNN variant calling models (commercial): https://magnolia.sh/
+    - https://github.com/kaist-ina/RUN-DVC
   - Benchmarking
     - GA4GH/PrecisionFDA guidelines and tools for germline variants
     - https://www.biorxiv.org/content/early/2018/02/23/270157
@@ -1059,6 +1079,7 @@ When looking for a bioinformatics tool for a specific application:
   - Merge SNVs into MNVs https://github.com/Sentieon/sentieon-scripts/tree/master/merge_mnp
   - Long read: https://github.com/arangrhie/merfin/
   - https://github.com/brentp/echtvar
+  - Summarize, compare, visualize VCFs: https://github.com/HimanshuLab/SCI-VCF
 - Genotyping
   - ebGenotyping: https://cran.r-project.org/web/packages/ebGenotyping/ebGenotyping.pdf
   - FastGT: http://bioinfo.ut.ee/FastGT/
@@ -1109,7 +1130,6 @@ When looking for a bioinformatics tool for a specific application:
     - ASCAT: https://github.com/Crick-CancerGenomics/ascat/tree/master/ASCAT
     - http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0075350
     - TAPS (for affy arrays): https://genomebiology.biomedcentral.com/articles/10.1186/gb-2011-12-10-r108
-    - Bamgineer: simulate allele-specific CNVs https://github.com/pughlab/bamgineer
   - Mappability tracks, for normalizing CNV calls http://genome-test.soe.ucsc.edu/cgi-bin/hgTrackUi?hgsid=392476445_0mwMQdJgiLvv8WtNo4YktFt41IkI&c=chr1&g=umap
   - WALDO: detection of LINE amplifications http://www.pnas.org/content/115/8/1871.short
   - Smoove: https://github.com/brentp/smoove
@@ -1143,6 +1163,7 @@ When looking for a bioinformatics tool for a specific application:
     - https://github.com/wonderful1/CNV-PG
     - https://bitbucket.org/sonnhammergroup/metacnv
     - https://github.com/SFGLab/ConsensuSV-pipeline
+    - https://github.com/Mangul-Lab-USC/VISTA
   - Population-scale:
     - https://github.com/hall-lab/svtools
     - STIX: A tool for determining the frequency of SVs in population data https://github.com/ryanlayer/stix
@@ -1313,6 +1334,35 @@ When looking for a bioinformatics tool for a specific application:
 - Sex determination
   - https://github.com/liusihan/seGMM
   - XYalign: sex chromosome copy number estimation from sequencing https://github.com/SexChrLab/XYalign
+- Simulation
+  - https://github.com/jstjohn/SimSeq
+  - PERsim (part of ngs-bits): enables targeting of regions of the genome using bed file
+  - EAGLE: also tries to simulate different sequencers: https://github.com/sequencing/EAGLE
+  - http://www.nature.com/nrg/journal/vaop/ncurrent/pdf/nrg.2016.57.pdf
+    - Look at: AFG, CureSIM, MetaSim, simNGS, simhtsd, SInC, NeSSM, Grinder (amplicon sequencing), FASTQSim (can simulate STRs)
+  - Bamgineer: simulate allele-specific CNVs https://github.com/pughlab/bamgineer
+  - Simulate mutations in a BAM file: https://github.com/adamewing/bamsurgeon
+  - SNVs
+    - https://github.com/davidebolo1993/VISOR
+    - Rare: https://github.com/meganmichelle/RAREsim
+    - simulate multiple types of DNA variants: https://github.com/yjx1217/simuG
+  - CNV
+    - https://github.com/YJulyXing/SECNVs
+  - SVs:
+    - https://github.com/xyc0813/pysim/
+    - SVGen
+    - https://bitbucket.org/charade/svengine
+    - https://github.com/color/clrsvsim
+    - https://github.com/ndierckx/Sim-it
+  - Capture sequencing
+    - https://github.com/mdcao/capsim
+  - From trees: https://github.com/snacktavish/TreeToReads
+  - https://github.com/price0416/Simulome
+  - https://github.com/adimitromanolakis/sim1000G
+  - generate synthetic genomes: https://www.biorxiv.org/content/10.1101/769091v2
+  - Simulator that better approximates k-mer frequencies of Illumina sequencers https://github.com/schmeing/ReSequenceR
+  - Generate artificial genomes using DNN model https://www.biorxiv.org/content/10.1101/769091v2.full.pdf
+  - https://github.com/umr-ds/mesa_dna_sim
 - Other
   - VCF compression and data extraction: https://github.com/kedartatwawadi/GTRAC
   - Run length encoded multi-sample BWT + server: https://github.com/wtsi-svi/ReadServer
@@ -1373,6 +1423,11 @@ When looking for a bioinformatics tool for a specific application:
   - https://github.com/NuttyLogic/BSBolt
   - https://github.com/sarahet/RLM
   - https://github.com/FischerJo/FAME
+- Simulation
+  - Sherman: http://www.bioinformatics.babraham.ac.uk/projects/sherman/
+  - DNemulator uses a similar idea for simulating cytosine metylation depending on CG context and bisulfite converstion rates: http://cbrc3.cbrc.jp/~martin/dnemulator/
+  - WGBSsuite: includes a hierarchical HMM for read simulation: https://github.com/SystemsGeneticsSG/WGBSSuite/blob/master/simulate_WGBS.R
+    - Ideas about additional parameters to add http://www.genetics.org/content/genetics/early/2017/02/16/genetics.116.195008.full.pdf
 - Other
   - Compression tool for bedMethyl files: https://github.com/jianhao2016/METHCOMP
   - Reference-free bisulfite sequence comparison: https://github.com/thomasvangurp/epiGBS
@@ -1394,6 +1449,14 @@ When looking for a bioinformatics tool for a specific application:
 - Online CNA detection: https://sourceforge.net/projects/nanogladiator/
 - SV calling: https://github.com/tjiangHIT/cuteSV
 - Removing low-quality read segments: https://bitbucket.org/berkeleylab/jgi-miniscrub/src/master/
+- Simulation
+  - https://github.com/lykaust15/deep_simulator
+  - https://github.com/liyu95/DeepSimulator
+  - https://github.com/NWPU-903PR/NPBSS_Octave
+  - http://cgm.sjtu.edu.cn/PaSS/
+  - https://github.com/yukiteruono/pbsim2
+  - NanoSim https://github.com/karel-brinda/NanoSim-H
+  - https://github.com/aquaskyline/LRSIM
 
 ### RNA
 
@@ -1595,6 +1658,21 @@ When looking for a bioinformatics tool for a specific application:
 - Long read
   - [bambu](https://github.com/GoekeLab/bambu): reference-guided transcript discovery and quantification
   - https://github.com/vladimirsouza/lrRNAseqVariantCalling
+- Simulation
+  - https://omictools.com/data-simulation3-category
+  - https://github.com/jaudoux/simct/
+  - https://github.com/alyssafrazee/polyester
+  - https://github.com/shaileshtripathi/sgnesR
+  - https://github.com/benjaminjack/pinetree
+  - https://github.com/CenterForStatistics-UGent/SPsimSeq (bulk and single-cell)
+  - https://www.biorxiv.org/content/10.1101/836254v1
+  - https://cran.r-project.org/web/packages/seqgendiff/index.html
+  - https://github.com/flahertylab/scsim
+  - https://github.com/CenterForStatistics-UGent/SPsimSeq
+  - https://github.com/flahertylab/scsim (joint bulk and single-cell)
+  - https://github.com/SindiLab/ACTIVA (single cell)
+  - https://github.com/biomedbigdata/ASimulatoR
+  - https://github.com/omnideconv/SimBu
 - Other
   - Biclustering for gene co-expression analysis: http://bioconductor.org/packages/devel/bioc/html/QUBIC.html
   - Sample size calculation for experimental design: https://cran.r-project.org/web/packages/ssizeRNA/index.html
@@ -1622,6 +1700,7 @@ When looking for a bioinformatics tool for a specific application:
   - Predict CNA from gene expression: http://wang-lab.ust.hk/software/Software.html
   - Predict age: https://github.com/LBMC/RAPToR
   - Convert a BAM from genomic to transcriptomic coordinates https://github.com/OceanGenomics/mudskipper
+  - Estimate coverage: 
 
 ### Single-cell
 
@@ -1641,7 +1720,13 @@ When looking for a bioinformatics tool for a specific application:
 - Simulation
   - SymSim: https://github.com/YosefLab/SymSim
   - Using GANs: https://github.com/imsb-uke/scGAN
-  - https://github.com/COMBINE-lab/minnow
+  - Splatter
+  - BASiCS
+  - Minnow: https://github.com/COMBINE-lab/minnow/
+  - https://github.com/PayamDiba/SERGIO
+  - Ideas for how to simulate single-cell data http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004983
+  - https://github.com/qasimyu/scssim
+  - https://www.biorxiv.org/content/10.1101/2020.05.27.119594v2
 - QC
   - http://www.morgridge.net/SinQC.html
   - https://github.com/YosefLab/scone
@@ -1757,6 +1842,7 @@ When looking for a bioinformatics tool for a specific application:
   - Genotyping: https://bitbucket.org/aroth85/scg/wiki/Home
   - Variant calling from RNA-seq: https://github.com/adamcornish/red_panda
   - https://github.com/HorvathLab/NGS/tree/master/SCReadCounts
+  - https://github.com/KChen-lab/Monopogen
 - Regulatory networks
   - Gene co-expression: http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004892
   - SCODE: https://github.com/hmatsu1226/SCODE
@@ -1986,6 +2072,10 @@ When looking for a bioinformatics tool for a specific application:
   - TNER: background error reduction https://github.com/ctDNA/TNER
   - SV calling https://github.com/liuhc8/Aperture
   - TruNeo pipeline https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03869-9
+- Simulation
+  - Mutation signatures: https://github.com/HillLab/SomaticSiMu
+  - Simulation of cancer genomes: https://github.com/rsemeraro/XomeBlender
+  - Database of simulated tumor genomes (created with BamSurgeon on NA12878 background): https://www.biorxiv.org/content/early/2018/02/07/261503
 - Other
   - Bioconductor package with various methods for working with TCGA data: https://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html
   - maftools: https://bioconductor.org/packages/release/bioc/vignettes/maftools/inst/doc/maftools.html
@@ -1997,7 +2087,7 @@ When looking for a bioinformatics tool for a specific application:
   - Phase germline variants using tumor copy number https://github.com/bowentan/CNAHap
   - Somatic variant calling from singe-cell (transcriptomic, ATAC-seq) https://github.com/cortes-ciriano-lab/SComatic
 
-### Integrated Methods
+### Multi-omics/integration
 
 - Reviews:
   - http://www.biomedcentral.com/1752-0509/8/S2/I1
@@ -2055,9 +2145,19 @@ When looking for a bioinformatics tool for a specific application:
 - Imputation of missing data
   - MI-MFA: http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1273-5
   - TensorPute: multi-dimensional imputation https://sites.google.com/site/tensortest2/
+- Simulation
+  - https://bitbucket.org/ConesaLab/mosim/
+  - https://omicssimla.sourceforge.io/
+  - InterSIM: simulate correlated multi-omics data https://cran.r-project.org/web/packages/InterSIM/index.html
 - Other
   - Identify class-descriminative motifs enriched in subclasses of overlapping annotations: https://github.com/seqcode/sequnwinder
   - R class for integration algorithms: https://bioconductor.org/packages/release/bioc/html/MultiDataSet.html
+
+# Proteomics
+
+## MSA
+
+- https://github.com/clairemcwhite/vcmsa
 
 # General Programming Resources
 
