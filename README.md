@@ -9,6 +9,7 @@ This is a collection of bioinformatics tools I have sourced from recent literatu
 - [Data Management](#data-management)
 - [Data Sets](#data-sets)
 - [Discovery](#discovery)
+- [Career](#career)
 - [AI](#ai)
 - [Genomics](#genomics)
   - [General Information](#general-information)
@@ -170,9 +171,16 @@ When looking for a bioinformatics tool for a specific application:
 - Bio.Tools: https://bio.tools/
 - Biosharing: https://biosharing.org
 
+# Career
+
+Tools helpful during job search and boosting your personal brand exposure in biotech
+
+- BioTech Software Engineer Directory https://www.biotechsoftware.engineer/
+
 # AI
 
 - Interface to Chat-GPT for bioinformatics applications https://github.com/JoshuaChou2018/AutoBA
+- Bio AI Software Engineer Blog https://www.bioaisoftware.engineer/
 
 # Genomics
 
