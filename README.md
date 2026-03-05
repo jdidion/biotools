@@ -641,6 +641,7 @@ When looking for a bioinformatics tool for a specific application:
 - https://github.com/mulinlab/VarNote
 - Allele Dispersion Score: how population-specific is a variant? https://github.com/wassermanlab/ADS
 - Sequence context: https://github.com/elolab/VarSCAT
+- Personal genome analysis toolkit for raw DNA data (23andMe/AncestryDNA): https://github.com/shmlkv/dna-claude-analysis
 
 ## Sequence Analysis
 
