@@ -1,5 +1,7 @@
 This is a collection of bioinformatics tools I have sourced from recent literature, organized by topic. I have not used most of these tools.
 
+Tools with dead links (404, DNS failure, etc.) have been moved to [DEAD.md](DEAD.md). Tools hosted in repositories with no activity in 2+ years have been moved to [UNMAINTAINED.md](UNMAINTAINED.md). If a tool has been moved to one of these files by mistake, please [open an issue](https://github.com/jdidion/biotools/issues/new).
+
 **Table of Contents**
 
 <!-- toc -->
