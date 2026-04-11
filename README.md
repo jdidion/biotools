@@ -635,6 +635,7 @@ Semi-global alignment is global alignment with an optional gap at the end(s).
   - AnnotSV: http://lbgi.fr/AnnotSV/
   - Curation/annotation by depth: https://github.com/brentp/duphold
 - Sequence context: https://github.com/elolab/VarSCAT
+- dna-claude-analysis: personal genome analysis toolkit for raw DNA data (23andMe/AncestryDNA) https://github.com/shmlkv/dna-claude-analysis
 
 ## Sequence Analysis
 
@@ -815,6 +816,7 @@ Semi-global alignment is global alignment with an optional gap at the end(s).
       - https://qa.targetepigenomics.org/
   - PEPATAC http://pepatac.databio.org/en/latest/
   - https://github.com/Tuteja-Lab/UnsupervisedPeakCaller
+  - Cactus: ATAC-Seq and transcriptomics pipeline https://github.com/jsalignon/cactus
 - Deep learning-based peak caller https://github.com/LHentges/LanceOtron
 - https://github.com/Dongwon-Lee/gkmQC
 - https://github.com/jvierstra/footprint-tools
