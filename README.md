@@ -1817,6 +1817,10 @@ Semi-global alignment is global alignment with an optional gap at the end(s).
   - Topological analysis: https://github.com/RabadanLab/scTDA
   - Deconvolution of bulk RNA from scRNA: https://github.com/xuranw/MuSiC
   - Minimum metadata for reporting scRNA-seq experiments: https://arxiv.org/abs/1910.14623
+- Spatial transcriptomics
+  - DeepSpot-M: multimodal foundation model for transcriptome-wide prediction of spatial expression from H&E histology; genes are queryable embeddings rather than fixed outputs https://github.com/ratschlab/DeepSpotM
+  - DeepSpot: prediction of spot-level (Visium) and single-cell (Xenium) spatial expression from H&E images https://github.com/ratschlab/DeepSpot
+  - AESTETIK: representation learning over expression, tissue morphology and spatial context for spatial domain identification https://github.com/ratschlab/aestetik
 - DNA-seq
   - haplotype inference: https://github.com/raphael-group/chisel
 - ATAC-seq
